@@ -4,8 +4,8 @@ Top-level object:
 
 - Schema version
 - Content version? Maybe just use an etag for this.
-- Mod Map
-  - Key: Mod id (the mod's official filename)
+- Mods map
+  - Key: Mod GUID (reverse domain name notation preferred)
   - Value: Mod
     - Name
     - Description
@@ -17,10 +17,11 @@ Top-level object:
     - category (one string)
     - flag list (list of strings) special meaning
     - conflicts (list of mod ids)
-    - dependencies
-      - dependency map
-        - key: mod id
-        - value: dependency
+    - Dependencies map
+      - Key: dependency GUID
+      - Value: dependency map
+        - Key: mod GUID
+        - Value: dependency object
           - version specifier
     - Version Map (this might be in a separate json object)
       - Key: version number
