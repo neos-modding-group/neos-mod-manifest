@@ -6,7 +6,7 @@ Top-level object:
 - Content version? Maybe just use an etag for this.
 - Mods map
   - Key: Mod GUID (reverse domain name notation preferred)
-  - Value: Mod
+  - Value: Mod object
     - Name
     - Description
     - Author
@@ -25,7 +25,7 @@ Top-level object:
           - Version specifier
     - Version Map (this might be in a separate json object)
       - Key: version number
-      - Value: version
+      - Value: Version object
         - Changelog
         - ReleaseUrl
         - Neos version compatibility? (NOT semver `2022.1.28.1310` but `<` and `>` rules will work fine)
@@ -34,7 +34,7 @@ Top-level object:
         - Conflicts (list of mod GUIDs), inherits from mod
         - Mod dependencies? (circular dependencies are actually okay), list of mod GUIDs + version specifiers?. NML dependency is implied by default, inherits from mod
         - Artifact list
-          - Artifact
+          - Artifact object
             - Download URL
             - File hash
             - Install location, defaults to `/nml_mods`
