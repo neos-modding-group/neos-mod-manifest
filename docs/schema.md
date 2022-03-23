@@ -1,6 +1,7 @@
 # API Schema
 
 Top-level object:
+
 - Schema version
 - Content version? Maybe just use an etag for this.
 - Mod Map
@@ -38,6 +39,7 @@ Top-level object:
             - install location, defaults to `/nml_mods`
 
 Flags:
+
 - Mod Flags
   - `deprecated` Deprecated (maintainer is gone, users need to migrate)
   - `plugin` it needs a -LoadAssembly argument to work and it does not depend on NML
