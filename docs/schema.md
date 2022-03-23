@@ -16,7 +16,7 @@ Top-level object:
     - Tag list (list of strings) used for search?
     - Category (one string)
     - Flag list (list of strings) special meaning
-    - Conflicts (list of mod ids)
+    - Conflicts (list of mod GUIDs)
     - Dependencies map
       - Key: dependency GUID
       - Value: dependency map
@@ -31,8 +31,8 @@ Top-level object:
         - Neos version compatibility? (NOT semver `2022.1.28.1310` but `<` and `>` rules will work fine)
         - Modloader version compatibility? (semver)
         - Flag list (list of strings) special meaning, inherits from mod
-        - Conflicts (list of mod ids), inherits from mod
-        - Mod dependencies? (circular dependencies are actually okay), list of mod ids + version specifiers?. NML dependency is implied by default, inherits from mod
+        - Conflicts (list of mod GUIDs), inherits from mod
+        - Mod dependencies? (circular dependencies are actually okay), list of mod GUIDs + version specifiers?. NML dependency is implied by default, inherits from mod
         - Artifact list
           - Artifact
             - Download URL
