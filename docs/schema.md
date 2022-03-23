@@ -13,31 +13,31 @@ Top-level object:
     - Author URL
     - Source Location
     - Website
-    - tag list (list of strings) used for search?
-    - category (one string)
-    - flag list (list of strings) special meaning
-    - conflicts (list of mod ids)
+    - Tag list (list of strings) used for search?
+    - Category (one string)
+    - Flag list (list of strings) special meaning
+    - Conflicts (list of mod ids)
     - Dependencies map
       - Key: dependency GUID
       - Value: dependency map
         - Key: mod GUID
         - Value: dependency object
-          - version specifier
+          - Version specifier
     - Version Map (this might be in a separate json object)
       - Key: version number
       - Value: version
-        - changelog
-        - releaseUrl
+        - Changelog
+        - ReleaseUrl
         - Neos version compatibility? (NOT semver `2022.1.28.1310` but `<` and `>` rules will work fine)
         - Modloader version compatibility? (semver)
-        - flag list (list of strings) special meaning, inherits from mod
-        - conflicts (list of mod ids), inherits from mod
+        - Flag list (list of strings) special meaning, inherits from mod
+        - Conflicts (list of mod ids), inherits from mod
         - Mod dependencies? (circular dependencies are actually okay), list of mod ids + version specifiers?. NML dependency is implied by default, inherits from mod
         - Artifact list
           - Artifact
-            - download URL
-            - file hash
-            - install location, defaults to `/nml_mods`
+            - Download URL
+            - File hash
+            - Install location, defaults to `/nml_mods`
 
 Flags:
 
