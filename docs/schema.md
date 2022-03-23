@@ -5,7 +5,6 @@ In the schema, the type of `map` differs from `object` in that the names of the 
 Top-level: `object`
 
 - Schema version: `string` (semver version)
-- Content version?: `string` (maybe just use an etag for this)
 - Mods: `map`
   - Key: `string` (mod GUID)
   - Value: `object`
