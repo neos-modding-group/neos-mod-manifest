@@ -18,13 +18,13 @@ Top-level object:
     - Flag list (list of strings) special meaning
     - Conflicts (list of mod GUIDs)
     - Dependencies map
-      - Key: dependency GUID
-      - Value: dependency map
-        - Key: mod GUID
-        - Value: dependency object
+      - Key: Dependency GUID
+      - Value: Dependency map
+        - Key: Mod GUID
+        - Value: Dependency object
           - Version specifier
     - Version Map (this might be in a separate json object)
-      - Key: version number
+      - Key: Version number
       - Value: Version object
         - Changelog
         - ReleaseUrl
