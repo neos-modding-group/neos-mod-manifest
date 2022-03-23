@@ -12,11 +12,6 @@
                 "modloader"
             ],
             "category": "Plugins",
-            "dependencies": {
-                "net.pardeike.harmony": {
-                    "version": "^2.2.0.0"
-                }
-            },
             "flags": [
                 "plugin"
             ],
@@ -25,6 +20,11 @@
                     "changelog": "Release the new mod configuration system",
                     "releaseUrl": "https://github.com/zkxs/NeosModLoader/releases/tag/1.8.0",
                     "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.0.0"
+                        }
+                    },
                     "artifacts": [
                         {
                             "url": "https://github.com/zkxs/NeosModLoader/releases/download/1.8.0/NeosModLoader.dll",
