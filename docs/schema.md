@@ -17,13 +17,6 @@ Top-level: `object`
     - Tag list: `string[]` (useful for search)
     - Category: `string`
     - Flag list: `string[]` (see mod flags below)
-    - Conflicts: `string[]` (mod GUIDs)
-    - Dependencies: `map`
-      - Key: `string` (dependency mod GUID)
-      - Value: `object`
-        - Key: `string` (mod GUID)
-        - Value: `object`
-          - Version: `string` (semver version specifier)
     - Versions: `map`
       - Key: `string` (semver version)
       - Value: `object`
@@ -31,8 +24,8 @@ Top-level: `object`
         - Release URL: `string`
         - Neos version compatibility: `string` (NOT semver "2022.1.28.1310" but "<" and ">" rules will work fine)
         - Modloader version compatibility: `string` (semver version specifier)
-        - Flag list: `string[]` (see version flags below, inherits from mod)
-        - Conflicts: `string[]`  (mod GUIDs, inherits from mod)
+        - Flag list: `string[]` (see version flags below)
+        - Conflicts: `string[]`  (mod GUIDs)
         - Dependencies: `map`
           - Key: `string` (dependency mod GUID)
           - Value: `object`
