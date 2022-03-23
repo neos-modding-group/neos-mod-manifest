@@ -25,12 +25,12 @@ Top-level: `object`
         - Value: `object`
           - Version: `string` (semver version specifier)
     - Versions: `map`
-      - Key: `string` (version number)
+      - Key: `string` (semver version)
       - Value: `object`
         - Changelog: `string`
         - Release URL: `string`
         - Neos version compatibility: `string` (NOT semver "2022.1.28.1310" but "<" and ">" rules will work fine)
-        - Modloader version compatibility?: `string` (semver version specifier)
+        - Modloader version compatibility: `string` (semver version specifier)
         - Flag list: `string[]` (see version flags below, inherits from mod)
         - Conflicts: `string[]`  (mod GUIDs, inherits from mod)
         - Dependencies: `map`
@@ -42,7 +42,7 @@ Top-level: `object`
         - Artifacts: `object[]`
           - URL: `string` (download url of the .dll file)
           - Filename: `string` (filename to use for the file)
-          - sha256: `string`
+          - Sha256: `string`
           - Install location: `string` (defaults to "/nml_mods")
 
 Flags:
