@@ -34,7 +34,7 @@ Top-level: `object`
               - Version: `string` (semver version specifier)
         - Artifacts: `object[]`
           - URL: `string` (download url of the .dll file)
-          - Filename: `string` (filename to use for the file)
+          - Filename: `string` (filename to use for the file, if missing extract from the last part of the URL)
           - Sha256: `string`
           - Install location: `string` (defaults to "/nml_mods")
 
