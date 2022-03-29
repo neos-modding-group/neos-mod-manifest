@@ -1058,11 +1058,11 @@
         "net.eia485.exposepatchedmethods": {
             "TODO_REVIEW": true,
             "name": "ExposePatchedMethods",
-            "description": "Exposes what mods you have loaded to your userspace",
+            "description": "Exposes what mods you have loaded to userspace and/or worldspace",
             "category": "Misc",
             "sourceLocation": "https://github.com/EIA485/NeosExposePatchedMethods",
             "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "author": "eia485, kazu0617",
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosExposePatchedMethods/releases/tag/1.0.0.0",
