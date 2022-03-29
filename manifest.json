@@ -1074,6 +1074,16 @@
                         }
                     ]
                 }
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosExposePatchedMethods/releases/tag/2.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosExposePatchedMethods/releases/download/2.0.0.0/ExposePatchedMethods.dll",
+                            "filename": "ExposePatchedMethods.dll",
+                            "sha256": "bf71bd997d9050019a276fe192d69fa4b62323e725109b1c24c7ba90d93e8b0c"
+                        }
+                    ]
+                }
             }
         },
         "net.sox.localstreamvolume": {
