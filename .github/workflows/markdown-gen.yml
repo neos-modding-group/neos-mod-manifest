@@ -26,6 +26,7 @@ jobs:
           git config user.email "<>"
 
       - name: commit
+        continue-on-error: true
         run: |
           git add --force README.md
           git commit -m "Update mods list"
