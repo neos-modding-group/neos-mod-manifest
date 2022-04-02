@@ -1,0 +1,44 @@
+#!/bin/python
+import json
+
+grouped_mods = {}
+
+with open("manifest.json", "r", encoding = "UTF-8") as f:
+    MANIFEST = json.load(f)
+    for mod_guid in MANIFEST["mods"]:
+        mod = MANIFEST["mods"][mod_guid]
+        mod["guid"] = mod_guid
+
+        if "flags" not in mod or (
+            "plugin" not in mod["flags"] and
+            "file" not in mod["flags"]
+        ):
+            mods = grouped_mods.get(mod["category"])
+            if mods is None:
+                mods = []
+
+            mods.append(mod)
+            grouped_mods[mod["category"]] = mods
+
+README = None
+with open("README-template.md", "r", encoding = "UTF-8") as f:
+    README = f.read()
+
+for group, mods in grouped_mods.items():
+    mods = mods.sort(key=lambda mod: mod["name"])
+
+for group, mods in sorted(grouped_mods.items()):
+    README += f"\n### {group}\n"
+    for mod in mods:
+        README += "\n<!--" + mod["guid"] + "-->\n"
+        README += "#### "
+        README += f"[{mod['name']}]({mod['sourceLocation']})"
+        README += " by "
+        README += f"[{mod['author']}]({mod['authorUrl']})"
+        README += "\n\n"
+
+        README += mod['description'] + "\n"
+
+
+with open("README.md", "w", encoding = "UTF-8") as f:
+    f.write(README)

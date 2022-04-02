@@ -1,0 +1,33 @@
+name: Generate mods list markdown
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Generate-Markdown:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v2
+    
+      - name: setup python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3"
+
+      - name: generate readme
+        run: ./gen_readme.py
+
+      - name: setup git config
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "<>"
+
+      - name: commit
+        continue-on-error: true
+        run: |
+          git add --force README.md
+          git commit -m "Update mods list"
+          git push origin master
