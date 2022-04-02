@@ -1058,11 +1058,11 @@
         "net.eia485.exposepatchedmethods": {
             "TODO_REVIEW": true,
             "name": "ExposePatchedMethods",
-            "description": "Exposes what mods you have loaded to your userspace",
+            "description": "Exposes what mods you have loaded to userspace and/or worldspace",
             "category": "Misc",
             "sourceLocation": "https://github.com/EIA485/NeosExposePatchedMethods",
             "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "author": "eia485, kazu0617",
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosExposePatchedMethods/releases/tag/1.0.0.0",
@@ -1071,6 +1071,16 @@
                             "url": "https://github.com/EIA485/NeosExposePatchedMethods/releases/download/1.0.0.0/ExposePatchedMethods.dll",
                             "filename": "ExposePatchedMethods.dll",
                             "sha256": "1010bb4751031f7f5cf269511619fe39570edb6cc3fa47ddedcef23842b99675"
+                        }
+                    ]
+                }
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosExposePatchedMethods/releases/tag/2.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosExposePatchedMethods/releases/download/2.0.0.0/ExposePatchedMethods.dll",
+                            "filename": "ExposePatchedMethods.dll",
+                            "sha256": "bf71bd997d9050019a276fe192d69fa4b62323e725109b1c24c7ba90d93e8b0c"
                         }
                     ]
                 }
