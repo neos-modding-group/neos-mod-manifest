@@ -10,8 +10,10 @@ Top-level: `object`
   - Value: `object`
     - Name: `string`
     - Description: `string`
-    - Author: `string`
-    - Author URL: `string`
+    - Authors: `map`
+      - Key: `string` (author name)
+      - Value: `object`
+        - Url: `string`
     - Source Location: `string`
     - Website: `string`
     - Tag list: `string[]` (useful for search)
