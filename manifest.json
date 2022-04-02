@@ -327,7 +327,6 @@
             }
         },
         "net.eia485.extendcompatibility": {
-            "TODO_REVIEW": true,
             "name": "ExtendCompatibility",
             "description": "Prevents crashing from invalid SyncMembers",
             "category": "Technical Tweaks",
@@ -348,7 +347,6 @@
             }
         },
         "net.eia485.anyshaderanywhere": {
-            "TODO_REVIEW": true,
             "name": "AnyShaderAnywhere",
             "description": "Lets you use any StaticShader in any Material",
             "category": "Technical Tweaks",
@@ -369,7 +367,6 @@
             }
         },
         "net.eia485.allshadersvalid": {
-            "TODO_REVIEW": true,
             "name": "AllShadersValid",
             "description": "Lets you use non neos sanctioned shaders",
             "category": "Technical Tweaks",
@@ -390,7 +387,6 @@
             }
         },
         "net.eia485.showhiddencategory": {
-            "TODO_REVIEW": true,
             "name": "ShowHiddenCategory",
             "description": "Shows the hidden category",
             "category": "Technical Tweaks",
@@ -411,7 +407,6 @@
             }
         },
         "me.badhaloninja.generictypeadditions": {
-            "TODO_REVIEW": true,
             "name": "GenericTypeAdditions",
             "description": "Adds more types to the GenericTypes lists",
             "category": "Technical Tweaks",
@@ -432,7 +427,6 @@
             }
         },
         "net.eia485.fixtostring": {
-            "TODO_REVIEW": true,
             "name": "FixToString",
             "description": "Fixes the to string logix node",
             "category": "Logix",
@@ -453,7 +447,6 @@
             }
         },
         "net.eia485.exposeallimpulses": {
-            "TODO_REVIEW": true,
             "name": "ExposeAllImpulses",
             "description": "Exposes all valid logix impulse targets",
             "category": "Logix",
@@ -474,7 +467,6 @@
             }
         },
         "net.eia485.exposeallsyncmembers": {
-            "TODO_REVIEW": true,
             "name": "ExposeAllSyncMembers",
             "description": "Exposes all SyncMembers on interfaces",
             "category": "Logix",
@@ -495,7 +487,6 @@
             }
         },
         "net.eia485.ReferenceNodeHotline": {
-            "TODO_REVIEW": true,
             "name": "ReferenceNodeHotline",
             "description": "Stops reference nodes from killing themselves",
             "category": "Logix",
@@ -516,7 +507,6 @@
             }
         },
         "net.kazu0617.disablecustomconnectpoint": {
-            "TODO_REVIEW": true,
             "name": "DisableCustomConnectPoint",
             "description": "disables custom input/output attributes for LogiX nodes",
             "category": "Logix",
@@ -537,7 +527,6 @@
             }
         },
         "me.badhaloninja.logixutils": {
-            "TODO_REVIEW": true,
             "name": "LogixUtils",
             "description": "Tweaks some logix things",
             "category": "Logix",
@@ -558,7 +547,6 @@
             }
         },
         "net.cyro.darklogixbrowser": {
-            "TODO_REVIEW": true,
             "name": "DarkLogiXBrowser",
             "description": "Make the logix node browser darkmode and single-click",
             "category": "Logix",
@@ -579,7 +567,6 @@
             }
         },
         "me.art0007i.showdelegates": {
-            "TODO_REVIEW": true,
             "name": "ShowDelegates",
             "description": "Shows delegates in inspectors",
             "category": "Inspectors",
@@ -600,7 +587,6 @@
             }
         },
         "me.art0007i.showdrivesource": {
-            "TODO_REVIEW": true,
             "name": "ShowDriveSource",
             "description": "Allows viewing what a field is driven by",
             "category": "Inspectors",
@@ -621,7 +607,6 @@
             }
         },
         "me.art0007i.colordrop": {
-            "TODO_REVIEW": true,
             "name": "ColorDrop",
             "description": "Makes it so you can grab and drop colors",
             "category": "Inspectors",
@@ -642,7 +627,6 @@
             }
         },
         "me.art0007i.showcomponentslot": {
-            "TODO_REVIEW": true,
             "name": "ShowComponentSlot",
             "description": "Allows you to open the slot that a component is attached to in component inspectors",
             "category": "Inspectors",
@@ -663,7 +647,6 @@
             }
         },
         "net.eia485.morereferenceproxies": {
-            "TODO_REVIEW": true,
             "name": "MoreReferenceProxies",
             "description": "Adds reference proxy sources to bag editors and list editors",
             "category": "Inspectors",
@@ -684,7 +667,6 @@
             }
         },
         "net.eia485.localslotnames": {
-            "TODO_REVIEW": true,
             "name": "LocalSlotNames",
             "description": "Shows the local name of a slot in the hierarchy",
             "category": "Inspectors",
@@ -726,7 +708,6 @@
             }
         },
         "tk.deltawolf.NeosNonPersistentInspectors": {
-            "TODO_REVIEW": true,
             "name": "NonPersistentInspectors",
             "description": "Makes spawned inspectors set to nonpersistent by default",
             "category": "Inspectors",
@@ -747,7 +728,6 @@
             }
         },
         "net.eia485.killdesktoptools": {
-            "TODO_REVIEW": true,
             "name": "KillDesktopTools",
             "description": "Disables the desktop tool keybinds",
             "category": "Keybinds & Gestures",
@@ -768,7 +748,6 @@
             }
         },
         "me.art0007i.noheadmenudash": {
-            "TODO_REVIEW": true,
             "name": "NoHeadMenuDash",
             "description": "Removes the gesture that opens the dash when you press the menu button near your head",
             "category": "Keybinds & Gestures",
@@ -810,7 +789,6 @@
             }
         },
         "me.art0007i.inspectorscroll": {
-            "TODO_REVIEW": true,
             "name": "InspectorScroll",
             "description": "Allows you to scroll UIX panels (including inspectors) using the thumbstick / touchpad",
             "category": "Keybinds & Gestures",
@@ -852,7 +830,6 @@
             }
         },
         "net.kazu0617.desktoptoolshortcutremapper": {
-            "TODO_REVIEW": true,
             "name": "DesktopToolShortcutRemapper (kazu's fork)",
             "description": "Fully configurable number key bindings for spawning arbitrary tools",
             "category": "Keybinds & Gestures",
@@ -873,7 +850,6 @@
             }
         },
         "me.badhaloninja.nouserspaceundo": {
-            "TODO_REVIEW": true,
             "name": "NoUserspaceUndo",
             "description": "Disables the UndoManager in userspace",
             "category": "Keybinds & Gestures",
@@ -894,7 +870,6 @@
             }
         },
         "me.badhaloninja.primaryhandlegacyworldswitcher": {
-            "TODO_REVIEW": true,
             "name": "PrimaryHandLegacyWorldSwitcher",
             "description": "Changes the legacy world switcher to open depending on the primary hand setting",
             "category": "Keybinds & Gestures",
@@ -915,7 +890,6 @@
             }
         },
         "net.dfghiatus.fingerqrcode": {
-            "TODO_REVIEW": true,
             "name": "FingerQRCode",
             "description": "Adds URL-QR Code reader functionality to the finger photo gesture",
             "category": "Keybinds & Gestures",
@@ -930,7 +904,6 @@
             }
         },
         "net.eia485.noleftjump": {
-            "TODO_REVIEW": true,
             "name": "NoLeftJump",
             "description": "Disables your left thumbstick being used as a jump",
             "category": "Keybinds & Gestures",
@@ -951,7 +924,6 @@
             }
         },
         "U-xyla.xymod": {
-            "TODO_REVIEW": true,
             "name": "NoTankControls",
             "description": "Allows you to move with your joysticks while holding any tool",
             "category": "Keybinds & Gestures",
@@ -1056,7 +1028,6 @@
             }
         },
         "net.eia485.exposepatchedmethods": {
-            "TODO_REVIEW": true,
             "name": "ExposePatchedMethods",
             "description": "Exposes what mods you have loaded to userspace and/or worldspace",
             "category": "Misc",
@@ -1073,7 +1044,7 @@
                             "sha256": "1010bb4751031f7f5cf269511619fe39570edb6cc3fa47ddedcef23842b99675"
                         }
                     ]
-                }
+                },
                 "2.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosExposePatchedMethods/releases/tag/2.0.0.0",
                     "artifacts": [
@@ -1087,7 +1058,6 @@
             }
         },
         "net.sox.localstreamvolume": {
-            "TODO_REVIEW": true,
             "name": "LocalStreamVolume",
             "description": " Makes any audio stream you create have a local volume slider",
             "category": "Misc",
@@ -1108,7 +1078,6 @@
             }
         },
         "net.sox.localvideoplayervolume": {
-            "TODO_REVIEW": true,
             "name": "LocalVideoPlayerVolume",
             "description": "Automatically makes any video you import have a local volume slider",
             "category": "Misc",
@@ -1129,7 +1098,6 @@
             }
         },
         "net.eia485.desktopphisicalgrab": {
-            "TODO_REVIEW": true,
             "name": "DesktopPhisicalGrab",
             "description": "Enables physical grabbing in screen mode",
             "category": "Misc",
@@ -1150,7 +1118,6 @@
             }
         },
         "xyz.ljoonal.neos.privacyshield": {
-            "TODO_REVIEW": true,
             "name": "PrivacyShield",
             "description": "Some privacy enhancements like requesting web permission for anything outside of Neos APIs, not just web requests. Also timezone and FPS spoofing.",
             "category": "Misc",
@@ -1234,7 +1201,6 @@
             }
         },
         "dev.kokoa.savetowhere": {
-            "TODO_REVIEW": true,
             "name": "SaveToWhere",
             "description": "Displays the save destination for the save to inventory button",
             "category": "Context Menu Tweaks",
@@ -1255,7 +1221,6 @@
             }
         },
         "me.badhaloninja.neosmodsettings": {
-            "TODO_REVIEW": true,
             "name": "ModSettings",
             "description": "Adds a dash screen to edit mod configs",
             "category": "Dash Tweaks",
@@ -1279,7 +1244,6 @@
             }
         },
         "net.rampa3.3ddashonscreen": {
-            "TODO_REVIEW": true,
             "name": "3DDashOnScreen",
             "description": "replaces 2D overlay dash in Screen mode with the regular 3D one",
             "category": "Dash Tweaks",
@@ -1300,7 +1264,6 @@
             }
         },
         "net.eia485.allowmultipleaudiostreams": {
-            "TODO_REVIEW": true,
             "name": "AllowMultipleAudioStreams",
             "description": "Allows you to spawn multiple audio streams",
             "category": "Dash Tweaks",
@@ -1321,7 +1284,6 @@
             }
         },
         "me.badhaloninja.contactspublishedworldsbutton": {
-            "TODO_REVIEW": true,
             "name": "ContactsPublishedWorldsButton",
             "description": "Adds a button to contacts to show their published worlds",
             "category": "Dash Tweaks",
@@ -1363,7 +1325,6 @@
             }
         },
         "dev.kokoa.messagecopy": {
-            "TODO_REVIEW": true,
             "name": "MessageCopy",
             "description": "Lets you copy msgs from dms",
             "category": "Dash Tweaks",
@@ -1384,7 +1345,6 @@
             }
         },
         "net.kazu0617.sessiontweaks": {
-            "TODO_REVIEW": true,
             "name": "SessionTweaks",
             "description": "Adds buttons for session orb / copy session uri to your contact's tab",
             "category": "Dash Tweaks",
@@ -1405,7 +1365,6 @@
             }
         },
         "net.eia485.getitemlink": {
-            "TODO_REVIEW": true,
             "name": "GetItemLink",
             "description": "Adds buttons to your inventory to copy an items cloud url and/or item link to your clipboard",
             "category": "Dash Tweaks",
@@ -1426,7 +1385,6 @@
             }
         },
         "net.cyro.loadalready": {
-            "TODO_REVIEW": true,
             "name": "LoadAlready",
             "description": "Lets you double-click the loading indicator to remove it if the loading bug occurs",
             "category": "Dash Tweaks",
@@ -1447,7 +1405,6 @@
             }
         },
         "net.dfghiatus.speedyurls": {
-            "TODO_REVIEW": true,
             "name": "SpeedyURLs",
             "description": "Removes the 5-second cool-down on hyperlinks",
             "category": "Dash Tweaks",
@@ -1468,7 +1425,6 @@
             }
         },
         "net.toxic_cookie.neosbakery": {
-            "TODO_REVIEW": true,
             "name": "NeosBakery",
             "description": "A light baking solution for NeosVR",
             "category": "Wizards",
@@ -1483,7 +1439,6 @@
             }
         },
         "net.dfghiatus.dynamicbonechainwizardmod": {
-            "TODO_REVIEW": true,
             "name": "DynamicBoneChainWizardMod",
             "description": "Automatically sets up Dynamic Bone Chains on avatars and validly named slots",
             "category": "Wizards",
@@ -1498,7 +1453,6 @@
             }
         },
         "tk.kawaiiamber.gifimporter": {
-            "TODO_REVIEW": true,
             "name": "GifImporter",
             "description": "Allows you to import gif images",
             "category": "Asset Importing Tweaks",
@@ -1519,7 +1473,6 @@
             }
         },
         "me.art0007i.gifimporter": {
-            "TODO_REVIEW": true,
             "name": "GifImporter (arti's fork)",
             "description": "GifImporter but it tries to fit the sprite sheets into a square resolution, it will sometimes create redundant empty frames at the end of the gif",
             "category": "Asset Importing Tweaks",
@@ -1540,7 +1493,6 @@
             }
         },
         "me.art0007i.customvideoplayers": {
-            "TODO_REVIEW": true,
             "name": "CustomVideoPlayers",
             "description": "Lets you change your default video player",
             "category": "Asset Importing Tweaks",
@@ -1561,7 +1513,6 @@
             }
         },
         "me.art0007i.pasteinvidious": {
-            "TODO_REVIEW": true,
             "name": "PasteInvidious",
             "description": "Changes all pasted youtube links to invidious links",
             "category": "Asset Importing Tweaks",
@@ -1582,7 +1533,6 @@
             }
         },
         "dev.kokoa.neospastetweak": {
-            "TODO_REVIEW": true,
             "name": "NeosPasteTweak",
             "description": "Allows you to paste text and URL",
             "category": "Asset Importing Tweaks",
@@ -1603,7 +1553,6 @@
             }
         },
         "net.dfghiatus.autoimageresize": {
-            "TODO_REVIEW": true,
             "name": "AutoResizeImages",
             "description": "Automatically resize large square, power-of-2 textures",
             "category": "Asset Importing Tweaks",
@@ -1639,13 +1588,17 @@
                             "url": "https://github.com/dfgHiatus/NeosPimaxEyeTracking/releases/download/v1.0.1/NeosPimaxIntegration.dll",
                             "filename": "NeosPimaxIntegration.dll",
                             "sha256": "f685265a68003ccf3603eb83f51ba3aa7f793046ce29faca446f4368058d92fc"
+                        },
+                        {
+                            "url": "https://github.com/dfgHiatus/NeosPimaxEyeTracking/releases/download/v1.0.0/PimaxEyeTracker.dll",
+                            "filename": "PimaxEyeTracker.dll",
+                            "sha256": "c8998654d97a0a51d0b12cf10fd42996946be11a6333ee34266d0cdf54a8fff8"
                         }
                     ]
                 }
             }
         },
         "net.dfghiatus.neosvarjoeyetracking": {
-            "TODO_REVIEW": true,
             "name": "VarjoEyeTracking",
             "description": "Integrates the Varjo Areo's Eye tracking into NeosVR",
             "category": "Hardware Integrations",
@@ -1660,7 +1613,6 @@
             }
         },
         "net.dfghiatus.neos-wcface-integration": {
-            "TODO_REVIEW": true,
             "name": "Neos-WCFace-Integration",
             "description": "Integrates WCFace's screen-mode eye tracking",
             "category": "Hardware Integrations",
@@ -1684,7 +1636,6 @@
             }
         },
         "me.art0007i.fixuixbutton": {
-            "TODO_REVIEW": true,
             "name": "FixUIXButton",
             "description": "Adds a button to RectTransforms that fixes broken uix",
             "category": "Bug Workarounds",
@@ -1705,7 +1656,6 @@
             }
         },
         "io.github.frozenreflex.neosvideoplayerfix": {
-            "TODO_REVIEW": true,
             "name": "NeosVideoPlayerFix",
             "description": "Force libVLC to prevent crashes in Proton",
             "category": "Bug Workarounds",
@@ -1726,7 +1676,6 @@
             }
         },
         "io.github.kyuubiyoru.disablelibvlc": {
-            "TODO_REVIEW": true,
             "name": "DisableLibVLC",
             "description": "Disable libVLC to prevent crashes in Windows",
             "category": "Bug Workarounds",
@@ -1747,7 +1696,6 @@
             }
         },
         "net.dfghiatus.mixnmatch_lipsnmouth": {
-            "TODO_REVIEW": true,
             "name": "mixNmatch_lipsNmouth",
             "description": "Allows for differing makes and models of Eye and Face Trackers to operate together",
             "category": "Bug Workarounds",
@@ -1768,7 +1716,6 @@
             }
         },
         "xyz.ljoonal.neos.linuxfixes": {
-            "TODO_REVIEW": true,
             "name": "LinuxFixes",
             "description": "Linux fixes for item rotation not working properly, centers mouse on context menu open and un-reverses the scroll wheel direction",
             "category": "Bug Workarounds",
@@ -1789,7 +1736,6 @@
             }
         },
         "net.Toxic_Cookie.GenericSettings": {
-            "TODO_REVIEW": true,
             "name": "GenericSettings",
             "description": "Allows you to define, save, load and use custom settings",
             "category": "For Mod Developers",
@@ -1810,7 +1756,6 @@
             }
         },
         "me.badhaloninja.printimportreport": {
-            "TODO_REVIEW": true,
             "name": "PrintImportReport",
             "description": "Makes Import Report spawn in the real world instead",
             "category": "Memes",
@@ -1831,7 +1776,6 @@
             }
         },
         "me.art0007i.toolshelfanarchy": {
-            "TODO_REVIEW": true,
             "name": "ToolshelfAnarchy",
             "description": "Allows you to take and put tools on other peoples toolshelves",
             "category": "Memes",
@@ -1852,7 +1796,6 @@
             }
         },
         "net.eia485.cheese4all": {
-            "TODO_REVIEW": true,
             "name": "Cheese4All",
             "description": "Enables the top secret cheese mode",
             "category": "Memes",
@@ -1873,7 +1816,6 @@
             }
         },
         "net.eia485.dezomp4all": {
-            "TODO_REVIEW": true,
             "name": "DeZomp4All",
             "description": "Shows the hidden DeZomp",
             "category": "Memes",
@@ -1894,7 +1836,6 @@
             }
         },
         "net.eia485.fools": {
-            "TODO_REVIEW": true,
             "name": "Fools",
             "description": "Forces April Fools mode",
             "category": "Memes",
@@ -1915,7 +1856,6 @@
             }
         },
         "net.eia485.showhiddennodes": {
-            "TODO_REVIEW": true,
             "name": "ShowHiddenNodes",
             "description": "Shows hidden nodes in the node browser",
             "category": "Memes",
@@ -1936,7 +1876,6 @@
             }
         },
         "net.eia485.youwantdarkmode": {
-            "TODO_REVIEW": true,
             "name": "YouWantDarkmode?",
             "description": "Makes EVERYTHING dark mode",
             "category": "Memes",
@@ -1957,7 +1896,6 @@
             }
         },
         "xyz.ljoonal.neos.latestlog": {
-            "TODO_REVIEW": true,
             "name": "LatestLog",
             "description": "Creates a symbolic link in the Neos folder named Latest.log to the latest log file that was created on launch",
             "category": "Misc",
