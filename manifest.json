@@ -5,8 +5,11 @@
             "TODO_REVIEW": true,
             "name": "Neos Mod Loader",
             "description": "A mod loader for Neos VR.",
-            "author": "runtime",
-            "authorUrl": "https://github.com/zkxs",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "sourceLocation": "https://github.com/zkxs/NeosModLoader",
             "tags": [
                 "modloader"
@@ -40,8 +43,11 @@
             "TODO_REVIEW": true,
             "name": "Harmony",
             "description": "A library for patching, replacing and decorating .NET and Mono methods during runtime ",
-            "author": "pardeike",
-            "authorUrl": "https://www.patreon.com/pardeike",
+            "authors": {
+                "pardeike": {
+                    "url": "https://www.patreon.com/pardeike"
+                }
+            },
             "sourceLocation": "https://github.com/pardeike/Harmony",
             "website": "https://harmony.pardeike.net/",
             "category": "Libraries",
@@ -67,8 +73,11 @@
             "description": "Optimizes the rendering of logix wires",
             "category": "Optimization",
             "sourceLocation": "https://github.com/EIA485/NeosBetterLogixWires",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.2": {
                     "releaseUrl": "https://github.com/EIA485/NeosBetterLogixWires/releases/tag/1.0.2.0",
@@ -87,8 +96,11 @@
             "description": "Kills the log spam normally caused by changing world configuration",
             "category": "Optimization",
             "sourceLocation": "https://github.com/EIA485/NeosKillLogSpam",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosKillLogSpam/releases/tag/1.0.0.0",
@@ -107,8 +119,11 @@
             "description": "Deletes cached files that have been unused for over 21 days",
             "category": "Optimization",
             "sourceLocation": "https://github.com/dfgHiatus/CacheGetClapped",
-            "authorUrl": "https://github.com/dfgHiatus",
-            "author": "dfgHiatus",
+            "authors": {
+                "dfgHiatus": {
+                    "url": "https://github.com/dfgHiatus"
+                }
+            },
             "versions": {
                 "1.0.3": {
                     "releaseUrl": "https://github.com/dfgHiatus/CacheGetClapped/releases/tag/v1.0.3",
@@ -127,8 +142,11 @@
             "description": "Disables the IK of Users who are behind you or far away",
             "category": "Optimization",
             "sourceLocation": "https://github.com/KyuubiYoru/IkCulling",
-            "authorUrl": "https://github.com/KyuubiYoru",
-            "author": "KyuubiYoru",
+            "authors": {
+                "KyuubiYoru": {
+                    "url": "https://github.com/KyuubiYoru"
+                }
+            },
             "versions": {
                 "1.3.1": {
                     "releaseUrl": "https://github.com/KyuubiYoru/IkCulling/releases/tag/1.3.1",
@@ -148,8 +166,11 @@
             "description": "Disables motion blur for all of your cameras, including your view",
             "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/zkxs/MotionBlurDisable",
-            "authorUrl": "https://github.com/zkxs",
-            "author": "runtime",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "versions": {
                 "1.1.0": {
                     "releaseUrl": "https://github.com/zkxs/MotionBlurDisable/releases/tag/1.1.0.0",
@@ -169,8 +190,11 @@
             "description": "Disables SSAO for all of your cameras, including your view",
             "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/zkxs/SsaoDisable",
-            "authorUrl": "https://github.com/zkxs",
-            "author": "runtime",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "versions": {
                 "1.0.2": {
                     "releaseUrl": "https://github.com/zkxs/SsaoDisable/releases/tag/1.0.2.0",
@@ -189,8 +213,11 @@
             "description": "Adds settings for Ambient Occlusion and Motion Blur",
             "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/RileyGuy/PhotonicFreedom",
-            "authorUrl": "https://github.com/RileyGuy",
-            "author": "Cyro",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                }
+            },
             "versions": {
                 "1.2.4": {
                     "releaseUrl": "https://github.com/RileyGuy/PhotonicFreedom/releases/tag/1.2.4",
@@ -209,8 +236,11 @@
             "description": "Adds the ability to zoom with a keypress",
             "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/badhaloninja/Optizoom",
-            "authorUrl": "https://github.com/badhaloninja",
-            "author": "badhaloninja",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
             "versions": {
                 "1.1.0": {
                     "releaseUrl": "https://github.com/badhaloninja/Optizoom/releases/tag/v1.1.0",
@@ -229,8 +259,11 @@
             "description": "Forces vsync to be disabled",
             "category": "Visual Tweaks",
             "sourceLocation": "https://neos.ljoonal.xyz/mods/#screenmode-tweaks",
-            "authorUrl": "https://www.ljoonal.xyz/",
-            "author": "ljoonal",
+            "authors": {
+                "ljoonal": {
+                    "url": "https://www.ljoonal.xyz/"
+                }
+            },
             "versions": {
                 "0.0.2": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
@@ -249,8 +282,11 @@
             "description": "Reduce ui animations",
             "category": "General Ui Tweaks",
             "sourceLocation": "https://github.com/EIA485/NeosReduceAnimation",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.2.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosReduceAnimation/releases/tag/1.2.0.0",
@@ -269,8 +305,11 @@
             "description": "Modify the NeosPanels in Neos to squish in and out of existence",
             "category": "General Ui Tweaks",
             "sourceLocation": "https://github.com/RileyGuy/SquishPanels",
-            "authorUrl": "https://github.com/RileyGuy",
-            "author": "Cyro",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                }
+            },
             "versions": {
                 "1.0.1": {
                     "releaseUrl": "https://github.com/RileyGuy/SquishPanels/releases/tag/1.0.1",
@@ -290,8 +329,11 @@
             "description": "Makes the color of your inspector panels reflect your custom user color cloud variable",
             "category": "Technical Tweaks",
             "sourceLocation": "https://github.com/RileyGuy/Inspectrum",
-            "authorUrl": "https://github.com/RileyGuy",
-            "author": "Cyro",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                }
+            },
             "versions": {
                 "1.0.2": {
                     "releaseUrl": "https://github.com/RileyGuy/Inspectrum/releases/tag/1.0.2",
@@ -311,8 +353,11 @@
             "description": "Lets you export Neos objects as their native format",
             "category": "Technical Tweaks",
             "sourceLocation": "https://github.com/zkxs/ExportNeosToJson",
-            "authorUrl": "https://github.com/zkxs",
-            "author": "runtime",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "versions": {
                 "1.1.1": {
                     "releaseUrl": "https://github.com/zkxs/ExportNeosToJson/releases/tag/1.1.1.0",
@@ -331,8 +376,11 @@
             "description": "Prevents crashing from invalid SyncMembers",
             "category": "Technical Tweaks",
             "sourceLocation": "https://github.com/EIA485/NeosExtendCompatibility",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosExtendCompatibility/releases/tag/1.0.0.0",
@@ -351,8 +399,11 @@
             "description": "Lets you use any StaticShader in any Material",
             "category": "Technical Tweaks",
             "sourceLocation": "https://github.com/EIA485/NeosAnyShaderAnywhere",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosAnyShaderAnywhere/releases/tag/1.0.0.0",
@@ -371,8 +422,11 @@
             "description": "Lets you use non neos sanctioned shaders",
             "category": "Technical Tweaks",
             "sourceLocation": "https://github.com/EIA485/NeosAllShadersValid",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosAllShadersValid/releases/tag/1.0.0.0",
@@ -391,8 +445,11 @@
             "description": "Shows the hidden category",
             "category": "Technical Tweaks",
             "sourceLocation": "https://github.com/EIA485/NeosShowHiddenCategory",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.1.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosShowHiddenCategory/releases/tag/1.1.0.0",
@@ -411,8 +468,11 @@
             "description": "Adds more types to the GenericTypes lists",
             "category": "Technical Tweaks",
             "sourceLocation": "https://github.com/badhaloninja/GenericTypeAdditions",
-            "authorUrl": "https://github.com/badhaloninja",
-            "author": "badhaloninja",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/badhaloninja/GenericTypeAdditions/releases/tag/v1.0.0",
@@ -431,8 +491,11 @@
             "description": "Fixes the to string logix node",
             "category": "Logix",
             "sourceLocation": "https://github.com/EIA485/NeosFixToString",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosFixToString/releases/tag/1.0.0.0",
@@ -451,8 +514,11 @@
             "description": "Exposes all valid logix impulse targets",
             "category": "Logix",
             "sourceLocation": "https://github.com/EIA485/NeosExposeAllImpulses",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosExposeAllImpulses/releases/tag/1.0.0.0",
@@ -471,8 +537,11 @@
             "description": "Exposes all SyncMembers on interfaces",
             "category": "Logix",
             "sourceLocation": "https://github.com/EIA485/NeosExposeAllSyncMembers",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosExposeAllSyncMembers/releases/tag/1.0.0.0",
@@ -491,8 +560,11 @@
             "description": "Stops reference nodes from killing themselves",
             "category": "Logix",
             "sourceLocation": "https://github.com/EIA485/NeosReferenceNodeHotline",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosReferenceNodeHotline/releases/tag/1.0.0.0",
@@ -511,8 +583,11 @@
             "description": "disables custom input/output attributes for LogiX nodes",
             "category": "Logix",
             "sourceLocation": "https://github.com/kazu0617/DisableCustomConnectPoint",
-            "authorUrl": "https://github.com/kazu0617",
-            "author": "kazu0617",
+            "authors": {
+                "kazu0617": {
+                    "url": "https://github.com/kazu0617"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/kazu0617/DisableCustomConnectPoint/releases/tag/v1.0.0",
@@ -531,8 +606,11 @@
             "description": "Tweaks some logix things",
             "category": "Logix",
             "sourceLocation": "https://github.com/badhaloninja/LogixUtils",
-            "authorUrl": "https://github.com/badhaloninja",
-            "author": "badhaloninja",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
             "versions": {
                 "1.5.0": {
                     "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.0",
@@ -551,8 +629,11 @@
             "description": "Make the logix node browser darkmode and single-click",
             "category": "Logix",
             "sourceLocation": "https://github.com/RileyGuy/DarkLogiXBrowser",
-            "authorUrl": "https://github.com/RileyGuy",
-            "author": "Cyro",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/RileyGuy/DarkLogiXBrowser/releases/tag/1.0.0",
@@ -571,8 +652,11 @@
             "description": "Shows delegates in inspectors",
             "category": "Inspectors",
             "sourceLocation": "https://github.com/art0007i/ShowDelegates",
-            "authorUrl": "https://github.com/art0007i",
-            "author": "art0007i",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/art0007i/ShowDelegates/releases/tag/1.0.0.0",
@@ -591,8 +675,11 @@
             "description": "Allows viewing what a field is driven by",
             "category": "Inspectors",
             "sourceLocation": "https://github.com/art0007i/ShowDriveSource",
-            "authorUrl": "https://github.com/art0007i",
-            "author": "art0007i",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
             "versions": {
                 "1.1.1": {
                     "releaseUrl": "https://github.com/art0007i/ShowDriveSource/releases/tag/1.1.1.0",
@@ -611,8 +698,11 @@
             "description": "Makes it so you can grab and drop colors",
             "category": "Inspectors",
             "sourceLocation": "https://github.com/art0007i/ColorDrop",
-            "authorUrl": "https://github.com/art0007i",
-            "author": "art0007i",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
             "versions": {
                 "1.1.0": {
                     "releaseUrl": "https://github.com/art0007i/ColorDrop/releases/tag/1.1.0.0",
@@ -631,8 +721,11 @@
             "description": "Allows you to open the slot that a component is attached to in component inspectors",
             "category": "Inspectors",
             "sourceLocation": "https://github.com/art0007i/ShowComponentSlot",
-            "authorUrl": "https://github.com/art0007i",
-            "author": "art0007i",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/art0007i/ShowComponentSlot/releases/tag/1.0.0.0",
@@ -651,8 +744,11 @@
             "description": "Adds reference proxy sources to bag editors and list editors",
             "category": "Inspectors",
             "sourceLocation": "https://github.com/EIA485/NeosMoreReferenceProxies",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosMoreReferenceProxies/releases/tag/1.0.0.0",
@@ -671,8 +767,11 @@
             "description": "Shows the local name of a slot in the hierarchy",
             "category": "Inspectors",
             "sourceLocation": "https://github.com/EIA485/NeosLocalSlotNames",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosLocalSlotNames/releases/download/1.0.0.0/LocalSlotNames.dll",
@@ -692,8 +791,11 @@
             "description": " Allows you to use CodingSeb's Expression Evaluator in inspector fields",
             "category": "Inspectors",
             "sourceLocation": "https://github.com/Toxic-Cookie/FieldExpressions",
-            "authorUrl": "https://github.com/Toxic-Cookie",
-            "author": "Toxic_Cookie",
+            "authors": {
+                "Toxic_Cookie": {
+                    "url": "https://github.com/Toxic-Cookie"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/Toxic-Cookie/FieldExpressions/releases/tag/1.0.0",
@@ -712,8 +814,11 @@
             "description": "Makes spawned inspectors set to nonpersistent by default",
             "category": "Inspectors",
             "sourceLocation": "https://github.com/XDelta/NeosNonPersistentInspectors",
-            "authorUrl": "https://github.com/XDelta",
-            "author": "Delta",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/XDelta/NeosNonPersistentInspectors/releases/tag/1.0.0",
@@ -732,8 +837,11 @@
             "description": "Disables the desktop tool keybinds",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/EIA485/NeosKillDesktopTools",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosKillDesktopTools/releases/tag/1.0.0.0",
@@ -752,8 +860,11 @@
             "description": "Removes the gesture that opens the dash when you press the menu button near your head",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/art0007i/NoHeadMenuDash",
-            "authorUrl": "https://github.com/art0007i",
-            "author": "art0007i",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/art0007i/NoHeadMenuDash/releases/tag/1.0.0.0",
@@ -773,8 +884,11 @@
             "description": "Removes the emergency respawn gesture",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/zkxs/NoEscape",
-            "authorUrl": "https://github.com/zkxs",
-            "author": "runtime",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/zkxs/NoEscape/releases/tag/1.0.0.0",
@@ -793,8 +907,11 @@
             "description": "Allows you to scroll UIX panels (including inspectors) using the thumbstick / touchpad",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/art0007i/InspectorScroll",
-            "authorUrl": "https://github.com/art0007i",
-            "author": "art0007i",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
             "versions": {
                 "1.0.1": {
                     "releaseUrl": "https://github.com/art0007i/InspectorScroll/releases/tag/1.0.1.0",
@@ -814,8 +931,11 @@
             "description": "Remaps `5` on desktop from ShapeTip to ComponentCloneTip",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper",
-            "authorUrl": "https://github.com/zkxs",
-            "author": "runtime",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper/releases/tag/1.0.0",
@@ -834,8 +954,11 @@
             "description": "Fully configurable number key bindings for spawning arbitrary tools",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/kazu0617/DesktopToolShortcutRemapper",
-            "authorUrl": "https://github.com/kazu0617",
-            "author": "kazu0617",
+            "authors": {
+                "kazu0617": {
+                    "url": "https://github.com/kazu0617"
+                }
+            },
             "versions": {
                 "2.0.0": {
                     "releaseUrl": "https://github.com/kazu0617/DesktopToolShortcutRemapper/releases/tag/v2.0.0-kazu",
@@ -854,8 +977,11 @@
             "description": "Disables the UndoManager in userspace",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/badhaloninja/NoUserspaceUndo",
-            "authorUrl": "https://github.com/badhaloninja",
-            "author": "badhaloninja",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
             "versions": {
                 "1.1.1": {
                     "releaseUrl": "https://github.com/badhaloninja/NoUserspaceUndo/releases/tag/v1.1.1",
@@ -874,8 +1000,11 @@
             "description": "Changes the legacy world switcher to open depending on the primary hand setting",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/badhaloninja/PrimaryHandLegacyWorldSwitcher",
-            "authorUrl": "https://github.com/badhaloninja",
-            "author": "badhaloninja",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/badhaloninja/PrimaryHandLegacyWorldSwitcher/releases/tag/v1.0.0",
@@ -894,8 +1023,11 @@
             "description": "Adds URL-QR Code reader functionality to the finger photo gesture",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/dfgHiatus/FingerQRCode",
-            "authorUrl": "https://github.com/dfgHiatus",
-            "author": "dfgHiatus",
+            "authors": {
+                "dfgHiatus": {
+                    "url": "https://github.com/dfgHiatus"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/dfgHiatus/FingerQRCode/releases/tag/v1.0.0",
@@ -908,8 +1040,11 @@
             "description": "Disables your left thumbstick being used as a jump",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/EIA485/NeosNoLeftJump",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosNoLeftJump/releases/tag/1.0.0.0",
@@ -928,8 +1063,11 @@
             "description": "Allows you to move with your joysticks while holding any tool",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/furrz/NoTankControls",
-            "authorUrl": "https://github.com/furrz",
-            "author": "xyla",
+            "authors": {
+                "xyla": {
+                    "url": "https://github.com/furrz"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/furrz/NoTankControls/releases/tag/1.0.0",
@@ -949,8 +1087,11 @@
             "description": "Disable Push-to-Talk keybinds like mouse5, V, or M. Includes config to adjust which are disabled",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/XDelta/NeosPTTKeybinds",
-            "authorUrl": "https://github.com/XDelta",
-            "author": "Delta",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
             "versions": {
                 "1.1.0": {
                     "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.1.0",
@@ -970,8 +1111,11 @@
             "description": "Lets you adjust your microphone volume in-game",
             "category": "Misc",
             "sourceLocation": "https://github.com/zkxs/VoiceVolumeOverride",
-            "authorUrl": "https://github.com/zkxs",
-            "author": "runtime",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "versions": {
                 "1.0.1": {
                     "releaseUrl": "https://github.com/zkxs/VoiceVolumeOverride/releases/tag/1.0.1.0",
@@ -991,8 +1135,11 @@
             "description": "Restores Vive tracker names to their old LHR-whatever behavior",
             "category": "Misc",
             "sourceLocation": "https://github.com/zkxs/NeosTrackerIdStabilizer",
-            "authorUrl": "https://github.com/zkxs",
-            "author": "runtime",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/zkxs/NeosTrackerIdStabilizer/releases/tag/1.0.0.0",
@@ -1012,8 +1159,11 @@
             "description": "Partially stops neos from connecting to steam",
             "category": "Misc",
             "sourceLocation": "https://github.com/EIA485/NeosNoSteam",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosNoSteam/releases/tag/1.0.0.0",
@@ -1032,8 +1182,14 @@
             "description": "Exposes what mods you have loaded to userspace and/or worldspace",
             "category": "Misc",
             "sourceLocation": "https://github.com/EIA485/NeosExposePatchedMethods",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485, kazu0617",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                },
+                "kazu0617": {
+                    "url": "https://github.com/kazu0617"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosExposePatchedMethods/releases/tag/1.0.0.0",
@@ -1062,8 +1218,11 @@
             "description": " Makes any audio stream you create have a local volume slider",
             "category": "Misc",
             "sourceLocation": "https://github.com/Sox-NeosVR/LocalStreamVolume",
-            "authorUrl": "https://github.com/Sox-NeosVR",
-            "author": "Sox",
+            "authors": {
+                "Sox": {
+                    "url": "https://github.com/Sox-NeosVR"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/Sox-NeosVR/LocalStreamVolume/releases/tag/1.0.0.1",
@@ -1082,8 +1241,11 @@
             "description": "Automatically makes any video you import have a local volume slider",
             "category": "Misc",
             "sourceLocation": "https://github.com/Sox-NeosVR/LocalVideoPlayerVolume",
-            "authorUrl": "https://github.com/Sox-NeosVR",
-            "author": "Sox",
+            "authors": {
+                "Sox": {
+                    "url": "https://github.com/Sox-NeosVR"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/Sox-NeosVR/LocalVideoPlayerVolume/releases/tag/v1.0.0.1",
@@ -1102,8 +1264,11 @@
             "description": "Enables physical grabbing in screen mode",
             "category": "Misc",
             "sourceLocation": "https://github.com/EIA485/NeosDesktopPhisicalGrab",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosDesktopPhisicalGrab/releases/tag/1.0.0.0",
@@ -1122,8 +1287,11 @@
             "description": "Some privacy enhancements like requesting web permission for anything outside of Neos APIs, not just web requests. Also timezone and FPS spoofing.",
             "category": "Misc",
             "sourceLocation": "https://neos.ljoonal.xyz/mods/#privacy-shield",
-            "authorUrl": "https://www.ljoonal.xyz/",
-            "author": "ljoonal",
+            "authors": {
+                "ljoonal": {
+                    "url": "https://www.ljoonal.xyz/"
+                }
+            },
             "versions": {
                 "0.2.0": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
@@ -1143,8 +1311,11 @@
             "description": "Lets you change your displayed platform and show some Linux pride even on Proton",
             "category": "Misc",
             "sourceLocation": "https://github.com/zkxs/NeosPlatformSpoof",
-            "authorUrl": "https://github.com/zkxs",
-            "author": "runtime",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "versions": {
                 "1.1.1": {
                     "releaseUrl": "https://github.com/zkxs/NeosPlatformSpoof/releases/tag/1.1.1",
@@ -1164,8 +1335,11 @@
             "description": "Lets you rename your locomotion modules",
             "category": "Context Menu Tweaks",
             "sourceLocation": "https://github.com/zkxs/NeosLocomotionRename",
-            "authorUrl": "https://github.com/zkxs",
-            "author": "runtime",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/zkxs/NeosLocomotionRename/releases/tag/1.0.0.0",
@@ -1185,8 +1359,11 @@
             "description": "Removes the \"Reset Scale\" context menu function",
             "category": "Context Menu Tweaks",
             "sourceLocation": "https://github.com/zkxs/NeosNoResetScale",
-            "authorUrl": "https://github.com/zkxs",
-            "author": "runtime",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/zkxs/NeosNoResetScale/releases/tag/1.0.0",
@@ -1205,8 +1382,11 @@
             "description": "Displays the save destination for the save to inventory button",
             "category": "Context Menu Tweaks",
             "sourceLocation": "https://github.com/rassi0429/SaveToWhere",
-            "authorUrl": "https://github.com/rassi0429",
-            "author": "kka429",
+            "authors": {
+                "kka429": {
+                    "url": "https://github.com/rassi0429"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/rassi0429/SaveToWhere/releases/tag/v1.0.0",
@@ -1225,8 +1405,11 @@
             "description": "Adds a dash screen to edit mod configs",
             "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/badhaloninja/NeosModSettings",
-            "authorUrl": "https://github.com/badhaloninja",
-            "author": "badhaloninja",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
             "versions": {
                 "1.0.0-alpha": {
                     "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.0.0-alpha",
@@ -1248,8 +1431,11 @@
             "description": "replaces 2D overlay dash in Screen mode with the regular 3D one",
             "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/rampa3/3DDashOnScreen",
-            "authorUrl": "https://github.com/rampa3",
-            "author": "rampa3",
+            "authors": {
+                "rampa3": {
+                    "url": "https://github.com/rampa3"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/1.0.0.0",
@@ -1268,8 +1454,11 @@
             "description": "Allows you to spawn multiple audio streams",
             "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/EIA485/NeosAllowMultipleAudioStreams",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosAllowMultipleAudioStreams/releases/tag/1.0.0.0",
@@ -1288,8 +1477,11 @@
             "description": "Adds a button to contacts to show their published worlds",
             "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/badhaloninja/ContactsPublishedWorldsButton",
-            "authorUrl": "https://github.com/badhaloninja",
-            "author": "badhaloninja",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/badhaloninja/ContactsPublishedWorldsButton/releases/tag/v1.0.0",
@@ -1309,8 +1501,11 @@
             "description": "Sorts contacts Better™",
             "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/zkxs/NeosContactsSort",
-            "authorUrl": "https://github.com/zkxs",
-            "author": "runtime",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
             "versions": {
                 "1.1.0": {
                     "releaseUrl": "https://github.com/zkxs/NeosContactsSort/releases/tag/1.1.0",
@@ -1329,8 +1524,11 @@
             "description": "Lets you copy msgs from dms",
             "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/rassi0429/MessageCopy",
-            "authorUrl": "https://github.com/rassi0429",
-            "author": "kka429",
+            "authors": {
+                "kka429": {
+                    "url": "https://github.com/rassi0429"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/rassi0429/MessageCopy/releases/tag/v1.0.0",
@@ -1349,8 +1547,11 @@
             "description": "Adds buttons for session orb / copy session uri to your contact's tab",
             "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/kazu0617/SessionTweaks",
-            "authorUrl": "https://github.com/kazu0617",
-            "author": "kazu0617",
+            "authors": {
+                "kazu0617": {
+                    "url": "https://github.com/kazu0617"
+                }
+            },
             "versions": {
                 "2.0.1": {
                     "releaseUrl": "https://github.com/kazu0617/SessionTweaks/releases/tag/v2.0.1",
@@ -1369,8 +1570,11 @@
             "description": "Adds buttons to your inventory to copy an items cloud url and/or item link to your clipboard",
             "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/EIA485/NeosGetItemLink",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.1.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosGetItemLink/releases/tag/1.0.0.0",
@@ -1389,8 +1593,11 @@
             "description": "Lets you double-click the loading indicator to remove it if the loading bug occurs",
             "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/RileyGuy/LoadAlready",
-            "authorUrl": "https://github.com/RileyGuy",
-            "author": "Cyro",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/RileyGuy/LoadAlready/releases/tag/1.0.0",
@@ -1409,8 +1616,11 @@
             "description": "Removes the 5-second cool-down on hyperlinks",
             "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/dfgHiatus/SpeedyURLs",
-            "authorUrl": "https://github.com/dfgHiatus",
-            "author": "dfgHiatus",
+            "authors": {
+                "dfgHiatus": {
+                    "url": "https://github.com/dfgHiatus"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/dfgHiatus/SpeedyURLs/releases/tag/v1.0.0",
@@ -1429,8 +1639,11 @@
             "description": "A light baking solution for NeosVR",
             "category": "Wizards",
             "sourceLocation": "https://github.com/Toxic-Cookie/NeosBakery",
-            "authorUrl": "https://github.com/Toxic-Cookie",
-            "author": "Toxic_Cookie",
+            "authors": {
+                "Toxic_Cookie": {
+                    "url": "https://github.com/Toxic-Cookie"
+                }
+            },
             "versions": {
                 "1.0.2": {
                     "releaseUrl": "https://github.com/Toxic-Cookie/NeosBakery/releases/tag/1.0.2",
@@ -1443,8 +1656,11 @@
             "description": "Automatically sets up Dynamic Bone Chains on avatars and validly named slots",
             "category": "Wizards",
             "sourceLocation": "https://github.com/dfgHiatus/DynamicBoneChainWizardMod",
-            "authorUrl": "https://github.com/dfgHiatus",
-            "author": "dfgHiatus",
+            "authors": {
+                "dfgHiatus": {
+                    "url": "https://github.com/dfgHiatus"
+                }
+            },
             "versions": {
                 "1.0.1": {
                     "releaseUrl": "https://github.com/dfgHiatus/DynamicBoneChainWizardMod/releases/tag/v1.0.1",
@@ -1457,8 +1673,11 @@
             "description": "Allows you to import gif images",
             "category": "Asset Importing Tweaks",
             "sourceLocation": "https://github.com/kawaiiamber/GifImporter",
-            "authorUrl": "https://github.com/kawaiiamber",
-            "author": "amber",
+            "authors": {
+                "amber": {
+                    "url": "https://github.com/kawaiiamber"
+                }
+            },
             "versions": {
                 "1.1.1": {
                     "releaseUrl": "https://github.com/kawaiiamber/GifImporter/releases/tag/1.1.1.0",
@@ -1477,8 +1696,11 @@
             "description": "GifImporter but it tries to fit the sprite sheets into a square resolution, it will sometimes create redundant empty frames at the end of the gif",
             "category": "Asset Importing Tweaks",
             "sourceLocation": "https://github.com/art0007i/GifImporter",
-            "authorUrl": "https://github.com/art0007i",
-            "author": "art0007i",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
             "versions": {
                 "1.1.2": {
                     "releaseUrl": "https://github.com/art0007i/GifImporter/releases/tag/1.1.2.0",
@@ -1497,8 +1719,11 @@
             "description": "Lets you change your default video player",
             "category": "Asset Importing Tweaks",
             "sourceLocation": "https://github.com/art0007i/CustomVideoPlayers",
-            "authorUrl": "https://github.com/art0007i",
-            "author": "art0007i",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
             "versions": {
                 "1.0.2": {
                     "releaseUrl": "https://github.com/art0007i/CustomVideoPlayers/releases/tag/1.0.2.0",
@@ -1517,8 +1742,11 @@
             "description": "Changes all pasted youtube links to invidious links",
             "category": "Asset Importing Tweaks",
             "sourceLocation": "https://github.com/art0007i/PasteInvidious",
-            "authorUrl": "https://github.com/art0007i",
-            "author": "art0007i",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
             "versions": {
                 "1.1.0": {
                     "releaseUrl": "https://github.com/art0007i/PasteInvidious/releases/tag/1.1.0.0",
@@ -1537,8 +1765,11 @@
             "description": "Allows you to paste text and URL",
             "category": "Asset Importing Tweaks",
             "sourceLocation": "https://github.com/rassi0429/NeosPasteTweak",
-            "authorUrl": "https://github.com/rassi0429",
-            "author": "kka429",
+            "authors": {
+                "kka429": {
+                    "url": "https://github.com/rassi0429"
+                }
+            },
             "versions": {
                 "1.0.1": {
                     "releaseUrl": "https://github.com/rassi0429/NeosPasteTweak/releases/tag/v1.0.1",
@@ -1557,8 +1788,11 @@
             "description": "Automatically resize large square, power-of-2 textures",
             "category": "Asset Importing Tweaks",
             "sourceLocation": "https://github.com/dfgHiatus/AutoResizeImages",
-            "authorUrl": "https://github.com/dfgHiatus",
-            "author": "dfgHiatus",
+            "authors": {
+                "dfgHiatus": {
+                    "url": "https://github.com/dfgHiatus"
+                }
+            },
             "versions": {
                 "1.0.1": {
                     "releaseUrl": "https://github.com/dfgHiatus/AutoResizeImages/releases/tag/v1.0.1",
@@ -1578,8 +1812,11 @@
             "description": "Integrates the Droolon Pi1 eye tracking module",
             "category": "Hardware Integrations",
             "sourceLocation": "https://github.com/dfgHiatus/NeosPimaxEyeTracker",
-            "authorUrl": "https://github.com/dfgHiatus",
-            "author": "dfgHiatus",
+            "authors": {
+                "dfgHiatus": {
+                    "url": "https://github.com/dfgHiatus"
+                }
+            },
             "versions": {
                 "1.0.1": {
                     "releaseUrl": "https://github.com/dfgHiatus/NeosPimaxEyeTracking/releases/tag/v1.0.1",
@@ -1603,8 +1840,11 @@
             "description": "Integrates the Varjo Areo's Eye tracking into NeosVR",
             "category": "Hardware Integrations",
             "sourceLocation": "https://github.com/dfgHiatus/NeosVarjoEyeTracking",
-            "authorUrl": "https://github.com/dfgHiatus",
-            "author": "dfgHiatus",
+            "authors": {
+                "dfgHiatus": {
+                    "url": "https://github.com/dfgHiatus"
+                }
+            },
             "versions": {
                 "1.0.1": {
                     "releaseUrl": "https://github.com/dfgHiatus/NeosVarjoEyeTracking/releases/tag/v1.0.1",
@@ -1617,8 +1857,11 @@
             "description": "Integrates WCFace's screen-mode eye tracking",
             "category": "Hardware Integrations",
             "sourceLocation": "https://github.com/dfgHiatus/Neos-WCFace-Integration",
-            "authorUrl": "https://github.com/dfgHiatus",
-            "author": "dfgHiatus",
+            "authors": {
+                "dfgHiatus": {
+                    "url": "https://github.com/dfgHiatus"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/dfgHiatus/NeosWCFaceIntegration/releases/tag/v1.0.0",
@@ -1640,8 +1883,11 @@
             "description": "Adds a button to RectTransforms that fixes broken uix",
             "category": "Bug Workarounds",
             "sourceLocation": "https://github.com/art0007i/FixUIXButton",
-            "authorUrl": "https://github.com/art0007i",
-            "author": "art0007i",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
             "versions": {
                 "1.1.0": {
                     "releaseUrl": "https://github.com/art0007i/FixUIXButton/releases/tag/1.1.0.0",
@@ -1660,8 +1906,11 @@
             "description": "Force libVLC to prevent crashes in Proton",
             "category": "Bug Workarounds",
             "sourceLocation": "https://github.com/Frozenreflex/NeosVideoPlayerFix",
-            "authorUrl": "https://github.com/Frozenreflex",
-            "author": "Fro Zen",
+            "authors": {
+                "Fro Zen": {
+                    "url": "https://github.com/Frozenreflex"
+                }
+            },
             "versions": {
                 "1.1.0": {
                     "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/1.1.0",
@@ -1680,8 +1929,11 @@
             "description": "Disable libVLC to prevent crashes in Windows",
             "category": "Bug Workarounds",
             "sourceLocation": "https://github.com/KyuubiYoru/DisableLibVLC",
-            "authorUrl": "https://github.com/KyuubiYoru",
-            "author": "KyuubiYoru",
+            "authors": {
+                "KyuubiYoru": {
+                    "url": "https://github.com/KyuubiYoru"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/KyuubiYoru/DisableLibVLC/releases/tag/1.0.0",
@@ -1700,8 +1952,11 @@
             "description": "Allows for differing makes and models of Eye and Face Trackers to operate together",
             "category": "Bug Workarounds",
             "sourceLocation": "https://github.com/dfgHiatus/mixNmatch_lipsNmouth",
-            "authorUrl": "https://github.com/dfgHiatus",
-            "author": "dfgHiatus",
+            "authors": {
+                "dfgHiatus": {
+                    "url": "https://github.com/dfgHiatus"
+                }
+            },
             "versions": {
                 "1.0.1": {
                     "releaseUrl": "https://github.com/dfgHiatus/mixNmatch_lipsNmouth/releases/tag/v1.0.1",
@@ -1720,8 +1975,11 @@
             "description": "Linux fixes for item rotation not working properly, centers mouse on context menu open and un-reverses the scroll wheel direction",
             "category": "Bug Workarounds",
             "sourceLocation": "https://neos.ljoonal.xyz/mods/#linux-fixes",
-            "authorUrl": "https://www.ljoonal.xyz/",
-            "author": "ljoonal",
+            "authors": {
+                "ljoonal": {
+                    "url": "https://www.ljoonal.xyz/"
+                }
+            },
             "versions": {
                 "0.2.0": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
@@ -1740,8 +1998,11 @@
             "description": "Allows you to define, save, load and use custom settings",
             "category": "For Mod Developers",
             "sourceLocation": "https://github.com/Toxic-Cookie/GenericSettings",
-            "authorUrl": "https://github.com/Toxic-Cookie",
-            "author": "Toxic_Cookie",
+            "authors": {
+                "Toxic_Cookie": {
+                    "url": "https://github.com/Toxic-Cookie"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/Toxic-Cookie/GenericSettings/releases/tag/1.0.02",
@@ -1760,8 +2021,11 @@
             "description": "Makes Import Report spawn in the real world instead",
             "category": "Memes",
             "sourceLocation": "https://github.com/badhaloninja/PrintImportReport",
-            "authorUrl": "https://github.com/badhaloninja",
-            "author": "badhaloninja",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/badhaloninja/PrintImportReport/releases/tag/v1.0.0",
@@ -1780,8 +2044,11 @@
             "description": "Allows you to take and put tools on other peoples toolshelves",
             "category": "Memes",
             "sourceLocation": "https://github.com/art0007i/ToolshelfAnarchy",
-            "authorUrl": "https://github.com/art0007i",
-            "author": "art0007i",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/art0007i/ToolshelfAnarchy/releases/tag/1.0.0.0",
@@ -1800,8 +2067,11 @@
             "description": "Enables the top secret cheese mode",
             "category": "Memes",
             "sourceLocation": "https://github.com/EIA485/NeosCheese4All",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.1.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosCheese4All/releases/tag/1.1.0.0",
@@ -1820,8 +2090,11 @@
             "description": "Shows the hidden DeZomp",
             "category": "Memes",
             "sourceLocation": "https://github.com/EIA485/NeosDeZomp4All",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosDeZomp4All/releases/tag/1.0.0.0",
@@ -1840,8 +2113,11 @@
             "description": "Forces April Fools mode",
             "category": "Memes",
             "sourceLocation": "https://github.com/EIA485/NeosFools",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosFools/releases/tag/1.0.0.0",
@@ -1860,8 +2136,11 @@
             "description": "Shows hidden nodes in the node browser",
             "category": "Memes",
             "sourceLocation": "https://github.com/EIA485/NeosShowHiddenNodes",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosShowHiddenNodes/releases/tag/1.0.0.0",
@@ -1880,8 +2159,11 @@
             "description": "Makes EVERYTHING dark mode",
             "category": "Memes",
             "sourceLocation": "https://github.com/EIA485/NeosYouWantDarkmode",
-            "authorUrl": "https://github.com/EIA485",
-            "author": "eia485",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosYouWantDarkmode/releases/tag/1.0.0.0",
@@ -1900,8 +2182,11 @@
             "description": "Creates a symbolic link in the Neos folder named Latest.log to the latest log file that was created on launch",
             "category": "Misc",
             "sourceLocation": "https://neos.ljoonal.xyz/mods/#latest-log",
-            "authorUrl": "https://www.ljoonal.xyz/",
-            "author": "ljoonal",
+            "authors": {
+                "ljoonal": {
+                    "url": "https://www.ljoonal.xyz/"
+                }
+            },
             "versions": {
                 "0.0.1": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
