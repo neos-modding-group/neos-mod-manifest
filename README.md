@@ -360,7 +360,7 @@ Makes EVERYTHING dark mode
 Enables physical grabbing in screen mode
 
 <!--net.eia485.exposepatchedmethods-->
-#### [ExposePatchedMethods](https://github.com/EIA485/NeosExposePatchedMethods) by [eia485, kazu0617](https://github.com/EIA485)
+#### [ExposePatchedMethods](https://github.com/EIA485/NeosExposePatchedMethods) by [eia485](https://github.com/EIA485), [kazu0617](https://github.com/kazu0617)
 
 Exposes what mods you have loaded to userspace and/or worldspace
 
