@@ -33,8 +33,14 @@ for group, mods in sorted(grouped_mods.items()):
         README += "\n<!--" + mod["guid"] + "-->\n"
         README += "#### "
         README += f"[{mod['name']}]({mod['sourceLocation']})"
-        README += " by "
-        README += f"[{mod['author']}]({mod['authorUrl']})"
+
+        if len(mod["authors"]) > 0:
+            README += " by "
+            for author_name, author_data in mod["authors"].items():
+                README += f"[{author_name}]({author_data['url']}), "
+            # Remove the ", "
+            README = README[:-2]
+
         README += "\n\n"
 
         README += mod['description'] + "\n"

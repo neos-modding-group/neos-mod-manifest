@@ -1,43 +1,47 @@
 # API Schema
 
-Top-level object:
-- Schema version
-- Content version? Maybe just use an etag for this.
-- Mod Map
-  - Key: Mod id (the mod's official filename)
-  - Value: Mod
-    - Name
-    - Description
-    - Author
-    - Author URL
-    - Source Location
-    - Website
-    - tag list (list of strings) used for search?
-    - category (one string)
-    - flag list (list of strings) special meaning
-    - conflicts (list of mod ids)
-    - dependencies
-      - dependency map
-        - key: mod id
-        - value: dependency
-          - version specifier
-    - Version Map (this might be in a separate json object)
-      - Key: version number
-      - Value: version
-        - changelog
-        - releaseUrl
-        - Neos version compatibility? (NOT semver `2022.1.28.1310` but `<` and `>` rules will work fine)
-        - Modloader version compatibility? (semver)
-        - flag list (list of strings) special meaning, inherits from mod
-        - conflicts (list of mod ids), inherits from mod
-        - Mod dependencies? (circular dependencies are actually okay), list of mod ids + version specifiers?. NML dependency is implied by default, inherits from mod
-        - Artifact list
-          - Artifact
-            - download URL
-            - file hash
-            - install location, defaults to `/nml_mods`
+In the schema, the type of `map` differs from `object` in that the names of the keys aren't always the same.
+
+Top-level: `object`
+
+- Schema version: `string` (semver version)
+- Mods: `map`
+  - Key: `string` (mod GUID)
+  - Value: `object`
+    - Name: `string`
+    - Description: `string`
+    - Authors: `map`
+      - Key: `string` (author name)
+      - Value: `object`
+        - Url: `string`
+    - Source Location: `string`
+    - Website: `string`
+    - Tag list: `string[]` (useful for search)
+    - Category: `string`
+    - Flag list: `string[]` (see mod flags below)
+    - Versions: `map`
+      - Key: `string` (semver version)
+      - Value: `object`
+        - Changelog: `string`
+        - Release URL: `string`
+        - Neos version compatibility: `string` (NOT semver "2022.1.28.1310" but "<" and ">" rules will work fine)
+        - Modloader version compatibility: `string` (semver version specifier)
+        - Flag list: `string[]` (see version flags below)
+        - Conflicts: `string[]`  (mod GUIDs)
+        - Dependencies: `map`
+          - Key: `string` (dependency mod GUID)
+          - Value: `object`
+            - Key: `string` (mod GUID)
+            - Value: `object`
+              - Version: `string` (semver version specifier)
+        - Artifacts: `object[]`
+          - URL: `string` (download url of the .dll file)
+          - Filename: `string` (filename to use for the file, if missing extract from the last part of the URL)
+          - Sha256: `string`
+          - Install location: `string` (defaults to "/nml_mods")
 
 Flags:
+
 - Mod Flags
   - `deprecated` Deprecated (maintainer is gone, users need to migrate)
   - `plugin` it needs a -LoadAssembly argument to work and it does not depend on NML
