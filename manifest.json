@@ -797,7 +797,23 @@
                 }
             },
             "versions": {
+                "1.0.2": {
+                    "flags": [
+                        "vulnerablity:critical"
+                    ],
+                    "releaseUrl": "https://github.com/Toxic-Cookie/FieldExpressions/releases/tag/1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Toxic-Cookie/FieldExpressions/releases/download/1.0.2/FieldExpressions.dll",
+                            "filename": "FieldExpressions.dll",
+                            "sha256": "83a1821a8fe8eb074a3427a0f98eabee5442d826e6d276c69fcb0256df215647"
+                        }
+                    ]
+                },
                 "1.0.0": {
+                    "flags": [
+                        "vulnerablity:critical"
+                    ],
                     "releaseUrl": "https://github.com/Toxic-Cookie/FieldExpressions/releases/tag/1.0.0",
                     "artifacts": [
                         {
