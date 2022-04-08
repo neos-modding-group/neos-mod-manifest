@@ -10,7 +10,9 @@ New submissions **must** be submitted as a [new pull request] to the [manifest] 
 
 Mods **must not** be obfuscated. We audit mods by inspecting their binaries, which is not feasible for obfuscated mods.
 
-## Open Source
+## Transparency
+
+Mods **should** be up-front about what they do. Accurate descriptions, screenshots, etc, are all good to have.
 
 Mods **should** be open-source. While this is not a hard requirement, having up-to-date source code available is helpful for the auditing process.
 
