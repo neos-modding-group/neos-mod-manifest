@@ -161,7 +161,6 @@
             }
         },
         "dev.zkxs.motionblurdisable": {
-            "TODO_REVIEW": true,
             "name": "MotionBlurDisable",
             "description": "Disables motion blur for all of your cameras, including your view",
             "category": "Visual Tweaks",
@@ -185,7 +184,6 @@
             }
         },
         "dev.zkxs.ssaodisable": {
-            "TODO_REVIEW": true,
             "name": "SsaoDisable",
             "description": "Disables SSAO for all of your cameras, including your view",
             "category": "Visual Tweaks",
@@ -324,7 +322,6 @@
             }
         },
         "net.cyro.inspectrum": {
-            "TODO_REVIEW": true,
             "name": "Inspectrum",
             "description": "Makes the color of your inspector panels reflect your custom user color cloud variable",
             "category": "Technical Tweaks",
@@ -335,6 +332,16 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/RileyGuy/Inspectrum/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/RileyGuy/Inspectrum/releases/download/1.1.0/Inspectrum.dll",
+                            "filename": "Inspectrum.dll",
+                            "sha256": "021536ceb5de49fe683a90b23c92d2cea7a80d35b42c4d731efaee47a4d9aee9"
+                        }
+                    ]
+                },
                 "1.0.2": {
                     "releaseUrl": "https://github.com/RileyGuy/Inspectrum/releases/tag/1.0.2",
                     "artifacts": [
@@ -348,7 +355,6 @@
             }
         },
         "dev.zkxs.exportneostojson": {
-            "TODO_REVIEW": true,
             "name": "ExportNeosToJson",
             "description": "Lets you export Neos objects as their native format",
             "category": "Technical Tweaks",
@@ -786,7 +792,6 @@
             }
         },
         "net.Toxic_Cookie.fieldexpressions": {
-            "TODO_REVIEW": true,
             "name": "FieldExpressions",
             "description": " Allows you to use CodingSeb's Expression Evaluator in inspector fields",
             "category": "Inspectors",
@@ -895,7 +900,6 @@
             }
         },
         "dev.zkxs.noescape": {
-            "TODO_REVIEW": true,
             "name": "NoEscape",
             "description": "Removes the emergency respawn gesture",
             "category": "Keybinds & Gestures",
@@ -942,7 +946,6 @@
             }
         },
         "dev.zkxs.neosdesktoptoolshortcutremapper": {
-            "TODO_REVIEW": true,
             "name": "DesktopToolShortcutRemapper",
             "description": "Remaps `5` on desktop from ShapeTip to ComponentCloneTip",
             "category": "Keybinds & Gestures",
@@ -1098,7 +1101,6 @@
             }
         },
         "tk.deltawolf.NeosPTTKeybinds": {
-            "TODO_REVIEW": true,
             "name": "PTTKeybinds",
             "description": "Disable Push-to-Talk keybinds like mouse5, V, or M. Includes config to adjust which are disabled",
             "category": "Keybinds & Gestures",
@@ -1122,7 +1124,6 @@
             }
         },
         "dev.zkxs.voicevolumeoverride": {
-            "TODO_REVIEW": true,
             "name": "VoiceVolumeOverride",
             "description": "Lets you adjust your microphone volume in-game",
             "category": "Misc",
@@ -1146,7 +1147,6 @@
             }
         },
         "dev.zkxs.neostrackeridstabilizer": {
-            "TODO_REVIEW": true,
             "name": "NeosTrackerIdStabilizer",
             "description": "Restores Vive tracker names to their old LHR-whatever behavior",
             "category": "Misc",
@@ -1170,7 +1170,6 @@
             }
         },
         "net.eia485.nosteam": {
-            "TODO_REVIEW": true,
             "name": "NoSteam",
             "description": "Partially stops neos from connecting to steam",
             "category": "Misc",
@@ -1322,7 +1321,6 @@
             }
         },
         "dev.zkxs.neosplatformspoof": {
-            "TODO_REVIEW": true,
             "name": "NeosPlatformSpoof",
             "description": "Lets you change your displayed platform and show some Linux pride even on Proton",
             "category": "Misc",
@@ -1346,7 +1344,6 @@
             }
         },
         "dev.zkxs.neoslocomotionrename": {
-            "TODO_REVIEW": true,
             "name": "NeosLocomotionRename",
             "description": "Lets you rename your locomotion modules",
             "category": "Context Menu Tweaks",
@@ -1370,7 +1367,6 @@
             }
         },
         "dev.zkxs.neosnoresetscale": {
-            "TODO_REVIEW": true,
             "name": "NeosNoResetScale",
             "description": "Removes the \"Reset Scale\" context menu function",
             "category": "Context Menu Tweaks",
@@ -1512,7 +1508,6 @@
             }
         },
         "dev.zkxs.neoscontactssort": {
-            "TODO_REVIEW": true,
             "name": "NeosContactsSort",
             "description": "Sorts contacts Better™",
             "category": "Dash Tweaks",
@@ -1823,7 +1818,6 @@
             }
         },
         "net.dfg.pimaxeyetracking": {
-            "TODO_REVIEW": true,
             "name": "PimaxEyeTracker",
             "description": "Integrates the Droolon Pi1 eye tracking module",
             "category": "Hardware Integrations",
