@@ -57,7 +57,6 @@
             }
         },
         "net.pardeike.harmony": {
-            "TODO_REVIEW": true,
             "name": "Harmony",
             "description": "A library for patching, replacing and decorating .NET and Mono methods during runtime.",
             "authors": {
