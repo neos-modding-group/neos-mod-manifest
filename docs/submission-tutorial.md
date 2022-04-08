@@ -1,4 +1,5 @@
 # Submission Tutorial
+
 ## Adding a new mod
 
 Create a [new pull request] adding a new mod definition to the [manifest]. An example mod definition is provided below. Note that comments are not allowed in JSON and are only provided here for your reference.

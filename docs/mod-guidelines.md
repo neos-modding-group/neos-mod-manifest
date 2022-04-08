@@ -4,7 +4,7 @@ These guidelines explain what is expected when submitting a new mod version to t
 
 ## Submissions
 
-New submissions **must** be submitted as a [new pull request] to the [manifest] in this repository. Be sure to follow the [schema], and to include a correct SHA256 hash of your artifacts. If you need help with your submission, read the [submission tutorial]. 
+New submissions **must** be submitted as a [new pull request] to the [manifest] in this repository. Be sure to follow the [schema], and to include a correct SHA256 hash of your artifacts. If you need help with your submission, read the [submission tutorial].
 
 ## Obfuscation
 
