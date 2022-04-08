@@ -44,9 +44,9 @@ Mods **should** avoid performance hits to Neos where possible. While performance
 Mods **should** avoid repackaging third party libraries into their DLL. Consider adding third-party libraries as an external dependency in the manifest. This allows auditors to review your mod and libraries separately and makes the auditing process much faster.
 
 <!-- Links -->
+[manifest]: ../manifest.json
+[mod and plugin policy]: https://wiki.neos.com/Mod_%26_Plugin_Policy
+[Neos guidelines]: https://docs.google.com/document/d/1G_-PaxSp8rGYeHUIXK-19b2VqOLlpOZ18e7DrOwNjG4/edit
 [new pull request]: https://github.com/neos-modding-group/neos-mod-manifest/compare
 [schema]: schema.md
-[manifest]: ../manifest.json
-[Neos guidelines]: https://docs.google.com/document/d/1G_-PaxSp8rGYeHUIXK-19b2VqOLlpOZ18e7DrOwNjG4/edit
-[mod and plugin policy]: https://wiki.neos.com/Mod_%26_Plugin_Policy
 [submission tutorial]: submission-tutorial.md
