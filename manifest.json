@@ -59,7 +59,7 @@
         "net.pardeike.harmony": {
             "TODO_REVIEW": true,
             "name": "Harmony",
-            "description": "A library for patching, replacing and decorating .NET and Mono methods during runtime ",
+            "description": "A library for patching, replacing and decorating .NET and Mono methods during runtime.",
             "authors": {
                 "pardeike": {
                     "url": "https://www.patreon.com/pardeike"
@@ -72,6 +72,17 @@
                 "file"
             ],
             "versions": {
+                "2.2.1.0": {
+                    "releaseUrl": "https://github.com/pardeike/Harmony/releases/tag/v2.2.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.9.1/0Harmony.dll",
+                            "filename": "0Harmony.dll",
+                            "sha256": "fd5f3e54c0b49acf7b0816bada32ea55a83ed06280a71a103c52e07f207d74eb",
+                            "installLocation": "/"
+                        }
+                    ]
+                },
                 "2.2.0.0": {
                     "releaseUrl": "https://github.com/pardeike/Harmony/releases/tag/v2.2.0.0",
                     "artifacts": [
