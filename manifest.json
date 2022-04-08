@@ -10,7 +10,7 @@
                     "url": "https://github.com/zkxs"
                 }
             },
-            "sourceLocation": "https://github.com/zkxs/NeosModLoader",
+            "sourceLocation": "https://github.com/neos-modding-group/NeosModLoader",
             "tags": [
                 "modloader"
             ],
@@ -19,9 +19,27 @@
                 "plugin"
             ],
             "versions": {
+                "1.9.1": {
+                    "changelog": "Logging improvements, splash screen visuals, JSON config serialization changes",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.9.1",
+                    "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.9.1/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "e4b8b37ec902d4aad6b0f66d265b53d01ab2e5a5f6d6c64c10d2902b79e8ba80",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
                 "1.8.0": {
                     "changelog": "Release the new mod configuration system",
-                    "releaseUrl": "https://github.com/zkxs/NeosModLoader/releases/tag/1.8.0",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.8.0",
                     "neosVersionCompatibility": ">=2021.10.17.1326",
                     "dependencies": {
                         "net.pardeike.harmony": {
@@ -30,7 +48,7 @@
                     },
                     "artifacts": [
                         {
-                            "url": "https://github.com/zkxs/NeosModLoader/releases/download/1.8.0/NeosModLoader.dll",
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.8.0/NeosModLoader.dll",
                             "filename": "NeosModLoader.dll",
                             "sha256": "6de2a4a9cfe2c9036710ff2ad66094959cb59d5967853a8fc48fce4f96390d64",
                             "installLocation": "/Libraries"
@@ -59,7 +77,7 @@
                     "releaseUrl": "https://github.com/pardeike/Harmony/releases/tag/v2.2.0.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/zkxs/NeosModLoader/releases/download/1.4.1/0Harmony.dll",
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.4.1/0Harmony.dll",
                             "filename": "0Harmony.dll",
                             "sha256": "11f1ccab45d74030f2eac521f97a34311f05ea8afca234811f31715ef991f5aa",
                             "installLocation": "/"
