@@ -1485,6 +1485,26 @@
                             "sha256": "37bc1df6d2dab2b6e7b3beaeadad4e49a276ef24543fb5fad8cfbe9ccadc9a4d"
                         }
                     ]
+                },
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/2.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/3DDashOnScreen/releases/download/2.0.0.0/3DDashOnScreen.dll",
+                            "filename": "3DDashOnScreen.dll",
+                            "sha256": "3f15ceaecd76c09f60e09c4107816778e97b78f7fe93e31db6f3bbee4889a827"
+                        }
+                    ]
+                },
+                "2.1.0": {
+                    "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/2.1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/3DDashOnScreen/releases/download/2.1.0.0/3DDashOnScreen.dll",
+                            "filename": "3DDashOnScreen.dll",
+                            "sha256": "63a8c38346bb058ae4b1372c80e438ff3960c4d7b8b58886c3ab99b4db13fcaa"
+                        }
+                    ]
                 }
             }
         },
