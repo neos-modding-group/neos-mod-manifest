@@ -33,6 +33,6 @@ jobs:
           cd gh-pages
           git config user.name "GitHub Actions"
           git config user.email "<>"
-          git add --force mod-list.md
+          git add --force mods.md
           git commit -m "Update mod list"
           git push origin gh-pages
