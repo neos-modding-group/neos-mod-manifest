@@ -3,7 +3,7 @@ import json
 
 grouped_mods = {}
 
-with open("manifest.json", "r", encoding = "UTF-8") as f:
+with open("master/manifest.json", "r", encoding = "UTF-8") as f:
     MANIFEST = json.load(f)
     for mod_guid in MANIFEST["mods"]:
         mod = MANIFEST["mods"][mod_guid]
@@ -21,14 +21,14 @@ with open("manifest.json", "r", encoding = "UTF-8") as f:
             grouped_mods[mod["category"]] = mods
 
 README = None
-with open("README-template.md", "r", encoding = "UTF-8") as f:
+with open("gh-pages/.templates/mod-list-template.md", "r", encoding = "UTF-8") as f:
     README = f.read()
 
 for group, mods in grouped_mods.items():
     mods = mods.sort(key=lambda mod: mod["name"])
 
 for group, mods in sorted(grouped_mods.items()):
-    README += f"\n### {group}\n"
+    README += f"\n## {group}\n"
     for mod in mods:
         README += "\n<!--" + mod["guid"] + "-->\n"
         README += "#### "
@@ -46,5 +46,5 @@ for group, mods in sorted(grouped_mods.items()):
         README += mod['description'] + "\n"
 
 
-with open("README.md", "w", encoding = "UTF-8") as f:
+with open("gh-pages/mods.md", "w", encoding = "UTF-8") as f:
     f.write(README)
