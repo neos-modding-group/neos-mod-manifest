@@ -46,5 +46,5 @@ for group, mods in sorted(grouped_mods.items()):
         README += mod['description'] + "\n"
 
 
-with open("gh-pages/mod-list.md", "w", encoding = "UTF-8") as f:
+with open("gh-pages/mods.md", "w", encoding = "UTF-8") as f:
     f.write(README)
