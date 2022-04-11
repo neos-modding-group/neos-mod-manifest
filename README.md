@@ -8,6 +8,6 @@ The [list][mod list] is automatically generated from a machine-readable [manifes
 [discord]: https://discord.gg/vCDJK9xyvm
 [manifest]: manifest.json
 [mod list]: https://www.neosmodloader.com/mods
-[NeosModLoader: https://github.com/neos-modding-group/NeosModLoader
+[NeosModLoader]: https://github.com/neos-modding-group/NeosModLoader
 [schema]: https://www.neosmodloader.com/schema
 [submission tutorial]: https://www.neosmodloader.com/submission-tutorial
