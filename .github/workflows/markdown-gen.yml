@@ -32,7 +32,8 @@ jobs:
         env:
           PAGES_AUTH: ${{ secrets.PAGES_AUTH }}
         run: |
-          echo "$PAGES_AUTH" > ~/.ssh/id_rsa
+          mkdir -P "~/.ssh"
+          echo "$PAGES_AUTH" > "~/.ssh/id_rsa"
           cd gh-pages
           git config user.name "GitHub Actions"
           git config user.email "<>"
