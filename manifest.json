@@ -1505,6 +1505,16 @@
                             "sha256": "63a8c38346bb058ae4b1372c80e438ff3960c4d7b8b58886c3ab99b4db13fcaa"
                         }
                     ]
+                },
+                "3.0.0": {
+                    "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/3.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/3DDashOnScreen/releases/download/3.0.0.0/3DDashOnScreen.dll",
+                            "filename": "3DDashOnScreen.dll",
+                            "sha256": "5f4f0a34334e9b149138f40702abaaf8f5d9d6fb3006a54be93b76c55d35f190"
+                        }
+                    ]
                 }
             }
         },
