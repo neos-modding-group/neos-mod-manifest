@@ -12,12 +12,12 @@ jobs:
       - name: checkout master
         uses: actions/checkout@v3
         with:
-          ref: master
           path: master
 
       - name: checkout gh-pages
         uses: actions/checkout@v3
         with:
+          repository: neos-modding-group/neos-modding-group.github.com
           ref: gh-pages
           path: gh-pages
     
