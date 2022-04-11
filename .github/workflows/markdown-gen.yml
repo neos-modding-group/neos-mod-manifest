@@ -33,9 +33,10 @@ jobs:
         env:
           PAGES_AUTH: ${{ secrets.PAGES_AUTH }}
         run: |
+          cd gh-pages
+          git diff --quiet --exit-code mods.md && exit 0
           mkdir -p "~/.ssh"
           echo "$PAGES_AUTH" > "~/.ssh/id_rsa"
-          cd gh-pages
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add --force mods.md
