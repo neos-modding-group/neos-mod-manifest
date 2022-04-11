@@ -29,7 +29,10 @@ jobs:
         run: ./master/gen_readme.py
 
       - name: commit
+        env:
+          PAGES_AUTH: ${{ secrets.PAGES_AUTH }}
         run: |
+          echo "$PAGES_AUTH" > ~/.ssh/id_rsa
           cd gh-pages
           git config user.name "GitHub Actions"
           git config user.email "<>"
