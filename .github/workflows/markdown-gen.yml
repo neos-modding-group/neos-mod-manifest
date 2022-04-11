@@ -28,16 +28,11 @@ jobs:
       - name: generate readme
         run: ./master/gen_readme.py
 
-      - name: enter gh-pages directory
-        run: cd gh-pages
-
-      - name: setup git config
-        run: |
-          git config user.name "GitHub Actions"
-          git config user.email "<>"
-
       - name: commit
         run: |
+          cd gh-pages
+          git config user.name "GitHub Actions"
+          git config user.email "<>"
           git add --force mod-list.md
           git commit -m "Update mod list"
           git push origin gh-pages
