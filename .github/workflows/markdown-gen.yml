@@ -17,7 +17,7 @@ jobs:
       - name: checkout gh-pages
         uses: actions/checkout@v3
         with:
-          repository: neos-modding-group/neos-modding-group.github.com
+          repository: neos-modding-group/neos-modding-group.github.io
           ref: gh-pages
           path: gh-pages
     

@@ -7,7 +7,7 @@ The [list][mod list] is automatically generated from a machine-readable [manifes
 <!-- Links -->
 [discord]: https://discord.gg/vCDJK9xyvm
 [manifest]: manifest.json
-[mod list]: https://neos-modding-group.github.io/neos-mod-manifest/
+[mod list]: https://www.neosmodloader.com/mods
 [NeosModLoader: https://github.com/neos-modding-group/NeosModLoader
-[schema]: https://neos-modding-group.github.io/neos-mod-manifest/schema
-[submission tutorial]: https://neos-modding-group.github.io/neos-mod-manifest/submission-tutorial
+[schema]: https://www.neosmodloader.com/schema
+[submission tutorial]: https://www.neosmodloader.com/submission-tutorial
