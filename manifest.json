@@ -290,6 +290,17 @@
                 }
             },
             "versions": {
+                "0.1.1": {
+                    "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-12",
+                    "artifacts": [
+                        {
+                            "url": "https://git.ljoonal.xyz/attachments/ec309fd1-5a3f-4966-a9aa-f65fafd68902",
+                            "filename": "ScreenmodeTweaks.dll",
+                            "sha256": "47467ad7d1b6a3dad2f2d4fb9421627f265835fd90f55fa588da0e9cab78ec8d",
+                            "blake3": "df96481e7a832eabb0cce13f87791c58dbd0d8a12a533a55be9561532b7bf1c1"
+                        }
+                    ]
+                },
                 "0.0.2": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
                     "artifacts": [
@@ -1335,6 +1346,17 @@
                 }
             },
             "versions": {
+                "0.3.1": {
+                    "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-12",
+                    "artifacts": [
+                        {
+                            "url": "https://git.ljoonal.xyz/attachments/c33b535d-6ae9-479a-af58-b19fb40faa97",
+                            "filename": "PrivacyShield.dll",
+                            "sha256": "3d63c1d316081690d6a819a1c204ddfc3e9b200db88b1b7146aa0a5e5307915c",
+                            "blake3": "01ea729786b8885524eafcc8d65d878486d6a549d2a45782b7a266305ba86a5c"
+                        }
+                    ]
+                },
                 "0.2.0": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
                     "artifacts": [
@@ -2048,6 +2070,17 @@
                 }
             },
             "versions": {
+                "0.2.1": {
+                    "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-12",
+                    "artifacts": [
+                        {
+                            "url": "https://git.ljoonal.xyz/attachments/6becf54e-da9a-4fae-9e34-6c0a5c24935f",
+                            "filename": "LinuxFixes.dll",
+                            "sha256": "48bbd0ba3bc283336b30ab302e0731b6209484d52f8f33cf119fe48646381805",
+                            "blake3": "56bc0712ebf6360f9e1e19810699d5139002c48f56077af533fd59b0c5b1df74"
+                        }
+                    ]
+                },
                 "0.2.0": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
                     "artifacts": [
@@ -2255,6 +2288,17 @@
                 }
             },
             "versions": {
+                "0.1.0": {
+                    "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-12",
+                    "artifacts": [
+                        {
+                            "url": "https://git.ljoonal.xyz/attachments/bf494c74-09d3-4e35-b7b1-6cd3f7ce0e7b",
+                            "filename": "LatestLog.dll",
+                            "sha256": "a846d57bff8576af11a8b5efebab548c7407fb836e31b1709c40538b970b9e91",
+                            "blake3": "8852a5930fc02a2fea5b26122c585454b2b069f18c97c7abd492083238cbbf28"
+                        }
+                    ]
+                },
                 "0.0.1": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
                     "artifacts": [
