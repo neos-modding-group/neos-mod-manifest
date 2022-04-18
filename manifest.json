@@ -2311,100 +2311,100 @@
                 }
             }
         },
-		"eia485|Banane9.BetterLogixWiresThatCanScroll": {
-			"name": "BetterLogixWiresThatCanScroll",
-			"description": "Optimizes and optionally animates LogiX wires.",
-			"category": "LogiX",
-			"website": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll",
-			"sourceLocation": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll",
-			"authors": {
+        "Banane9.BetterLogixWiresThatCanScroll": {
+            "name": "BetterLogixWiresThatCanScroll",
+            "description": "Optimizes and optionally animates LogiX wires.",
+            "category": "LogiX",
+            "website": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll",
+            "sourceLocation": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll",
+            "authors": {
                 "eia485": {
                     "url": "https://github.com/EIA485"
                 },
-				"Banane9": {
-					"url": "https://github.com/Banane9"
-				}
-			},
-			"versions": {
-				"1.1.0": {
-					"releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.1.0",
-					"artifacts": [
-						{
-							"url": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/download/v1.1.0/BetterLogixWiresThatCanScroll.dll",
-							"sha256": "4054727858FDE89903FC295491B95C4EF16448EBFED0A281412E5DC81AB81ABC"
-						}
-					]
-				}
-			}
-		},
-		"Banane9.RenameDirectlyLinkedDynVars": {
-			"name": "RenameDirectlyLinkedDynVars",
-			"description": "Renames directly linked dynamic variables alongside the namespace they're bound to.",
-			"category": "Developers",
-			"website": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
-			"sourceLocation": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
-			"authors": {
-				"Banane9": {
-					"url": "https://github.com/Banane9"
-				}
-			},
-			"versions": {
-				"1.1.0": {
-					"releaseUrl": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars/releases/tag/v1.1.0",
-					"artifacts": [
-						{
-							"url": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars/releases/download/v1.1.0/RenameDirectlyLinkedDynVars.dll",
-							"sha256": "E1B92540C61F82CA8203EF6A47D08B6342BB33E6DA05FDAC87E51EF7DE46E322"
-						}
-					]
-				}
-			}
-		},
-		"Banane9.LocalLogixRegisters": {
-			"name": "LocalLogixRegisters",
-			"description": "Allows creating LogiX registers with localized values directly.",
-			"category": "LogiX",
-			"website": "https://github.com/Banane9/NeosLocalLogixRegisters",
-			"sourceLocation": "https://github.com/Banane9/NeosLocalLogixRegisters",
-			"authors": {
-				"Banane9": {
-					"url": "https://github.com/Banane9"
-				}
-			},
-			"versions": {
-				"1.0.0": {
-					"releaseUrl": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/tag/v1.0.0",
-					"artifacts": [
-						{
-							"url": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/download/v1.0.0/LocalLogixRegisters.dll",
-							"sha256": "E4A204C735B68000D233DC594926429A0F98CFE08DA40F4BF494A00D6C0316B5"
-						}
-					]
-				}
-			}
-		},
-		"Banane9.PacifistAprilFoolsExplosion": {
-			"name": "PacifistAprilFoolsExplosion",
-			"description": "Can individually hide each part of the ViolentAprilFoolsExplosion.",
-			"category": "Misc",
-			"website": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion",
-			"sourceLocation": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion",
-			"authors": {
-				"Banane9": {
-					"url": "https://github.com/Banane9"
-				}
-			},
-			"versions": {
-				"1.0.0": {
-					"releaseUrl": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion/releases/tag/v1.0.0",
-					"artifacts": [
-						{
-							"url": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion/releases/download/v1.0.0/PacifistAprilFoolsExplosion.dll",
-							"sha256": "2AD2BA5FA08A90721B00C751DB26977D1CD717EB223F128D318E282729A57DBF"
-						}
-					]
-				}
-			}
-		}
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/download/v1.1.0/BetterLogixWiresThatCanScroll.dll",
+                            "sha256": "4054727858FDE89903FC295491B95C4EF16448EBFED0A281412E5DC81AB81ABC"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.RenameDirectlyLinkedDynVars": {
+            "name": "RenameDirectlyLinkedDynVars",
+            "description": "Renames directly linked dynamic variables alongside the namespace they're bound to.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
+            "sourceLocation": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars/releases/download/v1.1.0/RenameDirectlyLinkedDynVars.dll",
+                            "sha256": "E1B92540C61F82CA8203EF6A47D08B6342BB33E6DA05FDAC87E51EF7DE46E322"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.LocalLogixRegisters": {
+            "name": "LocalLogixRegisters",
+            "description": "Allows creating LogiX registers with localized values directly.",
+            "category": "LogiX",
+            "website": "https://github.com/Banane9/NeosLocalLogixRegisters",
+            "sourceLocation": "https://github.com/Banane9/NeosLocalLogixRegisters",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/download/v1.1.0/LocalLogixRegisters.dll",
+                            "sha256": "C1103144F00B71A650BF09C875210BC3C3C98485AF6852E82CE10EEC1805BDC8"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.PacifistAprilFoolsExplosion": {
+            "name": "PacifistAprilFoolsExplosion",
+            "description": "Can individually hide each part of the ViolentAprilFoolsExplosion.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion",
+            "sourceLocation": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion/releases/download/v1.0.0/PacifistAprilFoolsExplosion.dll",
+                            "sha256": "2AD2BA5FA08A90721B00C751DB26977D1CD717EB223F128D318E282729A57DBF"
+                        }
+                    ]
+                }
+            }
+        }
     }
 }
