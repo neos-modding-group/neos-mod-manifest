@@ -25,9 +25,9 @@ README = None
 with open("gh-pages/.templates/mod-list-template.md", "r", encoding = "UTF-8") as f:
     README = f.read()
 
-now = datetime.datetime.now()
-README += "Last updated on "
-README += f"<time datetime='{now.isoformat()}'>{now.strftime('%I:%S, %d %B %Y')}</time>\n\n"
+now = datetime.datetime.now(tz=datetime.timezone.utc)
+README += "Last updated at "
+README += f"<time datetime='{now.isoformat()}'>{now.strftime('%d %B %Y, %I:%S')} UTC</time>\n\n"
 
 for group, mods in grouped_mods.items():
     mods = mods.sort(key=lambda mod: mod["name"])
