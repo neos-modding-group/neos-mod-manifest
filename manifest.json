@@ -2380,6 +2380,15 @@
                             "sha256": "C1103144F00B71A650BF09C875210BC3C3C98485AF6852E82CE10EEC1805BDC8"
                         }
                     ]
+                },
+				"1.2.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/tag/v1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/download/v1.2.0/LocalLogixRegisters.dll",
+                            "sha256": "CE8D1B6221F5BF0EAF784CBC737C030221876B42C8100C81AC5FFF0C9659743D"
+                        }
+                    ]
                 }
             }
         },
