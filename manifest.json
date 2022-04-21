@@ -2337,6 +2337,29 @@
                 }
             }
         },
+        "DoubleStyx.SsaoTweaks": {
+            "name": "SsaoTweaks",
+            "description": "Allows the individual parameters of the SSAO effect to be configured.",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/DoubleStyx/SsaoTweaks",
+            "sourceLocation": "https://github.com/DoubleStyx/SsaoTweaks",
+            "authors": {
+                "DoubleStyx": {
+                    "url": "https://github.com/DoubleStyx"
+                },
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/DoubleStyx/SsaoTweaks/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/DoubleStyx/SsaoTweaks/releases/download/v1.0.0/SsaoTweaks.dll",
+                            "sha256": "f1e8c83e455b9c23587fc0d927ab2ad18c1b7ea10ae7e660b3e19ea31b6ddaba"
+                        }
+                    ]
+                }
+            }
+        },
         "Banane9.RenameDirectlyLinkedDynVars": {
             "name": "RenameDirectlyLinkedDynVars",
             "description": "Renames directly linked dynamic variables alongside the namespace they're bound to.",
