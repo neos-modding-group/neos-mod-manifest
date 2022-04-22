@@ -1097,6 +1097,9 @@
             "description": "Disables your left thumbstick being used as a jump",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/EIA485/NeosNoLeftJump",
+            "flags": [
+                "deprecated"
+            ],
             "authors": {
                 "eia485": {
                     "url": "https://github.com/EIA485"
