@@ -4,7 +4,7 @@ import datetime
 
 grouped_mods = {}
 
-with open("master/manifest.json", "r", encoding = "UTF-8") as f:
+with open("manifest.json", "r", encoding = "UTF-8") as f:
     MANIFEST = json.load(f)
     for mod_guid in MANIFEST["mods"]:
         mod = MANIFEST["mods"][mod_guid]
@@ -32,34 +32,38 @@ README += f"<time datetime='{now.isoformat()}'>{now.strftime('%d %B %Y, %I:%S')}
 for group, mods in grouped_mods.items():
     mods = mods.sort(key=lambda mod: mod["name"])
 
+
+def should_show_mod(mod):
+    """
+    Checks if mod should be shown.
+
+    Parameters:
+    mod: The mod in question
+    """
+
+    # Only show mods with versions
+    if mod["versions"] is None or len(mod["versions"]) == 0:
+        return False
+
+    # Don't show mods with only vulnerable versions
+    for version in mod["versions"].values():
+        if "flags" in version:
+            for flag in version["flags"]:
+                if flag.startswith("vulnerability:"):
+                    return False
+
+    # Show all mods by default
+    return True
+
 for group, mods in sorted(grouped_mods.items()):
     README += f"\n## {group}\n"
     for mod in mods:
+        if not should_show_mod(mod):
+            continue
         README += "\n<!--" + mod["guid"] + "-->\n"
         README += "#### "
         README += f"[{mod['name']}]({mod['sourceLocation']})"
 
-        # mod must have versions
-        if mod["versions"] is None or len(mod["versions"]) == 0:
-            continue
-
-        # mod must have a non-vulnerable version
-        all_vulnerable = True
-        for version in mod["versions"].values():
-            if version.flags is None:
-                all_vulnerable = False
-                break
-            else:
-                vulnerable = False
-                for flag in version.flags:
-                    if flag.startswith("vulnerability:"):
-                        vulnerable = True
-                        continue
-                if not vulnerable:
-                    all_vulnerable = False
-                    break
-        if all_vulnerable:
-            continue
 
         if len(mod["authors"]) > 0:
             README += " by "
