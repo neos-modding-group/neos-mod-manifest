@@ -842,7 +842,7 @@
             "versions": {
                 "1.0.2": {
                     "flags": [
-                        "vulnerablity:critical"
+                        "vulnerability:critical"
                     ],
                     "releaseUrl": "https://github.com/Toxic-Cookie/FieldExpressions/releases/tag/1.0.2",
                     "artifacts": [
@@ -855,7 +855,7 @@
                 },
                 "1.0.0": {
                     "flags": [
-                        "vulnerablity:critical"
+                        "vulnerability:critical"
                     ],
                     "releaseUrl": "https://github.com/Toxic-Cookie/FieldExpressions/releases/tag/1.0.0",
                     "artifacts": [
