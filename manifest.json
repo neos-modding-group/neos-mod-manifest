@@ -533,7 +533,7 @@
         "net.eia485.fixtostring": {
             "name": "FixToString",
             "description": "Fixes the to string logix node",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/EIA485/NeosFixToString",
             "authors": {
                 "eia485": {
@@ -556,7 +556,7 @@
         "net.eia485.exposeallimpulses": {
             "name": "ExposeAllImpulses",
             "description": "Exposes all valid logix impulse targets",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/EIA485/NeosExposeAllImpulses",
             "authors": {
                 "eia485": {
@@ -579,7 +579,7 @@
         "net.eia485.exposeallsyncmembers": {
             "name": "ExposeAllSyncMembers",
             "description": "Exposes all SyncMembers on interfaces",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/EIA485/NeosExposeAllSyncMembers",
             "authors": {
                 "eia485": {
@@ -602,7 +602,7 @@
         "net.eia485.ReferenceNodeHotline": {
             "name": "ReferenceNodeHotline",
             "description": "Stops reference nodes from killing themselves",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/EIA485/NeosReferenceNodeHotline",
             "authors": {
                 "eia485": {
@@ -625,7 +625,7 @@
         "net.kazu0617.disablecustomconnectpoint": {
             "name": "DisableCustomConnectPoint",
             "description": "disables custom input/output attributes for LogiX nodes",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/kazu0617/DisableCustomConnectPoint",
             "authors": {
                 "kazu0617": {
@@ -648,7 +648,7 @@
         "me.badhaloninja.logixutils": {
             "name": "LogixUtils",
             "description": "Tweaks some logix things",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/badhaloninja/LogixUtils",
             "authors": {
                 "badhaloninja": {
@@ -671,7 +671,7 @@
         "net.cyro.darklogixbrowser": {
             "name": "DarkLogiXBrowser",
             "description": "Make the logix node browser darkmode and single-click",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/RileyGuy/DarkLogiXBrowser",
             "authors": {
                 "Cyro": {
