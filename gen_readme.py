@@ -46,7 +46,10 @@ for group, mods in sorted(grouped_mods.items()):
         # mod must have a non-vulnerable version
         all_vulnerable = True
         for key, version in mod["versions"]:
-            if version.flags is not None:
+            if version.flags is None:
+                all_vulnerable = False
+                break
+            else:
                 vulnerable = False
                 for flag in version.flags:
                     if flag.startswith("vulnerability:"):
