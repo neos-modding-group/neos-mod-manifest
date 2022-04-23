@@ -46,11 +46,16 @@ def should_show_mod(mod):
         return False
 
     # Don't show mods with only vulnerable versions
+    only_vulnerable_versions = True
     for version in mod["versions"].values():
-        if "flags" in version:
-            for flag in version["flags"]:
-                if flag.startswith("vulnerability:"):
-                    return False
+        if "flags" not in version:
+            only_vulnerable_versions = False
+        else:
+            if not any(flag.startswith("vulnerability:") for flag in version["flags"]):
+                only_vulnerable_versions = False
+
+    if only_vulnerable_versions:
+        return False
 
     # Show all mods by default
     return True
