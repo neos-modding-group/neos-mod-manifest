@@ -39,6 +39,28 @@ for group, mods in sorted(grouped_mods.items()):
         README += "#### "
         README += f"[{mod['name']}]({mod['sourceLocation']})"
 
+        # mod must have versions
+        if mod["versions"] is None or len(mod["versions"]) == 0:
+            continue
+
+        # mod must have a non-vulnerable version
+        all_vulnerable = True
+        for key, version in mod["versions"]:
+            if version.flags is None:
+                all_vulnerable = False
+                break
+            else:
+                vulnerable = False
+                for flag in version.flags:
+                    if flag.startswith("vulnerability:"):
+                        vulnerable = True
+                        continue
+                if not vulnerable:
+                    all_vulnerable = False
+                    break
+        if all_vulnerable:
+            continue
+
         if len(mod["authors"]) > 0:
             README += " by "
             for author_name, author_data in mod["authors"].items():
