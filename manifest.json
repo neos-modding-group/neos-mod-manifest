@@ -1784,29 +1784,6 @@
                 }
             }
         },
-        "me.art0007i.gifimporter": {
-            "name": "GifImporter (arti's fork)",
-            "description": "GifImporter but it tries to fit the sprite sheets into a square resolution, it will sometimes create redundant empty frames at the end of the gif",
-            "category": "Asset Importing Tweaks",
-            "sourceLocation": "https://github.com/art0007i/GifImporter",
-            "authors": {
-                "art0007i": {
-                    "url": "https://github.com/art0007i"
-                }
-            },
-            "versions": {
-                "1.1.2": {
-                    "releaseUrl": "https://github.com/art0007i/GifImporter/releases/tag/1.1.2.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/art0007i/GifImporter/releases/download/1.1.2.0/GifImporter.dll",
-                            "filename": "GifImporter.dll",
-                            "sha256": "0be44e58bc2e4d10f1b07aba585abbf82f35643f2baf86b46734021f91c7cacd"
-                        }
-                    ]
-                }
-            }
-        },
         "me.art0007i.customvideoplayers": {
             "name": "CustomVideoPlayers",
             "description": "Lets you change your default video player",
