@@ -2431,6 +2431,32 @@
                     ]
                 }
             }
+        },
+        "Banane9.MaybeJump": {
+            "name": "MaybeJump",
+            "description": "Allows you to configure on which sides the thumbstick will be used as jump.",
+            "category": "Keybinds & Gestures",
+            "website": "https://github.com/Banane9/NeosMaybeJump",
+            "sourceLocation": "https://github.com/Banane9/NeosMaybeJump",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                },
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosMaybeJump/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosMaybeJump/releases/download/v1.1.0/MaybeJump.dll",
+                            "sha256": "b09e1556c8dd6841160ec78003ac7c62823a86e2bf1dde2604b22668c035e107"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
