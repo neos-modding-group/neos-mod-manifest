@@ -9,8 +9,15 @@ jobs:
   Generate-Markdown:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v2
+      - name: checkout master
+        uses: actions/checkout@v3
+
+      - name: checkout gh-pages
+        uses: actions/checkout@v3
+        with:
+          repository: neos-modding-group/neos-modding-group.github.io
+          path: gh-pages
+          ssh-key: ${{ secrets.PAGES_AUTH }}
     
       - name: setup python
         uses: actions/setup-python@v3
@@ -20,14 +27,16 @@ jobs:
       - name: generate readme
         run: ./gen_readme.py
 
-      - name: setup git config
+      - name: commit
+        env:
+          PAGES_AUTH: ${{ secrets.PAGES_AUTH }}
         run: |
+          cd gh-pages
+          git diff --quiet --exit-code mods.md && exit 0
+          mkdir -p "~/.ssh"
+          echo "$PAGES_AUTH" > "~/.ssh/id_rsa"
           git config user.name "GitHub Actions"
           git config user.email "<>"
-
-      - name: commit
-        continue-on-error: true
-        run: |
-          git add --force README.md
-          git commit -m "Update mods list"
+          git add --force mods.md
+          git commit -m "Update mod list"
           git push origin master

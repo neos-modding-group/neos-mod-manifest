@@ -290,6 +290,17 @@
                 }
             },
             "versions": {
+                "0.1.1": {
+                    "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-12",
+                    "artifacts": [
+                        {
+                            "url": "https://git.ljoonal.xyz/attachments/ec309fd1-5a3f-4966-a9aa-f65fafd68902",
+                            "filename": "ScreenmodeTweaks.dll",
+                            "sha256": "47467ad7d1b6a3dad2f2d4fb9421627f265835fd90f55fa588da0e9cab78ec8d",
+                            "blake3": "df96481e7a832eabb0cce13f87791c58dbd0d8a12a533a55be9561532b7bf1c1"
+                        }
+                    ]
+                },
                 "0.0.2": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
                     "artifacts": [
@@ -522,7 +533,7 @@
         "net.eia485.fixtostring": {
             "name": "FixToString",
             "description": "Fixes the to string logix node",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/EIA485/NeosFixToString",
             "authors": {
                 "eia485": {
@@ -545,7 +556,7 @@
         "net.eia485.exposeallimpulses": {
             "name": "ExposeAllImpulses",
             "description": "Exposes all valid logix impulse targets",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/EIA485/NeosExposeAllImpulses",
             "authors": {
                 "eia485": {
@@ -568,7 +579,7 @@
         "net.eia485.exposeallsyncmembers": {
             "name": "ExposeAllSyncMembers",
             "description": "Exposes all SyncMembers on interfaces",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/EIA485/NeosExposeAllSyncMembers",
             "authors": {
                 "eia485": {
@@ -591,7 +602,7 @@
         "net.eia485.ReferenceNodeHotline": {
             "name": "ReferenceNodeHotline",
             "description": "Stops reference nodes from killing themselves",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/EIA485/NeosReferenceNodeHotline",
             "authors": {
                 "eia485": {
@@ -614,7 +625,7 @@
         "net.kazu0617.disablecustomconnectpoint": {
             "name": "DisableCustomConnectPoint",
             "description": "disables custom input/output attributes for LogiX nodes",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/kazu0617/DisableCustomConnectPoint",
             "authors": {
                 "kazu0617": {
@@ -637,7 +648,7 @@
         "me.badhaloninja.logixutils": {
             "name": "LogixUtils",
             "description": "Tweaks some logix things",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/badhaloninja/LogixUtils",
             "authors": {
                 "badhaloninja": {
@@ -660,7 +671,7 @@
         "net.cyro.darklogixbrowser": {
             "name": "DarkLogiXBrowser",
             "description": "Make the logix node browser darkmode and single-click",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/RileyGuy/DarkLogiXBrowser",
             "authors": {
                 "Cyro": {
@@ -831,7 +842,7 @@
             "versions": {
                 "1.0.2": {
                     "flags": [
-                        "vulnerablity:critical"
+                        "vulnerability:critical"
                     ],
                     "releaseUrl": "https://github.com/Toxic-Cookie/FieldExpressions/releases/tag/1.0.2",
                     "artifacts": [
@@ -844,7 +855,7 @@
                 },
                 "1.0.0": {
                     "flags": [
-                        "vulnerablity:critical"
+                        "vulnerability:critical"
                     ],
                     "releaseUrl": "https://github.com/Toxic-Cookie/FieldExpressions/releases/tag/1.0.0",
                     "artifacts": [
@@ -1086,6 +1097,9 @@
             "description": "Disables your left thumbstick being used as a jump",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/EIA485/NeosNoLeftJump",
+            "flags": [
+                "deprecated"
+            ],
             "authors": {
                 "eia485": {
                     "url": "https://github.com/EIA485"
@@ -1335,6 +1349,17 @@
                 }
             },
             "versions": {
+                "0.3.1": {
+                    "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-12",
+                    "artifacts": [
+                        {
+                            "url": "https://git.ljoonal.xyz/attachments/c33b535d-6ae9-479a-af58-b19fb40faa97",
+                            "filename": "PrivacyShield.dll",
+                            "sha256": "3d63c1d316081690d6a819a1c204ddfc3e9b200db88b1b7146aa0a5e5307915c",
+                            "blake3": "01ea729786b8885524eafcc8d65d878486d6a549d2a45782b7a266305ba86a5c"
+                        }
+                    ]
+                },
                 "0.2.0": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
                     "artifacts": [
@@ -2052,6 +2077,17 @@
                 }
             },
             "versions": {
+                "0.2.1": {
+                    "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-12",
+                    "artifacts": [
+                        {
+                            "url": "https://git.ljoonal.xyz/attachments/6becf54e-da9a-4fae-9e34-6c0a5c24935f",
+                            "filename": "LinuxFixes.dll",
+                            "sha256": "48bbd0ba3bc283336b30ab302e0731b6209484d52f8f33cf119fe48646381805",
+                            "blake3": "56bc0712ebf6360f9e1e19810699d5139002c48f56077af533fd59b0c5b1df74"
+                        }
+                    ]
+                },
                 "0.2.0": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
                     "artifacts": [
@@ -2259,6 +2295,17 @@
                 }
             },
             "versions": {
+                "0.1.0": {
+                    "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-12",
+                    "artifacts": [
+                        {
+                            "url": "https://git.ljoonal.xyz/attachments/bf494c74-09d3-4e35-b7b1-6cd3f7ce0e7b",
+                            "filename": "LatestLog.dll",
+                            "sha256": "a846d57bff8576af11a8b5efebab548c7407fb836e31b1709c40538b970b9e91",
+                            "blake3": "8852a5930fc02a2fea5b26122c585454b2b069f18c97c7abd492083238cbbf28"
+                        }
+                    ]
+                },
                 "0.0.1": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-03-19",
                     "artifacts": [
@@ -2266,6 +2313,150 @@
                             "url": "https://git.ljoonal.xyz/attachments/d73447e2-8629-4bbe-b141-68449ee6126c",
                             "filename": "LatestLog.dll",
                             "sha256": "fa023ef2c97bc400f095884914f09da7fe5bc47460889f962e0bef25d7fef3d2"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.BetterLogixWiresThatCanScroll": {
+            "name": "BetterLogixWiresThatCanScroll",
+            "description": "Optimizes and optionally animates LogiX wires.",
+            "category": "LogiX",
+            "website": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll",
+            "sourceLocation": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                },
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/download/v1.1.0/BetterLogixWiresThatCanScroll.dll",
+                            "sha256": "4054727858FDE89903FC295491B95C4EF16448EBFED0A281412E5DC81AB81ABC"
+                        }
+                    ]
+                }
+            }
+        },
+        "DoubleStyx.SsaoTweaks": {
+            "name": "SsaoTweaks",
+            "description": "Allows the individual parameters of the SSAO effect to be configured.",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/DoubleStyx/SsaoTweaks",
+            "sourceLocation": "https://github.com/DoubleStyx/SsaoTweaks",
+            "authors": {
+                "DoubleStyx": {
+                    "url": "https://github.com/DoubleStyx"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/DoubleStyx/SsaoTweaks/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/DoubleStyx/SsaoTweaks/releases/download/v1.0.0/SsaoTweaks.dll",
+                            "sha256": "f1e8c83e455b9c23587fc0d927ab2ad18c1b7ea10ae7e660b3e19ea31b6ddaba"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.RenameDirectlyLinkedDynVars": {
+            "name": "RenameDirectlyLinkedDynVars",
+            "description": "Renames directly linked dynamic variables alongside the namespace they're bound to.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
+            "sourceLocation": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars/releases/download/v1.1.0/RenameDirectlyLinkedDynVars.dll",
+                            "sha256": "E1B92540C61F82CA8203EF6A47D08B6342BB33E6DA05FDAC87E51EF7DE46E322"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.LocalLogixRegisters": {
+            "name": "LocalLogixRegisters",
+            "description": "Allows creating LogiX registers with localized values directly.",
+            "category": "LogiX",
+            "website": "https://github.com/Banane9/NeosLocalLogixRegisters",
+            "sourceLocation": "https://github.com/Banane9/NeosLocalLogixRegisters",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/download/v1.1.0/LocalLogixRegisters.dll",
+                            "sha256": "C1103144F00B71A650BF09C875210BC3C3C98485AF6852E82CE10EEC1805BDC8"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.PacifistAprilFoolsExplosion": {
+            "name": "PacifistAprilFoolsExplosion",
+            "description": "Can individually hide each part of the ViolentAprilFoolsExplosion.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion",
+            "sourceLocation": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosPacifistAprilFoolsExplosion/releases/download/v1.0.0/PacifistAprilFoolsExplosion.dll",
+                            "sha256": "2AD2BA5FA08A90721B00C751DB26977D1CD717EB223F128D318E282729A57DBF"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.MaybeJump": {
+            "name": "MaybeJump",
+            "description": "Allows you to configure on which sides the thumbstick will be used as jump.",
+            "category": "Keybinds & Gestures",
+            "website": "https://github.com/Banane9/NeosMaybeJump",
+            "sourceLocation": "https://github.com/Banane9/NeosMaybeJump",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                },
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosMaybeJump/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosMaybeJump/releases/download/v1.1.0/MaybeJump.dll",
+                            "sha256": "b09e1556c8dd6841160ec78003ac7c62823a86e2bf1dde2604b22668c035e107"
                         }
                     ]
                 }
