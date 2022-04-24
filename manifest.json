@@ -2292,6 +2292,7 @@
             },
             "versions": {
                 "0.2.0": {
+                    "changelog": "Removed the need for Harmony",
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-24",
                     "artifacts": [
                         {
