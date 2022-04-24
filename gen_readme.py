@@ -47,6 +47,10 @@ def should_show_mod(mod: dict[str, Any]):
     mod: The mod in question
     """
 
+    # Don't add listings for NSFW mods on the website by default.
+    if mod["category"] == "NSFW":
+        return False
+
     # Only show mods with versions
     if mod["versions"] is None or len(mod["versions"]) == 0:
         return False
