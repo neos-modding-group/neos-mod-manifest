@@ -2414,6 +2414,32 @@
                     ]
                 }
             }
+        },
+        "Banane9.MaybeJump": {
+            "name": "MaybeJump",
+            "description": "Individually disable jump binding for the left and/or right controller(s).",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosMaybeJump",
+            "sourceLocation": "https://github.com/Banane9/NeosMaybeJump",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                },
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosMaybeJump/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosMaybeJump/releases/download/v1.1.0/MaybeJump.dll",
+                            "sha256": "B09E1556C8DD6841160EC78003AC7C62823A86E2BF1DDE2604B22668C035E107"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
