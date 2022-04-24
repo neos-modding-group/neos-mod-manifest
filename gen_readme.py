@@ -1,29 +1,35 @@
 #!/bin/python
+
+"""
+Generates a markdown file to stdout from the JSON manifest passed in with stdin
+"""
+
+# pylint: disable=redefined-outer-name
+
 import json
 import datetime
+import sys
+from typing import Any
 
-grouped_mods = {}
+grouped_mods: dict[str, dict] = {}
 
-with open("manifest.json", "r", encoding = "UTF-8") as f:
-    MANIFEST = json.load(f)
-    for mod_guid in MANIFEST["mods"]:
-        mod = MANIFEST["mods"][mod_guid]
-        mod["guid"] = mod_guid
+MANIFEST: dict[str, dict[str, Any]] = json.load(sys.stdin)
+for mod_guid in MANIFEST["mods"]:
+    mod = MANIFEST["mods"][mod_guid]
+    mod["guid"] = mod_guid
 
-        if "flags" not in mod or (
-            "plugin" not in mod["flags"] and
-            "file" not in mod["flags"]
-        ):
-            mods = grouped_mods.get(mod["category"])
-            if mods is None:
-                mods = []
+    if "flags" not in mod or (
+        "plugin" not in mod["flags"] and
+        "file" not in mod["flags"]
+    ):
+        mods = grouped_mods.get(mod["category"])
+        if mods is None:
+            mods = []
 
-            mods.append(mod)
-            grouped_mods[mod["category"]] = mods
+        mods.append(mod)
+        grouped_mods[mod["category"]] = mods
 
-README = None
-with open("gh-pages/.templates/mod-list-template.md", "r", encoding = "UTF-8") as f:
-    README = f.read()
+README = ""
 
 now = datetime.datetime.now(tz=datetime.timezone.utc)
 README += "Last updated at "
@@ -33,7 +39,7 @@ for group, mods in grouped_mods.items():
     mods = mods.sort(key=lambda mod: mod["name"])
 
 
-def should_show_mod(mod):
+def should_show_mod(mod: dict[str, Any]):
     """
     Checks if mod should be shown.
 
@@ -81,6 +87,4 @@ for group, mods in sorted(grouped_mods.items()):
 
         README += mod['description'] + "\n"
 
-
-with open("gh-pages/mods.md", "w", encoding = "UTF-8") as f:
-    f.write(README)
+print(README)
