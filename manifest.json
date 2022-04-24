@@ -2272,6 +2272,18 @@
                 }
             },
             "versions": {
+                "0.2.0": {
+                    "changelog": "Removed the need for Harmony",
+                    "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-24",
+                    "artifacts": [
+                        {
+                            "url": "https://git.ljoonal.xyz/attachments/351cf901-12cf-4ec9-a085-f7b47ec9ccb9",
+                            "filename": "LatestLog.dll",
+                            "sha256": "0b329e30ac138bbe84ae5b4942fb198e6c9182160e94c6fd6595fb59eb256506",
+                            "blake3": "5952c918c6076db12fa10ee7a7615d76c3321b4bee2a208d40ead40645a50590"
+                        }
+                    ]
+                },
                 "0.1.0": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-12",
                     "artifacts": [
