@@ -1477,6 +1477,7 @@
             },
             "versions": {
                 "1.0.0": {
+                    "changelog": " - Initial release",
                     "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/1.0.0.0",
                     "artifacts": [
                         {
@@ -1487,6 +1488,7 @@
                     ]
                 },
                 "2.0.0": {
+                    "changelog": " - Fixed spotty behaviour of the UI Edit Mode key\n - Made UI Edit Mode key user selectable - F4 is default key\n - Restored VR behaviour of the camera controls UI",
                     "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/2.0.0.0",
                     "artifacts": [
                         {
@@ -1497,6 +1499,7 @@
                     ]
                 },
                 "2.1.0": {
+                    "changelog": " - Restored VR style floating notifications",
                     "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/2.1.0.0",
                     "artifacts": [
                         {
@@ -1507,6 +1510,7 @@
                     ]
                 },
                 "3.0.0": {
+                    "changelog": " - Added automated compatibility tweak - if the mod detects badhaloninja's DesktopNotifications installed, the VR notification restoration patch is automatically disabled\n - Camera Controls UI can be now released from its slider - can be turned on in mod config, requires Neos restart on change",
                     "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/3.0.0.0",
                     "artifacts": [
                         {
