@@ -11,47 +11,6 @@ import datetime
 import sys
 from typing import Any
 
-# A dict of category names -> list of mods in that category.
-grouped_mods: dict[str, list[dict[str, Any]]] = {}
-
-# The JSON manifest.
-MANIFEST: dict[str, Any] = json.load(sys.stdin)
-
-# Iterate over all the mods
-for mod_guid in MANIFEST["mods"]:
-    mod: dict[str, Any] = MANIFEST["mods"][mod_guid]
-
-    # Transfer only mods to grouped_mods,
-    # leaving libs & plugins out of it
-    if "flags" not in mod or (
-        "plugin" not in mod["flags"] and
-        "file" not in mod["flags"]
-    ):
-        # Add the GUID to the mod
-        mod["guid"] = mod_guid
-
-        # Get the group for the mods,
-        # or create it if it doesn't exist.
-        mods_group = grouped_mods.get(mod["category"])
-        if mods_group is None:
-            mods_group = []
-
-        # Add the mod to the group
-        mods_group.append(mod)
-        grouped_mods[mod["category"]] = mods_group
-
-# Sort the groups' mods
-for group, mods in grouped_mods.items():
-    mods = mods.sort(key=lambda mod: mod["name"])
-
-# The markdown output
-README = ""
-
-# Add update time to the start of the markdown
-now = datetime.datetime.now(tz=datetime.timezone.utc)
-README += "Last updated at "
-README += f"<time datetime='{now.isoformat()}'>{now.strftime('%d %B %Y, %I:%S')} UTC</time>\n\n"
-
 def should_show_mod(mod: dict[str, Any]) -> bool:
     """
     Checks if mod should be shown.
@@ -85,13 +44,52 @@ def should_show_mod(mod: dict[str, Any]) -> bool:
     # Show all mods by default
     return True
 
+# A dict of category names -> list of mods in that category.
+grouped_mods: dict[str, list[dict[str, Any]]] = {}
+
+# The JSON manifest.
+MANIFEST: dict[str, Any] = json.load(sys.stdin)
+
+# Iterate over all the mods
+for mod_guid in MANIFEST["mods"]:
+    mod: dict[str, Any] = MANIFEST["mods"][mod_guid]
+
+    # Transfer only mods to grouped_mods,
+    # leaving libs & plugins out of it
+    if ("flags" not in mod or (
+        "plugin" not in mod["flags"] and
+        "file" not in mod["flags"]
+    )) and should_show_mod(mod):
+        # Add the GUID to the mod
+        mod["guid"] = mod_guid
+
+        # Get the group for the mods,
+        # or create it if it doesn't exist.
+        mods_group = grouped_mods.get(mod["category"])
+        if mods_group is None:
+            mods_group = []
+
+        # Add the mod to the group
+        mods_group.append(mod)
+        grouped_mods[mod["category"]] = mods_group
+
+# Sort the groups' mods
+for group, mods in grouped_mods.items():
+    mods = mods.sort(key=lambda mod: mod["name"])
+
+# The markdown output
+README = ""
+
+# Add update time to the start of the markdown
+now = datetime.datetime.now(tz=datetime.timezone.utc)
+README += "Last updated at "
+README += f"<time datetime='{now.isoformat()}'>{now.strftime('%d %B %Y, %I:%S')} UTC</time>\n\n"
+
 # Iterate over the groups in an alphabetical fashion.
 for group, mods in sorted(grouped_mods.items()):
     # Add header for the mods group
     README += f"\n## {group}\n"
     for mod in mods:
-        if not should_show_mod(mod):
-            continue
         # Add header for the mod in question
         README += "\n<!--" + mod["guid"] + "-->\n"
         README += "#### "
