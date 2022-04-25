@@ -124,7 +124,7 @@ README = ""
 # Add update time to the start of the markdown
 now = datetime.datetime.now(tz=datetime.timezone.utc)
 README += "Last updated at "
-README += f"<time datetime='{now.isoformat()}'>{now.strftime('%d %B %Y, %I:%S')} UTC</time>\n\n"
+README += f"<time datetime='{now.isoformat()}'>{now.strftime('%d %B %Y, %I:%S')} UTC</time>\n"
 
 # Iterate over the groups in an alphabetical fashion.
 for group, mods in sorted(grouped_mods.items()):
