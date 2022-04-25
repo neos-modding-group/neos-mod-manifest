@@ -133,7 +133,7 @@ for group, mods in sorted(grouped_mods.items()):
     for mod in mods:
         # Add header for the mod in question
         README += "\n<!--" + mod["guid"] + "-->\n"
-        README += "#### "
+        README += "### "
         README += f"[{mod['name']}]({mod['sourceLocation']})"
 
         # Append authors to mod header
