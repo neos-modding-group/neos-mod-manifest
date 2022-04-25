@@ -153,13 +153,19 @@ for group, mods in sorted(grouped_mods.items()):
         # Add latest version number
         latest_version = mod["versions"][0]
         if "releaseUrl" in latest_version:
-            README += "Latest version: ["
+            README += "The latest version is ["
             README += str(latest_version['id'])
             README += "]("
             README += latest_version["releaseUrl"]
-            README += ")\n"
+            README += ")"
         else:
-            README += f"Latest version: {str(latest_version['id'])}\n"
+            README += f"The latest version is {str(latest_version['id'])}"
+        if "changelog" in latest_version:
+            README += ":\n"
+            if latest_version["changelog"].strip().startswith("- "):
+                README += "\n"
+            README += latest_version["changelog"].strip()
+        README += "\n"
 
 # Output markdown to stdout
 print(README)
