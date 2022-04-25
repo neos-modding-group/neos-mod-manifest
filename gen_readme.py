@@ -22,6 +22,7 @@ def should_show_mod(mod: dict[str, Any]) -> bool:
 
     # Exclude plugins and libraries from being shown
     if "flags" in mod and (
+        "deprecated" in mod["flags"] or
         "plugin" in mod["flags"] or
         "file" in mod["flags"]
     ):
