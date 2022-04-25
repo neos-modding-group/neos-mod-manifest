@@ -2450,6 +2450,28 @@
                     ]
                 }
             }
+        },
+        "dev.zkxs.neoscloudhomeaccesslevel": {
+            "name": "CloudHomeAccessLevel",
+            "description": "Lets you configure your cloud home's default access level",
+            "category": "Misc",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
+            "sourceLocation": "https://github.com/zkxs/NeosCloudHomeAccessLevel",
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/zkxs/NeosCloudHomeAccessLevel/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/zkxs/NeosCloudHomeAccessLevel/releases/download/1.0.0/CloudHomeAccessLevel.dll",
+                            "sha256": "eb1c6c5b9581cdcb7587594cdbee493018dff2757b2578071a116394ff9b783a"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
