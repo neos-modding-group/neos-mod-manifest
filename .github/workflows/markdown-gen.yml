@@ -28,7 +28,7 @@ jobs:
       - name: generate readme
         run: |
           cp gh-pages/.templates/mod-list-template.md gh-pages/mods.md
-          pip install packaging
+          pip3 install packaging
           python3 gen_readme.py < manifest.json >> gh-pages/mods.md
 
       - name: commit
