@@ -9,6 +9,7 @@ Generates a markdown file to stdout from the JSON manifest passed in with stdin
 import json
 import datetime
 import sys
+import packaging.version
 from typing import Any
 
 def should_show_mod(mod: dict[str, Any]) -> bool:
@@ -38,7 +39,7 @@ def should_show_mod(mod: dict[str, Any]) -> bool:
 
     # Don't show mods with only vulnerable versions
     only_vulnerable_versions = True
-    for version in mod["versions"].values():
+    for version in mod["versions"]:
         if "flags" not in version:
             only_vulnerable_versions = False
         else:
@@ -61,11 +62,25 @@ MANIFEST: dict[str, Any] = json.load(sys.stdin)
 for mod_guid in MANIFEST["mods"]:
     mod: dict[str, Any] = MANIFEST["mods"][mod_guid]
 
+    # Add the GUID to the mod
+    mod["guid"] = mod_guid
+
+    # Turn versions into a list of validated IDs
+    versions_list: list[dict[str, Any]] = []
+    for version_id in mod["versions"]:
+        try:
+            mod_version = mod["versions"][version_id]
+            mod_version["id"] = packaging.version.parse(version_id)
+            versions_list.append(mod_version)
+        except Exception as e:
+            print(
+                f"Failed to process [{mod_guid}/{version_id}], reason: {e}",
+                file=sys.stderr
+            )
+    mod["versions"] = versions_list
+
     # Transfer only mods that should be shown to grouped_mods
     if should_show_mod(mod):
-        # Add the GUID to the mod
-        mod["guid"] = mod_guid
-
         # Get the group for the mods,
         # or create it if it doesn't exist.
         mods_group = grouped_mods.get(mod["category"])
@@ -75,6 +90,7 @@ for mod_guid in MANIFEST["mods"]:
         # Add the mod to the group
         mods_group.append(mod)
         grouped_mods[mod["category"]] = mods_group
+
 
 # Sort the groups' mods
 for group, mods in grouped_mods.items():
