@@ -101,7 +101,7 @@ for mod_guid in MANIFEST["mods"]:
     # Transfer only mods that should be shown to grouped_mods
     if should_show_mod(mod):
         # Sort the mod's versions
-        mod["versions"].sort(key=lambda version: version["id"])
+        mod["versions"].sort(reverse=True, key=lambda version: version["id"])
 
         # Get the group for the mods,
         # or create it if it doesn't exist.
