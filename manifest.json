@@ -1994,6 +1994,16 @@
                             "sha256": "6f2682cf4fa30d5c5db7a87300b3dd2e30132b8ca97ae29c4fc9c9c4f2159b55"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/download/1.1.0/NeosVideoPlayerFix.dll",
+                            "filename": "NeosVideoPlayerFix.dll",
+                            "sha256": "fba89e44ff46b12548abd1c7b3543736307cdbb2308b6cbffc75460338df06ff"
+                        }
+                    ]
                 }
             }
         },
