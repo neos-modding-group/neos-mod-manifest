@@ -130,7 +130,7 @@ for group, mods in sorted(grouped_mods.items()):
         README += "\n\n"
 
         # Add mod description
-        README += mod['description'] + "\n"
+        README += mod["description"] + "\n"
 
 # Output markdown to stdout
 print(README)
