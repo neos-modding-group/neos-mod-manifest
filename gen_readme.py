@@ -10,7 +10,7 @@ import json
 import datetime
 import sys
 from typing import Any
-import packaging.version
+from packaging.version import Version
 
 def should_show_mod(mod: dict[str, Any]) -> bool:
     """
@@ -70,7 +70,7 @@ for mod_guid in MANIFEST["mods"]:
     for version_id in mod["versions"]:
         try:
             mod_version = mod["versions"][version_id]
-            mod_version["id"] = packaging.version.parse(version_id)
+            mod_version["id"] = Version(version_id)
             versions_list.append(mod_version)
         except Exception as e:
             print(
@@ -81,6 +81,9 @@ for mod_guid in MANIFEST["mods"]:
 
     # Transfer only mods that should be shown to grouped_mods
     if should_show_mod(mod):
+        # Sort the mod's versions
+        mod["versions"].sort(key=lambda version: version["id"])
+
         # Get the group for the mods,
         # or create it if it doesn't exist.
         mods_group = grouped_mods.get(mod["category"])
@@ -94,7 +97,7 @@ for mod_guid in MANIFEST["mods"]:
 
 # Sort the groups' mods
 for group, mods in grouped_mods.items():
-    mods = mods.sort(key=lambda mod: mod["name"])
+    mods.sort(key=lambda mod: mod["name"])
 
 # The markdown output
 README = ""
