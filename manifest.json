@@ -1502,6 +1502,7 @@
             },
             "versions": {
                 "1.0.0": {
+                    "changelog": " - Initial release",
                     "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/1.0.0.0",
                     "artifacts": [
                         {
@@ -1512,6 +1513,7 @@
                     ]
                 },
                 "2.0.0": {
+                    "changelog": " - Fixed spotty behaviour of the UI Edit Mode key\n - Made UI Edit Mode key user selectable - F4 is default key\n - Restored VR behaviour of the camera controls UI",
                     "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/2.0.0.0",
                     "artifacts": [
                         {
@@ -1522,6 +1524,7 @@
                     ]
                 },
                 "2.1.0": {
+                    "changelog": " - Restored VR style floating notifications",
                     "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/2.1.0.0",
                     "artifacts": [
                         {
@@ -1532,6 +1535,7 @@
                     ]
                 },
                 "3.0.0": {
+                    "changelog": " - Added automated compatibility tweak - if the mod detects badhaloninja's DesktopNotifications installed, the VR notification restoration patch is automatically disabled\n - Camera Controls UI can be now released from its slider - can be turned on in mod config, requires Neos restart on change",
                     "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/3.0.0.0",
                     "artifacts": [
                         {
@@ -1779,29 +1783,6 @@
                             "url": "https://github.com/kawaiiamber/GifImporter/releases/download/1.1.1.0/GifImporter.dll",
                             "filename": "GifImporter.dll",
                             "sha256": "4c85242da4aa094e65692a7811947b8f877e15230824a3a415cca5c384aab374"
-                        }
-                    ]
-                }
-            }
-        },
-        "me.art0007i.gifimporter": {
-            "name": "GifImporter (arti's fork)",
-            "description": "GifImporter but it tries to fit the sprite sheets into a square resolution, it will sometimes create redundant empty frames at the end of the gif",
-            "category": "Asset Importing Tweaks",
-            "sourceLocation": "https://github.com/art0007i/GifImporter",
-            "authors": {
-                "art0007i": {
-                    "url": "https://github.com/art0007i"
-                }
-            },
-            "versions": {
-                "1.1.2": {
-                    "releaseUrl": "https://github.com/art0007i/GifImporter/releases/tag/1.1.2.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/art0007i/GifImporter/releases/download/1.1.2.0/GifImporter.dll",
-                            "filename": "GifImporter.dll",
-                            "sha256": "0be44e58bc2e4d10f1b07aba585abbf82f35643f2baf86b46734021f91c7cacd"
                         }
                     ]
                 }
@@ -2291,6 +2272,18 @@
                 }
             },
             "versions": {
+                "0.2.0": {
+                    "changelog": "Removed the need for Harmony",
+                    "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-24",
+                    "artifacts": [
+                        {
+                            "url": "https://git.ljoonal.xyz/attachments/351cf901-12cf-4ec9-a085-f7b47ec9ccb9",
+                            "filename": "LatestLog.dll",
+                            "sha256": "0b329e30ac138bbe84ae5b4942fb198e6c9182160e94c6fd6595fb59eb256506",
+                            "blake3": "5952c918c6076db12fa10ee7a7615d76c3321b4bee2a208d40ead40645a50590"
+                        }
+                    ]
+                },
                 "0.1.0": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-12",
                     "artifacts": [
