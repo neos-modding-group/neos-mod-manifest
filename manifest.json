@@ -2359,7 +2359,7 @@
         "Banane9.RenameDirectlyLinkedDynVars": {
             "name": "RenameDirectlyLinkedDynVars",
             "description": "Renames directly linked dynamic variables alongside the namespace they're bound to.",
-            "category": "Mod Developers",
+            "category": "Technical Tweaks",
             "website": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
             "sourceLocation": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
             "authors": {
