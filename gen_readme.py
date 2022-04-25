@@ -148,7 +148,18 @@ for group, mods in sorted(grouped_mods.items()):
         README += "\n\n"
 
         # Add mod description
-        README += mod["description"] + "\n"
+        README += mod["description"] + "\n\n"
+
+        # Add latest version number
+        latest_version = mod["versions"][0]
+        if "releaseUrl" in latest_version:
+            README += "Latest version: ["
+            README += str(latest_version['id'])
+            README += "]("
+            README += latest_version["releaseUrl"]
+            README += ")\n"
+        else:
+            README += f"Latest version: {str(latest_version['id'])}\n"
 
 # Output markdown to stdout
 print(README)
