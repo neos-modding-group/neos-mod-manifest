@@ -2080,7 +2080,7 @@
         "net.Toxic_Cookie.GenericSettings": {
             "name": "GenericSettings",
             "description": "Allows you to define, save, load and use custom settings",
-            "category": "Developers",
+            "category": "Mod Developers",
             "sourceLocation": "https://github.com/Toxic-Cookie/GenericSettings",
             "authors": {
                 "Toxic_Cookie": {
@@ -2359,7 +2359,7 @@
         "Banane9.RenameDirectlyLinkedDynVars": {
             "name": "RenameDirectlyLinkedDynVars",
             "description": "Renames directly linked dynamic variables alongside the namespace they're bound to.",
-            "category": "Developers",
+            "category": "Mod Developers",
             "website": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
             "sourceLocation": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
             "authors": {
