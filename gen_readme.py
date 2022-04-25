@@ -4,13 +4,13 @@
 Generates a markdown file to stdout from the JSON manifest passed in with stdin
 """
 
-# pylint: disable=redefined-outer-name
+# pylint: disable=redefined-outer-name,broad-except
 
 import json
 import datetime
 import sys
-import packaging.version
 from typing import Any
+import packaging.version
 
 def should_show_mod(mod: dict[str, Any]) -> bool:
     """
