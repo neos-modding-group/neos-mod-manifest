@@ -53,6 +53,35 @@ def should_show_mod(mod: dict[str, Any]) -> bool:
     # Show all mods by default
     return True
 
+def map_mod_versions(versions: dict[str, Any]) -> list[dict[str, Any]]:
+    """
+    Filters unwanted mod versions away, and turns them into a list
+
+    Parameters:
+    versions: The mod's versions
+    """
+
+    versions_list: list[dict[str, Any]] = []
+    for version_id in versions:
+        try:
+            mod_version = versions[version_id]
+            mod_version["id"] = Version(version_id)
+            # Skip over listing pre-release versions
+            if (
+                "preRelease" in mod_version or
+                mod_version["id"].is_prerelease or
+                mod_version["id"].is_devrelease
+            ):
+                continue
+            versions_list.append(mod_version)
+        except Exception as err:
+            print(
+                f"Failed to process [{mod_guid}/{version_id}], reason: {err}",
+                file=sys.stderr
+            )
+
+    return versions_list
+
 # A dict of category names -> list of mods in that category.
 grouped_mods: dict[str, list[dict[str, Any]]] = {}
 
@@ -66,19 +95,8 @@ for mod_guid in MANIFEST["mods"]:
     # Add the GUID to the mod
     mod["guid"] = mod_guid
 
-    # Turn versions into a list of validated IDs
-    versions_list: list[dict[str, Any]] = []
-    for version_id in mod["versions"]:
-        try:
-            mod_version = mod["versions"][version_id]
-            mod_version["id"] = Version(version_id)
-            versions_list.append(mod_version)
-        except Exception as e:
-            print(
-                f"Failed to process [{mod_guid}/{version_id}], reason: {e}",
-                file=sys.stderr
-            )
-    mod["versions"] = versions_list
+    # Maps the versions into filtered & validated ones
+    mod["versions"] = map_mod_versions(mod["versions"])
 
     # Transfer only mods that should be shown to grouped_mods
     if should_show_mod(mod):
