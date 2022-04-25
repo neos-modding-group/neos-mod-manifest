@@ -19,6 +19,13 @@ def should_show_mod(mod: dict[str, Any]) -> bool:
     mod: The mod in question
     """
 
+    # Exclude plugins and libraries from being shown
+    if "flags" in mod and (
+        "plugin" in mod["flags"] or
+        "file" in mod["flags"]
+    ):
+        return False
+
     # Don't add listings for NSFW mods on the website.
     # NSFW needs to be opt-in to be shown,
     # mod managers can implement that.
@@ -54,12 +61,8 @@ MANIFEST: dict[str, Any] = json.load(sys.stdin)
 for mod_guid in MANIFEST["mods"]:
     mod: dict[str, Any] = MANIFEST["mods"][mod_guid]
 
-    # Transfer only mods to grouped_mods,
-    # leaving libs & plugins out of it
-    if ("flags" not in mod or (
-        "plugin" not in mod["flags"] and
-        "file" not in mod["flags"]
-    )) and should_show_mod(mod):
+    # Transfer only mods that should be shown to grouped_mods
+    if should_show_mod(mod):
         # Add the GUID to the mod
         mod["guid"] = mod_guid
 
