@@ -2343,6 +2343,15 @@
                             "sha256": "55D8852093E69ACE3C3F9511D3E3DE911E2BD554B71F17C37C621C39016EBBDD"
                         }
                     ]
+                },
+				"1.2.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/download/v1.2.0/BetterLogixWiresThatCanScroll.dll",
+                            "sha256": "F96687B70C2553CB073F7415FA1375F3592E472DCED08EB88A840A2D51067773"
+                        }
+                    ]
                 }
             }
         },
