@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 set -e
 
 NEOS_PATH="$HOME/.local/share/Steam/steamapps/common/NeosVR"
@@ -7,7 +7,7 @@ MOD_GUID="$1"
 MOD_VERSION="$2"
 
 BASEDIR="$(dirname "$0")"
-ARTIFACT_SELECTOR=".mods[\""$MOD_GUID"\"].versions[\""$MOD_VERSION"\"].artifacts[0]"
+ARTIFACT_SELECTOR=".mods[\"$MOD_GUID\"].versions[\"$MOD_VERSION\"].artifacts[0]"
 FILE_URL="$(jq -r "$ARTIFACT_SELECTOR.url" "$BASEDIR/manifest.json")"
 FILE_FILENAME="$(jq -r "$ARTIFACT_SELECTOR.filename" "$BASEDIR/manifest.json")"
 FILE_SHA256="$(jq -r "$ARTIFACT_SELECTOR.sha256" "$BASEDIR/manifest.json")"
