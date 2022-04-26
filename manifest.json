@@ -2480,6 +2480,16 @@
                             "sha256": "eb1c6c5b9581cdcb7587594cdbee493018dff2757b2578071a116394ff9b783a"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/zkxs/NeosCloudHomeAccessLevel/releases/tag/1.1.0",
+                    "changelog": "- add hide from listing config\n- remove enabled config (it didn't actually do anything of value in version 1.0.0)",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/zkxs/NeosCloudHomeAccessLevel/releases/download/1.1.0/CloudHomeAccessLevel.dll",
+                            "sha256": "2d3151d08dc08fe021e86b871bfaa7944ce2a80acd88a58f8dcbc063162df942"
+                        }
+                    ]
                 }
             }
         }
