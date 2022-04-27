@@ -2492,6 +2492,28 @@
                     ]
                 }
             }
+        },
+        "me.badhaloninja.FixAltEnter": {
+            "name": "FixAltEnter",
+            "description": "Fixes returning to fullscreen via alt + enter not respecting monitor resolution",
+            "category": "Bug Workarounds",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja/"
+                }
+            },
+            "sourceLocation": "https://github.com/badhaloninja/FixAltEnter",
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/FixAltEnter/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/FixAltEnter/releases/download/v1.0.0/FixAltEnter.dll",
+                            "sha256": "b9c7c09ab6b0778b44f67686bb6b1fb7f36ed4ccedf6e3326e4ad2e82b3c189c"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
