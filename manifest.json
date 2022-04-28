@@ -2536,6 +2536,28 @@
                     ]
                 }
             }
+        },
+        "me.badhaloninja.ReverseAudioClip": {
+            "name": "ReverseAudioClip",
+            "description": "Adds a button to reverse an audio clip",
+            "category": "Inspectors",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja/"
+                }
+            },
+            "sourceLocation": "https://github.com/badhaloninja/ReverseAudioClip",
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/ReverseAudioClip/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/ReverseAudioClip/releases/download/v1.0.0/ReverseAudioClip.dll",
+                            "sha256": "013c751663c8ea7cceb0b214b28467b6c124f94ba2c2d9422a6868e5ed2f17b5"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
