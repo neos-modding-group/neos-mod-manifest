@@ -2514,6 +2514,28 @@
                     ]
                 }
             }
+        },
+        "tk.deltawolf.LogixCleanupWizard": {
+            "name": "LogixCleanupWizard",
+            "description": "Provides a wizard for cleaning up leftover logiX components.",
+            "category": "Wizards",
+            "sourceLocation": "https://github.com/XDelta/NeosLogixCleanupWizard",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/download/1.0.0/NeosLogixCleanupWizard.dll",
+                            "sha256": "fa3400e7a9d69365e9c8e89d75f3014c7c4273fefb77e497d6c184f0f57776ec"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
