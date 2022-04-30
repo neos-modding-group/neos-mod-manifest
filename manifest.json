@@ -1788,6 +1788,32 @@
                 }
             }
         },
+        "epicEaston197.bspimporter": {
+            "name": "BSPImporter", 
+            "description": "Import bsp files into Neos", 
+            "category": "Asset Importing Tweaks", 
+            "website": "https://github.com/epicEaston197/BSPImporter", 
+            "sourceLocation": "https://github.com/epicEaston197/BSPImporter", 
+            "authors": { 
+                "epicEaston197": {
+                    "url": "https://github.com/epicEaston197" 
+                },
+                "amber": {
+                    "url": "https://github.com/kawaiiamber"
+                }
+            },
+            "versions": { 
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/epicEaston197/BSPImporter/releases/tag/1.0.0", 
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/epicEaston197/BSPImporter/releases/latest/download/BSPImporter.dll", 
+                            "sha256": "05c2edf5ebf90e6e38494580ed7f578d20c478d9912a98db752c91e04043b016"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.customvideoplayers": {
             "name": "CustomVideoPlayers",
             "description": "Lets you change your default video player",
