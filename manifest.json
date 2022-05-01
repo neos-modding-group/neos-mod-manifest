@@ -2558,6 +2558,28 @@
                     ]
                 }
             }
+        },
+        "dev.zkxs.neosvoicequality": {
+            "name": "VoiceQuality",
+            "description": "Lets you easily change your own voice stream's bitrate",
+            "category": "Misc",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
+            "sourceLocation": "https://github.com/zkxs/NeosVoiceQuality",
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/zkxs/NeosVoiceQuality/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/zkxs/NeosVoiceQuality/releases/download/1.0.0/VoiceQuality.dll",
+                            "sha256": "3f826a29580a34d25d9b50fc8edd83edaee7a9f702eb455f53d459a9af627517"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
