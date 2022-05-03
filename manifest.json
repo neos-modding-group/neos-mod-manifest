@@ -891,6 +891,29 @@
                 }
             }
         },
+        "io.github.frozenreflex.neosparticletools": {
+            "name": "NeosParticleTools",
+            "description": "Adds better tools to edit particle fades",
+            "category": "Inspectors"
+            "website": "https://github.com/Frozenreflex/NeosParticleTools",
+            "sourceLocation": "https://github.com/Frozenreflex/NeosParticleTools",
+            "authors": {
+                "Fro Zen": {
+                    "url": "https://github.com/Frozenreflex"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosParticleTools/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosParticleTools/releases/download/1.0.0/NeosParticleTools.dll",
+                            "sha256": "1d80a4ca5d8faf0b56ec235a704bb0f605ec74c2926cf7f314a958367589533d"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.killdesktoptools": {
             "name": "KillDesktopTools",
             "description": "Disables the desktop tool keybinds",
