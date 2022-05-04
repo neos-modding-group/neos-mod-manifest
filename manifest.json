@@ -894,7 +894,7 @@
         "io.github.frozenreflex.neosparticletools": {
             "name": "NeosParticleTools",
             "description": "Adds better tools to edit particle fades",
-            "category": "Inspectors"
+            "category": "Inspectors",
             "website": "https://github.com/Frozenreflex/NeosParticleTools",
             "sourceLocation": "https://github.com/Frozenreflex/NeosParticleTools",
             "authors": {
