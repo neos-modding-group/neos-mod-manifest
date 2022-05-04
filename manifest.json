@@ -2613,6 +2613,29 @@
                     ]
                 }
             }
+        },
+        "me.art0007i.CastNodeHotline": {
+            "name": "CastNodeHotline",
+            "description": "Makes cast nodes not delete themselves automatically. This fixes the cast bug.",
+            "category": "LogiX",
+            "sourceLocation": "https://github.com/art0007i/CastNodeHotline",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/CastNodeHotline/releases/tag/1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CastNodeHotline/releases/download/1.0.0.0/CastNodeHotline.dll",
+                            "filename": "CastNodeHotline.dll",
+                            "sha256": "3aa585ef6e2ce91651980ac2833b71845f1ec4bbcfeda1f1de44ce78107fa2dd"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
