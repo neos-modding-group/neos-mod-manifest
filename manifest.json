@@ -894,7 +894,7 @@
         "io.github.frozenreflex.neosparticletools": {
             "name": "NeosParticleTools",
             "description": "Adds better tools to edit particle fades",
-            "category": "Inspectors"
+            "category": "Inspectors",
             "website": "https://github.com/Frozenreflex/NeosParticleTools",
             "sourceLocation": "https://github.com/Frozenreflex/NeosParticleTools",
             "authors": {
@@ -2609,6 +2609,39 @@
                         {
                             "url": "https://github.com/zkxs/NeosVoiceQuality/releases/download/1.1.0/VoiceQuality.dll",
                             "sha256": "95b9d36a64285959691d10706807ea72aa403795c67d3d7a19905c595defed3c"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.CastNodeHotline": {
+            "name": "CastNodeHotline",
+            "description": "Makes cast nodes not delete themselves automatically. This fixes the cast bug.",
+            "category": "LogiX",
+            "sourceLocation": "https://github.com/art0007i/CastNodeHotline",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/CastNodeHotline/releases/tag/1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CastNodeHotline/releases/download/1.0.0.0/CastNodeHotline.dll",
+                            "filename": "CastNodeHotline.dll",
+                            "sha256": "3aa585ef6e2ce91651980ac2833b71845f1ec4bbcfeda1f1de44ce78107fa2dd"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/CastNodeHotline/releases/tag/1.0.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CastNodeHotline/releases/download/1.0.1.0/CastNodeHotline.dll",
+                            "filename": "CastNodeHotline.dll",
+                            "sha256": "3a9f3cf1922b5713ba07dc632c93d7e70400851a6b585a06b2257aa8bfb63724"
                         }
                     ]
                 }
