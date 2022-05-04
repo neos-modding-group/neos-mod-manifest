@@ -2634,6 +2634,16 @@
                             "sha256": "3aa585ef6e2ce91651980ac2833b71845f1ec4bbcfeda1f1de44ce78107fa2dd"
                         }
                     ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/CastNodeHotline/releases/tag/1.0.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CastNodeHotline/releases/download/1.0.1.0/CastNodeHotline.dll",
+                            "filename": "CastNodeHotline.dll",
+                            "sha256": "3a9f3cf1922b5713ba07dc632c93d7e70400851a6b585a06b2257aa8bfb63724"
+                        }
+                    ]
                 }
             }
         }
