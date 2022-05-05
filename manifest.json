@@ -175,13 +175,13 @@
                 }
             },
             "versions": {
-                "1.3.1": {
-                    "releaseUrl": "https://github.com/KyuubiYoru/IkCulling/releases/tag/1.3.1",
+                "1.4.0": {
+                    "releaseUrl": "https://github.com/KyuubiYoru/IkCulling/releases/tag/1.4.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/KyuubiYoru/IkCulling/releases/download/1.3.1/IKCulling.dll",
+                            "url": "https://github.com/KyuubiYoru/IkCulling/releases/download/1.4.0/IKCulling.dll",
                             "filename": "IKCulling.dll",
-                            "sha256": "1856bf273f18bfd6c4d4c449624835ce7aa07420811ffe85f1172b3d6800abbb"
+                            "sha256": "7E50935B35605F9CAC346B410BD4FCB762724EC8E8295ED71D7F6AE3FF82AEEA"
                         }
                     ]
                 }
