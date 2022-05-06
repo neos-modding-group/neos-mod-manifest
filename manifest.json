@@ -1636,6 +1636,17 @@
                             "sha256": "262e3d9f2fdba0831fb554f7ae5dfb9d0e22f19904d77d777aceb8eaa71b9fb8"
                         }
                     ]
+                },
+                "1.2.0": {
+                    "changelog": "sort friends above search results",
+                    "releaseUrl": "https://github.com/zkxs/NeosContactsSort/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/zkxs/NeosContactsSort/releases/download/1.2.0/NeosContactsSort.dll",
+                            "filename": "NeosContactsSort.dll",
+                            "sha256": "04b3510f4635178d03f9e68797feb1446e7ce0abfc0ccdf3345b10bf72f216c3"
+                        }
+                    ]
                 }
             }
         },
