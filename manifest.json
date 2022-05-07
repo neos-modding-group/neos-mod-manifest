@@ -2560,6 +2560,26 @@
                 }
             },
             "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/tag/1.0.2",
+                    "changelog": "Fixes empty Ref removal\nStatus messages no longer are cleared",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/download/1.0.2/NeosLogixCleanupWizard.dll",
+                            "sha256": "caad54fc4e28e41d25363aa395c0622476abb8515540fb836bdcb6038fcdb3ae"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/tag/1.0.1",
+                    "changelog": "Tag Wizard as Developer\nRemove Harmony requirement\nShould now work regardless of language",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/download/1.0.1/NeosLogixCleanupWizard.dll",
+                            "sha256": "35b612be1e1127bc18e490f46af24fcd7cb00d9705773dac345d72d59f754fd3"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/tag/1.0.0",
                     "artifacts": [
