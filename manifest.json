@@ -614,9 +614,9 @@
                     "releaseUrl": "https://github.com/DoubleStyx/AutoConfigureNormalMaps/releases/tag/1.0.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/DoubleStyx/AutoConfigureNormalMaps/releases/tag/1.0.0/AutoConfigureNormalMaps.dll",
+                            "url": "https://github.com/DoubleStyx/AutoConfigureNormalMaps/releases/download/1.0.0/AutoConfigureNormalMaps.dll",
                             "filename": "AutoConfigureNormalMaps.dll",
-                            "sha256": "6e3c40fd2e40bd90817aece885129e42b1e448669cdf1d974a337076e58ed71b"
+                            "sha256": "1556124c90bbed57029e3909adf3c3a3197a7f45d7889fd074e2abb4ee2a196c"
                         }
                     ]
                 }
