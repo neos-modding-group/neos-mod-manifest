@@ -599,6 +599,29 @@
                 }
             }
         },
+        "net.DoubleStyx.AutoConfigureNormalMaps": {
+            "name": "AutoConfigureNormalMaps",
+            "description": "Automatically sets imported textures as normal maps according to a custom Regex expression.",
+            "category": "Asset Importing Tweaks",
+            "sourceLocation": "https://github.com/DoubleStyx/AutoConfigureNormalMaps",
+            "authors": {
+                "DoubleStyx": {
+                    "url": "https://github.com/DoubleStyx"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/DoubleStyx/AutoConfigureNormalMaps/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/DoubleStyx/AutoConfigureNormalMaps/releases/download/1.0.0/AutoConfigureNormalMaps.dll",
+                            "filename": "AutoConfigureNormalMaps.dll",
+                            "sha256": "1556124c90bbed57029e3909adf3c3a3197a7f45d7889fd074e2abb4ee2a196c"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.ReferenceNodeHotline": {
             "name": "ReferenceNodeHotline",
             "description": "Stops reference nodes from killing themselves",
