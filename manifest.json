@@ -1807,7 +1807,7 @@
                     "releaseUrl": "https://github.com/epicEaston197/BSPImporter/releases/tag/1.0.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/epicEaston197/BSPImporter/releases/latest/download/BSPImporter.dll",
+                            "url": "https://github.com/epicEaston197/BSPImporter/releases/1.0.0/download/BSPImporter.dll",
                             "sha256": "05c2edf5ebf90e6e38494580ed7f578d20c478d9912a98db752c91e04043b016"
                         }
                     ]
