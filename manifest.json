@@ -1031,7 +1031,7 @@
         },
         "dev.zkxs.neosdesktoptoolshortcutremapper": {
             "name": "DesktopToolShortcutRemapper",
-            "description": "Remaps `5` on desktop from ShapeTip to ComponentCloneTip",
+            "description": "Fully configurable number key bindings for spawning arbitrary tools. You do not need to restart Neos to apply changes.",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper",
             "authors": {
@@ -1047,6 +1047,17 @@
                             "url": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper/releases/download/1.0.0/NeosDesktopToolShortcutRemapper.dll",
                             "filename": "NeosDesktopToolShortcutRemapper.dll",
                             "sha256": "299b65e25aa3c9d8598fa1beb53ca20ad5d735ee0d4f381510a873c86757ff2f"
+                        }
+                    ]
+                },
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper/releases/tag/2.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper/releases/download/2.0.0/DesktopToolShortcutRemapper.dll",
+                            "filename": "DesktopToolShortcutRemapper.dll",
+                            "sha256": "07ba9eba10befd75eadb852b269834b1b08ee2adfc1acfbeda43b1142ab052c6",
+                            "changelog": "- Internally rename mod from NeosDesktopToolShortcutRemapper to DesktopToolShortcutRemapper.\n- Add configuration system support. Config keys match Kazu's fork exactly, so you can seamlessly migrate."
                         }
                     ]
                 }
