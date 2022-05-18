@@ -634,10 +634,10 @@
             },
             "versions": {
                 "1.0.0": {
-                    "releaseUrl": "https://github.com/DoubleStyx/NotificationsWhenBusy/releases/tag/1.0.0",
+                    "releaseUrl": "https://github.com/DoubleStyx/NotificationsWhenBusy/releases/tag/v1.0.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/DoubleStyx/NotificationsWhenBusy/releases/download/1.0.0/NotificationsWhenBusy.dll",
+                            "url": "https://github.com/DoubleStyx/NotificationsWhenBusy/releases/download/v1.0.0/NotificationsWhenBusy.dll",
                             "filename": "NotificationsWhenBusy.dll",
                             "sha256": "532ccff8d4f4e1a797d6310a369c77fd007f9218869481993066a6af95b7277b"
                         }
