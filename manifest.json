@@ -2481,6 +2481,52 @@
                     ]
                 }
             }
+        },
+        "Banane9.EditorTabbing": {
+            "name": "EditorTabbing",
+            "description": "Adds moving between UIX text inputs in the inspector or anywhere else with tab and/or enter.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosEditorTabbing",
+            "sourceLocation": "https://github.com/Banane9/NeosEditorTabbing",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosEditorTabbing/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosEditorTabbing/releases/download/v1.0.0/EditorTabbing.dll",
+                            "sha256": "09C12093ED994992363856014F5115AB46562CD636809EDFF1F4D7595C040F03"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.AvatarClothingHelper": {
+            "name": "AvatarClothingHelper",
+            "description": "Automatically sets up Blendshapes with the same name on multiple renderers to be driven by the "primary" mesh's values on import or when pressing a button on the SkinnedMeshRenderer.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosAvatarClothingHelper",
+            "sourceLocation": "https://github.com/Banane9/NeosAvatarClothingHelper",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/download/v1.0.0/AvatarClothingHelper.dll",
+                            "sha256": "109BECD98722704CCF4782820DB725DA0A99CD26BCF6315B79C24F7DB41ECFB2"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
