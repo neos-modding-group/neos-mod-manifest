@@ -2527,6 +2527,29 @@
                     ]
                 }
             }
+        },
+        "Banane9.NoEscape": {
+            "name": "NoEscape",
+            "description": "Can disable the emergency respawn / disconnect gesture.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosNoEscape",
+            "sourceLocation": "https://github.com/Banane9/NeosNoEscape",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosNoEscape/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosNoEscape/releases/download/v1.1.0/NoEscape.dll",
+                            "sha256": "B72544AFEFC7A2E6D304EE69F880FC3EC6E290A58B9846DE6F1C8E8F94B33F54"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
