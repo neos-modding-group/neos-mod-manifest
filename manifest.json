@@ -2636,7 +2636,7 @@
         },
         "Banane9.AvatarClothingHelper": {
             "name": "AvatarClothingHelper",
-            "description": "Automatically sets up Blendshapes with the same name on multiple renderers to be driven by the "primary" mesh's values on import or when pressing a button on the SkinnedMeshRenderer.",
+            "description": "Automatically sets up Blendshapes with the same name on multiple renderers to be driven by the primary mesh's values on import or when pressing a button on the SkinnedMeshRenderer.",
             "category": "Developers",
             "website": "https://github.com/Banane9/NeosAvatarClothingHelper",
             "sourceLocation": "https://github.com/Banane9/NeosAvatarClothingHelper",
