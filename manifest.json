@@ -599,6 +599,52 @@
                 }
             }
         },
+        "net.DoubleStyx.AutoConfigureNormalMaps": {
+            "name": "AutoConfigureNormalMaps",
+            "description": "Automatically sets imported textures as normal maps according to a custom Regex expression.",
+            "category": "Asset Importing Tweaks",
+            "sourceLocation": "https://github.com/DoubleStyx/AutoConfigureNormalMaps",
+            "authors": {
+                "DoubleStyx": {
+                    "url": "https://github.com/DoubleStyx"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/DoubleStyx/AutoConfigureNormalMaps/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/DoubleStyx/AutoConfigureNormalMaps/releases/download/1.0.0/AutoConfigureNormalMaps.dll",
+                            "filename": "AutoConfigureNormalMaps.dll",
+                            "sha256": "1556124c90bbed57029e3909adf3c3a3197a7f45d7889fd074e2abb4ee2a196c"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.DoubleStyx.NotificationsWhenBusy": {
+            "name": "NotificationsWhenBusy",
+            "description": "Allows you to receive notifications while your status is set to Busy.",
+            "category": "General Ui Tweaks",
+            "sourceLocation": "https://github.com/DoubleStyx/NotificationsWhenBusy",
+            "authors": {
+                "DoubleStyx": {
+                    "url": "https://github.com/DoubleStyx"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/DoubleStyx/NotificationsWhenBusy/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/DoubleStyx/NotificationsWhenBusy/releases/download/v1.0.0/NotificationsWhenBusy.dll",
+                            "filename": "NotificationsWhenBusy.dll",
+                            "sha256": "532ccff8d4f4e1a797d6310a369c77fd007f9218869481993066a6af95b7277b"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.ReferenceNodeHotline": {
             "name": "ReferenceNodeHotline",
             "description": "Stops reference nodes from killing themselves",
@@ -891,6 +937,29 @@
                 }
             }
         },
+        "io.github.frozenreflex.neosparticletools": {
+            "name": "NeosParticleTools",
+            "description": "Adds better tools to edit particle fades",
+            "category": "Inspectors",
+            "website": "https://github.com/Frozenreflex/NeosParticleTools",
+            "sourceLocation": "https://github.com/Frozenreflex/NeosParticleTools",
+            "authors": {
+                "Fro Zen": {
+                    "url": "https://github.com/Frozenreflex"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosParticleTools/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosParticleTools/releases/download/1.0.0/NeosParticleTools.dll",
+                            "sha256": "1d80a4ca5d8faf0b56ec235a704bb0f605ec74c2926cf7f314a958367589533d"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.killdesktoptools": {
             "name": "KillDesktopTools",
             "description": "Disables the desktop tool keybinds",
@@ -985,7 +1054,7 @@
         },
         "dev.zkxs.neosdesktoptoolshortcutremapper": {
             "name": "DesktopToolShortcutRemapper",
-            "description": "Remaps `5` on desktop from ShapeTip to ComponentCloneTip",
+            "description": "Fully configurable number key bindings for spawning arbitrary tools. You do not need to restart Neos to apply changes.",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper",
             "authors": {
@@ -1001,6 +1070,17 @@
                             "url": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper/releases/download/1.0.0/NeosDesktopToolShortcutRemapper.dll",
                             "filename": "NeosDesktopToolShortcutRemapper.dll",
                             "sha256": "299b65e25aa3c9d8598fa1beb53ca20ad5d735ee0d4f381510a873c86757ff2f"
+                        }
+                    ]
+                },
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper/releases/tag/2.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper/releases/download/2.0.0/DesktopToolShortcutRemapper.dll",
+                            "filename": "DesktopToolShortcutRemapper.dll",
+                            "sha256": "07ba9eba10befd75eadb852b269834b1b08ee2adfc1acfbeda43b1142ab052c6",
+                            "changelog": "- Internally rename mod from NeosDesktopToolShortcutRemapper to DesktopToolShortcutRemapper.\n- Add configuration system support. Config keys match Kazu's fork exactly, so you can seamlessly migrate."
                         }
                     ]
                 }
@@ -1624,6 +1704,17 @@
                             "sha256": "262e3d9f2fdba0831fb554f7ae5dfb9d0e22f19904d77d777aceb8eaa71b9fb8"
                         }
                     ]
+                },
+                "1.2.0": {
+                    "changelog": "sort friends above search results",
+                    "releaseUrl": "https://github.com/zkxs/NeosContactsSort/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/zkxs/NeosContactsSort/releases/download/1.2.0/NeosContactsSort.dll",
+                            "filename": "NeosContactsSort.dll",
+                            "sha256": "04b3510f4635178d03f9e68797feb1446e7ce0abfc0ccdf3345b10bf72f216c3"
+                        }
+                    ]
                 }
             }
         },
@@ -1794,29 +1885,6 @@
                             "url": "https://github.com/kawaiiamber/GifImporter/releases/download/1.1.1.0/GifImporter.dll",
                             "filename": "GifImporter.dll",
                             "sha256": "4c85242da4aa094e65692a7811947b8f877e15230824a3a415cca5c384aab374"
-                        }
-                    ]
-                }
-            }
-        },
-        "me.art0007i.gifimporter": {
-            "name": "GifImporter (arti's fork)",
-            "description": "GifImporter but it tries to fit the sprite sheets into a square resolution, it will sometimes create redundant empty frames at the end of the gif",
-            "category": "Asset Importing Tweaks",
-            "sourceLocation": "https://github.com/art0007i/GifImporter",
-            "authors": {
-                "art0007i": {
-                    "url": "https://github.com/art0007i"
-                }
-            },
-            "versions": {
-                "1.1.2": {
-                    "releaseUrl": "https://github.com/art0007i/GifImporter/releases/tag/1.1.2.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/art0007i/GifImporter/releases/download/1.1.2.0/GifImporter.dll",
-                            "filename": "GifImporter.dll",
-                            "sha256": "0be44e58bc2e4d10f1b07aba585abbf82f35643f2baf86b46734021f91c7cacd"
                         }
                     ]
                 }
@@ -2010,7 +2078,7 @@
         },
         "io.github.frozenreflex.neosvideoplayerfix": {
             "name": "NeosVideoPlayerFix",
-            "description": "Force libVLC to prevent crashes in Proton",
+            "description": "Fix video players on Linux Native and force libVLC to prevent crashes in Proton",
             "category": "Bug Workarounds",
             "sourceLocation": "https://github.com/Frozenreflex/NeosVideoPlayerFix",
             "authors": {
@@ -2019,6 +2087,16 @@
                 }
             },
             "versions": {
+                "3.3.1": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/3.3.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/download/3.3.1/NeosVideoPlayerFix.dll",
+                            "filename": "NeosVideoPlayerFix.dll",
+                            "sha256": "6f2682cf4fa30d5c5db7a87300b3dd2e30132b8ca97ae29c4fc9c9c4f2159b55"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/1.1.0",
                     "artifacts": [
@@ -2114,7 +2192,7 @@
         "net.Toxic_Cookie.GenericSettings": {
             "name": "GenericSettings",
             "description": "Allows you to define, save, load and use custom settings",
-            "category": "For Mod Developers",
+            "category": "Mod Developers",
             "sourceLocation": "https://github.com/Toxic-Cookie/GenericSettings",
             "authors": {
                 "Toxic_Cookie": {
@@ -2306,6 +2384,18 @@
                 }
             },
             "versions": {
+                "0.2.0": {
+                    "changelog": "Removed the need for Harmony",
+                    "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-24",
+                    "artifacts": [
+                        {
+                            "url": "https://git.ljoonal.xyz/attachments/351cf901-12cf-4ec9-a085-f7b47ec9ccb9",
+                            "filename": "LatestLog.dll",
+                            "sha256": "0b329e30ac138bbe84ae5b4942fb198e6c9182160e94c6fd6595fb59eb256506",
+                            "blake3": "5952c918c6076db12fa10ee7a7615d76c3321b4bee2a208d40ead40645a50590"
+                        }
+                    ]
+                },
                 "0.1.0": {
                     "releaseUrl": "https://git.ljoonal.xyz/ljoonal/Neos-Mods/releases/tag/v2022-04-12",
                     "artifacts": [
@@ -2381,7 +2471,7 @@
         "Banane9.RenameDirectlyLinkedDynVars": {
             "name": "RenameDirectlyLinkedDynVars",
             "description": "Renames directly linked dynamic variables alongside the namespace they're bound to.",
-            "category": "Developers",
+            "category": "Technical Tweaks",
             "website": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
             "sourceLocation": "https://github.com/Banane9/NeosRenameDirectlyLinkedDynVars",
             "authors": {
@@ -2468,6 +2558,234 @@
                         {
                             "url": "https://github.com/Banane9/NeosMaybeJump/releases/download/v1.1.0/MaybeJump.dll",
                             "sha256": "b09e1556c8dd6841160ec78003ac7c62823a86e2bf1dde2604b22668c035e107"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.zkxs.neoscloudhomeaccesslevel": {
+            "name": "CloudHomeAccessLevel",
+            "description": "Lets you configure your cloud home's default access level",
+            "category": "Misc",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
+            "sourceLocation": "https://github.com/zkxs/NeosCloudHomeAccessLevel",
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/zkxs/NeosCloudHomeAccessLevel/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/zkxs/NeosCloudHomeAccessLevel/releases/download/1.0.0/CloudHomeAccessLevel.dll",
+                            "sha256": "eb1c6c5b9581cdcb7587594cdbee493018dff2757b2578071a116394ff9b783a"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/zkxs/NeosCloudHomeAccessLevel/releases/tag/1.1.0",
+                    "changelog": "- add hide from listing config\n- remove enabled config (it didn't actually do anything of value in version 1.0.0)",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/zkxs/NeosCloudHomeAccessLevel/releases/download/1.1.0/CloudHomeAccessLevel.dll",
+                            "sha256": "2d3151d08dc08fe021e86b871bfaa7944ce2a80acd88a58f8dcbc063162df942"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.badhaloninja.FixAltEnter": {
+            "name": "FixAltEnter",
+            "description": "Fixes returning to fullscreen via alt + enter not respecting monitor resolution",
+            "category": "Bug Workarounds",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja/"
+                }
+            },
+            "sourceLocation": "https://github.com/badhaloninja/FixAltEnter",
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/FixAltEnter/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/FixAltEnter/releases/download/v1.0.0/FixAltEnter.dll",
+                            "sha256": "b9c7c09ab6b0778b44f67686bb6b1fb7f36ed4ccedf6e3326e4ad2e82b3c189c"
+                        }
+                    ]
+                }
+            }
+        },
+        "tk.deltawolf.LogixCleanupWizard": {
+            "name": "LogixCleanupWizard",
+            "description": "Provides a wizard for cleaning up leftover logiX components.",
+            "category": "Wizards",
+            "sourceLocation": "https://github.com/XDelta/NeosLogixCleanupWizard",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
+            "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/tag/1.0.2",
+                    "changelog": "Fixes empty Ref removal\nStatus messages no longer are cleared",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/download/1.0.2/NeosLogixCleanupWizard.dll",
+                            "sha256": "caad54fc4e28e41d25363aa395c0622476abb8515540fb836bdcb6038fcdb3ae"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/tag/1.0.1",
+                    "changelog": "Tag Wizard as Developer\nRemove Harmony requirement\nShould now work regardless of language",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/download/1.0.1/NeosLogixCleanupWizard.dll",
+                            "sha256": "35b612be1e1127bc18e490f46af24fcd7cb00d9705773dac345d72d59f754fd3"
+                        }
+                    ]
+                },
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosLogixCleanupWizard/releases/download/1.0.0/NeosLogixCleanupWizard.dll",
+                            "sha256": "fa3400e7a9d69365e9c8e89d75f3014c7c4273fefb77e497d6c184f0f57776ec"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.badhaloninja.ReverseAudioClip": {
+            "name": "ReverseAudioClip",
+            "description": "Adds a button to reverse an audio clip",
+            "category": "Inspectors",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja/"
+                }
+            },
+            "sourceLocation": "https://github.com/badhaloninja/ReverseAudioClip",
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/ReverseAudioClip/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/ReverseAudioClip/releases/download/v1.0.0/ReverseAudioClip.dll",
+                            "sha256": "013c751663c8ea7cceb0b214b28467b6c124f94ba2c2d9422a6868e5ed2f17b5"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.zkxs.neosvoicequality": {
+            "name": "VoiceQuality",
+            "description": "Lets you easily change your own voice stream's bitrate",
+            "category": "Misc",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
+            "sourceLocation": "https://github.com/zkxs/NeosVoiceQuality",
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/zkxs/NeosVoiceQuality/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/zkxs/NeosVoiceQuality/releases/download/1.0.0/VoiceQuality.dll",
+                            "sha256": "3f826a29580a34d25d9b50fc8edd83edaee7a9f702eb455f53d459a9af627517"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/zkxs/NeosVoiceQuality/releases/tag/1.1.0",
+                    "changelog": "adds ability to change opus application type and frame size",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/zkxs/NeosVoiceQuality/releases/download/1.1.0/VoiceQuality.dll",
+                            "sha256": "95b9d36a64285959691d10706807ea72aa403795c67d3d7a19905c595defed3c"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.CastNodeHotline": {
+            "name": "CastNodeHotline",
+            "description": "Makes cast nodes not delete themselves automatically. This fixes the cast bug.",
+            "category": "LogiX",
+            "sourceLocation": "https://github.com/art0007i/CastNodeHotline",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/CastNodeHotline/releases/tag/1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CastNodeHotline/releases/download/1.0.0.0/CastNodeHotline.dll",
+                            "filename": "CastNodeHotline.dll",
+                            "sha256": "3aa585ef6e2ce91651980ac2833b71845f1ec4bbcfeda1f1de44ce78107fa2dd"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/CastNodeHotline/releases/tag/1.0.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CastNodeHotline/releases/download/1.0.1.0/CastNodeHotline.dll",
+                            "filename": "CastNodeHotline.dll",
+                            "sha256": "3a9f3cf1922b5713ba07dc632c93d7e70400851a6b585a06b2257aa8bfb63724"
+                        }
+                    ]
+                }
+            }
+        },
+        "tk.deltawolf.NeosBetterGizmos": {
+            "name": "NeosBetterGizmos",
+            "description": "Gizmo buttons will automatically face you.",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/XDelta/NeosBetterGizmos",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/XDelta/NeosBetterGizmos/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosBetterGizmos/releases/download/1.0.0/NeosBetterGizmos.dll",
+                            "sha256": "7c7ddc18210a5732664d6e525e7bd0c47c84950f53abbee82118afd42888bed0"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.StackTraceFixer": {
+            "name": "StackTraceFixer",
+            "description": "Removes stack traces from places where they should have never been",
+            "category": "Optimization",
+            "sourceLocation": "https://github.com/art0007i/StackTraceFixer",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/StackTraceFixer/releases/tag/1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/StackTraceFixer/releases/download/1.0.0.0/StackTraceFixer.dll",
+                            "filename": "StackTraceFixer.dll",
+                            "sha256": "a7be41696c2e76410ee2afa9683bf06b67c44c4a0c43d40678925d41d45f9a16"
                         }
                     ]
                 }
