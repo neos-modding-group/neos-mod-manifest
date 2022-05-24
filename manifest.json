@@ -1635,6 +1635,17 @@
                             "sha256": "39763122c7333e77285a94034a1d7d52e6999f3079696c639856742652da5347"
                         }
                     ]
+                },
+                "3.2.0": {
+                    "changelog": " - added ability to disable the mod trough mod config (requires Neos restart to take effect)",
+                    "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/3.2.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/3DDashOnScreen/releases/download/3.2.0.0/3DDashOnScreen.dll",
+                            "filename": "3DDashOnScreen.dll",
+                            "sha256": "0e891c2d4534d0ddbe03c728a4cd087d852b30e0697753782ffb52d137b08104"
+                        }
+                    ]
                 }
             }
         },
