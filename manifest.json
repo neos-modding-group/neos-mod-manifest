@@ -2431,6 +2431,24 @@
                             "sha256": "4054727858FDE89903FC295491B95C4EF16448EBFED0A281412E5DC81AB81ABC"
                         }
                     ]
+                },
+				"1.1.1": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/download/v1.1.1/BetterLogixWiresThatCanScroll.dll",
+                            "sha256": "55D8852093E69ACE3C3F9511D3E3DE911E2BD554B71F17C37C621C39016EBBDD"
+                        }
+                    ]
+                },
+				"1.2.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/download/v1.2.0/BetterLogixWiresThatCanScroll.dll",
+                            "sha256": "F96687B70C2553CB073F7415FA1375F3592E472DCED08EB88A840A2D51067773"
+                        }
+                    ]
                 }
             }
         },
@@ -2500,6 +2518,15 @@
                             "sha256": "C1103144F00B71A650BF09C875210BC3C3C98485AF6852E82CE10EEC1805BDC8"
                         }
                     ]
+                },
+				"1.2.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/tag/v1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/download/v1.2.0/LocalLogixRegisters.dll",
+                            "sha256": "CE8D1B6221F5BF0EAF784CBC737C030221876B42C8100C81AC5FFF0C9659743D"
+                        }
+                    ]
                 }
             }
         },
@@ -2552,6 +2579,52 @@
                 }
             }
         },
+        "Banane9.DynVarSpaceTree": {
+            "name": "DynVarSpaceTree",
+            "description": "Adds buttons to the DynamicVariableSpace component in the inspector that allow copying all linked variable definitions or the whole hierarchy of linked dynamic variable components.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosDynVarSpaceTree",
+            "sourceLocation": "https://github.com/Banane9/NeosDynVarSpaceTree",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosDynVarSpaceTree/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosDynVarSpaceTree/releases/download/v1.0.0/DynVarSpaceTree.dll",
+                            "sha256": "B57E658CBF7FA00BA3161DBF0B746294B1C8739E70BCAAA87A0291D375E9DA72"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.EditorTabbing": {
+            "name": "EditorTabbing",
+            "description": "Adds moving between UIX text inputs in the inspector or anywhere else with tab and/or enter.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosEditorTabbing",
+            "sourceLocation": "https://github.com/Banane9/NeosEditorTabbing",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosEditorTabbing/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosEditorTabbing/releases/download/v1.0.0/EditorTabbing.dll",
+                            "sha256": "09C12093ED994992363856014F5115AB46562CD636809EDFF1F4D7595C040F03"
+                        }
+                    ]
+                }
+            }
+        },
         "dev.zkxs.neoscloudhomeaccesslevel": {
             "name": "CloudHomeAccessLevel",
             "description": "Lets you configure your cloud home's default access level",
@@ -2579,6 +2652,52 @@
                         {
                             "url": "https://github.com/zkxs/NeosCloudHomeAccessLevel/releases/download/1.1.0/CloudHomeAccessLevel.dll",
                             "sha256": "2d3151d08dc08fe021e86b871bfaa7944ce2a80acd88a58f8dcbc063162df942"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.AvatarClothingHelper": {
+            "name": "AvatarClothingHelper",
+            "description": "Automatically sets up Blendshapes with the same name on multiple renderers to be driven by the primary mesh's values on import or when pressing a button on the SkinnedMeshRenderer.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosAvatarClothingHelper",
+            "sourceLocation": "https://github.com/Banane9/NeosAvatarClothingHelper",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/download/v1.0.0/AvatarClothingHelper.dll",
+                            "sha256": "109BECD98722704CCF4782820DB725DA0A99CD26BCF6315B79C24F7DB41ECFB2"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.NoEscape": {
+            "name": "NoEscape",
+            "description": "Can disable the emergency respawn / disconnect gesture.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosNoEscape",
+            "sourceLocation": "https://github.com/Banane9/NeosNoEscape",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosNoEscape/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosNoEscape/releases/download/v1.1.0/NoEscape.dll",
+                            "sha256": "B72544AFEFC7A2E6D304EE69F880FC3EC6E290A58B9846DE6F1C8E8F94B33F54"
                         }
                     ]
                 }
