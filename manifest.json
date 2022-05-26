@@ -960,6 +960,29 @@
                 }
             }
         },
+        "io.github.frozenreflex.neosaudiocustomizer": {
+            "name": "AudioCustomizer",
+            "description": "Allows adjusting the max amount of audio voices",
+            "category": "Misc",
+            "website": "https://github.com/Frozenreflex/NeosAudioCustomizer",
+            "sourceLocation": "https://github.com/Frozenreflex/NeosAudioCustomizer",
+            "authors": {
+                "Fro Zen": {
+                    "url": "https://github.com/Frozenreflex"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosAudioCustomizer/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosAudioCustomizer/releases/download/1.0.0/AudioCustomizer.dll",
+                            "sha256": "6d81c3e69044ed0e7ddcdd21fc36cd51d6b1845819531744d0b61a357f892db9"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.killdesktoptools": {
             "name": "KillDesktopTools",
             "description": "Disables the desktop tool keybinds",
