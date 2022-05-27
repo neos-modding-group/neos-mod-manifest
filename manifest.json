@@ -2966,6 +2966,52 @@
                     ]
                 }
             }
+        },
+        "net.LeCloutPanda.InspectorCustomizer": {
+            "name": "InspectorCustomizer",
+            "description": "Allows you to customize some Neos panel items including Inspector, Logix browser and more.",
+            "category": "General Ui Tweaks",
+            "sourceLocation": "https://github.com/LeCloutPanda/Inspector-Customizer",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.5": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/Inspector-Customizer/releases/tag/v1.0.5",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/Inspector-Customizer/releases/download/v1.0.5/Customize.dll",
+                            "filename": "Customize.dll",
+                            "sha256": "46f476cb8e40d2936fea7433f4ee05e2a66f97184b99c4a6c208777ed140d507"
+                        }
+                    ]
+                }
+            }
+        },
+	"net.LeCloutPanda.VideoToStream": {
+            "name": "Video To Stream",
+            "description": "Sets Video Players spawned by the player to automatically set Stream to true.",
+            "category": "Technical Tweaks",
+            "sourceLocation": "https://github.com/LeCloutPanda/Video-To-Stream",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/Video-To-Stream/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/Video-To-Stream/releases/download/v1.0.0/VideoToStream.dll",
+                            "filename": "VideoToStream.dll",
+                            "sha256": "8aa9cdee978999327f482dba4dac580eb57344365003e78604bad6e5c75add4c"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
