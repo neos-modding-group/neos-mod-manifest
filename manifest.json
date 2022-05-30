@@ -2425,7 +2425,7 @@
                     "releaseUrl": "https://github.com/EIA485/NeosYouWantDarkmode/releases/tag/1.0.0.0",
                     "artifacts": [
                         {
-                            "url": "YouWantDarkmode.dll",
+                            "url": "https://github.com/EIA485/NeosYouWantDarkmode/releases/download/1.0.0.0/YouWantDarkmode.dll",
                             "filename": "YouWantDarkmode.dll",
                             "sha256": "63c4bebff2c6c4861ea20fcf6d4cfecf14e41720c19e4a50a88fc6e958af5cf7"
                         }
