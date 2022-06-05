@@ -2698,7 +2698,7 @@
         },
         "Banane9.EditorTabbing": {
             "name": "EditorTabbing",
-            "description": "Adds moving between UIX text inputs in the inspector or anywhere else with tab and/or enter.",
+            "description": "Allows moving between UIX text inputs in the inspector or anywhere else with tab, with a fallback when Steam Overlay could be triggered with shift+tab.",
             "category": "Misc",
             "website": "https://github.com/Banane9/NeosEditorTabbing",
             "sourceLocation": "https://github.com/Banane9/NeosEditorTabbing",
@@ -2714,6 +2714,15 @@
                         {
                             "url": "https://github.com/Banane9/NeosEditorTabbing/releases/download/v1.0.0/EditorTabbing.dll",
                             "sha256": "09C12093ED994992363856014F5115AB46562CD636809EDFF1F4D7595C040F03"
+                        }
+                    ]
+                },
+				"1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosEditorTabbing/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosEditorTabbing/releases/download/v1.1.0/EditorTabbing.dll",
+                            "sha256": "652D6DDB086362679DA097E25F474BDF224970C856048727DDC3931EA575118C"
                         }
                     ]
                 }
@@ -3016,7 +3025,7 @@
                 }
             }
         },
-	"net.LeCloutPanda.VideoToStream": {
+        "net.LeCloutPanda.VideoToStream": {
             "name": "Video To Stream",
             "description": "Sets Video Players spawned by the player to automatically set Stream to true.",
             "category": "Technical Tweaks",
@@ -3034,6 +3043,29 @@
                             "url": "https://github.com/LeCloutPanda/Video-To-Stream/releases/download/v1.0.0/VideoToStream.dll",
                             "filename": "VideoToStream.dll",
                             "sha256": "8aa9cdee978999327f482dba4dac580eb57344365003e78604bad6e5c75add4c"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.LagFreeContactsLoading": {
+            "name": "LagFreeContactsLoading",
+            "description": "Spreads out the initial loading of the contacts list over a configurable number of updates to prevent the game from freezing while it adds all the contacts.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosLagFreeContactsLoading",
+            "sourceLocation": "https://github.com/Banane9/NeosLagFreeContactsLoading",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosLagFreeContactsLoading/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosLagFreeContactsLoading/releases/download/v1.0.0/LagFreeContactsLoading.dll",
+                            "sha256": "8DCC1FB05902C4BA8D0EF61694D286A4F2401C9A5BEB26D8091BE3471F0BFB2D"
                         }
                     ]
                 }
