@@ -1006,6 +1006,29 @@
                 }
             }
         },
+        "io.github.frozenreflex.nomoregizmolag": {
+            "name": "NoMoreGizmoLag",
+            "description": "Reduces gizmo lag by disabling the pink bounding boxes",
+            "category": "Misc",
+            "website": "https://github.com/Frozenreflex/NoMoreGizmoLag",
+            "sourceLocation": "https://github.com/Frozenreflex/NoMoreGizmoLag",
+            "authors": {
+                "Fro Zen": {
+                    "url": "https://github.com/Frozenreflex"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NoMoreGizmoLag/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NoMoreGizmoLag/releases/download/1.0.0/NoMoreGizmoLag.dll",
+                            "sha256": "1f798b566e14311828e1d1ee90027f2e89f8c20c27aa1598010e2cbca4311d16"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.killdesktoptools": {
             "name": "KillDesktopTools",
             "description": "Disables the desktop tool keybinds",
