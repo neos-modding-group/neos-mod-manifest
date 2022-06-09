@@ -3070,6 +3070,29 @@
                     ]
                 }
             }
+        },
+        "dev.Kodu.ViveForAll": {
+            "name": "ViveForAll",
+            "description": "Brings HTC Vive single button App / Localspace toggle functionality to other controllers.",
+            "category": "Keybinds & Gestures",
+            "website": "https://github.com/Kodufan/ViveForAll",
+            "sourceLocation": "https://github.com/Kodufan/ViveForAll",
+            "authors": {
+                "Kodufan": {
+                    "url": "https://github.com/Kodufan"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Kodufan/ViveForAll/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Kodufan/ViveForAll/releases/download/1.0.0/ViveForAll.dll",
+                            "sha256": "8f63da0adc1cf264b4c86721a52febfcfc6d37c3841809456ec2ecdc67411943"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
