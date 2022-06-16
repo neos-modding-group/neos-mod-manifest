@@ -2509,11 +2509,11 @@
             "website": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll",
             "sourceLocation": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll",
             "authors": {
-                "eia485": {
-                    "url": "https://github.com/EIA485"
-                },
                 "Banane9": {
                     "url": "https://github.com/Banane9"
+                },
+                "eia485": {
+                    "url": "https://github.com/EIA485"
                 }
             },
             "versions": {
