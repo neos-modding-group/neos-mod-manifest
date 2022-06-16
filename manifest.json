@@ -1455,7 +1455,7 @@
                 }
             },
             "versions": {
-                "1.0.0": {
+                "1.0.0.1": {
                     "releaseUrl": "https://github.com/Sox-NeosVR/LocalVideoPlayerVolume/releases/tag/v1.0.0.1",
                     "artifacts": [
                         {
