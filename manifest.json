@@ -1419,7 +1419,7 @@
                         }
                     ]
                 },
-		"3.0.0": {
+                "3.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosExposePatchedMethods/releases/tag/3.0.0.0",
                     "artifacts": [
                         {
