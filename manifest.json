@@ -3113,7 +3113,7 @@
                     ]
                 }
             }
-        }
+        },
         "Psychpsyo.PrivacyPlus": {
             "name": "PrivacyPlus",
             "description": "Hides your Discord and Steam IDs from other users in a session.",
