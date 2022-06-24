@@ -3113,6 +3113,29 @@
                     ]
                 }
             }
+        },
+	"dev.Kodu.CustomNotificationSounds": {
+            "name": "CustomNotificationSounds",
+            "description": "Change Neos' notification sounds!",
+            "category": "General Ui Tweaks",
+            "website": "https://github.com/Kodufan/CustomNotificationSounds",
+            "sourceLocation": "https://github.com/Kodufan/CustomNotificationSounds",
+            "authors": {
+                "Kodufan": {
+                    "url": "https://github.com/Kodufan"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Kodufan/CustomNotificationSounds/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Kodufan/CustomNotificationSounds/releases/download/v1.0.0/CustomNotificationSounds.dll",
+                            "sha256": "606ff4e44ab35d9e4f9e00b9b1289d0e099f47aa8d2b3335675aee66f346a763"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
