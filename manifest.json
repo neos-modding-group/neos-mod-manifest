@@ -3113,6 +3113,29 @@
                     ]
                 }
             }
+        },
+        "Psychpsyo.PrivacyPlus": {
+            "name": "PrivacyPlus",
+            "description": "Hides your Discord and Steam IDs from other users in a session.",
+            "category": "Misc",
+            "website": "https://github.com/Psychpsyo/PrivacyPlus",
+            "sourceLocation": "https://github.com/Psychpsyo/PrivacyPlus",
+            "authors": {
+                "Psychpsyo": {
+                    "url": "https://github.com/Psychpsyo"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Psychpsyo/PrivacyPlus/releases/tag/release",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/PrivacyPlus/releases/download/release/PrivacyPlus.dll",
+                            "sha256": "33374432861a8fb7d5791fc0763015945c25df924cce76377b6e50762036c80c"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
