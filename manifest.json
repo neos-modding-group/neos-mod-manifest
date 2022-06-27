@@ -882,6 +882,16 @@
                             "sha256": "9c2c64f1b21b372b88e813c0801271a471642d922d94e4872875bea48ccf044a"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosMoreReferenceProxies/releases/tag/1.1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosMoreReferenceProxies/releases/download/1.1.0.0/MoreReferenceProxies.dll",
+                            "filename": "MoreReferenceProxies.dll",
+                            "sha256": "741e81945ea9fcc84f2fb46cc16f88b642594934d61c85b0e933e49539fe076e"
+                        }
+                    ]
                 }
             }
         },
@@ -3114,7 +3124,30 @@
                 }
             }
         },
-	"dev.Kodu.CustomNotificationSounds": {
+        "Psychpsyo.PrivacyPlus": {
+            "name": "PrivacyPlus",
+            "description": "Hides your Discord and Steam IDs from other users in a session.",
+            "category": "Misc",
+            "website": "https://github.com/Psychpsyo/PrivacyPlus",
+            "sourceLocation": "https://github.com/Psychpsyo/PrivacyPlus",
+            "authors": {
+                "Psychpsyo": {
+                    "url": "https://github.com/Psychpsyo"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Psychpsyo/PrivacyPlus/releases/tag/release",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/PrivacyPlus/releases/download/release/PrivacyPlus.dll",
+                            "sha256": "33374432861a8fb7d5791fc0763015945c25df924cce76377b6e50762036c80c"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.Kodu.CustomNotificationSounds": {
             "name": "CustomNotificationSounds",
             "description": "Change Neos' notification sounds!",
             "category": "General Ui Tweaks",
