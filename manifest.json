@@ -3124,6 +3124,38 @@
                 }
             }
         },
+        "me.New-Project-Final-Final-WIP.HeadlessTweaks": {
+            "name": "HeadlessTweaks",
+            "description": "Adds some nice to have features to headless clients",
+            "category": "Technical Tweaks",
+            "website": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks",
+            "sourceLocation": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/HeadlessTweaks.dll",
+                            "sha256": "72dc72d371167a140c7f56039c2151583fb13b43b81dd0d1b5b19be13fd9a00b"
+                        }
+                    ]
+                },
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.0.0/HeadlessTweaks.dll",
+                            "sha256": "8903556e5d022969eb59dad3166b33afc943dade3ae3b9f777dd40f083ad5761"
+                        }
+                    ]
+                }
+            }
+        },
         "Psychpsyo.PrivacyPlus": {
             "name": "PrivacyPlus",
             "description": "Hides your Discord and Steam IDs from other users in a session.",
