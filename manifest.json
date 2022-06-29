@@ -1554,6 +1554,32 @@
                 }
             }
         },
+        "net.eia485.privacyshield": {
+            "name": "PrivacyShield",
+            "description": "Makes popup requests for geting assets from urls",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/EIA485/NeosPrivacyShield",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                },
+                "ljoonal": {
+                    "url": "https://www.ljoonal.xyz/"
+                }
+            },
+            "versions": {
+                "0.3.1": {
+                    "releaseUrl": "https://github.com/EIA485/NeosPrivacyShield/releases/tag/0.3.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosPrivacyShield/releases/download/0.3.1/PrivacyShield.dll",
+                            "filename": "PrivacyShield.dll",
+                            "sha256": "28745544d89d077f7d8df5495edff3e7eeac84bb5a78a53020b947c6c9d155b3"
+                        }
+                    ]
+                }
+            }
+        },
         "dev.zkxs.neosplatformspoof": {
             "name": "NeosPlatformSpoof",
             "description": "Lets you change your displayed platform and show some Linux pride even on Proton",
