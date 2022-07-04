@@ -3195,6 +3195,29 @@
                     ]
                 }
             }
+        },
+        "net.lexevo.NeosDisableGamepads": {
+            "name": "NeosDisableGamepads",
+            "description": "Disables all gamepad inputs (eg. from an Xbox controller) for Neos!",
+            "category": "Keybinds & Gestures",
+            "website": "https://github.com/Lexevolution/NeosDisableGamepads",
+            "sourceLocation": "https://github.com/Lexevolution/NeosDisableGamepads",
+            "authors": {
+                "Lexevo": {
+                    "url": "https://github.com/Lexevolution"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Lexevolution/NeosDisableGamepads/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Lexevolution/NeosDisableGamepads/releases/download/v1.0.0/NeosDisableGamepads.dll",
+                            "sha256": "5b8761cdec21cb551c28c27b4bee3065f0f16c4ba9a1cb56eaa59c2439d53518"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
