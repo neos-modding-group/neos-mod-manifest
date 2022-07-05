@@ -78,7 +78,7 @@
                             "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.9.1/0Harmony.dll",
                             "filename": "0Harmony.dll",
                             "sha256": "fd5f3e54c0b49acf7b0816bada32ea55a83ed06280a71a103c52e07f207d74eb",
-                            "installLocation": "/"
+                            "installLocation": "/nml_libs"
                         }
                     ]
                 },
@@ -89,7 +89,7 @@
                             "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.4.1/0Harmony.dll",
                             "filename": "0Harmony.dll",
                             "sha256": "11f1ccab45d74030f2eac521f97a34311f05ea8afca234811f31715ef991f5aa",
-                            "installLocation": "/"
+                            "installLocation": "/nml_libs"
                         }
                     ]
                 }
