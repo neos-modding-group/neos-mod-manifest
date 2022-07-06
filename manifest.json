@@ -1646,6 +1646,17 @@
                             "sha256": "0e891c2d4534d0ddbe03c728a4cd087d852b30e0697753782ffb52d137b08104"
                         }
                     ]
+                },
+                "3.3.0": {
+                    "changelog": " - patched out the grab lock forcing last grabbed item to stay grabbed if dash is opened",
+                    "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/3.3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/3DDashOnScreen/releases/download/3.3.0.0/3DDashOnScreen.dll",
+                            "filename": "3DDashOnScreen.dll",
+                            "sha256": "531c49529eed64677d39802477ce1e43aee2c0541ed0d4b156b6663e4f8d0860"
+                        }
+                    ]
                 }
             }
         },
