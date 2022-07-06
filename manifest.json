@@ -175,6 +175,16 @@
                 }
             },
             "versions": {
+                "1.4.0": {
+                    "releaseUrl": "https://github.com/KyuubiYoru/IkCulling/releases/tag/1.4.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/KyuubiYoru/IkCulling/releases/download/1.4.0/IKCulling.dll",
+                            "filename": "IKCulling.dll",
+                            "sha256": "7e50935b35605f9cac346b410bd4fcb762724ec8e8295ed71d7f6ae3ff82aeea"
+                        }
+                    ]
+                },
                 "1.3.1": {
                     "releaseUrl": "https://github.com/KyuubiYoru/IkCulling/releases/tag/1.3.1",
                     "artifacts": [
@@ -256,6 +266,29 @@
                 }
             }
         },
+	"net.Cyro.InterfacialAbsence": {
+	    "name": "Interfacial Absence",
+	    "description": "A mod that lets you avoid having to user LogiX Interface Proxies in Neos ",
+	    "category": "Visual Tweaks",
+	    "website": "https://github.com/RileyGuy/InterfacialAbsence",
+	    "sourceLocation": "https://github.com/RileyGuy/InterfacialAbsence",
+	    "authors": { 
+		"Cyro": { 
+		    "url": "https://github.com/RileyGuy" 
+		}
+	    },
+	    "versions": { 
+		"1.0.0": { 
+		    "releaseUrl": "https://github.com/RileyGuy/InterfacialAbsence/releases/tag/1.0.0", 
+		    "artifacts": [ 
+			{
+			    "url": "https://github.com/RileyGuy/InterfacialAbsence/releases/download/1.0.0/InterfacialAbsence.dll", 
+			    "sha256": "b5387b7afa7db76a18afa5ed314dc7500cc3ea859580c982635e09618324193a"
+			}
+		    ]
+		}
+	    }
+	},
         "me.badhaloninja.optizoom": {
             "name": "Optizoom",
             "description": "Adds the ability to zoom with a keypress",
@@ -849,6 +882,16 @@
                             "sha256": "9c2c64f1b21b372b88e813c0801271a471642d922d94e4872875bea48ccf044a"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosMoreReferenceProxies/releases/tag/1.1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosMoreReferenceProxies/releases/download/1.1.0.0/MoreReferenceProxies.dll",
+                            "filename": "MoreReferenceProxies.dll",
+                            "sha256": "741e81945ea9fcc84f2fb46cc16f88b642594934d61c85b0e933e49539fe076e"
+                        }
+                    ]
                 }
             }
         },
@@ -960,6 +1003,52 @@
                 }
             }
         },
+        "io.github.frozenreflex.neosaudiocustomizer": {
+            "name": "AudioCustomizer",
+            "description": "Allows adjusting the max amount of audio voices",
+            "category": "Misc",
+            "website": "https://github.com/Frozenreflex/NeosAudioCustomizer",
+            "sourceLocation": "https://github.com/Frozenreflex/NeosAudioCustomizer",
+            "authors": {
+                "Fro Zen": {
+                    "url": "https://github.com/Frozenreflex"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosAudioCustomizer/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosAudioCustomizer/releases/download/1.0.0/AudioCustomizer.dll",
+                            "sha256": "6d81c3e69044ed0e7ddcdd21fc36cd51d6b1845819531744d0b61a357f892db9"
+                        }
+                    ]
+                }
+            }
+        },
+        "io.github.frozenreflex.nomoregizmolag": {
+            "name": "NoMoreGizmoLag",
+            "description": "Reduces gizmo lag by disabling the pink bounding boxes",
+            "category": "Misc",
+            "website": "https://github.com/Frozenreflex/NoMoreGizmoLag",
+            "sourceLocation": "https://github.com/Frozenreflex/NoMoreGizmoLag",
+            "authors": {
+                "Fro Zen": {
+                    "url": "https://github.com/Frozenreflex"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NoMoreGizmoLag/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NoMoreGizmoLag/releases/download/1.0.0/NoMoreGizmoLag.dll",
+                            "sha256": "1f798b566e14311828e1d1ee90027f2e89f8c20c27aa1598010e2cbca4311d16"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.killdesktoptools": {
             "name": "KillDesktopTools",
             "description": "Disables the desktop tool keybinds",
@@ -1016,6 +1105,9 @@
                     "url": "https://github.com/zkxs"
                 }
             },
+            "flags": [
+                "deprecated"
+            ],
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/zkxs/NoEscape/releases/tag/1.0.0.0",
@@ -1346,6 +1438,16 @@
                             "sha256": "bf71bd997d9050019a276fe192d69fa4b62323e725109b1c24c7ba90d93e8b0c"
                         }
                     ]
+                },
+                "3.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosExposePatchedMethods/releases/tag/3.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosExposePatchedMethods/releases/download/3.0.0.0/ExposePatchedMethods.dll",
+                            "filename": "ExposePatchedMethods.dll",
+                            "sha256": "c8d3313bbf221d7f18bdc04cc8077398acaf0639f686f04b744b51adabd9c7a3"
+                        }
+                    ]
                 }
             }
         },
@@ -1360,7 +1462,7 @@
                 }
             },
             "versions": {
-                "1.0.0": {
+                "1.0.0.1": {
                     "releaseUrl": "https://github.com/Sox-NeosVR/LocalStreamVolume/releases/tag/1.0.0.1",
                     "artifacts": [
                         {
@@ -1383,7 +1485,7 @@
                 }
             },
             "versions": {
-                "1.0.0": {
+                "1.0.0.1": {
                     "releaseUrl": "https://github.com/Sox-NeosVR/LocalVideoPlayerVolume/releases/tag/v1.0.0.1",
                     "artifacts": [
                         {
@@ -1447,6 +1549,32 @@
                             "url": "https://git.ljoonal.xyz/attachments/3313e178-746f-42b6-96e3-7ac6ecc79ae3",
                             "filename": "PrivacyShield.dll",
                             "sha256": "ab1588e3f8a1cce24610881fe350dcc810f691b742d35a8b63993bd2947ad6a4"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.eia485.privacyshield": {
+            "name": "PrivacyShield",
+            "description": "Makes popup requests for geting assets from urls",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/EIA485/NeosPrivacyShield",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                },
+                "ljoonal": {
+                    "url": "https://www.ljoonal.xyz/"
+                }
+            },
+            "versions": {
+                "0.3.1": {
+                    "releaseUrl": "https://github.com/EIA485/NeosPrivacyShield/releases/tag/0.3.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosPrivacyShield/releases/download/0.3.1/PrivacyShield.dll",
+                            "filename": "PrivacyShield.dll",
+                            "sha256": "28745544d89d077f7d8df5495edff3e7eeac84bb5a78a53020b947c6c9d155b3"
                         }
                     ]
                 }
@@ -1797,7 +1925,7 @@
                 }
             },
             "versions": {
-                "1.1.0": {
+                "1.0.0.0": {
                     "releaseUrl": "https://github.com/EIA485/NeosGetItemLink/releases/tag/1.0.0.0",
                     "artifacts": [
                         {
@@ -2222,7 +2350,7 @@
                 }
             },
             "versions": {
-                "1.0.0": {
+                "1.0.0.2": {
                     "releaseUrl": "https://github.com/Toxic-Cookie/GenericSettings/releases/tag/1.0.02",
                     "artifacts": [
                         {
@@ -2387,7 +2515,7 @@
                     "releaseUrl": "https://github.com/EIA485/NeosYouWantDarkmode/releases/tag/1.0.0.0",
                     "artifacts": [
                         {
-                            "url": "YouWantDarkmode.dll",
+                            "url": "https://github.com/EIA485/NeosYouWantDarkmode/releases/download/1.0.0.0/YouWantDarkmode.dll",
                             "filename": "YouWantDarkmode.dll",
                             "sha256": "63c4bebff2c6c4861ea20fcf6d4cfecf14e41720c19e4a50a88fc6e958af5cf7"
                         }
@@ -2448,11 +2576,11 @@
             "website": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll",
             "sourceLocation": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll",
             "authors": {
-                "eia485": {
-                    "url": "https://github.com/EIA485"
-                },
                 "Banane9": {
                     "url": "https://github.com/Banane9"
+                },
+                "eia485": {
+                    "url": "https://github.com/EIA485"
                 }
             },
             "versions": {
@@ -2462,6 +2590,24 @@
                         {
                             "url": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/download/v1.1.0/BetterLogixWiresThatCanScroll.dll",
                             "sha256": "4054727858FDE89903FC295491B95C4EF16448EBFED0A281412E5DC81AB81ABC"
+                        }
+                    ]
+                },
+				"1.1.1": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/download/v1.1.1/BetterLogixWiresThatCanScroll.dll",
+                            "sha256": "55D8852093E69ACE3C3F9511D3E3DE911E2BD554B71F17C37C621C39016EBBDD"
+                        }
+                    ]
+                },
+				"1.2.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/download/v1.2.0/BetterLogixWiresThatCanScroll.dll",
+                            "sha256": "F96687B70C2553CB073F7415FA1375F3592E472DCED08EB88A840A2D51067773"
                         }
                     ]
                 }
@@ -2533,6 +2679,15 @@
                             "sha256": "C1103144F00B71A650BF09C875210BC3C3C98485AF6852E82CE10EEC1805BDC8"
                         }
                     ]
+                },
+				"1.2.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/tag/v1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/download/v1.2.0/LocalLogixRegisters.dll",
+                            "sha256": "CE8D1B6221F5BF0EAF784CBC737C030221876B42C8100C81AC5FFF0C9659743D"
+                        }
+                    ]
                 }
             }
         },
@@ -2585,6 +2740,61 @@
                 }
             }
         },
+        "Banane9.DynVarSpaceTree": {
+            "name": "DynVarSpaceTree",
+            "description": "Adds buttons to the DynamicVariableSpace component in the inspector that allow copying all linked variable definitions or the whole hierarchy of linked dynamic variable components.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosDynVarSpaceTree",
+            "sourceLocation": "https://github.com/Banane9/NeosDynVarSpaceTree",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosDynVarSpaceTree/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosDynVarSpaceTree/releases/download/v1.0.0/DynVarSpaceTree.dll",
+                            "sha256": "B57E658CBF7FA00BA3161DBF0B746294B1C8739E70BCAAA87A0291D375E9DA72"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.EditorTabbing": {
+            "name": "EditorTabbing",
+            "description": "Allows moving between UIX text inputs in the inspector or anywhere else with tab, with a fallback when Steam Overlay could be triggered with shift+tab.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosEditorTabbing",
+            "sourceLocation": "https://github.com/Banane9/NeosEditorTabbing",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosEditorTabbing/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosEditorTabbing/releases/download/v1.0.0/EditorTabbing.dll",
+                            "sha256": "09C12093ED994992363856014F5115AB46562CD636809EDFF1F4D7595C040F03"
+                        }
+                    ]
+                },
+				"1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosEditorTabbing/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosEditorTabbing/releases/download/v1.1.0/EditorTabbing.dll",
+                            "sha256": "652D6DDB086362679DA097E25F474BDF224970C856048727DDC3931EA575118C"
+                        }
+                    ]
+                }
+            }
+        },
         "dev.zkxs.neoscloudhomeaccesslevel": {
             "name": "CloudHomeAccessLevel",
             "description": "Lets you configure your cloud home's default access level",
@@ -2612,6 +2822,52 @@
                         {
                             "url": "https://github.com/zkxs/NeosCloudHomeAccessLevel/releases/download/1.1.0/CloudHomeAccessLevel.dll",
                             "sha256": "2d3151d08dc08fe021e86b871bfaa7944ce2a80acd88a58f8dcbc063162df942"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.AvatarClothingHelper": {
+            "name": "AvatarClothingHelper",
+            "description": "Automatically sets up Blendshapes with the same name on multiple renderers to be driven by the primary mesh's values on import or when pressing a button on the SkinnedMeshRenderer.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosAvatarClothingHelper",
+            "sourceLocation": "https://github.com/Banane9/NeosAvatarClothingHelper",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/download/v1.0.0/AvatarClothingHelper.dll",
+                            "sha256": "109BECD98722704CCF4782820DB725DA0A99CD26BCF6315B79C24F7DB41ECFB2"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.NoEscape": {
+            "name": "NoEscape",
+            "description": "Can disable the emergency respawn / disconnect gesture.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosNoEscape",
+            "sourceLocation": "https://github.com/Banane9/NeosNoEscape",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosNoEscape/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosNoEscape/releases/download/v1.1.0/NoEscape.dll",
+                            "sha256": "B72544AFEFC7A2E6D304EE69F880FC3EC6E290A58B9846DE6F1C8E8F94B33F54"
                         }
                     ]
                 }
@@ -2808,6 +3064,167 @@
                             "url": "https://github.com/art0007i/StackTraceFixer/releases/download/1.0.0.0/StackTraceFixer.dll",
                             "filename": "StackTraceFixer.dll",
                             "sha256": "a7be41696c2e76410ee2afa9683bf06b67c44c4a0c43d40678925d41d45f9a16"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.LeCloutPanda.InspectorCustomizer": {
+            "name": "InspectorCustomizer",
+            "description": "Allows you to customize some Neos panel items including Inspector, Logix browser and more.",
+            "category": "General Ui Tweaks",
+            "sourceLocation": "https://github.com/LeCloutPanda/Inspector-Customizer",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.5": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/Inspector-Customizer/releases/tag/v1.0.5",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/Inspector-Customizer/releases/download/v1.0.5/Customize.dll",
+                            "filename": "Customize.dll",
+                            "sha256": "46f476cb8e40d2936fea7433f4ee05e2a66f97184b99c4a6c208777ed140d507"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.LeCloutPanda.VideoToStream": {
+            "name": "Video To Stream",
+            "description": "Sets Video Players spawned by the player to automatically set Stream to true.",
+            "category": "Technical Tweaks",
+            "sourceLocation": "https://github.com/LeCloutPanda/Video-To-Stream",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/Video-To-Stream/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/Video-To-Stream/releases/download/v1.0.0/VideoToStream.dll",
+                            "filename": "VideoToStream.dll",
+                            "sha256": "8aa9cdee978999327f482dba4dac580eb57344365003e78604bad6e5c75add4c"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.LagFreeContactsLoading": {
+            "name": "LagFreeContactsLoading",
+            "description": "Spreads out the initial loading of the contacts list over a configurable number of updates to prevent the game from freezing while it adds all the contacts.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosLagFreeContactsLoading",
+            "sourceLocation": "https://github.com/Banane9/NeosLagFreeContactsLoading",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosLagFreeContactsLoading/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosLagFreeContactsLoading/releases/download/v1.0.0/LagFreeContactsLoading.dll",
+                            "sha256": "8DCC1FB05902C4BA8D0EF61694D286A4F2401C9A5BEB26D8091BE3471F0BFB2D"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.Kodu.ViveForAll": {
+            "name": "ViveForAll",
+            "description": "Brings HTC Vive single button App / Localspace toggle functionality to other controllers.",
+            "category": "Keybinds & Gestures",
+            "website": "https://github.com/Kodufan/ViveForAll",
+            "sourceLocation": "https://github.com/Kodufan/ViveForAll",
+            "authors": {
+                "Kodufan": {
+                    "url": "https://github.com/Kodufan"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Kodufan/ViveForAll/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Kodufan/ViveForAll/releases/download/1.0.0/ViveForAll.dll",
+                            "sha256": "8f63da0adc1cf264b4c86721a52febfcfc6d37c3841809456ec2ecdc67411943"
+                        }
+                    ]
+                }
+            }
+        },
+        "Psychpsyo.PrivacyPlus": {
+            "name": "PrivacyPlus",
+            "description": "Hides your Discord and Steam IDs from other users in a session.",
+            "category": "Misc",
+            "website": "https://github.com/Psychpsyo/PrivacyPlus",
+            "sourceLocation": "https://github.com/Psychpsyo/PrivacyPlus",
+            "authors": {
+                "Psychpsyo": {
+                    "url": "https://github.com/Psychpsyo"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Psychpsyo/PrivacyPlus/releases/tag/release",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/PrivacyPlus/releases/download/release/PrivacyPlus.dll",
+                            "sha256": "33374432861a8fb7d5791fc0763015945c25df924cce76377b6e50762036c80c"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.Kodu.CustomNotificationSounds": {
+            "name": "CustomNotificationSounds",
+            "description": "Change Neos' notification sounds!",
+            "category": "General Ui Tweaks",
+            "website": "https://github.com/Kodufan/CustomNotificationSounds",
+            "sourceLocation": "https://github.com/Kodufan/CustomNotificationSounds",
+            "authors": {
+                "Kodufan": {
+                    "url": "https://github.com/Kodufan"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Kodufan/CustomNotificationSounds/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Kodufan/CustomNotificationSounds/releases/download/v1.0.0/CustomNotificationSounds.dll",
+                            "sha256": "606ff4e44ab35d9e4f9e00b9b1289d0e099f47aa8d2b3335675aee66f346a763"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.lexevo.NeosDisableGamepads": {
+            "name": "NeosDisableGamepads",
+            "description": "Disables all gamepad inputs (eg. from an Xbox controller) for Neos!",
+            "category": "Keybinds & Gestures",
+            "website": "https://github.com/Lexevolution/NeosDisableGamepads",
+            "sourceLocation": "https://github.com/Lexevolution/NeosDisableGamepads",
+            "authors": {
+                "Lexevo": {
+                    "url": "https://github.com/Lexevolution"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Lexevolution/NeosDisableGamepads/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Lexevolution/NeosDisableGamepads/releases/download/v1.0.0/NeosDisableGamepads.dll",
+                            "sha256": "5b8761cdec21cb551c28c27b4bee3065f0f16c4ba9a1cb56eaa59c2439d53518"
                         }
                     ]
                 }
