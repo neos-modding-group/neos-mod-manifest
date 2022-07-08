@@ -1785,6 +1785,41 @@
                             "sha256": "531c49529eed64677d39802477ce1e43aee2c0541ed0d4b156b6663e4f8d0860"
                         }
                     ]
+                },
+                "3.4.0": {
+                    "changelog": " - compatibility hotfix for compatibility with ExitAndDiscardHomesKeybind",
+                    "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/3.4.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/3DDashOnScreen/releases/download/3.4.0.0/3DDashOnScreen.dll",
+                            "filename": "3DDashOnScreen.dll",
+                            "sha256": "5a1ee7d582502476c15fc7daf194599fe87e75306f984b49a36ab981b5b08ee2"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.rampa3.ExitAndDiscardHomesKeybind":{
+            "name": "ExitAndDiscardHomesKeybind",
+            "description": "allows to exit without saving changes in home world using Ctrl+Alt+F4 key shortcut",
+            "category": "Keybinds & Gestures",
+            "sourceLocation": "https://github.com/rampa3/ExitAndDiscardHomesKeybind",
+            "authors": {
+                "rampa3": {
+                    "url": "https://github.com/rampa3"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "changelog": " - initial relese, adds the keybind and can be disabled trough mod config",
+                    "releaseUrl": "https://github.com/rampa3/ExitAndDiscardHomesKeybind/releases/tag/1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/ExitAndDiscardHomesKeybind/releases/download/1.0.0.0/ExitAndDiscardHomesKeybind.dll",
+                            "filename": "ExitAndDiscardHomesKeybind.dll",
+                            "sha256": "a0424ac613ab2be9ce143e2355ca669ba35b23380d5b00ddce3be3963e122062"
+                        }
+                    ]
                 }
             }
         },
