@@ -2927,6 +2927,15 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/download/v1.1.0/AvatarClothingHelper.dll",
+                            "sha256": "f0ae94f4e1c47c9ce0dfc9a2bb54abb032c6b697948013414eeb4fcd25575db6"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/tag/v1.0.0",
                     "artifacts": [
