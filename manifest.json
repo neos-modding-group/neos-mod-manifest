@@ -95,6 +95,29 @@
                 }
             }
         },
+        "me.art0007i.SpecialItemsLib": {
+            "name": "SpecialItemsLib",
+            "description": "A library which allows other mods to easily add custom special items to be shown in the inventory.",
+            "category": "Libraries",
+            "sourceLocation": "https://github.com/art0007i/SpecialItemsLib",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i/"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/SpecialItemsLib/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/SpecialItemsLib/releases/download/1.1.0/SpecialItemsLib.dll",
+                            "filename": "SpecialItemsLib.dll",
+                            "sha256": "ea27a975da5aca2b5bb3274b2d03df560d20accfebc589675dcf54e5d93e763c"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.betterlogixwires": {
             "name": "BetterLogixWires",
             "description": "Optimizes the rendering of logix wires",
