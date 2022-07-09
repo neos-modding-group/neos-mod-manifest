@@ -1693,6 +1693,16 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/NeosModSettings/releases/download/v1.1.0/NeosModSettings.dll",
+                            "filename": "NeosModSettings.dll",
+                            "sha256": "59efc0bfc1ba193a1bdbabf558e428f08eab6d97bccb7acf91429427155f7c9f"
+                        }
+                    ]
+                },
                 "1.0.0-alpha": {
                     "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.0.0-alpha",
                     "flags": [
