@@ -758,6 +758,16 @@
                 }
             },
             "versions": {
+                "1.5.1": {
+                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.5.1/LogixUtils.dll",
+                            "filename": "LogixUtils.dll",
+                            "sha256": "f1c539e561456f6d6719a85b732624d439556c3efc7568520a96f58276a8f682"
+                        }
+                    ]
+                },
                 "1.5.0": {
                     "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.0",
                     "artifacts": [
