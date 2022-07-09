@@ -2175,6 +2175,16 @@
                 }
             },
             "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/rassi0429/NeosPasteTweak/releases/tag/v1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rassi0429/NeosPasteTweak/releases/download/v1.0.2/NeosPasteTweak.dll",
+                            "filename": "NeosPasteTweak.dll",
+                            "sha256": "76862cd08e9330ccf229aed2f47c2ba42a7ea5ca9e4256c97c4fcf77cb1c8a2f"
+                        }
+                    ]
+                },
                 "1.0.1": {
                     "releaseUrl": "https://github.com/rassi0429/NeosPasteTweak/releases/tag/v1.0.1",
                     "artifacts": [
