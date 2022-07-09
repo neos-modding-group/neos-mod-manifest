@@ -2081,6 +2081,16 @@
                 }
             },
             "versions": {
+                "1.1.2": {
+                    "releaseUrl": "https://github.com/kawaiiamber/GifImporter/releases/tag/1.1.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/kawaiiamber/GifImporter/releases/download/1.1.2/GifImporter.dll",
+                            "filename": "GifImporter.dll",
+                            "sha256": "cc16edc29f849cb717ff4cff350c96a04a76852a96d556588caab6eae698e2d1"
+                        }
+                    ]
+                },
                 "1.1.1": {
                     "releaseUrl": "https://github.com/kawaiiamber/GifImporter/releases/tag/1.1.1.0",
                     "artifacts": [
