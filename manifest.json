@@ -2114,6 +2114,21 @@
                 }
             },
             "versions": {
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/CustomVideoPlayers/releases/tag/2.0.0.0",
+                    "dependencies": {
+                        "me.art0007i.SpecialItemsLib": {
+                            "version": "^1.0.0"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CustomVideoPlayers/releases/download/2.0.0.0/CustomVideoPlayers.dll",
+                            "filename": "CustomVideoPlayers.dll",
+                            "sha256": "4c1747a1da630bb96dd93908819160277a074f2b1e34bfb1acbc0f02855036f6"
+                        }
+                    ]
+                },
                 "1.0.2": {
                     "releaseUrl": "https://github.com/art0007i/CustomVideoPlayers/releases/tag/1.0.2.0",
                     "artifacts": [
