@@ -95,6 +95,29 @@
                 }
             }
         },
+        "me.art0007i.SpecialItemsLib": {
+            "name": "SpecialItemsLib",
+            "description": "A library which allows other mods to easily add custom special items to be shown in the inventory.",
+            "category": "Libraries",
+            "sourceLocation": "https://github.com/art0007i/SpecialItemsLib",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i/"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/SpecialItemsLib/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/SpecialItemsLib/releases/download/1.1.0/SpecialItemsLib.dll",
+                            "filename": "SpecialItemsLib.dll",
+                            "sha256": "ea27a975da5aca2b5bb3274b2d03df560d20accfebc589675dcf54e5d93e763c"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.betterlogixwires": {
             "name": "BetterLogixWires",
             "description": "Optimizes the rendering of logix wires",
@@ -735,6 +758,16 @@
                 }
             },
             "versions": {
+                "1.5.1": {
+                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.5.1/LogixUtils.dll",
+                            "filename": "LogixUtils.dll",
+                            "sha256": "f1c539e561456f6d6719a85b732624d439556c3efc7568520a96f58276a8f682"
+                        }
+                    ]
+                },
                 "1.5.0": {
                     "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.0",
                     "artifacts": [
@@ -781,6 +814,16 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/ShowDelegates/releases/tag/1.1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ShowDelegates/releases/download/1.1.0.0/ShowDelegates.dll",
+                            "filename": "ShowDelegates.dll",
+                            "sha256": "d8533227fb54397c85ffe89733702aae9c0501cdae52b1206c2ffcb9a4f01594"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/art0007i/ShowDelegates/releases/tag/1.0.0.0",
                     "artifacts": [
@@ -1683,6 +1726,16 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/NeosModSettings/releases/download/v1.1.0/NeosModSettings.dll",
+                            "filename": "NeosModSettings.dll",
+                            "sha256": "59efc0bfc1ba193a1bdbabf558e428f08eab6d97bccb7acf91429427155f7c9f"
+                        }
+                    ]
+                },
                 "1.0.0-alpha": {
                     "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.0.0-alpha",
                     "flags": [
@@ -2063,6 +2116,16 @@
                 }
             },
             "versions": {
+                "1.1.2": {
+                    "releaseUrl": "https://github.com/kawaiiamber/GifImporter/releases/tag/1.1.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/kawaiiamber/GifImporter/releases/download/1.1.2/GifImporter.dll",
+                            "filename": "GifImporter.dll",
+                            "sha256": "cc16edc29f849cb717ff4cff350c96a04a76852a96d556588caab6eae698e2d1"
+                        }
+                    ]
+                },
                 "1.1.1": {
                     "releaseUrl": "https://github.com/kawaiiamber/GifImporter/releases/tag/1.1.1.0",
                     "artifacts": [
@@ -2086,6 +2149,21 @@
                 }
             },
             "versions": {
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/CustomVideoPlayers/releases/tag/2.0.0.0",
+                    "dependencies": {
+                        "me.art0007i.SpecialItemsLib": {
+                            "version": "^1.0.0"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CustomVideoPlayers/releases/download/2.0.0.0/CustomVideoPlayers.dll",
+                            "filename": "CustomVideoPlayers.dll",
+                            "sha256": "53c87a3ae013c8f0cabbbad7ba99b16bde824e6b1aaef411cdd5b7f4aab7794e"
+                        }
+                    ]
+                },
                 "1.0.2": {
                     "releaseUrl": "https://github.com/art0007i/CustomVideoPlayers/releases/tag/1.0.2.0",
                     "artifacts": [
@@ -2132,6 +2210,16 @@
                 }
             },
             "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/rassi0429/NeosPasteTweak/releases/tag/v1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rassi0429/NeosPasteTweak/releases/download/v1.0.2/NeosPasteTweak.dll",
+                            "filename": "NeosPasteTweak.dll",
+                            "sha256": "76862cd08e9330ccf229aed2f47c2ba42a7ea5ca9e4256c97c4fcf77cb1c8a2f"
+                        }
+                    ]
+                },
                 "1.0.1": {
                     "releaseUrl": "https://github.com/rassi0429/NeosPasteTweak/releases/tag/v1.0.1",
                     "artifacts": [
@@ -2874,6 +2962,15 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/download/v1.1.0/AvatarClothingHelper.dll",
+                            "sha256": "f0ae94f4e1c47c9ce0dfc9a2bb54abb032c6b697948013414eeb4fcd25575db6"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/tag/v1.0.0",
                     "artifacts": [
@@ -3260,6 +3357,28 @@
                         {
                             "url": "https://github.com/Lexevolution/NeosDisableGamepads/releases/download/v1.0.0/NeosDisableGamepads.dll",
                             "sha256": "5b8761cdec21cb551c28c27b4bee3065f0f16c4ba9a1cb56eaa59c2439d53518"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.badhaloninja.ComponentAttacherFavorites": {
+            "name": "ComponentAttacherFavorites",
+            "description": "Adds the ability to save favorite components",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/badhaloninja/ComponentAttacherFavorites/",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/download/v1.0.0/ComponentAttacherFavorites.dll",
+                            "sha256": "90051a1e3451818cc60dcd83d10c3e8f9b104270a2c703ebdbfd10dcfa9db686"
                         }
                     ]
                 }
