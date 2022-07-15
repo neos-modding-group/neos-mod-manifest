@@ -2068,7 +2068,18 @@
                             "sha256": "18bd42139ee39a8eb0d972ee92cb8d0529ba5925a591298d8acc3814298803cf"
                         }
                     ]
-                }
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/dfgHiatus/SpeedyURLs/releases/tag/v1.1.0",
+                    "changelog": "Added support for host access requests",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/dfgHiatus/SpeedyURLs/releases/download/v1.1.0/SpeedyURLs.dll",
+                            "filename": "SpeedyURLs.dll",
+                            "sha256": "4f42e1e55e2d5e275c7de154e675d4b10af4e6f958db667e9919db809841169a"
+                        }
+                    ]
+                },
             }
         },
         "net.toxic_cookie.neosbakery": {
