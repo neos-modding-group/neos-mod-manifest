@@ -335,6 +335,29 @@
 		}
 	    }
 	},
+        "me.badhaloninja.NoLogixTraversalContext": {
+            "name": "NoLogixTraversalContext",
+            "description": "Hides the logix tip's node traversal context item.",
+            "category": "Logix",
+            "sourceLocation": "https://github.com/badhaloninja/NoLogixTraversalContext",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/NoLogixTraversalContext/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/NoLogixTraversalContext/releases/download/v1.0.0/NoLogixTraversalContext.dll",
+                            "filename": "NoLogixTraversalContext.dll",
+                            "sha256": "7f9dfbb1a3e9812c1d932857f76024b10f4103268cc69cc67ca6b6722511c29b"
+                        }
+                    ]
+                }
+            }
+        },
         "me.badhaloninja.optizoom": {
             "name": "Optizoom",
             "description": "Adds the ability to zoom with a keypress",
