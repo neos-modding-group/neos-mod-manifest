@@ -1058,6 +1058,15 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosAudioCustomizer/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosAudioCustomizer/releases/download/1.0.1/AudioCustomizer.dll",
+                            "sha256": "a829efa75d84a2cb080c083412e7bc1bc7b39cf3bb7d94a6aa5a9d856af67900"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/Frozenreflex/NeosAudioCustomizer/releases/tag/1.0.0",
                     "artifacts": [
