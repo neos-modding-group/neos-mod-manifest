@@ -3449,6 +3449,29 @@
                     ]
                 }
             }
+        },
+        "tk.deltawolf.SettingsRedux": {
+            "name": "SettingsRedux",
+            "description": "Replaces the default Neos Settings page with an enhanced settings page that adds in many QoL changes",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/XDelta/SettingsRedux",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/XDelta/SettingsRedux/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/SettingsRedux/releases/download/1.0.0/SettingsRedux.dll",
+                            "filename": "SettingsRedux.dll",
+                            "sha256": "9fe70b9fc49e9179bcab5ac0a7fd8193d94e26c96e306b95d3d6d1d2a3f4ee3b"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
