@@ -3472,6 +3472,29 @@
                     ]
                 }
             }
+        },
+	"net.Sox.EasyVoiceMessage": { 
+            "name": "EasyVoiceMessage",
+            "description": "Allows you to record voice messages without having to keep your laser on the tiny square button. (although your laser needs to stay on your dash)",
+            "category": "Dash Tweaks",
+            "website": "https://github.com/Sox-NeosVR/EasyVoiceMessage",
+            "sourceLocation": "https://github.com/Sox-NeosVR/EasyVoiceMessage",
+            "authors": {
+                "Sox": {
+                    "url": "https://github.com/Sox-NeosVR"
+                }
+            },
+            "versions": {
+                "1.0.0.0": {
+                    "releaseUrl": "https://github.com/Sox-NeosVR/EasyVoiceMessage/releases/tag/v1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Sox-NeosVR/EasyVoiceMessage/releases/download/v1.0.0.0/EasyVoiceMessage.dll",
+                            "sha256": "11238ac6590bd43537fb62cf87cd717eb57f0812ad0bb4bfb58f5f28a8188b7d"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
