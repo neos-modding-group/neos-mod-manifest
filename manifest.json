@@ -3461,6 +3461,16 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/XDelta/SettingsRedux/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/SettingsRedux/releases/download/1.1.0/SettingsRedux.dll",
+                            "filename": "SettingsRedux.dll",
+                            "sha256": "6f9f1aada682e18c3537b2e22303934785652ff7d32c6b06231795968050fb28"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/XDelta/SettingsRedux/releases/tag/1.0.0",
                     "artifacts": [
