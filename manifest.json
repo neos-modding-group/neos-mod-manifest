@@ -338,7 +338,7 @@
         "me.badhaloninja.NoLogixTraversalContext": {
             "name": "NoLogixTraversalContext",
             "description": "Hides the logix tip's node traversal context item.",
-            "category": "Logix",
+            "category": "LogiX",
             "sourceLocation": "https://github.com/badhaloninja/NoLogixTraversalContext",
             "authors": {
                 "badhaloninja": {
