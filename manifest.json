@@ -3505,6 +3505,75 @@
                     ]
                 }
             }
-        }
+        },
+        "me.art0007i.CapturePrivateUI": {
+            "name": "CapturePrivateUI",
+            "description": "Allows finger photos to render private UI",
+            "category": "Visual Tweaks",
+            "sourceLocation": "https://github.com/art0007i/CapturePrivateUI",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/CapturePrivateUI/releases/tag/1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CapturePrivateUI/releases/download/1.0.0.0/CapturePrivateUI.dll",
+                            "filename": "CapturePrivateUI.dll",
+                            "sha256": "a3a66d961556e8c7a3386fd34ade1e4dbe4b191ad76af6103255f3fc186efc68"
+                        }
+                    ]
+                }
+            }
+	},
+        "me.art0007i.CustonInspectors": {
+            "name": "CustonInspectors",
+            "description": "Lets you change your default inspector panel",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/art0007i/CustonInspectors",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/CustomInspectors/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CustomInspectors/releases/download/1.1.0/CustomInspectors.dll",
+                            "filename": "CustomInspectors.dll",
+                            "sha256": "182c8cca51517b0586814dbc999c960148fc2d2dde89b888e1b09c20caee469c"
+                        }
+                    ]
+                }
+            }
+	},
+        "me.art0007i.CustomStreamPlayers": {
+            "name": "CustomStreamPlayers",
+            "description": "Lets you change your default audio stream player",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/art0007i/CustomStreamPlayers",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/CustomStreamPlayers/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CustomStreamPlayers/releases/download/1.0.0/CustomStreamPlayers.dll",
+                            "filename": "CustomStreamPlayers.dll",
+                            "sha256": "484926c3a0fbbc7addcbcd58b02e95a91d0e289bf79823ca69b1175fd99b6e0a"
+                        }
+                    ]
+                }
+            }
+	}
     }
 }
