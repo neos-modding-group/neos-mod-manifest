@@ -1,6 +1,6 @@
 {
-    "schemaVersion": "1.0.0",
-    "mods": {
+    "schemaVersion": "1.1.0",
+    "items": {
         "dev.zkxs.neosmodloader": {
             "name": "Neos Mod Loader",
             "description": "A mod loader for Neos VR.",
@@ -15,13 +15,13 @@
             ],
             "category": "Plugins",
             "flags": [
-                "plugin"
+                "loader"
             ],
             "versions": {
                 "1.9.1": {
                     "changelog": "Logging improvements, splash screen visuals, JSON config serialization changes",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.9.1",
-                    "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "gameVersionCompatibility": ">=2021.10.17.1326",
                     "dependencies": {
                         "net.pardeike.harmony": {
                             "version": "^2.2.1"
@@ -39,7 +39,7 @@
                 "1.8.0": {
                     "changelog": "Release the new mod configuration system",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.8.0",
-                    "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "gameVersionCompatibility": ">=2021.10.17.1326",
                     "dependencies": {
                         "net.pardeike.harmony": {
                             "version": "^2.2.0.0"
@@ -312,29 +312,29 @@
                 }
             }
         },
-	"net.Cyro.InterfacialAbsence": {
-	    "name": "Interfacial Absence",
-	    "description": "A mod that lets you avoid having to user LogiX Interface Proxies in Neos ",
-	    "category": "Visual Tweaks",
-	    "website": "https://github.com/RileyGuy/InterfacialAbsence",
-	    "sourceLocation": "https://github.com/RileyGuy/InterfacialAbsence",
-	    "authors": { 
-		"Cyro": { 
-		    "url": "https://github.com/RileyGuy" 
-		}
-	    },
-	    "versions": { 
-		"1.0.0": { 
-		    "releaseUrl": "https://github.com/RileyGuy/InterfacialAbsence/releases/tag/1.0.0", 
-		    "artifacts": [ 
-			{
-			    "url": "https://github.com/RileyGuy/InterfacialAbsence/releases/download/1.0.0/InterfacialAbsence.dll", 
-			    "sha256": "b5387b7afa7db76a18afa5ed314dc7500cc3ea859580c982635e09618324193a"
-			}
-		    ]
-		}
-	    }
-	},
+        "net.Cyro.InterfacialAbsence": {
+            "name": "Interfacial Absence",
+            "description": "A mod that lets you avoid having to user LogiX Interface Proxies in Neos ",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/RileyGuy/InterfacialAbsence",
+            "sourceLocation": "https://github.com/RileyGuy/InterfacialAbsence",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/RileyGuy/InterfacialAbsence/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/RileyGuy/InterfacialAbsence/releases/download/1.0.0/InterfacialAbsence.dll",
+                            "sha256": "b5387b7afa7db76a18afa5ed314dc7500cc3ea859580c982635e09618324193a"
+                        }
+                    ]
+                }
+            }
+        },
         "me.badhaloninja.NoLogixTraversalContext": {
             "name": "NoLogixTraversalContext",
             "description": "Hides the logix tip's node traversal context item.",
@@ -1907,7 +1907,7 @@
                 }
             }
         },
-        "net.rampa3.ExitAndDiscardHomesKeybind":{
+        "net.rampa3.ExitAndDiscardHomesKeybind": {
             "name": "ExitAndDiscardHomesKeybind",
             "description": "allows to exit without saving changes in home world using Ctrl+Alt+F4 key shortcut",
             "category": "Keybinds & Gestures",
@@ -2782,7 +2782,7 @@
                         }
                     ]
                 },
-				"1.1.1": {
+                "1.1.1": {
                     "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.1.1",
                     "artifacts": [
                         {
@@ -2791,7 +2791,7 @@
                         }
                     ]
                 },
-				"1.2.0": {
+                "1.2.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.2.0",
                     "artifacts": [
                         {
@@ -2869,7 +2869,7 @@
                         }
                     ]
                 },
-				"1.2.0": {
+                "1.2.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/tag/v1.2.0",
                     "artifacts": [
                         {
@@ -2973,7 +2973,7 @@
                         }
                     ]
                 },
-				"1.1.0": {
+                "1.1.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosEditorTabbing/releases/tag/v1.1.0",
                     "artifacts": [
                         {
@@ -3483,7 +3483,7 @@
                 }
             }
         },
-        "net.Sox.EasyVoiceMessage": { 
+        "net.Sox.EasyVoiceMessage": {
             "name": "EasyVoiceMessage",
             "description": "Allows you to record voice messages without having to keep your laser on the tiny square button. (although your laser needs to stay on your dash)",
             "category": "Dash Tweaks",
