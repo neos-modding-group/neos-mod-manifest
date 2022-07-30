@@ -2617,6 +2617,16 @@
                             "sha256": "e708cbf0a96f229464d076e0f9193677b9df653025113ad138eb80cc824d55e2"
                         }
                     ]
+                },
+                "1.2.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosCheese4All/releases/tag/1.2.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosCheese4All/releases/download/1.2.0.0/Cheese4All.dll",
+                            "filename": "Cheese4All.dll",
+                            "sha256": "514217688284286e6548e61d31edb8a25a95953b97dcab08b283b1bb62dfac93"
+                        }
+                    ]
                 }
             }
         },
