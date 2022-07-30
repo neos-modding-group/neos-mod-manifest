@@ -3288,7 +3288,8 @@
                         }
                     ]
                 }
-            }
+            },
+	    "flags": ["deprecated"]
         },
         "net.LeCloutPanda.VideoToStream": {
             "name": "Video To Stream",
@@ -3313,6 +3314,121 @@
                 }
             }
         },
+	"dev.LeCloutPanda.Customise-Inspector": { 
+	    "name": "Customise-Inspector",
+	    "description": "Allows you to change many aspects of the Inspector.",
+	    "category": "General Ui Tweaks",
+	    "website": "https://github.com/LeCloutPanda/Customise",
+	    "sourceLocation": "https://github.com/LeCloutPanda/Customise",
+	    "authors": {
+		"LeCloutPanda": {
+		    "url": "https://github.com/LeCloutPanda"
+		}
+	    },
+	    "versions": {
+		"1.1.3": {
+		    "releaseUrl": "https://github.com/LeCloutPanda/Customise/releases/tag/v1.1.3%2Fv1.1.2",
+		    "artifacts": [
+			{
+			     "url": "https://github.com/LeCloutPanda/Customise/releases/download/v1.1.3%2Fv1.1.2/CustomiseInspector.dll",
+			    "sha256": "e87a65650be25a3c229539d2f87ca7822f82b3c6ca4adafc76b5de29e97b0022"
+			}
+		    ]
+		}
+	    }
+	},
+	"dev.LeCloutPanda.Customise-LogixBrowser": { 
+	    "name": "Customise-LogiXBrowser",
+	    "description": "Allows you to change many aspects of the LogiX Browser.",
+	    "category": "General Ui Tweaks",
+	    "website": "https://github.com/LeCloutPanda/Customise",
+	    "sourceLocation": "https://github.com/LeCloutPanda/Customise",
+	    "authors": {
+		"LeCloutPanda": {
+		    "url": "https://github.com/LeCloutPanda"
+		}
+	    },
+	    "versions": {
+		"1.1.3": {
+		    "releaseUrl": "https://github.com/LeCloutPanda/Customise/releases/tag/v1.1.3%2Fv1.1.2",
+		    "artifacts": [
+			{
+			     "url": "https://github.com/LeCloutPanda/Customise/releases/download/v1.1.3%2Fv1.1.2/CustomiseLogixBrowser.dll",
+			    "sha256": "2d66cb051c1e0cb8e9c2ccefdf05e07ff2b9d1f62e103fc88651287ca905e0aa"
+			}
+		    ]
+		}
+	    }
+	},
+	"dev.LeCloutPanda.Customise-VideoPlayer": { 
+	    "name": "Customise-VideoPlayer",
+	    "description": "Allows you to change many aspects of the Video Video Player.",
+	    "category": "General Ui Tweaks",
+	    "website": "https://github.com/LeCloutPanda/Customise",
+	    "sourceLocation": "https://github.com/LeCloutPanda/Customise",
+	    "authors": {
+		"LeCloutPanda": {
+		    "url": "https://github.com/LeCloutPanda"
+		}
+	    },
+	    "versions": {
+		"1.1.2": {
+		    "releaseUrl": "https://github.com/LeCloutPanda/Customise/releases/tag/v1.1.3%2Fv1.1.2",
+		    "artifacts": [
+			{
+			     "url": "https://github.com/LeCloutPanda/Customise/releases/download/v1.1.3%2Fv1.1.2/CustomiseVideoPlayer.dll",
+			    "sha256": "055e8cf53a1494a30b6f49bda09aa5e3b32cce7bd234ee219498dcadb15cfff6"
+			}
+		    ]
+		}
+	    }
+	},
+	"dev.LeCloutPanda.DefaultLaserState": { 
+	    "name": "DefaultLaserState",
+	    "description": "Allows you to set a default state for Interaction Lasers on spawn.",
+	    "category": "Misc",
+	    "website": "https://github.com/LeCloutPanda/DefaultLaserState",
+	    "sourceLocation": "https://github.com/LeCloutPanda/DefaultLaserState",
+	    "authors": {
+		"LeCloutPanda": {
+		    "url": "https://github.com/LeCloutPanda"
+		}
+	    },
+	    "versions": {
+		"1.0.1": {
+		    "releaseUrl": "https://github.com/LeCloutPanda/DefaultLaserState/releases/tag/v1.0.1",
+		    "artifacts": [
+			{
+			     "url": "https://github.com/LeCloutPanda/DefaultLaserState/releases/download/v1.0.1/DefaultLaserState.dll",
+			    "sha256": "055e8cf53a1494a30b6f49bda09aa5e3b32cce7bd234ee219498dcadb15cfff6"
+			}
+		    ]
+		}
+	    }
+	},
+	"dev.LeCloutPanda.Rebind": { 
+	    "name": "Rebind",
+	    "description": "Rebinds Touch Controllers to not use Joystick Click.",
+	    "category": "Keybinds & Gestures",
+	    "website": "https://github.com/LeCloutPanda/Rebind",
+	    "sourceLocation": "https://github.com/LeCloutPanda/Rebind",
+	    "authors": {
+		"LeCloutPanda": {
+		    "url": "https://github.com/LeCloutPanda"
+		}
+	    },
+	    "versions": {
+		"1.0.0": {
+		    "releaseUrl": "https://github.com/LeCloutPanda/Rebind/releases/download/v1%2C0.1",
+		    "artifacts": [
+			{
+			     "url": "https://github.com/LeCloutPanda/Rebind/releases/download/v1%2C0.1/Rebind.dll",
+			    "sha256": "2ab76fb6a265da96fd3c18e6e5d465dd14071d852546ca32f8f4c8d4b71a72f2"
+			}
+		    ]
+		}
+	    }
+	},
         "Banane9.LagFreeContactsLoading": {
             "name": "LagFreeContactsLoading",
             "description": "Spreads out the initial loading of the contacts list over a configurable number of updates to prevent the game from freezing while it adds all the contacts.",
