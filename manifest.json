@@ -3379,6 +3379,15 @@
                             "sha256": "33374432861a8fb7d5791fc0763015945c25df924cce76377b6e50762036c80c"
                         }
                     ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Psychpsyo/PrivacyPlus/releases/tag/release2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/PrivacyPlus/releases/download/release2/PrivacyPlus.dll",
+                            "sha256": "9c6aff0dc343a1ca52a0fe191f009f4d5a626380610ed7f9894ec3052df6db88"
+                        }
+                    ]
                 }
             }
         },
