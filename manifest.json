@@ -3367,7 +3367,7 @@
             "sourceLocation": "https://github.com/Psychpsyo/PrivacyPlus",
             "authors": {
                 "Psychpsyo": {
-                    "url": "https://github.com/Psychpsyo"
+                    "url": "https://psychpsyo.com"
                 }
             },
             "versions": {
@@ -3501,6 +3501,75 @@
                         {
                             "url": "https://github.com/Sox-NeosVR/EasyVoiceMessage/releases/download/v1.0.0.0/EasyVoiceMessage.dll",
                             "sha256": "11238ac6590bd43537fb62cf87cd717eb57f0812ad0bb4bfb58f5f28a8188b7d"
+                        }
+                    ]
+                }
+            }
+        },
+        "Psychpsyo.ShutTheFuckUp": { 
+            "name": "ShutTheFuckUp",
+            "description": "Mutes custom context menus.",
+            "category": "Misc",
+            "website": "https://github.com/Psychpsyo/ShutTheFuckUp",
+            "sourceLocation": "https://github.com/Psychpsyo/ShutTheFuckUp",
+            "authors": {
+                "Psychpsyo": {
+                    "url": "https://psychpsyo.com"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Psychpsyo/ShutTheFuckUp/releases/tag/Release1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/ShutTheFuckUp/releases/download/Release1/ShutTheFuckUp.dll",
+                            "sha256": "9e14bbc6427456403571927b3c4a0204405e7527461622a3e075fa1c679bf896"
+                        }
+                    ]
+                }
+            }
+        },
+        "Psychpsyo.TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP": { 
+            "name": "The Neos Mod That Makes It So That Your Fingers Are No Longer Trusted Touch Sources So You Can Rest Easy At Night Knowing No One Will Shove Buttons Into Your Hand Without Your Permission",
+            "description": "See Name.",
+            "category": "Misc",
+            "website": "https://github.com/Psychpsyo/TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP",
+            "sourceLocation": "https://github.com/Psychpsyo/TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP",
+            "authors": {
+                "Psychpsyo": {
+                    "url": "https://psychpsyo.com"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Psychpsyo/TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP/releases/download/1.0.0/TheNeosModThatMakesItSoThatYourFingersAreNoLongerTrustedTouchSourcesSoYouCanRestEasyAtNightKnowingNoOneWillShoveButtonsIntoYourHandWithoutYourPermission.dll",
+                            "sha256": "63445a9255dd8e3c3e33cfa99e9bd6878ed5f847e00f6503f957e6e02987553e"
+                        }
+                    ]
+                }
+            }
+        },
+        "Psychpsyo.DefaultVoiceMode": { 
+            "name": "DefaultVoiceMode",
+            "description": "Gives you the option to set what voice mode should be active when the game starts.",
+            "category": "Misc",
+            "website": "https://github.com/Psychpsyo/DefaultVoiceMode",
+            "sourceLocation": "https://github.com/Psychpsyo/DefaultVoiceMode",
+            "authors": {
+                "Psychpsyo": {
+                    "url": "https://psychpsyo.com"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Psychpsyo/DefaultVoiceMode/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/DefaultVoiceMode/releases/download/1.0.0/DefaultVoiceMode.dll",
+                            "sha256": "74081eaa6b8794a94869c9872ad4a42e2607bd65affe2694f1aa45fea5e36289"
                         }
                     ]
                 }
