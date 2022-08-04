@@ -3600,7 +3600,7 @@
       "category": "Asset Importing Tweaks",
       "sourceLocation": "https://github.com/dfgHiatus/NeosSVGImporter",
       "authors": {
-        "Delta": {
+        "dfgHiatus": {
           "url": "https://github.com/dfgHiatus"
         }
       },
@@ -3622,7 +3622,7 @@
       "category": "Asset Importing Tweaks",
       "sourceLocation": "https://github.com/dfgHiatus/NeosVRMLImporter",
       "authors": {
-        "Delta": {
+        "dfgHiatus": {
           "url": "https://github.com/dfgHiatus"
         }
       },
@@ -3643,7 +3643,7 @@
       "description": "Completely disables (world space) mirrors",
       "category": "Misc",
       "sourceLocation": "https://github.com/dfgHiatus/FuckMirrors",
-      "authors": {
+      "dfgHiatus": {
         "Delta": {
           "url": "https://github.com/dfgHiatus"
         }
@@ -3666,7 +3666,7 @@
       "category": "Hardware Integrations",
       "sourceLocation": "https://github.com/dfgHiatus/EyeTrackVR-Neos",
       "authors": {
-        "Delta": {
+        "dfgHiatus": {
           "url": "https://github.com/dfgHiatus"
         }
       },
@@ -3688,7 +3688,7 @@
       "category": "Asset Importing Tweaks",
       "sourceLocation": "https://github.com/dfgHiatus/NeosUnityPackagesImporter",
       "authors": {
-        "Delta": {
+        "dfgHiatus": {
           "url": "https://github.com/dfgHiatus"
         }
       },
@@ -3699,6 +3699,32 @@
             {
               "url": "https://github.com/dfgHiatus/NeosUnityPackagesImporter/releases/download/v1.3.0/UnityPackageImporter.dll",
               "sha256": "1d9684779ab33557b181ca4dbe2888367ed27fe73664a5d1061189d4e5dfd14e"
+            }
+          ]
+        }
+      }
+    },
+    "net.dfgHiatus.ProjectBabble-Neos": {
+      "name": "BabbleTrack-Neos",
+      "description": "Project Babble face tracking for NeosVR",
+      "category": "Hardware Integrations",
+      "sourceLocation": "https://github.com/dfgHiatus/ProjectBabble-Neos",
+      "authors": {
+        "dfgHiatus": {
+          "url": "https://github.com/dfgHiatus"
+        }
+      },
+      "versions": {
+        "1.0.0": {
+          "releaseUrl": "https://github.com/dfgHiatus/ProjectBabble-Neos/releases/tag/v1.0.0",
+          "artifacts": [
+            {
+              "url": "https://github.com/dfgHiatus/ProjectBabble-Neos/releases/download/v1.0.0/BabbleTrack-Neos.dll",
+              "sha256": "b6c95b504824cbf885d7ce74ffbe1c053da8bb60a634c1a8f107aa5f524ff533"
+            },
+            {
+              "url": "https://github.com/dfgHiatus/ProjectBabble-Neos/releases/download/v1.0.0/Rug.Osc.dll",
+              "sha256": "69691768f4e4042ee7631dfbaf2c26fd7b79f6134dac71dad7d0a9bbd8f6f955"
             }
           ]
         }
