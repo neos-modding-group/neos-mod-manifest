@@ -3593,6 +3593,70 @@
                     ]
                 }
             }
+        },
+        "Psychpsyo.Tooltippery": { 
+            "name": "Tooltippery",
+            "description": "Adds the capability for other mods and users to add hover tooltips to buttons.",
+            "category": "Libraries",
+            "website": "https://github.com/Psychpsyo/Tooltippery",
+            "sourceLocation": "https://github.com/Psychpsyo/Tooltippery",
+            "authors": {
+                "Psychpsyo": {
+                    "url": "https://psychpsyo.com"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Psychpsyo/Tooltippery/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/Tooltippery/releases/download/1.0.0/Tooltippery.dll",
+                            "sha256": "7a79b6a8e7c4476f8c6545d3a607c86d7fd1bc02446382e90b946852d391353f"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Psychpsyo/Tooltippery/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/Tooltippery/releases/download/1.0.1/Tooltippery.dll",
+                            "sha256": "aa12abbb22fd9b5f1a87c79e8b1f62c6baed1433940039cffe4f1d65130cc9e0"
+                        }
+                    ]
+                }
+            }
+        },
+        "Psychpsyo.DiscordVR": { 
+            "name": "DiscordVR",
+            "description": "Adds a Discord tab to your dash, next to the contacts tab.",
+            "category": "Dash Tweaks",
+            "website": "https://github.com/Psychpsyo/DiscordVR",
+            "sourceLocation": "https://github.com/Psychpsyo/DiscordVR",
+            "authors": {
+                "Psychpsyo": {
+                    "url": "https://psychpsyo.com"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Psychpsyo/DiscordVR/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/DiscordVR/releases/download/1.0.0/DiscordVR.dll",
+                            "sha256": "75a366c89bb045f61f9e387071323ce405206953ff19c0e8ee7bbcd03a8ba832"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Psychpsyo/DiscordVR/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/DiscordVR/releases/download/1.0.1/DiscordVR.dll",
+                            "sha256": "af1bc0d32137c4003bb3fc84c0dc67ee766d0cbfb9d54b3af0aa5367e9e81e9b"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
