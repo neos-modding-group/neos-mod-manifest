@@ -3657,6 +3657,29 @@
                     ]
                 }
             }
+        },
+        "me.badhaloninja.ReadableDebugDialog": {
+            "name": "ReadableDebugDialog",
+            "description": "Makes the debug dialog more readable in dark lighting",
+            "category": "General Ui Tweaks",
+            "sourceLocation": "https://github.com/badhaloninja/ReadableDebugDialog/",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/ReadableDebugDialog/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/ReadableDebugDialog/releases/download/v1.0.0/ReadableDebugDialog.dll",
+                            "filename": "ReadableDebugDialog.dll",
+                            "sha256": "c2d12c3d15dfe0e6333fdad04dedbd8bb726aef9f39c0da3962ee046b63d751c"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
