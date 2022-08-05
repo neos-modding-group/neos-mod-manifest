@@ -3657,6 +3657,29 @@
                     ]
                 }
             }
+        },
+        "dev.LeCloutPanda.Local-Menu": {
+            "name": "Local-Menu",
+            "description": "Adds the options to make both Context Menu and Interaction laser local so only you can see them.",
+            "category": "Context Menu Tweaks",
+            "sourceLocation": "https://github.com/LeCloutPanda/Local-Menu/",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/Local-Menu/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/Local-Menu/releases/download/v1.0.1/LocalMenu.dll",
+                            "filename": "LocalMenu.dll",
+                            "sha256": "e549021193ba889e4118020190458bae9b155078da5789ac553c1068cbec0bdf"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
