@@ -3657,6 +3657,29 @@
                     ]
                 }
             }
+        },
+        "net.Cyro.Proxify": {
+            "name": "Proxify",
+            "description": "Lets you drop LogiX registers into things that can receive reference proxies",
+            "category": "LogiX",
+            "sourceLocation": "https://github.com/RileyGuy/Proxify/",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/RileyGuy/Proxify/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/RileyGuy/Proxify/releases/download/1.0.0/Proxify.dll",
+                            "filename": "Proxify.dll",
+                            "sha256": "21144a05fe91b1d9bf61c0c1b63f1a3b8d05918d31393d9bc319aeb1dccc8211"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
