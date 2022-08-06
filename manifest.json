@@ -3657,6 +3657,29 @@
                     ]
                 }
             }
+        },
+        "net.eia485.allowCompSpawn": {
+            "name": "AllowCompSpawn",
+            "description": "Allows spawning worker inspectors from held syncrefs unconditionally",
+            "category": "Technical Tweaks",
+            "sourceLocation": "https://github.com/EIA485/NeosAllowCompSpawn",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485/"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosAllowCompSpawn/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosAllowCompSpawn/releases/download/1.0.0/AllowCompSpawn.dll",
+                            "filename": "AllowCompSpawn.dll",
+                            "sha256": "b5242bf239d2916990ffcce09d435033532f368e35661eed91b8301d133b03c5"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
