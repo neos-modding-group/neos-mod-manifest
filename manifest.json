@@ -2994,6 +2994,55 @@
                 }
             }
         },
+        "Banane9.StopDisappearingLocomotionMenu": {
+            "name": "StopDisappearingLocomotionMenu",
+            "description": "Can prevent the locomotion and scale items from disappearing from the context menu while holding a tool.",
+            "category": "General UI Tweaks",
+            "website": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu",
+            "sourceLocation": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu/releases/download/v1.0.0/StopDisappearingLocomotionMenu.dll",
+                            "sha256": "A94AD9CA070321088B690CB29A82B627BA8AFB4BA84C7D7036C1E99A3C44F2DB"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.FlexibleContactsSort": {
+            "name": "FlexibleContactsSort",
+            "description": "Sorts contacts Better™ and to your liking.",
+            "category": "General UI Tweaks",
+            "website": "https://github.com/Banane9/NeosFlexibleContactsSort",
+            "sourceLocation": "https://github.com/Banane9/NeosFlexibleContactsSort",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                },
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
+            "versions": {
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosFlexibleContactsSort/releases/tag/v2.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosFlexibleContactsSort/releases/download/v2.0.0/FlexibleContactsSort.dll",
+                            "sha256": "8EC930E4A7135D679D5B4D694D5617639063DF73CC90EB5DF5170B728311CCBF"
+                        }
+                    ]
+                }
+            }
+        },
         "dev.zkxs.neoscloudhomeaccesslevel": {
             "name": "CloudHomeAccessLevel",
             "description": "Lets you configure your cloud home's default access level",
