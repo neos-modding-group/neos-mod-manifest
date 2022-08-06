@@ -3657,6 +3657,29 @@
                     ]
                 }
             }
+        },
+        "net.Cyro.ReFract": {
+            "name": "ReFract",
+            "description": "Exposes many post processing effects for neos cameras!",
+            "category": "Visual Tweaks",
+            "sourceLocation": "https://github.com/RileyGuy/ReFract",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy/"
+                }
+            },
+            "versions": {
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/RileyGuy/ReFract/releases/tag/1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/RileyGuy/ReFract/releases/download/1.1.1/ReFract.dll",
+                            "filename": "ReFract.dll",
+                            "sha256": "41e800a9d86d339fc1e56e2304ccb740e516ef59db6bd0b9d1527f544c9337bf"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
