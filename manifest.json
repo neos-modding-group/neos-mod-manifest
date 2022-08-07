@@ -3680,6 +3680,28 @@
                     ]
                 }
             }
+        },
+        "net.Hayden.ChangeUserspaceFont": {
+            "name": "ChangeUserSpaceFont",
+            "description": "A Neos mod to change the main font in the Local Userspace. ",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/Hayden-Fluff/Change-Userspace-Font",
+            "authors": {
+                "Hayden-Fluff": {
+                    "url": "https://github.com/Hayden-Fluff"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Hayden-Fluff/Change-Userspace-Font/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Hayden-Fluff/Change-Userspace-Font/releases/download/1.0.1/ChangeUserspaceFont.dll",
+                            "sha256": "e5f924e6e5a82e73b3db0e4366000926ea4f136e48a4f949ad9612a1523254da"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
