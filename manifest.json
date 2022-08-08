@@ -3626,6 +3626,28 @@
                 }
             }
         },
+        "net.Toxic_Cookie.DefaultToAnisotropic": {
+            "name": "DefaultToAnisotropic",
+            "description": "Import textures using Anisotropic filtering by default",
+            "category": "Asset Importing Tweaks",
+            "sourceLocation": "https://github.com/Toxic-Cookie/DefaultToAnisotropic",
+            "authors": {
+                "Toxic-Cookie": {
+                    "url": "https://github.com/Toxic-Cookie/"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/download/1.1.0/DefaultToAnisotropic.dll",
+                            "sha256": "110eeee51eb3e12d9d96c96bf18823aa5c7b35d4f308c2cedbb6666dba7e08df"
+                        }
+                    ]
+                }
+            }
+        }, 
         "Psychpsyo.DiscordVR": { 
             "name": "DiscordVR",
             "description": "Adds a Discord tab to your dash, next to the contacts tab.",
