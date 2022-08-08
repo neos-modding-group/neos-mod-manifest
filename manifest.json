@@ -3594,6 +3594,29 @@
                 }
             }
         },
+        "net.LeCloutPanda.DefaultLaserState": {
+            "name": "DefaultLaserState",
+            "description": "Change the default state of the interaction laser",
+            "category": "Context Menu Tweaks",
+            "sourceLocation": "https://github.com/LeCloutPanda/DefaultLaserState/",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/DefaultLaserState/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/DefaultLaserState/releases/download/v1.0.1/DefaultLaserState.dll",
+                            "filename": "DefaultLaserState.dll",
+                            "sha256": "f914a39026a80284c75422222d585483659a5d9a9c2c304f195442e4a824d39d"
+                        }
+                    ]
+                }
+            }
+        },
         "Psychpsyo.Tooltippery": { 
             "name": "Tooltippery",
             "description": "Adds the capability for other mods and users to add hover tooltips to buttons.",
@@ -3626,6 +3649,28 @@
                 }
             }
         },
+        "net.Toxic_Cookie.DefaultToAnisotropic": {
+            "name": "DefaultToAnisotropic",
+            "description": "Import textures using Anisotropic filtering by default",
+            "category": "Asset Importing Tweaks",
+            "sourceLocation": "https://github.com/Toxic-Cookie/DefaultToAnisotropic",
+            "authors": {
+                "Toxic-Cookie": {
+                    "url": "https://github.com/Toxic-Cookie/"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/download/1.1.0/DefaultToAnisotropic.dll",
+                            "sha256": "110eeee51eb3e12d9d96c96bf18823aa5c7b35d4f308c2cedbb6666dba7e08df"
+                        }
+                    ]
+                }
+            }
+        }, 
         "Psychpsyo.DiscordVR": { 
             "name": "DiscordVR",
             "description": "Adds a Discord tab to your dash, next to the contacts tab.",
@@ -3658,24 +3703,46 @@
                 }
             }
         },
-        "net.LeCloutPanda.DefaultLaserState": {
-            "name": "DefaultLaserState",
-            "description": "Change the default state of the interaction laser",
-            "category": "Context Menu Tweaks",
-            "sourceLocation": "https://github.com/LeCloutPanda/DefaultLaserState/",
+        "net.eia485.allowCompSpawn": {
+            "name": "AllowCompSpawn",
+            "description": "Allows spawning worker inspectors from held syncrefs unconditionally",
+            "category": "Technical Tweaks",
+            "sourceLocation": "https://github.com/EIA485/NeosAllowCompSpawn",
             "authors": {
-                "LeCloutPanda": {
-                    "url": "https://github.com/LeCloutPanda"
+                "eia485": {
+                    "url": "https://github.com/EIA485/"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosAllowCompSpawn/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosAllowCompSpawn/releases/download/1.0.0/AllowCompSpawn.dll",
+                            "filename": "AllowCompSpawn.dll",
+                            "sha256": "b5242bf239d2916990ffcce09d435033532f368e35661eed91b8301d133b03c5"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.Hayden.ChangeUserspaceFont": {
+            "name": "ChangeUserSpaceFont",
+            "description": "A Neos mod to change the main font in the Local Userspace. ",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/Hayden-Fluff/Change-Userspace-Font",
+            "authors": {
+                "Hayden-Fluff": {
+                    "url": "https://github.com/Hayden-Fluff"
                 }
             },
             "versions": {
                 "1.0.1": {
-                    "releaseUrl": "https://github.com/LeCloutPanda/DefaultLaserState/releases/tag/v1.0.1",
+                    "releaseUrl": "https://github.com/Hayden-Fluff/Change-Userspace-Font/releases/tag/1.0.1",
                     "artifacts": [
                         {
-                            "url": "https://github.com/LeCloutPanda/DefaultLaserState/releases/download/v1.0.1/DefaultLaserState.dll",
-                            "filename": "DefaultLaserState.dll",
-                            "sha256": "f914a39026a80284c75422222d585483659a5d9a9c2c304f195442e4a824d39d"
+                            "url": "https://github.com/Hayden-Fluff/Change-Userspace-Font/releases/download/1.0.1/ChangeUserspaceFont.dll",
+                            "sha256": "e5f924e6e5a82e73b3db0e4366000926ea4f136e48a4f949ad9612a1523254da"
                         }
                     ]
                 }
