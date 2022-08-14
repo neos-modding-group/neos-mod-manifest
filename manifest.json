@@ -3666,6 +3666,29 @@
                 }
             }
         },
+        "net.LeCloutPanda.DefaultLaserState": {
+            "name": "DefaultLaserState",
+            "description": "Change the default state of the interaction laser",
+            "category": "Context Menu Tweaks",
+            "sourceLocation": "https://github.com/LeCloutPanda/DefaultLaserState/",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/DefaultLaserState/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/DefaultLaserState/releases/download/v1.0.1/DefaultLaserState.dll",
+                            "filename": "DefaultLaserState.dll",
+                            "sha256": "f914a39026a80284c75422222d585483659a5d9a9c2c304f195442e4a824d39d"
+                        }
+                    ]
+                }
+            }
+        },
         "Psychpsyo.Tooltippery": { 
             "name": "Tooltippery",
             "description": "Adds the capability for other mods and users to add hover tooltips to buttons.",
