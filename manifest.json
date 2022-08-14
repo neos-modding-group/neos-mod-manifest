@@ -3032,12 +3032,12 @@
                 }
             },
             "versions": {
-                "2.0.0": {
-                    "releaseUrl": "https://github.com/Banane9/NeosFlexibleContactsSort/releases/tag/v2.0.0",
+                "2.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosFlexibleContactsSort/releases/tag/v2.1.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/Banane9/NeosFlexibleContactsSort/releases/download/v2.0.0/FlexibleContactsSort.dll",
-                            "sha256": "8EC930E4A7135D679D5B4D694D5617639063DF73CC90EB5DF5170B728311CCBF"
+                            "url": "https://github.com/Banane9/NeosFlexibleContactsSort/releases/download/v2.1.0/FlexibleContactsSort.dll",
+                            "sha256": "91291D5BB4442DF0E069F9BAD0C8653BF128367C5A3129EF4B70CBBD49CDEFA7"
                         }
                     ]
                 }
