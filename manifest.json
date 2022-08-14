@@ -2994,6 +2994,78 @@
                 }
             }
         },
+        "Banane9.StopDisappearingLocomotionMenu": {
+            "name": "StopDisappearingLocomotionMenu",
+            "description": "Can prevent the locomotion and scale items from disappearing from the context menu while holding a tool.",
+            "category": "General UI Tweaks",
+            "website": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu",
+            "sourceLocation": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu/releases/download/v1.0.0/StopDisappearingLocomotionMenu.dll",
+                            "sha256": "A94AD9CA070321088B690CB29A82B627BA8AFB4BA84C7D7036C1E99A3C44F2DB"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.FlexibleContactsSort": {
+            "name": "FlexibleContactsSort",
+            "description": "Sorts contacts Better™ and to your liking.",
+            "category": "General UI Tweaks",
+            "website": "https://github.com/Banane9/NeosFlexibleContactsSort",
+            "sourceLocation": "https://github.com/Banane9/NeosFlexibleContactsSort",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                },
+                "runtime": {
+                    "url": "https://github.com/zkxs"
+                }
+            },
+            "versions": {
+                "2.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosFlexibleContactsSort/releases/tag/v2.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosFlexibleContactsSort/releases/download/v2.1.0/FlexibleContactsSort.dll",
+                            "sha256": "91291D5BB4442DF0E069F9BAD0C8653BF128367C5A3129EF4B70CBBD49CDEFA7"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.DynamicBlendShapeDriverSetup": {
+            "name": "DynamicBlendShapeDriverSetup",
+            "description": "Adds buttons to the DynamicBlendShapeDriver component to automatically add entries for all BlendShapes on the linked SkinnedMeshRenderer.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosDynamicBlendShapeDriverSetup",
+            "sourceLocation": "https://github.com/Banane9/NeosDynamicBlendShapeDriverSetup",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosDynamicBlendShapeDriverSetup/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosDynamicBlendShapeDriverSetup/releases/download/v1.1.0/DynamicBlendShapeDriverSetup.dll",
+                            "sha256": "4DC8797D9A1B9C42FEC3A9E5AFB7C302F58351B029F77488F4FF38E96AF1964E"
+                        }
+                    ]
+                }
+            }
+        },
         "dev.zkxs.neoscloudhomeaccesslevel": {
             "name": "CloudHomeAccessLevel",
             "description": "Lets you configure your cloud home's default access level",
