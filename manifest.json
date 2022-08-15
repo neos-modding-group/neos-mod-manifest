@@ -3819,6 +3819,54 @@
                     ]
                 }
             }
+        },
+        "net.hantabaru1014.HeadCullingMask": {
+            "name": "HeadCullingMask",
+            "description": "Make your avatar's head invisible only to your FPV. (Looks like NearClip, but others are visible at near distance)",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/hantabaru1014/HeadCullingMask",
+            "sourceLocation": "https://github.com/hantabaru1014/HeadCullingMask",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "1.2.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/HeadCullingMask/releases/tag/v1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/HeadCullingMask/releases/download/v1.2.0/HeadCullingMask.dll",
+                            "filename": "HeadCullingMask.dll",
+                            "sha256": "5998bbb56258b06dbb98574f74acb1bd31771fe17ea0a745a01fc5520f7b5bd6"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.hantabaru1014.RemoveNABlendshapes": {
+            "name": "RemoveNABlendshapes",
+            "description": "Add a \"Remove N/A Blendshapes\" button to SkinnedMeshRenderer.",
+            "category": "Inspectors",
+            "website": "https://github.com/hantabaru1014/RemoveNABlendshapes",
+            "sourceLocation": "https://github.com/hantabaru1014/RemoveNABlendshapes",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/RemoveNABlendshapes/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/RemoveNABlendshapes/releases/download/v1.0.0/RemoveNABlendshapes.dll",
+                            "filename": "RemoveNABlendshapes.dll",
+                            "sha256": "b8cc76c457b1f9ed0785d36ac8d5b12e4b24fcae9ab4d18a98ec816360f03e5d"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
