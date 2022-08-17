@@ -3913,6 +3913,29 @@
                     ]
                 }
             }
+        },
+        "net.Sox.CompliantAvatarCreator": {
+            "name": "CompliantAvatarCreator",
+            "description": "Allows you to stop that annoying snapping when trying to set up an avatar in certain sessions (Especially when in a Headless session).",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/Sox-NeosVR/CompliantAvatarCreator",
+            "sourceLocation": "https://github.com/Sox-NeosVR/CompliantAvatarCreator",
+            "authors": {
+                "Sox": {
+                    "url": "https://github.com/Sox-NeosVR"
+                }
+            },
+            "versions": {
+                "1.0.0.0": {
+                    "releaseUrl": "https://github.com/Sox-NeosVR/CompliantAvatarCreator/releases/tag/v1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Sox-NeosVR/CompliantAvatarCreator/releases/download/v1.0.0.0/CompliantAvatarCreator.dll",
+                            "sha256": "57ed97a576fffdadba5fbda623a6cdecfe3aeee5fb72796d4ea6699246fc6c29"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
