@@ -95,6 +95,123 @@
                 }
             }
         },
+        "Discord.Net.Core": {
+            "name": "Discord.Net Core",
+            "description": "The core components for the Discord.Net library.",
+            "authors": {
+                "discord.net": {
+                    "url": "https://github.com/discord-net"
+                }
+            },
+            "sourceLocation": "https://github.com/discord-net/Discord.Net",
+            "website": "https://discordnet.dev",
+            "category": "Libraries",
+            "flags": [
+                "file"
+            ],
+            "versions": {
+                "3.7.2.0": {
+                    "releaseUrl": "https://github.com/discord-net/Discord.Net/releases/tag/3.7.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.2.0/Discord.Net.Core.dll",
+                            "filename": "Discord.Net.Core.dll",
+                            "sha256": "68cf9f25959b675a213d642fe2d6376bb057cc25c4d3e4093409761afc772e69",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                },
+                "3.0.0.0": {
+                    "releaseUrl": "https://github.com/discord-net/Discord.Net/releases/tag/3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Core.dll",
+                            "filename": "Discord.Net.Core.dll",
+                            "sha256": "ef0293ea3aecd5ef747aa39d4a241ea27be0ddaee8150d19ed9e3be539e96f78",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                }
+            }
+        },
+        "Discord.Net.Rest": {
+            "name": "Discord.Net Rest",
+            "description": "A core Discord.Net library containing the REST client and models.",
+            "authors": {
+                "discord.net": {
+                    "url": "https://github.com/discord-net"
+                }
+            },
+            "sourceLocation": "https://github.com/discord-net/Discord.Net",
+            "website": "https://discordnet.dev",
+            "category": "Libraries",
+            "flags": [
+                "file"
+            ],
+            "versions": {
+                "3.7.2.0": {
+                    "releaseUrl": "https://github.com/discord-net/Discord.Net/releases/tag/3.7.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.2.0/Discord.Net.Rest.dll",
+                            "filename": "Discord.Net.Rest.dll",
+                            "sha256": "ff9d22adbe079ca3594adc1d32149eb1fbe42656a8cccb68316672b60c94e399",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                },
+                "3.0.0.0": {
+                    "releaseUrl": "https://github.com/discord-net/Discord.Net/releases/tag/3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Rest.dll",
+                            "filename": "Discord.Net.Rest.dll",
+                            "sha256": "c5dec932796e718979d9d57437f9408a8ba8d1a982b35136acb474a37c8358d4",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                }
+            }
+        },
+        "Discord.Net.Webhook": {
+            "name": "Discord.Net Webhook",
+            "description": "A core Discord.Net library containing the Webhook client and models.",
+            "authors": {
+                "discord.net": {
+                    "url": "https://github.com/discord-net"
+                }
+            },
+            "sourceLocation": "https://github.com/discord-net/Discord.Net",
+            "website": "https://discordnet.dev",
+            "category": "Libraries",
+            "flags": [
+                "file"
+            ],
+            "versions": {
+                "3.7.2.0": {
+                    "releaseUrl": "https://github.com/discord-net/Discord.Net/releases/tag/3.7.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.2.0/Discord.Net.Webhook.dll",
+                            "filename": "Discord.Net.Webhook.dlll",
+                            "sha256": "433670c11e65f53045647ba06e8ec17fc5257b1682992bde8b6a327e84250d54",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                },
+                "3.0.0.0": {
+                    "releaseUrl": "https://github.com/discord-net/Discord.Net/releases/tag/3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Webhook.dll",
+                            "filename": "Discord.Net.Webhook.dlll",
+                            "sha256": "cbbaee21bb930cfa29e62aeca2fad5eac7e031905af9b55dd7b934b5ddcfabe9",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.SpecialItemsLib": {
             "name": "SpecialItemsLib",
             "description": "A library which allows other mods to easily add custom special items to be shown in the inventory.",
@@ -3755,86 +3872,94 @@
                 "1.2.0": {
                     "changelog": "Added Optional SmartAutoSave\n - If enabled, will only save if a user is in the world and once after the last user leaves\n\nFixed Check for if a user can join a world\n - Allow contacts of headless who aren't moderator or above when world is set to contacts or higher\n \n \n# UPDTATED TO DISCORD.NET 3.7.2",
                     "releaseUrl": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/tag/v1.2.0",
+                    "dependencies": {
+                        "Discord.Net.Core": {
+                            "version": "3.7.2.0"
+                        },
+                        "Discord.Net.Rest": {
+                            "version": "3.7.2.0"
+                        },
+                        "Discord.Net.Webhook": {
+                            "version": "3.7.2.0"
+                        }
+                    },
                     "artifacts": [
                         {
                             "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.2.0/HeadlessTweaks.dll",
                             "filename": "HeadlessTweaks.dll",
                             "sha256": "4bb449538a5f14b90b7bbfd4b36c0f4d3f6cfc5830b9e0b9e0b5f3136fad2080"
-                        },
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.2.0/Discord.Net.Rest.dll",
-                            "filename": "Discord.Net.Core.dll",
-                            "sha256": "68cf9f25959b675a213d642fe2d6376bb057cc25c4d3e4093409761afc772e69",
-                            "installLocation": "/nml_libs"
-                        },
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.2.0/Discord.Net.Rest.dll",
-                            "filename": "Discord.Net.Rest.dll",
-                            "sha256": "ff9d22adbe079ca3594adc1d32149eb1fbe42656a8cccb68316672b60c94e399",
-                            "installLocation": "/nml_libs"
-                        },
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.2.0/Discord.Net.Webhook.dll",
-                            "filename": "Discord.Net.Webhook.dll",
-                            "sha256": "433670c11e65f53045647ba06e8ec17fc5257b1682992bde8b6a327e84250d54",
-                            "installLocation": "/nml_libs"
                         }
                     ] 
                 },
                 "1.1.0": {
                     "changelog": "Added command categories",
                     "releaseUrl": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/tag/v1.1.0",
+                    "dependencies": {
+                        "Discord.Net.Core": {
+                            "version": "3.0.0.0"
+                        },
+                        "Discord.Net.Rest": {
+                            "version": "3.0.0.0"
+                        },
+                        "Discord.Net.Webhook": {
+                            "version": "3.0.0.0"
+                        }
+                    },
                     "artifacts": [
                         {
                             "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/HeadlessTweaks.dll",
                             "filename": "HeadlessTweaks.dll",
                             "sha256": "72dc72d371167a140c7f56039c2151583fb13b43b81dd0d1b5b19be13fd9a00b"
-                        },
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Rest.dll",
-                            "filename": "Discord.Net.Core.dll",
-                            "sha256": "ef0293ea3aecd5ef747aa39d4a241ea27be0ddaee8150d19ed9e3be539e96f78",
-                            "installLocation": "/nml_libs"
-                        },
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Rest.dll",
-                            "filename": "Discord.Net.Rest.dll",
-                            "sha256": "c5dec932796e718979d9d57437f9408a8ba8d1a982b35136acb474a37c8358d4",
-                            "installLocation": "/nml_libs"
-                        },
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Webhook.dll",
-                            "filename": "Discord.Net.Webhook.dll",
-                            "sha256": "cbbaee21bb930cfa29e62aeca2fad5eac7e031905af9b55dd7b934b5ddcfabe9",
-                            "installLocation": "/nml_libs"
                         }
                     ] 
                 },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/tag/v1.0.0",
+                    "dependencies": {
+                        "Discord.Net.Core": {
+                            "version": "3.0.0.0"
+                        },
+                        "Discord.Net.Rest": {
+                            "version": "3.0.0.0"
+                        },
+                        "Discord.Net.Webhook": {
+                            "version": "3.0.0.0"
+                        }
+                    },
                     "artifacts": [
                         {
                             "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.0.0/HeadlessTweaks.dll",
                             "filename": "HeadlessTweaks.dll",
                             "sha256": "8903556e5d022969eb59dad3166b33afc943dade3ae3b9f777dd40f083ad5761"
-                        },
+                        }
+                    ] 
+                }
+            }
+        },
+        "me.Gareth48.ParticleWorkshop": {
+            "name": "ParticleWorkshop",
+            "description": "Adds a wizard for creating particles with color and alpha over time.\nCreated by Gareth48 with some huge help from badhaloninja and Cyro!",
+            "category": "Wizards",
+            "sourceLocation": "https://github.com/Epimonster/ParticleWorkshop",
+            "authors": {
+                "Gareth48": {
+                    "url": "https://github.com/Epimonster"
+                },
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                },
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Epimonster/ParticleWorkshop/releases/tag/1.0.0",
+                    "artifacts": [
                         {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Rest.dll",
-                            "filename": "Discord.Net.Core.dll",
-                            "sha256": "ef0293ea3aecd5ef747aa39d4a241ea27be0ddaee8150d19ed9e3be539e96f78",
-                            "installLocation": "/nml_libs"
-                        },
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Rest.dll",
-                            "filename": "Discord.Net.Rest.dll",
-                            "sha256": "c5dec932796e718979d9d57437f9408a8ba8d1a982b35136acb474a37c8358d4",
-                            "installLocation": "/nml_libs"
-                        },
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Webhook.dll",
-                            "filename": "Discord.Net.Webhook.dll",
-                            "sha256": "cbbaee21bb930cfa29e62aeca2fad5eac7e031905af9b55dd7b934b5ddcfabe9",
-                            "installLocation": "/nml_libs"
+                            "url": "https://github.com/Epimonster/ParticleWorkshop/releases/download/1.0.0/ParticleWorkshop.dll",
+                            "filename": "ParticleWorkshop.dll",
+                            "sha256": "2e3ef8e5aefc9fb1e097f66437224b7af7ca8ac931a92a80342d8175df14a32c"
                         }
                     ] 
                 }
