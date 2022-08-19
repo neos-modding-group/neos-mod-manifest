@@ -3076,6 +3076,78 @@
                 }
             }
         },
+        "Banane9.UserJoinLeaveNotifications": {
+            "name": "UserJoinLeaveNotifications",
+            "description": "Adds notifications to the notifications panel when users join or leave your focused session or any session you're in. Clicking on the notification opens the user's profile page and can focus the relevant session as well.",
+            "category": "General UI Tweaks",
+            "website": "https://github.com/Banane9/NeosUserJoinLeaveNotifications",
+            "sourceLocation": "https://github.com/Banane9/NeosUserJoinLeaveNotifications",
+            "authors": {
+				"badhaloninja": {
+                    "url": "https://github.com/badhaloninja/"
+                },
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/tag/v2.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/download/v2.0.0/UserJoinLeaveNotifications.dll",
+                            "sha256": "E50A083EAB6587EE80B117BA4C7CE8F0BAC21DFB2DD951E7DEBA5F553E18F699"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.ContactSessionsUserCapacity": {
+            "name": "ContactSessionsUserCapacity",
+            "description": "Adds a label showing the maximum user count in a session on the contacts page and can color it to show usage.",
+            "category": "General UI Tweaks",
+            "website": "https://github.com/Banane9/NeosContactSessionsUserCapacity",
+            "sourceLocation": "https://github.com/Banane9/NeosContactSessionsUserCapacity",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosContactSessionsUserCapacity/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosContactSessionsUserCapacity/releases/download/v1.0.0/ContactSessionsUserCapacity.dll",
+                            "sha256": "A01214710B3344AE8F4971028E2F0DDC9E5A957B228608A630C6D462408B2DF3"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.GoToBedAlready": {
+            "name": "GoToBedAlready",
+            "description": "Tracks a boolean Cloud Variable and triggers the game shutdown when it changes from its value at startup.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosGoToBedAlready",
+            "sourceLocation": "https://github.com/Banane9/NeosGoToBedAlready",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosGoToBedAlready/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosGoToBedAlready/releases/download/v1.0.0/GoToBedAlready.dll",
+                            "sha256": "9E11CD4623218CCC3F5DA8DAF53F4D0D470D6FB3BC2BF4B90FA0B82C996A0E2A"
+                        }
+                    ]
+                }
+            }
+        },
         "dev.zkxs.neoscloudhomeaccesslevel": {
             "name": "CloudHomeAccessLevel",
             "description": "Lets you configure your cloud home's default access level",
