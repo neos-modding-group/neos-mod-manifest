@@ -21,7 +21,7 @@
                 "1.11.2": {
                     "changelog": "AssemblyName is now ALWAYS 'NeosModLoader', Logging for loaded nml_libs",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.11.2",
-                    "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
                     "dependencies": {
                         "net.pardeike.harmony": {
                             "version": "^2.2.1"
@@ -39,7 +39,7 @@
                 "1.11.1": {
                     "changelog": "Adds additional logging for ReflectionTypeLoadException",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.11.1",
-                    "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
                     "dependencies": {
                         "net.pardeike.harmony": {
                             "version": "^2.2.1"
@@ -57,7 +57,7 @@
                 "1.11.0": {
                     "changelog": "ModConfiguration.Save() antispam and logging, New debug functions, Enumerable injector utility",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.11.0",
-                    "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
                     "dependencies": {
                         "net.pardeike.harmony": {
                             "version": "^2.2.1"
@@ -75,7 +75,7 @@
                 "1.10.1": {
                     "changelog": "Fix a hardcoded sanity check",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.10.1",
-                    "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
                     "dependencies": {
                         "net.pardeike.harmony": {
                             "version": "^2.2.1"
@@ -93,7 +93,7 @@
                 "1.10.0": {
                     "changelog": "Load non-mod Libraries from nml_libs, C# 8.0 nullable contexts, Logging improvements",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.10.0",
-                    "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
                     "dependencies": {
                         "net.pardeike.harmony": {
                             "version": "^2.2.1"
