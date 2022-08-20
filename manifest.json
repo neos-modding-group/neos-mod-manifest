@@ -4500,6 +4500,29 @@
                     ]
                 }
             }
+        },
+        "net.TheJebForge.BoneReferenceHelper": {
+            "name": "BoneReferenceHelper",
+            "description": "Allows you to easily manage bone references of any skinned mesh renderer either using clipboard or by just showing where to find all the bones/slots and setting references from hierarchy",
+            "category": "Inspectors",
+            "website": "https://github.com/TheJebForge/BoneReferenceHelper",
+            "sourceLocation": "https://github.com/TheJebForge/BoneReferenceHelper",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/BoneReferenceHelper/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/BoneReferenceHelper/releases/download/v1.0.0/BoneReferenceHelper.dll",
+                            "sha256": "7d20a69dc971023b0f344990fd3610bf50a08c2ccfb218876192ec0d8414411f"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
