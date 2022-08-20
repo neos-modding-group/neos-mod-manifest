@@ -18,6 +18,96 @@
                 "plugin"
             ],
             "versions": {
+                "1.11.2": {
+                    "changelog": "AssemblyName is now ALWAYS 'NeosModLoader', Logging for loaded nml_libs",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.11.2",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.11.2/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "c3e575da2acb7da1aec5975a72e1e3bd8c512bef9287ee9e021832db942ddf61",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.11.1": {
+                    "changelog": "Adds additional logging for ReflectionTypeLoadException",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.11.1",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.11.1/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "3c28bd87abb8e693a50f9b22a3a4e872bbf25ff2c7ee5465a461b1bfd9c584a6",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.11.0": {
+                    "changelog": "ModConfiguration.Save() antispam and logging, New debug functions, Enumerable injector utility",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.11.0",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.11.0/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "4635442e083a3e593556d038d15c2775a076c24453d76f3d01ababd95d8f3675",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.10.1": {
+                    "changelog": "Fix a hardcoded sanity check",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.10.1",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.10.1/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "33da558526ff0bf0b5e334a4d1116514711a38467f43f1bfa8e3ed5375a6affc",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.10.0": {
+                    "changelog": "Load non-mod Libraries from nml_libs, C# 8.0 nullable contexts, Logging improvements",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.10.0",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.10.0/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "51bd5839a646a55fe29b14d66144955a9f3a21fd372ab9059229d58b9aca93bf",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
                 "1.9.1": {
                     "changelog": "Logging improvements, splash screen visuals, JSON config serialization changes",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.9.1",
