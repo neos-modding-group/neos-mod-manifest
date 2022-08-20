@@ -396,29 +396,29 @@
                 }
             }
         },
-	"net.Cyro.InterfacialAbsence": {
-	    "name": "Interfacial Absence",
-	    "description": "A mod that lets you avoid having to user LogiX Interface Proxies in Neos ",
-	    "category": "Visual Tweaks",
-	    "website": "https://github.com/RileyGuy/InterfacialAbsence",
-	    "sourceLocation": "https://github.com/RileyGuy/InterfacialAbsence",
-	    "authors": { 
-		"Cyro": { 
-		    "url": "https://github.com/RileyGuy" 
-		}
-	    },
-	    "versions": { 
-		"1.0.0": { 
-		    "releaseUrl": "https://github.com/RileyGuy/InterfacialAbsence/releases/tag/1.0.0", 
-		    "artifacts": [ 
-			{
-			    "url": "https://github.com/RileyGuy/InterfacialAbsence/releases/download/1.0.0/InterfacialAbsence.dll", 
-			    "sha256": "b5387b7afa7db76a18afa5ed314dc7500cc3ea859580c982635e09618324193a"
-			}
-		    ]
-		}
-	    }
-	},
+        "net.Cyro.InterfacialAbsence": {
+            "name": "Interfacial Absence",
+            "description": "A mod that lets you avoid having to user LogiX Interface Proxies in Neos ",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/RileyGuy/InterfacialAbsence",
+            "sourceLocation": "https://github.com/RileyGuy/InterfacialAbsence",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/RileyGuy/InterfacialAbsence/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/RileyGuy/InterfacialAbsence/releases/download/1.0.0/InterfacialAbsence.dll",
+                            "sha256": "b5387b7afa7db76a18afa5ed314dc7500cc3ea859580c982635e09618324193a"
+                        }
+                    ]
+                }
+            }
+        },
         "me.badhaloninja.NoLogixTraversalContext": {
             "name": "NoLogixTraversalContext",
             "description": "Hides the logix tip's node traversal context item.",
@@ -454,7 +454,7 @@
             },
             "versions": {
                 "1.2.0": {
-                    "changelog":"Added option to make zoom toggle\nAdded a customizable overlay\n - Uri\n - Size\n - Optional Background\n - Background color",
+                    "changelog": "Added option to make zoom toggle\nAdded a customizable overlay\n - Uri\n - Size\n - Optional Background\n - Background color",
                     "releaseUrl": "https://github.com/badhaloninja/Optizoom/releases/tag/v1.2.0",
                     "artifacts": [
                         {
@@ -465,7 +465,7 @@
                     ]
                 },
                 "1.1.0": {
-                    "changelog":"Slight rework to fix lerping any fov change\n\nAdded option to change fov lerp speed\nAdded option to disable lerping",
+                    "changelog": "Slight rework to fix lerping any fov change\n\nAdded option to change fov lerp speed\nAdded option to disable lerping",
                     "releaseUrl": "https://github.com/badhaloninja/Optizoom/releases/tag/v1.1.0",
                     "artifacts": [
                         {
@@ -901,7 +901,7 @@
             },
             "versions": {
                 "1.5.1": {
-                    "changelog":" - Fixed an issue preventing input nodes of certain types from being created",
+                    "changelog": " - Fixed an issue preventing input nodes of certain types from being created",
                     "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.1",
                     "artifacts": [
                         {
@@ -912,7 +912,7 @@
                     ]
                 },
                 "1.5.0": {
-                    "changelog":"## The Config Update\n - Added configs\n\n### Other changes\n - Added option to clamp textures of ref nodes and drive nodes\n - Added ability to repair crashed nodes from the context menu of a logix tip when holding a slot\n     - Optionally can generate a report for what was crashed where it was and if it failed to get fixed",
+                    "changelog": "## The Config Update\n - Added configs\n\n### Other changes\n - Added option to clamp textures of ref nodes and drive nodes\n - Added ability to repair crashed nodes from the context menu of a logix tip when holding a slot\n     - Optionally can generate a report for what was crashed where it was and if it failed to get fixed",
                     "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.0",
                     "artifacts": [
                         {
@@ -1409,7 +1409,7 @@
             },
             "versions": {
                 "1.1.1": {
-                    "changelog":"Fix for blocking undo anywhere and not just in userspace",
+                    "changelog": "Fix for blocking undo anywhere and not just in userspace",
                     "releaseUrl": "https://github.com/badhaloninja/NoUserspaceUndo/releases/tag/v1.1.1",
                     "artifacts": [
                         {
@@ -2007,7 +2007,7 @@
                 }
             }
         },
-        "net.rampa3.ExitAndDiscardHomesKeybind":{
+        "net.rampa3.ExitAndDiscardHomesKeybind": {
             "name": "ExitAndDiscardHomesKeybind",
             "description": "allows to exit without saving changes in home world using Ctrl+Alt+F4 key shortcut",
             "category": "Keybinds & Gestures",
@@ -2882,7 +2882,7 @@
                         }
                     ]
                 },
-				"1.1.1": {
+                "1.1.1": {
                     "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.1.1",
                     "artifacts": [
                         {
@@ -2891,7 +2891,7 @@
                         }
                     ]
                 },
-				"1.2.0": {
+                "1.2.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.2.0",
                     "artifacts": [
                         {
@@ -2969,7 +2969,7 @@
                         }
                     ]
                 },
-				"1.2.0": {
+                "1.2.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/tag/v1.2.0",
                     "artifacts": [
                         {
@@ -3073,7 +3073,7 @@
                         }
                     ]
                 },
-				"1.1.0": {
+                "1.1.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosEditorTabbing/releases/tag/v1.1.0",
                     "artifacts": [
                         {
@@ -3348,7 +3348,7 @@
                             "filename": "BetterLUTImport.dll",
                             "sha256": "d7ec5da2311c16df0bc25a50cbbcee3e9f3ad626ad21b8ff3823b6a52d7d9b52"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3372,7 +3372,7 @@
                             "filename": "DeselectOwnGizmos.dll",
                             "sha256": "b58500c92be0401df3c406a88663ba0333581ffa009890dfbca550558e2bf43b"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3395,7 +3395,7 @@
                             "filename": "DevOriginSelectTweaks.dll",
                             "sha256": "6aa068a5c4bfdfebdfbab0a81feacc75256608cfc5a80edafc91c3a4a356cb8e"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3418,7 +3418,7 @@
                             "filename": "ReloadInspectorButton.dll",
                             "sha256": "cea46202c8ba5180c542ef07635e4bc2d60c577f149ebb830f04444bb0382948"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3441,7 +3441,7 @@
                             "filename": "NewMissingTexture.dll",
                             "sha256": "c298190a0f1033346f31d16959b216640f7c2000555e2cd5448af25a8ca4866a"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3465,7 +3465,7 @@
                             "filename": "OculusSwapMenuAndSecondary.dll",
                             "sha256": "8c1bafa0722dd4d36fc299c668a881b56185c6c4be5abb3162044ec1f7b0bee4"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3489,7 +3489,7 @@
                             "filename": "MaterialTipAutoScoop.dll",
                             "sha256": "7b1ebd2fb305e3171c0499a2034c3af44b22cb1df58fe0b63d5051becfd8a280"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3512,7 +3512,7 @@
                             "filename": "ExtraTypeAliases.dll",
                             "sha256": "ead86d2c05d8366b97aa434064601685fe28c5524ef7c3edc3e4c0dac0192404"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3529,8 +3529,8 @@
             "versions": {
                 "1.0.0": {
                     "flags": [
-                        "broken:linux-native"
-                        "broken:linux-wine",
+                        "broken:linux-native",
+                        "broken:linux-wine"
                     ],
                     "releaseUrl": "https://github.com/badhaloninja/ExitNeosAndShutdown/releases/tag/v1.0.0",
                     "artifacts": [
@@ -3539,7 +3539,7 @@
                             "filename": "ExitNeosAndShutdown.dll",
                             "sha256": "478372db2e907a53029c531751e95bc002a99ac8ac3b3c753b664fc991c3d533"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3562,7 +3562,7 @@
                             "filename": "PimaxSwordAsViveWand.dll",
                             "sha256": "d1cc83dfd787cd004528164867499f44cab32ae7d48599f19617d7cc68449bb9"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3585,7 +3585,7 @@
                             "filename": "InspectorExpandAll.dll",
                             "sha256": "a8deefcefb252abcf2baac7046293cb9b30aae533c66c8de4166af8a58ce61ba"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3608,7 +3608,7 @@
                             "filename": "CreateNewAdditions.dll",
                             "sha256": "9de58b2afb452f7f881b8035c0abc80c5ab676f0a34b2ee3f060b55b3d47a5b4"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3649,7 +3649,7 @@
                             "filename": "HeadlessTweaks.dll",
                             "sha256": "4bb449538a5f14b90b7bbfd4b36c0f4d3f6cfc5830b9e0b9e0b5f3136fad2080"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3678,7 +3678,7 @@
                             "filename": "ParticleWorkshop.dll",
                             "sha256": "2e3ef8e5aefc9fb1e097f66437224b7af7ca8ac931a92a80342d8175df14a32c"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -3707,7 +3707,7 @@
                             "filename": "ParticleWorkshop.dll",
                             "sha256": "2e3ef8e5aefc9fb1e097f66437224b7af7ca8ac931a92a80342d8175df14a32c"
                         }
-                    ] 
+                    ]
                 }
             }
         },
@@ -4037,7 +4037,7 @@
                 }
             }
         },
-        "net.Sox.EasyVoiceMessage": { 
+        "net.Sox.EasyVoiceMessage": {
             "name": "EasyVoiceMessage",
             "description": "Allows you to record voice messages without having to keep your laser on the tiny square button. (although your laser needs to stay on your dash)",
             "category": "Dash Tweaks",
