@@ -120,17 +120,6 @@
                             "installLocation": "/nml_libs"
                         }
                     ]
-                },
-                "3.0.0.0": {
-                    "releaseUrl": "https://github.com/discord-net/Discord.Net/releases/tag/3.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Core.dll",
-                            "filename": "Discord.Net.Core.dll",
-                            "sha256": "ef0293ea3aecd5ef747aa39d4a241ea27be0ddaee8150d19ed9e3be539e96f78",
-                            "installLocation": "/nml_libs"
-                        }
-                    ]
                 }
             }
         },
@@ -159,17 +148,6 @@
                             "installLocation": "/nml_libs"
                         }
                     ]
-                },
-                "3.0.0.0": {
-                    "releaseUrl": "https://github.com/discord-net/Discord.Net/releases/tag/3.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Rest.dll",
-                            "filename": "Discord.Net.Rest.dll",
-                            "sha256": "c5dec932796e718979d9d57437f9408a8ba8d1a982b35136acb474a37c8358d4",
-                            "installLocation": "/nml_libs"
-                        }
-                    ]
                 }
             }
         },
@@ -193,19 +171,8 @@
                     "artifacts": [
                         {
                             "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.2.0/Discord.Net.Webhook.dll",
-                            "filename": "Discord.Net.Webhook.dlll",
+                            "filename": "Discord.Net.Webhook.dll",
                             "sha256": "433670c11e65f53045647ba06e8ec17fc5257b1682992bde8b6a327e84250d54",
-                            "installLocation": "/nml_libs"
-                        }
-                    ]
-                },
-                "3.0.0.0": {
-                    "releaseUrl": "https://github.com/discord-net/Discord.Net/releases/tag/3.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/Discord.Net.Webhook.dll",
-                            "filename": "Discord.Net.Webhook.dlll",
-                            "sha256": "cbbaee21bb930cfa29e62aeca2fad5eac7e031905af9b55dd7b934b5ddcfabe9",
                             "installLocation": "/nml_libs"
                         }
                     ]
@@ -505,16 +472,6 @@
                             "url": "https://github.com/badhaloninja/Optizoom/releases/download/v1.1.0/Optizoom.dll",
                             "filename": "Optizoom.dll",
                             "sha256": "d6b4169e50f12465271ecff632e529f0369860108520770a1f9018b1d4809fbe"
-                        }
-                    ]
-                },
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/badhaloninja/Optizoom/releases/tag/v1.1.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/Optizoom/releases/download/v1.0.0/Optizoom.dll",
-                            "filename": "Optizoom.dll",
-                            "sha256": "8090107a2c0cdbdb7a562258b9ae6beb228a037796f29aaa9d93f760db97d74f"
                         }
                     ]
                 }
@@ -962,71 +919,6 @@
                             "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.5.0/LogixUtils.dll",
                             "filename": "LogixUtils.dll",
                             "sha256": "6a225b6c0021d38b5a7702fb95e009b47e244ff96e256b4da2529cedd16dfad9"
-                        }
-                    ]
-                },
-                "1.4.0": {
-                    "changelog":" - Modified Extract Ref Node to spawn a ref node for any reference instead of only IFields\n - Added ability to spawn a Value/Reference register from a Write node target using secondary\n - Made Logix Label local for now until I find a better fix to solve for every user writing to it\n   - In base neos *every* user runs OnChanges for the logix tip regardless if they are the active user or not\n   - Meaning they tend to overwrite the node name patch\n\nI will eventually make everything optional",
-                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.4.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.4.0/LogixUtils.dll",
-                            "filename": "LogixUtils.dll",
-                            "sha256": "b2394ced506208f6a6d5bcec71567ac34e9d783a127e59f28d20500dddd0683d"
-                        }
-                    ]
-                },
-                "1.3.1": {
-                    "changelog":"- Fixed some issues I overlooked when trying to simplify the UI_TargettingController.AlignItem patch as much as I could.\n   - Forgot to convert a rotation to global space causing the dot product to be wrong\n   - Fixed rotation not only inverting forward direction",
-                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.3.1",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.3.1/LogixUtils.dll",
-                            "filename": "LogixUtils.dll",
-                            "sha256": "da5250d7447734e3e1b2ce7237a89677b084130f54497cb23f6992f27d419791"
-                        }
-                    ]
-                },
-                "1.3.0": {
-                    "changelog":"Added ability to align LogiX backwards with the UI_TargettingController",
-                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.3.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.3.0/LogixUtils.dll",
-                            "filename": "LogixUtils.dll",
-                            "sha256": "ebaf57cdedbb9a19fec57bb623395fe9b02f7955bfb2dc0ca2e54b58d6811457"
-                        }
-                    ]
-                },
-                "1.2.0": {
-                    "changelog":"Added patch for LogixHelper.GetNodeName to display generic type names nicer\nFor example, FrooxEngine.Logix.Input.EnumInput<ShadowCastMode> would just show as 'Enum Input`1', now it will show as 'Enum Input<Shadow Cast Mode>'",
-                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.2.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.2.0/LogixUtils.dll",
-                            "filename": "LogixUtils.dll",
-                            "sha256": "a4b6a0bcf2f884c7e26cdb58d2ecc8fc389bffef3d97068f321c419dd080eafe"
-                        }
-                    ]
-                },
-                "1.1.0": {
-                    "changelog":"Switched from patching ComponentBase<C>.OnAttach to Transpiling LogixTip.OnGrabbing",
-                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.1.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.1.0/LogixUtils.dll",
-                            "filename": "LogixUtils.dll",
-                            "sha256": "22156e2381109a28edf0614c238443e30b92ae85679259901012d10bdc374a71"
-                        }
-                    ]
-                },
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.0.0/LogixUtils.dll",
-                            "filename": "LogixUtils.dll",
-                            "sha256": "d8e8f2843bdbe06da1515372c9a7ef64333cf340a2559239c8ab9cf28ad7602c"
                         }
                     ]
                 }
@@ -1522,27 +1414,6 @@
                     "artifacts": [
                         {
                             "url": "https://github.com/badhaloninja/NoUserspaceUndo/releases/download/v1.1.1/NoUserspaceUndo.dll",
-                            "filename": "NoUserspaceUndo.dll",
-                            "sha256": "c71b27a90187aeb46e7f243e80b301019cff3c89e8b97b2d3edfc0b8adcfbae8"
-                        }
-                    ]
-                },
-                "1.1.0": {
-                    "changelog":"Config support",
-                    "releaseUrl": "https://github.com/badhaloninja/NoUserspaceUndo/releases/tag/v1.1.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/NoUserspaceUndo/releases/download/v1.1.0/NoUserspaceUndo.dll",
-                            "filename": "NoUserspaceUndo.dll",
-                            "sha256": "c71b27a90187aeb46e7f243e80b301019cff3c89e8b97b2d3edfc0b8adcfbae8"
-                        }
-                    ]
-                },
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/badhaloninja/NoUserspaceUndo/releases/tag/v1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/NoUserspaceUndo/releases/download/v1.0.0/NoUserspaceUndo.dll",
                             "filename": "NoUserspaceUndo.dll",
                             "sha256": "c71b27a90187aeb46e7f243e80b301019cff3c89e8b97b2d3edfc0b8adcfbae8"
                         }
@@ -3407,16 +3278,6 @@
                             "sha256": "e84374ae8813643d010e09a8832f140a915765ce8cc142ceda2211ecb73c9041"
                         }
                     ]
-                },
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/badhaloninja/DesktopLoadingIndicator/releases/tag/v1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/DesktopLoadingIndicator/releases/download/v1.0.0/DesktopLoadingIndicator.dll",
-                            "filename": "DesktopLoadingIndicator.dll",
-                            "sha256": "b391c32e728513f877c8722946f359220f7771e21a8647431100f9fcfbc33979"
-                        }
-                    ]
                 }
             }
         },
@@ -3441,38 +3302,6 @@
                             "sha256": "a151dd5e42ea8c5cf02aeff10296c2fdcac7295068c80d0266d9f01012153e4b"
                         }
                     ]
-                },
-                "1.1.1": {
-                    "changelog": "Maybe fix thumbnails from users not in your contacts",
-                    "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.1.1",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/download/v1.1.1/UserJoinLeaveNotifications.dll",
-                            "filename": "UserJoinLeaveNotifications.dll",
-                            "sha256": "884678e0cdc18cda7ddde79ff88fda6b9069ecf75e63a8b1504b67ec1fb6ba4c"
-                        }
-                    ]
-                },
-                "1.1.0": {
-                    "changelog": "Fixed issue of join leave notifications only showing if you are host",
-                    "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.1.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/download/v1.1.0/UserJoinLeaveNotifications.dll",
-                            "filename": "UserJoinLeaveNotifications.dll",
-                            "sha256": "be07fdb9fee384ae2162ed759050e53952ef28a5f21ebcc532691d8f98ad842a"
-                        }
-                    ]
-                },
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/download/v1.0.0/UserJoinLeaveNotifications.dll",
-                            "filename": "UserJoinLeaveNotifications.dll",
-                            "sha256": "3da38886a64878fc9fffb674b93e86ea95ec1fe8344302d6aa70ade9c163c854"
-                        }
-                    ]
                 }
             }
         },
@@ -3495,27 +3324,6 @@
                             "url": "https://github.com/badhaloninja/DesktopNotifications/releases/download/v1.1.0/DesktopNotifications.dll",
                             "filename": "DesktopNotifications.dll",
                             "sha256": "547426ba0ff8f02a15bd63031838d2ace58b5c65e5b0085096e0a09df20e9ce6"
-                        }
-                    ]
-                },
-                "1.0.1": {
-                    "changelog": "Removed dev log message",
-                    "releaseUrl": "https://github.com/badhaloninja/DesktopNotifications/releases/tag/v1.0.1",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/DesktopNotifications/releases/download/v1.0.1/DesktopNotifications.dll",
-                            "filename": "DesktopNotifications.dll",
-                            "sha256": "fe56d7bbd5fa820469bf233952523071c1f5aa6effcbbf418ac64f287d3d5801"
-                        }
-                    ]
-                },
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/badhaloninja/DesktopNotifications/releases/tag/v1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/DesktopNotifications/releases/download/v1.0.0/DesktopNotifications.dll",
-                            "filename": "DesktopNotifications.dll",
-                            "sha256": "89a3f251ea53efdd6207769076d2157f053ca6a64ff6b132d2c735c391aaec15"
                         }
                     ]
                 }
@@ -3563,16 +3371,6 @@
                             "url": "https://github.com/badhaloninja/DeselectOwnGizmos/releases/download/v1.1.0/DeselectOwnGizmos.dll",
                             "filename": "DeselectOwnGizmos.dll",
                             "sha256": "b58500c92be0401df3c406a88663ba0333581ffa009890dfbca550558e2bf43b"
-                        }
-                    ] 
-                },
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/badhaloninja/DeselectOwnGizmos/releases/tag/v1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/DeselectOwnGizmos/releases/download/v1.0.0/DeselectOwnGizmos.dll",
-                            "filename": "DeselectOwnGizmos.dll",
-                            "sha256": "00017e06bc2231f1cc1e3d10ef5b8c8ee27705a22fee5f101a7c1fc22b5cc78c"
                         }
                     ] 
                 }
@@ -3668,16 +3466,6 @@
                             "sha256": "8c1bafa0722dd4d36fc299c668a881b56185c6c4be5abb3162044ec1f7b0bee4"
                         }
                     ] 
-                },
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/badhaloninja/OculusSwapMenuAndSecondary/releases/tag/v1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/OculusSwapMenuAndSecondary/releases/download/v1.0.0/OculusSwapMenuAndSecondary.dll",
-                            "filename": "OculusSwapMenuAndSecondary.dll",
-                            "sha256": "2eda99e2de892fc80f33be903cda9d45ce2bf24ec91d99e65f2bed62ac9a567a"
-                        }
-                    ] 
                 }
             }
         },
@@ -3700,38 +3488,6 @@
                             "url": "https://github.com/badhaloninja/MaterialTipAutoScoop/releases/download/v1.2.1/MaterialTipAutoScoop.dll",
                             "filename": "MaterialTipAutoScoop.dll",
                             "sha256": "7b1ebd2fb305e3171c0499a2034c3af44b22cb1df58fe0b63d5051becfd8a280"
-                        }
-                    ] 
-                },
-                "1.2.0": {
-                    "changelog": "Added the option to auto scoop materials when created via the CreateNewDialog",
-                    "releaseUrl": "https://github.com/badhaloninja/MaterialTipAutoScoop/releases/tag/v1.2.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/MaterialTipAutoScoop/releases/download/v1.2.0/MaterialTipAutoScoop.dll",
-                            "filename": "MaterialTipAutoScoop.dll",
-                            "sha256": "29c85787a2a3e6ab40d9f71b89103f7c5437b2e1aad9571c88ec3c5c6abc8918"
-                        }
-                    ] 
-                },
-                "1.1.0": {
-                    "changelog": "Config support",
-                    "releaseUrl": "https://github.com/badhaloninja/MaterialTipAutoScoop/releases/tag/v1.1.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/MaterialTipAutoScoop/releases/download/v1.1.0/MaterialTipAutoScoop.dll",
-                            "filename": "MaterialTipAutoScoop.dll",
-                            "sha256": "f604b91d63d2f3d14419d772a74697ba2ddcc0a846709e201dff55b8147f08ce"
-                        }
-                    ] 
-                },
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/badhaloninja/MaterialTipAutoScoop/releases/tag/v1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/badhaloninja/MaterialTipAutoScoop/releases/download/v1.0.0/MaterialTipAutoScoop.dll",
-                            "filename": "MaterialTipAutoScoop.dll",
-                            "sha256": "d75dd288d04340f4c22d65ac2ada51def260d5c258ffb8ba6ec402a16a3cdbbf"
                         }
                     ] 
                 }
@@ -3772,6 +3528,10 @@
             },
             "versions": {
                 "1.0.0": {
+                    "flags": [
+                        "broken:linux-native"
+                        "broken:linux-wine",
+                    ],
                     "releaseUrl": "https://github.com/badhaloninja/ExitNeosAndShutdown/releases/tag/v1.0.0",
                     "artifacts": [
                         {
@@ -3888,49 +3648,6 @@
                             "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.2.0/HeadlessTweaks.dll",
                             "filename": "HeadlessTweaks.dll",
                             "sha256": "4bb449538a5f14b90b7bbfd4b36c0f4d3f6cfc5830b9e0b9e0b5f3136fad2080"
-                        }
-                    ] 
-                },
-                "1.1.0": {
-                    "changelog": "Added command categories",
-                    "releaseUrl": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/tag/v1.1.0",
-                    "dependencies": {
-                        "Discord.Net.Core": {
-                            "version": "3.0.0.0"
-                        },
-                        "Discord.Net.Rest": {
-                            "version": "3.0.0.0"
-                        },
-                        "Discord.Net.Webhook": {
-                            "version": "3.0.0.0"
-                        }
-                    },
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.1.0/HeadlessTweaks.dll",
-                            "filename": "HeadlessTweaks.dll",
-                            "sha256": "72dc72d371167a140c7f56039c2151583fb13b43b81dd0d1b5b19be13fd9a00b"
-                        }
-                    ] 
-                },
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/tag/v1.0.0",
-                    "dependencies": {
-                        "Discord.Net.Core": {
-                            "version": "3.0.0.0"
-                        },
-                        "Discord.Net.Rest": {
-                            "version": "3.0.0.0"
-                        },
-                        "Discord.Net.Webhook": {
-                            "version": "3.0.0.0"
-                        }
-                    },
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/download/v1.0.0/HeadlessTweaks.dll",
-                            "filename": "HeadlessTweaks.dll",
-                            "sha256": "8903556e5d022969eb59dad3166b33afc943dade3ae3b9f777dd40f083ad5761"
                         }
                     ] 
                 }
