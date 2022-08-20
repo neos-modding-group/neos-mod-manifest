@@ -1,6 +1,6 @@
 {
-    "schemaVersion": "1.0.0",
-    "mods": {
+    "schemaVersion": "1.1.0",
+    "items": {
         "dev.zkxs.neosmodloader": {
             "name": "Neos Mod Loader",
             "description": "A mod loader for Neos VR.",
@@ -15,7 +15,7 @@
             ],
             "category": "Plugins",
             "flags": [
-                "plugin"
+                "loader"
             ],
             "versions": {
                 "1.11.2": {
@@ -111,7 +111,7 @@
                 "1.9.1": {
                     "changelog": "Logging improvements, splash screen visuals, JSON config serialization changes",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.9.1",
-                    "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "gameVersionCompatibility": ">=2021.10.17.1326",
                     "dependencies": {
                         "net.pardeike.harmony": {
                             "version": "^2.2.1"
@@ -129,7 +129,7 @@
                 "1.8.0": {
                     "changelog": "Release the new mod configuration system",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.8.0",
-                    "neosVersionCompatibility": ">=2021.10.17.1326",
+                    "gameVersionCompatibility": ">=2021.10.17.1326",
                     "dependencies": {
                         "net.pardeike.harmony": {
                             "version": "^2.2.0.0"
