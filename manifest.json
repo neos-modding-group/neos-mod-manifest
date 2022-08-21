@@ -1,4 +1,5 @@
 {
+    "$schema": "schema.json",
     "schemaVersion": "1.0.0",
     "mods": {
         "dev.zkxs.neosmodloader": {
@@ -604,7 +605,7 @@
         "net.eia485.reduceanimation": {
             "name": "ReduceAnimation",
             "description": "Reduce ui animations",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "sourceLocation": "https://github.com/EIA485/NeosReduceAnimation",
             "authors": {
                 "eia485": {
@@ -627,7 +628,7 @@
         "net.cyro.squishspector": {
             "name": "SquishPanels",
             "description": "Modify the NeosPanels in Neos to squish in and out of existence",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "sourceLocation": "https://github.com/RileyGuy/SquishPanels",
             "authors": {
                 "Cyro": {
@@ -913,7 +914,7 @@
         "net.DoubleStyx.NotificationsWhenBusy": {
             "name": "NotificationsWhenBusy",
             "description": "Allows you to receive notifications while your status is set to Busy.",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "sourceLocation": "https://github.com/DoubleStyx/NotificationsWhenBusy",
             "authors": {
                 "DoubleStyx": {
@@ -1452,13 +1453,13 @@
                     ]
                 },
                 "2.0.0": {
+                    "changelog": "- Internally rename mod from NeosDesktopToolShortcutRemapper to DesktopToolShortcutRemapper.\n- Add configuration system support. Config keys match Kazu's fork exactly, so you can seamlessly migrate.",
                     "releaseUrl": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper/releases/tag/2.0.0",
                     "artifacts": [
                         {
                             "url": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper/releases/download/2.0.0/DesktopToolShortcutRemapper.dll",
                             "filename": "DesktopToolShortcutRemapper.dll",
-                            "sha256": "07ba9eba10befd75eadb852b269834b1b08ee2adfc1acfbeda43b1142ab052c6",
-                            "changelog": "- Internally rename mod from NeosDesktopToolShortcutRemapper to DesktopToolShortcutRemapper.\n- Add configuration system support. Config keys match Kazu's fork exactly, so you can seamlessly migrate."
+                            "sha256": "07ba9eba10befd75eadb852b269834b1b08ee2adfc1acfbeda43b1142ab052c6"
                         }
                     ]
                 }
@@ -2579,14 +2580,14 @@
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/dfgHiatus/NeosWCFaceIntegration/releases/tag/v1.0.0",
+                    "flags": [
+                        "prerelease"
+                    ],
                     "artifacts": [
                         {
                             "url": "https://github.com/dfgHiatus/NeosWCFaceIntegration/releases/download/v1.0.0/NeosWCFaceIntegration.dll",
                             "filename": "NeosWCFaceIntegration.dll",
-                            "sha256": "f0c32a573402013ffab255e3213b36f0a1e74cb1842116138dd9112f15a9d0a2",
-                            "flags": [
-                                "prerelease"
-                            ]
+                            "sha256": "f0c32a573402013ffab255e3213b36f0a1e74cb1842116138dd9112f15a9d0a2"
                         }
                     ]
                 }
@@ -4058,7 +4059,7 @@
         "net.LeCloutPanda.InspectorCustomizer": {
             "name": "InspectorCustomizer",
             "description": "Allows you to customize some Neos panel items including Inspector, Logix browser and more.",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "sourceLocation": "https://github.com/LeCloutPanda/Inspector-Customizer",
             "authors": {
                 "LeCloutPanda": {
@@ -4182,7 +4183,7 @@
         "dev.Kodu.CustomNotificationSounds": {
             "name": "CustomNotificationSounds",
             "description": "Change Neos' notification sounds!",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "website": "https://github.com/Kodufan/CustomNotificationSounds",
             "sourceLocation": "https://github.com/Kodufan/CustomNotificationSounds",
             "authors": {
@@ -4553,7 +4554,7 @@
         "me.badhaloninja.ReadableDebugDialog": {
             "name": "ReadableDebugDialog",
             "description": "Makes the debug dialog more readable in dark lighting",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "sourceLocation": "https://github.com/badhaloninja/ReadableDebugDialog/",
             "authors": {
                 "badhaloninja": {
