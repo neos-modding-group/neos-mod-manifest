@@ -3548,11 +3548,11 @@
                 }
             }
         },
-        "me.art0007i.CustonInspectors": {
-            "name": "CustonInspectors",
+        "me.art0007i.CustomInspectors": {
+            "name": "CustomInspectors",
             "description": "Lets you change your default inspector panel",
             "category": "Inspectors",
-            "sourceLocation": "https://github.com/art0007i/CustonInspectors",
+            "sourceLocation": "https://github.com/art0007i/CustomInspectors",
             "authors": {
                 "art0007i": {
                     "url": "https://github.com/art0007i"
