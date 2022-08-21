@@ -1,0 +1,165 @@
+{
+    "$id": "https://github.com/neos-modding-group/neos-mod-manifest/blob/master/schema.json",
+    "type": "object",
+    "properties": {
+        "$schema": {
+            "type": "string"
+        },
+        "schemaVersion": {
+            "type": "string",
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
+        },
+        "mods": {
+            "type": "object",
+            "additionalProperties": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "type": "string"
+                    },
+                    "description": {
+                        "type": "string"
+                    },
+                    "authors": {
+                        "type": "object",
+                        "additionalProperties": {
+                            "type": "object",
+                            "properties": {
+                                "url": {
+                                    "type": "string",
+                                    "format": "uri"
+                                }
+                            },
+                            "additionalProperties": false
+                        },
+                        "minProperties": 1
+                    },
+                    "sourceLocation": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "website": {
+                        "type": "string",
+                        "format": "uri"
+                    },
+                    "tags": {
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        }
+                    },
+                    "category": {
+                        "type": "string",
+                        "pattern": "^(Asset Importing Tweaks|Bug Workarounds|Context Menu Tweaks|Dash Tweaks|Developers|General UI Tweaks|Hardware Integrations|Inspectors|Keybinds \\& Gestures|Libraries|LogiX|Memes|Misc|Optimization|Plugins|Technical Tweaks|Visual Tweaks|Wizards)$"
+                    },
+                    "flags": {
+                        "type": "array",
+                        "items": {
+                            "type": "string",
+                            "pattern": "^(deprecated|plugin|file)$"
+                        }
+                    },
+                    "versions": {
+                        "type": "object",
+                        "additionalProperties": {
+                            "type": "object",
+                            "properties": {
+                                "changelog": {
+                                    "type": "string"
+                                },
+                                "releaseUrl": {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                "neosVersionCompatibility": {
+                                    "type": "string"
+                                },
+                                "modloaderVersionCompatibility": {
+                                    "type": "string"
+                                },
+                                "flags": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "string",
+                                        "pattern": "^(deprecated|plugin|file|vulnerability:(low|medium|high|critical)|broken(:(linux-native|linux-wine|windows))?|prerelease)$"
+                                    }
+                                },
+                                "conflicts": {
+                                    "type": "object",
+                                    "additionalProperties": {
+                                        "type": "object",
+                                        "properties": {
+                                            "version": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                },
+                                "dependencies": {
+                                    "type": "object",
+                                    "additionalProperties": {
+                                        "type": "object",
+                                        "properties": {
+                                            "version": {
+                                                "type": "string"
+                                            }
+                                        }
+                                    }
+                                },
+                                "artifacts": {
+                                    "type": "array",
+                                    "items": {
+                                        "type": "object",
+                                        "properties": {
+                                            "url": {
+                                                "type": "string",
+                                                "format": "uri"
+                                            },
+                                            "filename": {
+                                                "type": "string"
+                                            },
+                                            "sha256": {
+                                                "type": "string",
+                                                "pattern": "^[a-zA-Z0-9]{64}$"
+                                            },
+                                            "blake3": {
+                                                "type": "string",
+                                                "pattern": "^[a-zA-Z0-9]{64}$"
+                                            },
+                                            "installLocation": {
+                                                "type": "string"
+                                            }
+                                        },
+                                        "additionalProperties": false,
+                                        "required": [
+                                            "url",
+                                            "sha256"
+                                        ]
+                                    },
+                                    "minItems": 0
+                                }
+                            },
+                            "additionalProperties": false,
+                            "required": [
+                                "artifacts"
+                            ]
+                        },
+                        "minProperties": 1
+                    }
+                },
+                "additionalProperties": false,
+                "required": [
+                    "name",
+                    "description",
+                    "authors",
+                    "category",
+                    "versions"
+                ]
+            }
+        }
+    },
+    "additionalProperties": false,
+    "required": [
+        "mods"
+    ]
+}
