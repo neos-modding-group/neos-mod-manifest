@@ -3894,7 +3894,7 @@
             },
             "versions": {
                 "1.2.0": {
-                    "changelog": "Added Optional SmartAutoSave\n - If enabled, will only save if a user is in the world and once after the last user leaves\n\nFixed Check for if a user can join a world\n - Allow contacts of headless who aren't moderator or above when world is set to contacts or higher\n \n \n# UPDTATED TO DISCORD.NET 3.7.2",
+                    "changelog": "- Added Optional SmartAutoSave\n- If enabled, will only save if a user is in the world and once after the last user leaves\n- Fixed Check for if a user can join a world\n- Allow contacts of headless who aren't moderator or above when world is set to contacts or higher\n- UPDATED TO DISCORD.NET 3.7.2",
                     "releaseUrl": "https://github.com/New-Project-Final-Final-WIP/HeadlessTweaks/releases/tag/v1.2.0",
                     "dependencies": {
                         "Discord.Net.Core": {
