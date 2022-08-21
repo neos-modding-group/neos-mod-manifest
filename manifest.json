@@ -3282,7 +3282,7 @@
             "website": "https://github.com/Banane9/NeosUserJoinLeaveNotifications",
             "sourceLocation": "https://github.com/Banane9/NeosUserJoinLeaveNotifications",
             "authors": {
-				"badhaloninja": {
+                "badhaloninja": {
                     "url": "https://github.com/badhaloninja/"
                 },
                 "Banane9": {
@@ -3945,35 +3945,6 @@
                 }
             }
         },
-        "me.Gareth48.ParticleWorkshop": {
-            "name": "ParticleWorkshop",
-            "description": "Adds a wizard for creating particles with color and alpha over time.\nCreated by Gareth48 with some huge help from badhaloninja and Cyro!",
-            "category": "Wizards",
-            "sourceLocation": "https://github.com/Epimonster/ParticleWorkshop",
-            "authors": {
-                "Gareth48": {
-                    "url": "https://github.com/Epimonster"
-                },
-                "Cyro": {
-                    "url": "https://github.com/RileyGuy"
-                },
-                "badhaloninja": {
-                    "url": "https://github.com/badhaloninja"
-                }
-            },
-            "versions": {
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/Epimonster/ParticleWorkshop/releases/tag/1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/Epimonster/ParticleWorkshop/releases/download/1.0.0/ParticleWorkshop.dll",
-                            "filename": "ParticleWorkshop.dll",
-                            "sha256": "2e3ef8e5aefc9fb1e097f66437224b7af7ca8ac931a92a80342d8175df14a32c"
-                        }
-                    ]
-                }
-            }
-        },
         "dev.zkxs.neosvoicequality": {
             "name": "VoiceQuality",
             "description": "Lets you easily change your own voice stream's bitrate",
@@ -4401,7 +4372,7 @@
                 }
             }
         },
-        "Psychpsyo.ShutTheFuckUp": { 
+        "Psychpsyo.ShutTheFuckUp": {
             "name": "ShutTheFuckUp",
             "description": "Mutes custom context menus.",
             "category": "Misc",
@@ -4424,7 +4395,7 @@
                 }
             }
         },
-        "Psychpsyo.TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP": { 
+        "Psychpsyo.TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP": {
             "name": "The Neos Mod That Makes It So That Your Fingers Are No Longer Trusted Touch Sources So You Can Rest Easy At Night Knowing No One Will Shove Buttons Into Your Hand Without Your Permission",
             "description": "See Name.",
             "category": "Misc",
@@ -4447,7 +4418,7 @@
                 }
             }
         },
-        "Psychpsyo.DefaultVoiceMode": { 
+        "Psychpsyo.DefaultVoiceMode": {
             "name": "DefaultVoiceMode",
             "description": "Gives you the option to set what voice mode should be active when the game starts.",
             "category": "Misc",
@@ -4493,7 +4464,7 @@
                 }
             }
         },
-        "Psychpsyo.Tooltippery": { 
+        "Psychpsyo.Tooltippery": {
             "name": "Tooltippery",
             "description": "Adds the capability for other mods and users to add hover tooltips to buttons.",
             "category": "Libraries",
@@ -4546,8 +4517,8 @@
                     ]
                 }
             }
-        }, 
-        "Psychpsyo.DiscordVR": { 
+        },
+        "Psychpsyo.DiscordVR": {
             "name": "DiscordVR",
             "description": "Adds a Discord tab to your dash, next to the contacts tab.",
             "category": "Memes",
@@ -4703,7 +4674,7 @@
             "authors": {
                 "LeCloutPanda": {
                     "url": "https://github.com/LeCloutPanda"
-                    }
+                }
             },
             "versions": {
                 "1.0.1": {
