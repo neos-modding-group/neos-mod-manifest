@@ -3,15 +3,17 @@ on: [pull_request]
 jobs:
   ec-audit-pr:
     runs-on: ubuntu-20.04
+    name: Validate EditorConfig
     steps:
       - uses: actions/checkout@v2
-      - name: EditorConfig Audit PR
+      - name: Run editorconfig-checker
         uses: editorconfig-checker/action-editorconfig-checker@main
   validate-json:
     runs-on: ubuntu-latest
+    name: Validate JSON
     steps:
       - uses: actions/checkout@v1
-      - name: Validate JSON
+      - name: Run ajv
         uses: docker://orrosenblatt/validate-json-action:latest
         env:
           INPUT_SCHEMA: /schema.json
