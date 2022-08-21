@@ -3073,6 +3073,15 @@
                             "sha256": "4DC8797D9A1B9C42FEC3A9E5AFB7C302F58351B029F77488F4FF38E96AF1964E"
                         }
                     ]
+                },
+                "1.3.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosDynamicBlendShapeDriverSetup/releases/tag/v1.3.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosDynamicBlendShapeDriverSetup/releases/download/v1.3.0/DynamicBlendShapeDriverSetup.dll",
+                            "sha256": "B0B1080E4CF0029676D2A2F756D516799E05EB55E5CF77E0D8B44BCA35C67821"
+                        }
+                    ]
                 }
             }
         },
@@ -3096,7 +3105,7 @@
                     "artifacts": [
                         {
                             "url": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/download/v2.0.0/UserJoinLeaveNotifications.dll",
-                            "sha256": "E50A083EAB6587EE80B117BA4C7CE8F0BAC21DFB2DD951E7DEBA5F553E18F699"
+                            "sha256": "CA7487A921D6F5FD1AD9D8F3163C46FD0ADA2BF757444B2358243270F278F210"
                         }
                     ]
                 }
