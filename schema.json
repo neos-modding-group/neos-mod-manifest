@@ -87,15 +87,22 @@
                                 "conflicts": {
                                     "type": "object",
                                     "additionalProperties": {
-                                        "type": "string"
+                                        "type": "object",
+                                        "properties": {
+                                            "version": {
+                                                "type": "string"
+                                            }
+                                        }
                                     }
                                 },
                                 "dependencies": {
                                     "type": "object",
                                     "additionalProperties": {
                                         "type": "object",
-                                        "additionalProperties": {
-                                            "type": "string"
+                                        "properties": {
+                                            "version": {
+                                                "type": "string"
+                                            }
                                         }
                                     }
                                 },
