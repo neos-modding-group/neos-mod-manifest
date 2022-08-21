@@ -1,4 +1,5 @@
 {
+    "$schema": "schema.json",
     "schemaVersion": "1.0.0",
     "mods": {
         "dev.zkxs.neosmodloader": {
@@ -604,7 +605,7 @@
         "net.eia485.reduceanimation": {
             "name": "ReduceAnimation",
             "description": "Reduce ui animations",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "sourceLocation": "https://github.com/EIA485/NeosReduceAnimation",
             "authors": {
                 "eia485": {
@@ -627,7 +628,7 @@
         "net.cyro.squishspector": {
             "name": "SquishPanels",
             "description": "Modify the NeosPanels in Neos to squish in and out of existence",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "sourceLocation": "https://github.com/RileyGuy/SquishPanels",
             "authors": {
                 "Cyro": {
@@ -913,7 +914,7 @@
         "net.DoubleStyx.NotificationsWhenBusy": {
             "name": "NotificationsWhenBusy",
             "description": "Allows you to receive notifications while your status is set to Busy.",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "sourceLocation": "https://github.com/DoubleStyx/NotificationsWhenBusy",
             "authors": {
                 "DoubleStyx": {
@@ -1452,13 +1453,13 @@
                     ]
                 },
                 "2.0.0": {
+                    "changelog": "- Internally rename mod from NeosDesktopToolShortcutRemapper to DesktopToolShortcutRemapper.\n- Add configuration system support. Config keys match Kazu's fork exactly, so you can seamlessly migrate.",
                     "releaseUrl": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper/releases/tag/2.0.0",
                     "artifacts": [
                         {
                             "url": "https://github.com/zkxs/NeosDesktopToolShortcutRemapper/releases/download/2.0.0/DesktopToolShortcutRemapper.dll",
                             "filename": "DesktopToolShortcutRemapper.dll",
-                            "sha256": "07ba9eba10befd75eadb852b269834b1b08ee2adfc1acfbeda43b1142ab052c6",
-                            "changelog": "- Internally rename mod from NeosDesktopToolShortcutRemapper to DesktopToolShortcutRemapper.\n- Add configuration system support. Config keys match Kazu's fork exactly, so you can seamlessly migrate."
+                            "sha256": "07ba9eba10befd75eadb852b269834b1b08ee2adfc1acfbeda43b1142ab052c6"
                         }
                     ]
                 }
@@ -2579,14 +2580,14 @@
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/dfgHiatus/NeosWCFaceIntegration/releases/tag/v1.0.0",
+                    "flags": [
+                        "prerelease"
+                    ],
                     "artifacts": [
                         {
                             "url": "https://github.com/dfgHiatus/NeosWCFaceIntegration/releases/download/v1.0.0/NeosWCFaceIntegration.dll",
                             "filename": "NeosWCFaceIntegration.dll",
-                            "sha256": "f0c32a573402013ffab255e3213b36f0a1e74cb1842116138dd9112f15a9d0a2",
-                            "flags": [
-                                "prerelease"
-                            ]
+                            "sha256": "f0c32a573402013ffab255e3213b36f0a1e74cb1842116138dd9112f15a9d0a2"
                         }
                     ]
                 }
@@ -2731,7 +2732,7 @@
         "net.Toxic_Cookie.GenericSettings": {
             "name": "GenericSettings",
             "description": "Allows you to define, save, load and use custom settings",
-            "category": "Mod Developers",
+            "category": "Libraries",
             "sourceLocation": "https://github.com/Toxic-Cookie/GenericSettings",
             "authors": {
                 "Toxic_Cookie": {
@@ -3282,7 +3283,7 @@
             "website": "https://github.com/Banane9/NeosUserJoinLeaveNotifications",
             "sourceLocation": "https://github.com/Banane9/NeosUserJoinLeaveNotifications",
             "authors": {
-				"badhaloninja": {
+                "badhaloninja": {
                     "url": "https://github.com/badhaloninja/"
                 },
                 "Banane9": {
@@ -3945,35 +3946,6 @@
                 }
             }
         },
-        "me.Gareth48.ParticleWorkshop": {
-            "name": "ParticleWorkshop",
-            "description": "Adds a wizard for creating particles with color and alpha over time.\nCreated by Gareth48 with some huge help from badhaloninja and Cyro!",
-            "category": "Wizards",
-            "sourceLocation": "https://github.com/Epimonster/ParticleWorkshop",
-            "authors": {
-                "Gareth48": {
-                    "url": "https://github.com/Epimonster"
-                },
-                "Cyro": {
-                    "url": "https://github.com/RileyGuy"
-                },
-                "badhaloninja": {
-                    "url": "https://github.com/badhaloninja"
-                }
-            },
-            "versions": {
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/Epimonster/ParticleWorkshop/releases/tag/1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/Epimonster/ParticleWorkshop/releases/download/1.0.0/ParticleWorkshop.dll",
-                            "filename": "ParticleWorkshop.dll",
-                            "sha256": "2e3ef8e5aefc9fb1e097f66437224b7af7ca8ac931a92a80342d8175df14a32c"
-                        }
-                    ]
-                }
-            }
-        },
         "dev.zkxs.neosvoicequality": {
             "name": "VoiceQuality",
             "description": "Lets you easily change your own voice stream's bitrate",
@@ -4087,7 +4059,7 @@
         "net.LeCloutPanda.InspectorCustomizer": {
             "name": "InspectorCustomizer",
             "description": "Allows you to customize some Neos panel items including Inspector, Logix browser and more.",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "sourceLocation": "https://github.com/LeCloutPanda/Inspector-Customizer",
             "authors": {
                 "LeCloutPanda": {
@@ -4211,7 +4183,7 @@
         "dev.Kodu.CustomNotificationSounds": {
             "name": "CustomNotificationSounds",
             "description": "Change Neos' notification sounds!",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "website": "https://github.com/Kodufan/CustomNotificationSounds",
             "sourceLocation": "https://github.com/Kodufan/CustomNotificationSounds",
             "authors": {
@@ -4401,7 +4373,7 @@
                 }
             }
         },
-        "Psychpsyo.ShutTheFuckUp": { 
+        "Psychpsyo.ShutTheFuckUp": {
             "name": "ShutTheFuckUp",
             "description": "Mutes custom context menus.",
             "category": "Misc",
@@ -4424,7 +4396,7 @@
                 }
             }
         },
-        "Psychpsyo.TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP": { 
+        "Psychpsyo.TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP": {
             "name": "The Neos Mod That Makes It So That Your Fingers Are No Longer Trusted Touch Sources So You Can Rest Easy At Night Knowing No One Will Shove Buttons Into Your Hand Without Your Permission",
             "description": "See Name.",
             "category": "Misc",
@@ -4447,7 +4419,7 @@
                 }
             }
         },
-        "Psychpsyo.DefaultVoiceMode": { 
+        "Psychpsyo.DefaultVoiceMode": {
             "name": "DefaultVoiceMode",
             "description": "Gives you the option to set what voice mode should be active when the game starts.",
             "category": "Misc",
@@ -4493,7 +4465,7 @@
                 }
             }
         },
-        "Psychpsyo.Tooltippery": { 
+        "Psychpsyo.Tooltippery": {
             "name": "Tooltippery",
             "description": "Adds the capability for other mods and users to add hover tooltips to buttons.",
             "category": "Libraries",
@@ -4546,8 +4518,8 @@
                     ]
                 }
             }
-        }, 
-        "Psychpsyo.DiscordVR": { 
+        },
+        "Psychpsyo.DiscordVR": {
             "name": "DiscordVR",
             "description": "Adds a Discord tab to your dash, next to the contacts tab.",
             "category": "Memes",
@@ -4582,7 +4554,7 @@
         "me.badhaloninja.ReadableDebugDialog": {
             "name": "ReadableDebugDialog",
             "description": "Makes the debug dialog more readable in dark lighting",
-            "category": "General Ui Tweaks",
+            "category": "General UI Tweaks",
             "sourceLocation": "https://github.com/badhaloninja/ReadableDebugDialog/",
             "authors": {
                 "badhaloninja": {
@@ -4703,7 +4675,7 @@
             "authors": {
                 "LeCloutPanda": {
                     "url": "https://github.com/LeCloutPanda"
-                    }
+                }
             },
             "versions": {
                 "1.0.1": {
