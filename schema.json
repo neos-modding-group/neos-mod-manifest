@@ -1,5 +1,4 @@
 {
-    "$schema": "https://json-schema.org/draft/2020-12/schema",
     "$id": "https://github.com/neos-modding-group/neos-mod-manifest/blob/master/schema.json",
     "type": "object",
     "properties": {
