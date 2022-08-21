@@ -1,11 +1,12 @@
 name: Check Formatting
 on: [pull_request]
 jobs:
-  # ec-audit-pr:
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: EditorConfig Audit PR
-  #       uses: zbeekman/EditorConfig-Action@v1.1.0
+  ec-audit-pr:
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: EditorConfig Audit PR
+        uses: editorconfig-checker/action-editorconfig-checker@main
   validate-json:
     runs-on: ubuntu-latest
     steps:
