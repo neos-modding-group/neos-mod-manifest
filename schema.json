@@ -7,7 +7,7 @@
         },
         "schemaVersion": {
             "type": "string",
-            "pattern": "\\d+\\.\\d+\\.\\d+"
+            "pattern": "^\\d+\\.\\d+\\.\\d+$"
         },
         "mods": {
             "type": "object",
@@ -50,13 +50,13 @@
                     },
                     "category": {
                         "type": "string",
-                        "pattern": "Asset Importing Tweaks|Bug Workarounds|Context Menu Tweaks|Dash Tweaks|Developers|General UI Tweaks|Hardware Integrations|Inspectors|Keybinds \\& Gestures|Libraries|LogiX|Memes|Misc|Optimization|Plugins|Technical Tweaks|Visual Tweaks|Wizards"
+                        "pattern": "^(Asset Importing Tweaks|Bug Workarounds|Context Menu Tweaks|Dash Tweaks|Developers|General UI Tweaks|Hardware Integrations|Inspectors|Keybinds \\& Gestures|Libraries|LogiX|Memes|Misc|Optimization|Plugins|Technical Tweaks|Visual Tweaks|Wizards)$"
                     },
                     "flags": {
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "pattern": "deprecated|plugin|file"
+                            "pattern": "^(deprecated|plugin|file)$"
                         }
                     },
                     "versions": {
@@ -81,7 +81,7 @@
                                     "type": "array",
                                     "items": {
                                         "type": "string",
-                                        "pattern": "deprecated|plugin|file|vulnerability:(low|medium|high|critical)|broken(:(linux-native|linux-wine|windows))?|prerelease"
+                                        "pattern": "^(deprecated|plugin|file|vulnerability:(low|medium|high|critical)|broken(:(linux-native|linux-wine|windows))?|prerelease)$"
                                     }
                                 },
                                 "conflicts": {
@@ -120,11 +120,11 @@
                                             },
                                             "sha256": {
                                                 "type": "string",
-                                                "pattern": "[a-zA-Z0-9]{64}"
+                                                "pattern": "^[a-zA-Z0-9]{64}$"
                                             },
                                             "blake3": {
                                                 "type": "string",
-                                                "pattern": "[a-zA-Z0-9]{64}"
+                                                "pattern": "^[a-zA-Z0-9]{64}$"
                                             },
                                             "installLocation": {
                                                 "type": "string"

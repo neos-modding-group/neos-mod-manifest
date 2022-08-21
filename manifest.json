@@ -2732,7 +2732,7 @@
         "net.Toxic_Cookie.GenericSettings": {
             "name": "GenericSettings",
             "description": "Allows you to define, save, load and use custom settings",
-            "category": "Mod Developers",
+            "category": "Libraries",
             "sourceLocation": "https://github.com/Toxic-Cookie/GenericSettings",
             "authors": {
                 "Toxic_Cookie": {
