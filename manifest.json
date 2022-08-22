@@ -4746,6 +4746,29 @@
                     ]
                 }
             }
+        },
+        "net.TheJebForge.DynVarGenerator": {
+            "name": "DynVarGenerator",
+            "description": "Allows you to quickly generate huge amounts of dynamic fields/variables/drivers for blendshapes, bones and pretty much anything you might want",
+            "category": "Wizards",
+            "website": "https://github.com/TheJebForge/DynVarGenerator",
+            "sourceLocation": "https://github.com/TheJebForge/DynVarGenerator",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.0.0/DynVarGenerator.dll",
+                            "sha256": "ff05ebb692630c755585f8a96e9db5de5688df8d76e554f867a28e2d9577a944"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
