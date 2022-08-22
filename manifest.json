@@ -991,6 +991,17 @@
                 }
             },
             "versions": {
+                "1.5.2": {
+                    "changelog": " - Fixed an error breaking compatibility with ValueProxyExtensions under certain conditions",
+                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.5.2/LogixUtils.dll",
+                            "filename": "LogixUtils.dll",
+                            "sha256": "998cac77b07ac1186c04890ef3c355cb83687642bf95f46be26f36f19b420813"
+                        }
+                    ]
+                },
                 "1.5.1": {
                     "changelog": " - Fixed an issue preventing input nodes of certain types from being created",
                     "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.1",
