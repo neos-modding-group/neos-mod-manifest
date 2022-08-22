@@ -401,7 +401,7 @@
                         "broken:linux-native"
                     ],
                     "releaseUrl": "https://github.com/dfgHiatus/NeosVRMLImporter/releases/tag/v1.0.1",
-                    "changelog": " - Fixed a bug where files could not be imported from certain C drives (Documents, etc.) \n - Fixed a bug where X3D imports would import a cube along with the scene \n - Fixed a bug where importing models with unicode characters in their name would freeze importing \n -- This will show in logs, not necessary in game \n - Now using Engine CachePath \n - Enhanced logging"
+                    "changelog": " - Fixed a bug where files could not be imported from certain C drives (Documents, etc.) \n - Fixed a bug where X3D imports would import a cube along with the scene \n - Fixed a bug where importing models with unicode characters in their name would freeze importing \n -- This will show in logs, not necessary in game \n - Now using Engine CachePath \n - Enhanced logging",
                     "artifacts": [
                         {
                             "url": "https://github.com/dfgHiatus/NeosVRMLImporter/releases/download/v1.0.1/VRML_Importer_v1.0.1.zip",
