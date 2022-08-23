@@ -4838,6 +4838,29 @@
                     ]
                 }
             }
+        },
+        "dev.LeCloutpanda.LocalMenu": {
+            "name": "LocalMenu",
+            "description": "Set the visibility of your Interaction Lasers and Context menu for others while keeping them visible for you",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/LeCloutPanda/LocalMenu",
+            "sourceLocation": "https://github.com/LeCloutPanda/LocalMenu",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.3": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/LocalMenu/releases/tag/v1.0.3",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/LocalMenu/releases/download/v1.0.3/LocalMenu.dll",
+                            "sha256": "4ae453885be06f8d70e468e86aab35e3b45fe2a95078c1ae2003242e818cb49d"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
