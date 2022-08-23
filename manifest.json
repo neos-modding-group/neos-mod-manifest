@@ -4067,52 +4067,6 @@
                 }
             }
         },
-        "net.LeCloutPanda.InspectorCustomizer": {
-            "name": "InspectorCustomizer",
-            "description": "Allows you to customize some Neos panel items including Inspector, Logix browser and more.",
-            "category": "General UI Tweaks",
-            "sourceLocation": "https://github.com/LeCloutPanda/Inspector-Customizer",
-            "authors": {
-                "LeCloutPanda": {
-                    "url": "https://https://github.com/LeCloutPanda"
-                }
-            },
-            "versions": {
-                "1.0.5": {
-                    "releaseUrl": "https://github.com/LeCloutPanda/Inspector-Customizer/releases/tag/v1.0.5",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/LeCloutPanda/Inspector-Customizer/releases/download/v1.0.5/Customize.dll",
-                            "filename": "Customize.dll",
-                            "sha256": "46f476cb8e40d2936fea7433f4ee05e2a66f97184b99c4a6c208777ed140d507"
-                        }
-                    ]
-                }
-            }
-        },
-        "net.LeCloutPanda.VideoToStream": {
-            "name": "Video To Stream",
-            "description": "Sets Video Players spawned by the player to automatically set Stream to true.",
-            "category": "Technical Tweaks",
-            "sourceLocation": "https://github.com/LeCloutPanda/Video-To-Stream",
-            "authors": {
-                "LeCloutPanda": {
-                    "url": "https://https://github.com/LeCloutPanda"
-                }
-            },
-            "versions": {
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/LeCloutPanda/Video-To-Stream/releases/tag/v1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/LeCloutPanda/Video-To-Stream/releases/download/v1.0.0/VideoToStream.dll",
-                            "filename": "VideoToStream.dll",
-                            "sha256": "8aa9cdee978999327f482dba4dac580eb57344365003e78604bad6e5c75add4c"
-                        }
-                    ]
-                }
-            }
-        },
         "Banane9.LagFreeContactsLoading": {
             "name": "LagFreeContactsLoading",
             "description": "Spreads out the initial loading of the contacts list over a configurable number of updates to prevent the game from freezing while it adds all the contacts.",
@@ -4453,29 +4407,6 @@
                 }
             }
         },
-        "net.LeCloutPanda.DefaultLaserState": {
-            "name": "DefaultLaserState",
-            "description": "Change the default state of the interaction laser",
-            "category": "Context Menu Tweaks",
-            "sourceLocation": "https://github.com/LeCloutPanda/DefaultLaserState/",
-            "authors": {
-                "LeCloutPanda": {
-                    "url": "https://github.com/LeCloutPanda"
-                }
-            },
-            "versions": {
-                "1.0.1": {
-                    "releaseUrl": "https://github.com/LeCloutPanda/DefaultLaserState/releases/tag/v1.0.1",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/LeCloutPanda/DefaultLaserState/releases/download/v1.0.1/DefaultLaserState.dll",
-                            "filename": "DefaultLaserState.dll",
-                            "sha256": "f914a39026a80284c75422222d585483659a5d9a9c2c304f195442e4a824d39d"
-                        }
-                    ]
-                }
-            }
-        },
         "Psychpsyo.Tooltippery": {
             "name": "Tooltippery",
             "description": "Adds the capability for other mods and users to add hover tooltips to buttons.",
@@ -4678,29 +4609,6 @@
                 }
             }
         },
-        "dev.LeCloutPanda.Local-Menu": {
-            "name": "Local-Menu",
-            "description": "Adds the options to make both Context Menu and Interaction laser local so only you can see them.",
-            "category": "Context Menu Tweaks",
-            "sourceLocation": "https://github.com/LeCloutPanda/Local-Menu/",
-            "authors": {
-                "LeCloutPanda": {
-                    "url": "https://github.com/LeCloutPanda"
-                }
-            },
-            "versions": {
-                "1.0.1": {
-                    "releaseUrl": "https://github.com/LeCloutPanda/Local-Menu/releases/tag/v1.0.1",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/LeCloutPanda/Local-Menu/releases/download/v1.0.1/LocalMenu.dll",
-                            "filename": "LocalMenu.dll",
-                            "sha256": "e549021193ba889e4118020190458bae9b155078da5789ac553c1068cbec0bdf"
-                        }
-                    ]
-                }
-            }
-        },
         "net.Sox.CompliantAvatarCreator": {
             "name": "CompliantAvatarCreator",
             "description": "Allows you to stop that annoying snapping when trying to set up an avatar in certain sessions (Especially when in a Headless session).",
@@ -4765,6 +4673,167 @@
                         {
                             "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.0.0/DynVarGenerator.dll",
                             "sha256": "ff05ebb692630c755585f8a96e9db5de5688df8d76e554f867a28e2d9577a944"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.LeCloutPanda.Resolutions": {
+            "name": "Resolutions",
+            "description": "Control the resolution of the Timer/Normal Finger photos",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/LeCloutPanda/Resolutions",
+            "sourceLocation": "https://github.com/LeCloutPanda/Resolutions",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/Resolutions/releases/tag/v1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/Resolutions/releases/download/v1.0.2/Resolutions.dll",
+                            "sha256": "76d4df63435a8556269bc8d9348560981327e6f238504bc7b7b8a430cde16a9e"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.LeCloutPanda.DefaultLaserState": {
+            "name": "DefaultLaserState",
+            "description": "Have a default state for your Interaction Laser",
+            "category": "Misc",
+            "website": "https://github.com/LeCloutPanda/DefaultLaserState",
+            "sourceLocation": "https://github.com/LeCloutPanda/DefaultLaserState",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/DefaultLaserState/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/DefaultLaserState/releases/download/v1.0.1/DefaultLaserState.dll",
+                            "sha256": "f914a39026a80284c75422222d585483659a5d9a9c2c304f195442e4a824d39d"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.LeCloutPanda.Rebind": {
+            "name": "Rebind",
+            "description": "Rebind some controls to reduce damage to the thumbsticks on Oculos controllers",
+            "category": "Keybinds & Gestures",
+            "website": "https://github.com/LeCloutPanda/Rebind",
+            "sourceLocation": "https://github.com/LeCloutPanda/Rebind",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/Rebind/releases/tag/v1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/Rebind/releases/download/v1.0.2/Rebind.dll",
+                            "sha256": "aebabd8c87728e406648cad7014f4001270f7967e83375edf0b73cc16f2baa36"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.LeCloutPanda.VideoToStream": {
+            "name": "VideoToStream",
+            "description": "Makes all video players spawned by the players be set to stream mode",
+            "category": "Technical Tweaks",
+            "website": "https://github.com/LeCloutPanda/VideoToStream",
+            "sourceLocation": "https://github.com/LeCloutPanda/VideoToStream",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/VideoToStream/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/VideoToStream/releases/download/v1.0.0/VideoToStream.dll",
+                            "sha256": "8aa9cdee978999327f482dba4dac580eb57344365003e78604bad6e5c75add4c"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.LeCloutPanda.Customise-Inspector": {
+            "name": "Customise-Inspector",
+            "description": "Allows user to customise many aspects of the default Inspector",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/LeCloutPanda/Customise",
+            "sourceLocation": "https://github.com/LeCloutPanda/Customise/tree/main/CustomiseInspector",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.1.3": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/Customise/releases/tag/v1.1.3%2Fv1.1.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/Customise/releases/download/v1.1.3%2Fv1.1.2/CustomiseInspector.dll",
+                            "sha256": "e87a65650be25a3c229539d2f87ca7822f82b3c6ca4adafc76b5de29e97b0022"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.LeCloutPanda.Customise-LogixBrowser": {
+            "name": "Customise-LogixBrowser",
+            "description": "Allows user to customise many aspects of the default Logix Browser",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/LeCloutPanda/Customise",
+            "sourceLocation": "https://github.com/LeCloutPanda/Customise/blob/main/CustomiseLogixBrowser",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.1.3": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/Customise/releases/tag/v1.1.3%2Fv1.1.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/Customise/releases/download/v1.1.3%2Fv1.1.2/CustomiseLogixBrowser.dll",
+                            "sha256": "2d66cb051c1e0cb8e9c2ccefdf05e07ff2b9d1f62e103fc88651287ca905e0aa"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.LeCloutPanda.Customise-VideoPlayer": {
+            "name": "Customise-VideoPlayer",
+            "description": "Allows user to customise many aspects of the default Video player",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/LeCloutPanda/Customise",
+            "sourceLocation": "https://github.com/LeCloutPanda/Customise/tree/main/CustomiseVideoPlayer",
+            "authors": {
+                "LeCloutPanda": {
+                    "url": "https://github.com/LeCloutPanda"
+                }
+            },
+            "versions": {
+                "1.1.2": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/Customise/releases/tag/v1.1.3%2Fv1.1.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/Customise/releases/download/v1.1.3%2Fv1.1.2/CustomiseVideoPlayer.dll",
+                            "sha256": "055e8cf53a1494a30b6f49bda09aa5e3b32cce7bd234ee219498dcadb15cfff6"
                         }
                     ]
                 }
