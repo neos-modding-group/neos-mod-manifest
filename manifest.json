@@ -4794,6 +4794,16 @@
                             "sha256": "7d20a69dc971023b0f344990fd3610bf50a08c2ccfb218876192ec0d8414411f"
                         }
                     ]
+                },
+                "1.0.1": {
+                    "changelog": "Added option to use mesh bone names, null reference fix",
+                    "releaseUrl": "https://github.com/TheJebForge/BoneReferenceHelper/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/BoneReferenceHelper/releases/download/v1.0.1/BoneReferenceHelper.dll",
+                            "sha256": "dc63cd64eb34b8013c439265ebff710590d2c8d00ce7f736a2bfb69fe1c3289c"
+                        }    
+                    ]
                 }
             }
         },
