@@ -4870,6 +4870,29 @@
                     }
                 }
             }
-        }        
+        },
+        "net.TheJebForge.TypePicker": {
+            "name": "TypePicker",
+            "description": "Allows you to simply drop a reference into component attacher and choose what kind of type you want",
+            "category": "Technical Tweaks",
+            "website": "https://github.com/TheJebForge/TypePicker",
+            "sourceLocation": "https://github.com/TheJebForge/TypePicker",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/TypePicker/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/TypePicker/releases/download/1.0.0/TypePicker.dll",
+                            "sha256": "4a5be7d51efa48993e15372102f0ac45aaae72631ea71a7e03a10e16574182bb"
+                        }
+                    ]
+                }
+            }
+        }
     }
 }
