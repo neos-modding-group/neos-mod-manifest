@@ -4836,14 +4836,6 @@
             "category": "Developers",
             "website": "https://github.com/TheJebForge/DynVarGenerator",
             "sourceLocation": "https://github.com/Zetaphor/NeosWebServers",
-            "dependencies": {
-                "Unosquare.Swan.Lite": {
-                    "version": "3.0.0"
-                },
-                "Unosquare.EmbedIO": {
-                    "version": "3.4.3"
-                }
-            },
             "authors": {
                 "Zetaphor": {
                     "url": "https://github.com/Zetaphor"
@@ -4858,6 +4850,14 @@
                             "sha256": "0809f9ba2764a9b0c6b5487f452cafd399b3736bad9711368e98d595d354ef8a"
                         }                       
                     ]
+                    "dependencies": {
+                        "Unosquare.Swan.Lite": {
+                            "version": "3.0.0"
+                        },
+                        "Unosquare.EmbedIO": {
+                            "version": "3.4.3"
+                        }
+                    },
                 }
             }
         }        
