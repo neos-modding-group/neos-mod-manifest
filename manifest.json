@@ -4767,6 +4767,16 @@
                             "sha256": "ff05ebb692630c755585f8a96e9db5de5688df8d76e554f867a28e2d9577a944"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "changelog": "Added more options, some fixes",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.1.0/DynVarGenerator.dll",
+                            "sha256": "534f09d41a876c760c18e7866846e989860247f19e422e8b2c0066e4faeb0f61"
+                        }
+                    ]
                 }
             }
         },
