@@ -4849,7 +4849,7 @@
                             "url": "https://github.com/Zetaphor/NeosWebServers/releases/download/1.1/Webservers.dll",
                             "sha256": "0809f9ba2764a9b0c6b5487f452cafd399b3736bad9711368e98d595d354ef8a"
                         }                       
-                    ]
+                    ],
                     "dependencies": {
                         "Unosquare.Swan.Lite": {
                             "version": "3.0.0"
@@ -4857,7 +4857,7 @@
                         "Unosquare.EmbedIO": {
                             "version": "3.4.3"
                         }
-                    },
+                    }
                 }
             }
         }        
