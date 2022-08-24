@@ -194,6 +194,7 @@
                     "url": "https://github.com/unosquare"
                 }
             },
+            "category": "Libraries",
             "sourceLocation": "https://github.com/unosquare/swan/",
             "website": "https://github.com/unosquare/swan/",
             "versions": {
@@ -218,6 +219,7 @@
                     "url": "https://github.com/unosquare"
                 }
             },
+            "category": "Libraries",
             "sourceLocation": "https://github.com/unosquare/embedio/",
             "website": "https://unosquare.github.io/embedio/",
             "versions": {
