@@ -6,8 +6,10 @@ jobs:
     name: Validate EditorConfig
     steps:
       - uses: actions/checkout@v2
-      - name: Run editorconfig-checker
+      - name: Set up editorconfig-checker
         uses: editorconfig-checker/action-editorconfig-checker@main
+      - name: Run editorconfig-checker
+        run: editorconfig-checker
   validate-json:
     runs-on: ubuntu-latest
     name: Validate JSON
