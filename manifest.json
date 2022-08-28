@@ -4851,6 +4851,16 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/LeCloutPanda/Local-Menu/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/LeCloutPanda/Local-Menu/releases/download/v1.0.1/LocalMenu.dll",
+                            "filename": "LocalMenu.dll",
+                            "sha256": "e549021193ba889e4118020190458bae9b155078da5789ac553c1068cbec0bdf"
+                        }
+                    ]
+                },
                 "1.0.3": {
                     "releaseUrl": "https://github.com/LeCloutPanda/LocalMenu/releases/tag/v1.0.3",
                     "artifacts": [
