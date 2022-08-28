@@ -186,6 +186,56 @@
                 }
             }
         },
+        "Unosquare.Swan.Lite": {
+            "name": "Swan.Lite",
+            "description": "Repeating code and reinventing the wheel is generally considered bad practice. At Unosquare we are committed to beautiful code and great software. Swan is a collection of classes and extension methods that we and other good developers have developed and evolved over the years. We found ourselves copying and pasting the same code for every project every time we started it. We decide to kill that cycle once and for all. This is the result of that idea. Our philosophy is that SWAN should have no external dependencies, it should be cross-platform, and it should be useful.",
+            "authors": {
+                "unosquare": {
+                    "url": "https://github.com/unosquare"
+                }
+            },
+            "category": "Libraries",
+            "sourceLocation": "https://github.com/unosquare/swan/",
+            "website": "https://github.com/unosquare/swan/",
+            "versions": {
+                "3.0.0": {
+                    "releaseUrl": "https://github.com/unosquare/swan/releases/tag/3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Zetaphor/NeosWebServers/releases/download/1.1/Swan.Lite.dll",
+                            "filename": "Swan.Lite.dll",
+                            "sha256": "309f02bfe8aa4076794e74e95f0610dd03f14c612fce0855df3fe2391e2e990b",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                }
+            }
+        },
+        "Unosquare.EmbedIO": {
+            "name": "EmbedIO",
+            "description": "A tiny, cross-platform, module based, MIT-licensed web server. Supporting NET Framework, Net Core, and Mono.",
+            "authors": {
+                "unosquare": {
+                    "url": "https://github.com/unosquare"
+                }
+            },
+            "category": "Libraries",
+            "sourceLocation": "https://github.com/unosquare/embedio/",
+            "website": "https://unosquare.github.io/embedio/",
+            "versions": {
+                "3.4.3": {
+                    "releaseUrl": "https://github.com/unosquare/embedio/releases/tag/3.4.3",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Zetaphor/NeosWebServers/releases/download/1.1/EmbedIO.dll",
+                            "filename": "EmbedIO.dll",
+                            "sha256": "21392a5fa8d00f4fed9450f7fabd2c8e5dd30cba73525c35f37584e17c639e2b",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                }
+            }
+        },
         "Discord.Net.Core": {
             "name": "Discord.Net Core",
             "description": "The core components for the Discord.Net library.",
@@ -991,6 +1041,17 @@
                 }
             },
             "versions": {
+                "1.5.2": {
+                    "changelog": " - Fixed an error breaking compatibility with ValueProxyExtensions under certain conditions",
+                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.5.2/LogixUtils.dll",
+                            "filename": "LogixUtils.dll",
+                            "sha256": "998cac77b07ac1186c04890ef3c355cb83687642bf95f46be26f36f19b420813"
+                        }
+                    ]
+                },
                 "1.5.1": {
                     "changelog": " - Fixed an issue preventing input nodes of certain types from being created",
                     "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.1",
@@ -4754,6 +4815,103 @@
                         {
                             "url": "https://github.com/TheJebForge/BoneReferenceHelper/releases/download/v1.0.0/BoneReferenceHelper.dll",
                             "sha256": "7d20a69dc971023b0f344990fd3610bf50a08c2ccfb218876192ec0d8414411f"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "changelog": "Added option to use mesh bone names, null reference fix",
+                    "releaseUrl": "https://github.com/TheJebForge/BoneReferenceHelper/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/BoneReferenceHelper/releases/download/v1.0.1/BoneReferenceHelper.dll",
+                            "sha256": "dc63cd64eb34b8013c439265ebff710590d2c8d00ce7f736a2bfb69fe1c3289c"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.TheJebForge.DynVarGenerator": {
+            "name": "DynVarGenerator",
+            "description": "Allows you to quickly generate huge amounts of dynamic fields/variables/drivers for blendshapes, bones and pretty much anything you might want",
+            "category": "Wizards",
+            "website": "https://github.com/TheJebForge/DynVarGenerator",
+            "sourceLocation": "https://github.com/TheJebForge/DynVarGenerator",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.0.0/DynVarGenerator.dll",
+                            "sha256": "ff05ebb692630c755585f8a96e9db5de5688df8d76e554f867a28e2d9577a944"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "changelog": "Added more options, some fixes",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.1.0/DynVarGenerator.dll",
+                            "sha256": "534f09d41a876c760c18e7866846e989860247f19e422e8b2c0066e4faeb0f61"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.Zetaphor.Webservers": {
+            "name": "Webservers",
+            "description": "This mod implements an HTTP web server and a Websockets server into the Neos client, enabling theuse of locally hosted web apps powered by websockets.",
+            "category": "Developers",
+            "website": "https://github.com/TheJebForge/DynVarGenerator",
+            "sourceLocation": "https://github.com/Zetaphor/NeosWebServers",
+            "authors": {
+                "Zetaphor": {
+                    "url": "https://github.com/Zetaphor"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Zetaphor/NeosWebServers/releases/tag/1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Zetaphor/NeosWebServers/releases/download/1.1/Webservers.dll",
+                            "sha256": "0809f9ba2764a9b0c6b5487f452cafd399b3736bad9711368e98d595d354ef8a"
+                        }
+                    ],
+                    "dependencies": {
+                        "Unosquare.Swan.Lite": {
+                            "version": "3.0.0"
+                        },
+                        "Unosquare.EmbedIO": {
+                            "version": "3.4.3"
+                        }
+                    }
+                }
+            }
+        },
+        "net.TheJebForge.TypePicker": {
+            "name": "TypePicker",
+            "description": "Allows you to simply drop a reference into component attacher and choose what kind of type you want",
+            "category": "Technical Tweaks",
+            "website": "https://github.com/TheJebForge/TypePicker",
+            "sourceLocation": "https://github.com/TheJebForge/TypePicker",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/TypePicker/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/TypePicker/releases/download/1.0.0/TypePicker.dll",
+                            "sha256": "4a5be7d51efa48993e15372102f0ac45aaae72631ea71a7e03a10e16574182bb"
                         }
                     ]
                 }
