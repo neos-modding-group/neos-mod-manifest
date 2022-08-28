@@ -4802,7 +4802,7 @@
                         {
                             "url": "https://github.com/TheJebForge/BoneReferenceHelper/releases/download/v1.0.1/BoneReferenceHelper.dll",
                             "sha256": "dc63cd64eb34b8013c439265ebff710590d2c8d00ce7f736a2bfb69fe1c3289c"
-                        }    
+                        }
                     ]
                 }
             }
@@ -4858,7 +4858,7 @@
                         {
                             "url": "https://github.com/Zetaphor/NeosWebServers/releases/download/1.1/Webservers.dll",
                             "sha256": "0809f9ba2764a9b0c6b5487f452cafd399b3736bad9711368e98d595d354ef8a"
-                        }                       
+                        }
                     ],
                     "dependencies": {
                         "Unosquare.Swan.Lite": {
