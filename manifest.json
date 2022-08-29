@@ -5018,6 +5018,29 @@
                     ]
                 }
             }
+        },
+        "net.TheJebForge.CustomLogiXTypes": {
+            "name": "CustomLogiXTypes",
+            "description": "Adds a convenient way to use advanced LogiX types, so you don't have to do it manually through an inspector",
+            "category": "LogiX",
+            "website": "https://github.com/TheJebForge/CustomLogiXTypes",
+            "sourceLocation": "https://github.com/TheJebForge/CustomLogiXTypes",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/CustomLogiXTypes/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/CustomLogiXTypes/releases/download/1.0.0/CustomLogiXTypes.dll",
+                            "sha256": "99c4c165db37786f8cb26c639e318931ed80aa15a155ecb08d6fa0a3ad7c6904"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
