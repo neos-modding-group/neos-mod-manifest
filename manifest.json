@@ -4825,6 +4825,29 @@
                 }
             }
         },
+        "net.catshark.rearmature": {
+            "name": "ReArmature",
+            "description": "Adds a button to SkinnedMeshRenderers that sets up its bones to your avatars armature. Even if there are new bones.",
+            "category": "Inspectors",
+            "website": "https://github.com/CatSharkShin/ReArmature",
+            "sourceLocation": "https://github.com/CatSharkShin/ReArmature",
+            "authors": {
+                "CatSharkShin": {
+                    "url": "https://github.com/CatSharkShin"
+                }
+            },
+            "versions": {
+            "1.0": {
+                    "releaseUrl": "https://github.com/CatSharkShin/ReArmature/releases/tag/1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/CatSharkShin/ReArmature/releases/download/1.0/ReArmature.dll",
+                            "sha256": "a2a6890ff5301fb085a80167d8f015c9295085b58e6f8d4d2d729ce71eadf023"
+                        }
+                    ]
+                }
+            }
+        },
         "dev.LeCloutPanda.Resolutions": {
             "name": "Resolutions",
             "description": "Control the resolution of the Timer/Normal Finger photos",
