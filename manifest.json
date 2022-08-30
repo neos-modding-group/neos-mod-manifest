@@ -4825,6 +4825,29 @@
                 }
             }
         },
+        "net.catshark.rearmature": {
+            "name": "ReArmature",
+            "description": "Adds a button to SkinnedMeshRenderers that sets up its bones to your avatars armature. Even if there are new bones.",
+            "category": "Inspectors",
+            "website": "https://github.com/CatSharkShin/ReArmature",
+            "sourceLocation": "https://github.com/CatSharkShin/ReArmature",
+            "authors": {
+                "CatSharkShin": {
+                    "url": "https://github.com/CatSharkShin"
+                }
+            },
+            "versions": {
+            "1.0": {
+                    "releaseUrl": "https://github.com/CatSharkShin/ReArmature/releases/tag/1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/CatSharkShin/ReArmature/releases/download/1.0/ReArmature.dll",
+                            "sha256": "a2a6890ff5301fb085a80167d8f015c9295085b58e6f8d4d2d729ce71eadf023"
+                        }
+                    ]
+                }
+            }
+        },
         "dev.LeCloutPanda.Resolutions": {
             "name": "Resolutions",
             "description": "Control the resolution of the Timer/Normal Finger photos",
@@ -5014,6 +5037,29 @@
                         {
                             "url": "https://github.com/LeCloutPanda/LocalMenu/releases/download/v1.0.3/LocalMenu.dll",
                             "sha256": "4ae453885be06f8d70e468e86aab35e3b45fe2a95078c1ae2003242e818cb49d"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.TheJebForge.CustomLogiXTypes": {
+            "name": "CustomLogiXTypes",
+            "description": "Adds a convenient way to use advanced LogiX types, so you don't have to do it manually through an inspector",
+            "category": "LogiX",
+            "website": "https://github.com/TheJebForge/CustomLogiXTypes",
+            "sourceLocation": "https://github.com/TheJebForge/CustomLogiXTypes",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/CustomLogiXTypes/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/CustomLogiXTypes/releases/download/1.0.0/CustomLogiXTypes.dll",
+                            "sha256": "99c4c165db37786f8cb26c639e318931ed80aa15a155ecb08d6fa0a3ad7c6904"
                         }
                     ]
                 }
