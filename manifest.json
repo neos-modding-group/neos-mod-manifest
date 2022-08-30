@@ -4837,12 +4837,12 @@
                 }
             },
             "versions": {
-            "1.0": {
-                    "releaseUrl": "https://github.com/CatSharkShin/ReArmature/releases/tag/1.0",
+            "1.1": {
+                    "releaseUrl": "https://github.com/CatSharkShin/ReArmature/releases/tag/1.1",
                     "artifacts": [
                         {
-                            "url": "https://github.com/CatSharkShin/ReArmature/releases/download/1.0/ReArmature.dll",
-                            "sha256": "a2a6890ff5301fb085a80167d8f015c9295085b58e6f8d4d2d729ce71eadf023"
+                            "url": "https://github.com/CatSharkShin/ReArmature/releases/download/1.1/ReArmature.dll",
+                            "sha256": "5178525cda8dcc4401c1f6849b49658ca91c331930f4819610133a7c797dbe57"
                         }
                     ]
                 }
