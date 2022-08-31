@@ -4848,6 +4848,29 @@
                 }
             }
         },
+        "net.catshark.KeepGlobalTransformToggle": {
+            "name": "KeepGlobalTransformToggle",
+            "description": "Adds a toggle for keepGlobalTransforms to inspectors for DragnDropping",
+            "category": "Inspectors",
+            "website": "https://github.com/CatSharkShin/KeepGlobalTransformToggle",
+            "sourceLocation": "https://github.com/CatSharkShin/KeepGlobalTransformToggle",
+            "authors": {
+                "CatSharkShin": {
+                    "url": "https://github.com/CatSharkShin"
+                }
+            },
+            "versions": {
+            "1.1": {
+                    "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/download/1.1/KeepGlobalTransformToggle.dll",
+                            "sha256": "3e1fa5a1533a7d3804b56ff54e453b19bc9d6e31dc42dddfc41c757729fdf9b5"
+                        }
+                    ]
+                }
+            }
+        },
         "dev.LeCloutPanda.Resolutions": {
             "name": "Resolutions",
             "description": "Control the resolution of the Timer/Normal Finger photos",
