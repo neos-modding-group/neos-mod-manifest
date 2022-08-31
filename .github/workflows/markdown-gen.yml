@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   Generate-Markdown:
@@ -18,7 +19,7 @@ jobs:
           repository: neos-modding-group/neos-modding-group.github.io
           path: gh-pages
           ssh-key: ${{ secrets.PAGES_AUTH }}
-    
+
       - name: setup python
         uses: actions/setup-python@v3
         with:
