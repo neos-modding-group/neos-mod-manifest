@@ -5064,6 +5064,52 @@
                     ]
                 }
             }
+        },
+        "me.art0007i.FixGrabWorld": {
+            "name": "FixGrabWorld",
+            "descrtiption": "Fixes the grab world locomotion moving you forwards each time you use it",
+            "category": "Keybinds & Gestures",
+            "sourceLocation": "https://github.com/art0007i/FixGrabWorld",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/FixGrabWorld/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/FixGrabWorld/releases/download/1.0.0/FixGrabWorld.dll",
+                            "filename": "FixGrabWorld.dll",
+                            "sha256": "f877184063cf94407ec099e2bfad67353cfc9962e0313665150ff9da995995f2"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.ValueProxyExtensions": {
+            "name": "ValueProxyExtensions",
+            "descrtiption": "Adds a few extra features to reference and value proxies.",
+            "category": "Technical Tweaks",
+            "sourceLocation": "https://github.com/art0007i/ValueProxyExtensions",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/ValueProxyExtensions/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ValueProxyExtensions/releases/download/1.1.0/ValueProxyExtensions.dll",
+                            "filename": "ValueProxyExtensions.dll",
+                            "sha256": "71721659d7fa42e5629a35ca44de2d0ec3662050d86b390c7e42ffde50a96fd6"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
