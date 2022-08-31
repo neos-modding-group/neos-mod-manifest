@@ -5087,7 +5087,7 @@
         },
         "me.art0007i.FixGrabWorld": {
             "name": "FixGrabWorld",
-            "descrtiption": "Fixes the grab world locomotion moving you forwards each time you use it",
+            "description": "Fixes the grab world locomotion moving you forwards each time you use it",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/art0007i/FixGrabWorld",
             "authors": {
@@ -5110,7 +5110,7 @@
         },
         "me.art0007i.ValueProxyExtensions": {
             "name": "ValueProxyExtensions",
-            "descrtiption": "Adds a few extra features to reference and value proxies.",
+            "description": "Adds a few extra features to reference and value proxies.",
             "category": "Technical Tweaks",
             "sourceLocation": "https://github.com/art0007i/ValueProxyExtensions",
             "authors": {
