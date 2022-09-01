@@ -2042,6 +2042,17 @@
                 }
             },
             "versions": {
+                "1.2.0": {
+                    "changelog": "Fixes setting config items to null\nFix generating a page for mods without supported config items\nAdded new config items",
+                    "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/NeosModSettings/releases/download/v1.2.0/NeosModSettings.dll",
+                            "filename": "NeosModSettings.dll",
+                            "sha256": "e3b3f6057601a5a94d1267e368b46efeb0ae7de235557b9374089b584c7e2012"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "changelog": "Fixed some performance issues discovered by RileyGuy and zkxs\nFixed matrixes not displaying correctly",
                     "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.1.0",
