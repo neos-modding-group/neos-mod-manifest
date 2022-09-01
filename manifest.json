@@ -4895,7 +4895,7 @@
                     "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1",
                     "artifacts": [
                         {
-                            "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1",
+                            "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/download/1.1/KeepGlobalTransformToggle.dll",
                             "sha256": "9f5b1bca286b3c055ff391fe4e598068ad9b4a7443a77293f7dbdeb7604bb49a"
                         }
                     ]
