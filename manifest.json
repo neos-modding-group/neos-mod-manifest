@@ -4868,6 +4868,16 @@
                 }
             },
             "versions": {
+            "1.1": {
+                    "releaseUrl": "https://github.com/CatSharkShin/ReArmature/releases/tag/1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/CatSharkShin/ReArmature/releases/download/1.1/ReArmature.dll",
+                            "sha256": "269670969498f187f61ef7b5c343dda0e50d1f28e0eaaf25dc33cfc8f7346434"
+                        }
+                    ],
+                    "changelog": "It now duplicates bonegroups instead of just reparenting them to the new armature. Also now force strips empty bones before attaching."
+            },
             "1.0": {
                     "releaseUrl": "https://github.com/CatSharkShin/ReArmature/releases/tag/1.0",
                     "artifacts": [
