@@ -1480,6 +1480,16 @@
                 }
             },
             "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/art0007i/InspectorScroll/releases/tag/1.0.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/InspectorScroll/releases/download/1.0.2.0/InspectorScroll.dll",
+                            "filename": "InspectorScroll.dll",
+                            "sha256": "fe49fe81655692b458f1c1191048a1a1d61706023ed0a8366271460e059da5d8"
+                        }
+                    ]
+                },
                 "1.0.1": {
                     "releaseUrl": "https://github.com/art0007i/InspectorScroll/releases/tag/1.0.1.0",
                     "artifacts": [
@@ -2032,6 +2042,17 @@
                 }
             },
             "versions": {
+                "1.2.0": {
+                    "changelog": "Fixes setting config items to null\nFix generating a page for mods without supported config items\nAdded new config items",
+                    "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/NeosModSettings/releases/download/v1.2.0/NeosModSettings.dll",
+                            "filename": "NeosModSettings.dll",
+                            "sha256": "e3b3f6057601a5a94d1267e368b46efeb0ae7de235557b9374089b584c7e2012"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "changelog": "Fixed some performance issues discovered by RileyGuy and zkxs\nFixed matrixes not displaying correctly",
                     "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.1.0",
@@ -2522,6 +2543,16 @@
                             "url": "https://github.com/art0007i/PasteInvidious/releases/download/1.1.0.0/PasteInvidious.dll",
                             "filename": "PasteInvidious.dll",
                             "sha256": "d89bf475d3bfef39debd23d4f9cc21731133912650a1f80f42d3c6f27797d04d"
+                        }
+                    ]
+                },
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/art0007i/PasteInvidious/releases/tag/1.1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/PasteInvidious/releases/download/1.1.1.0/PasteInvidious.dll",
+                            "filename": "PasteInvidious.dll",
+                            "sha256": "38b76daeb3d4684c909c89fe9c91dbc24a0843b8b2fe809a9b7129c5d7f1218c"
                         }
                     ]
                 }
@@ -5083,6 +5114,52 @@
                         {
                             "url": "https://github.com/TheJebForge/CustomLogiXTypes/releases/download/1.0.0/CustomLogiXTypes.dll",
                             "sha256": "99c4c165db37786f8cb26c639e318931ed80aa15a155ecb08d6fa0a3ad7c6904"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.FixGrabWorld": {
+            "name": "FixGrabWorld",
+            "description": "Fixes the grab world locomotion moving you forwards each time you use it",
+            "category": "Keybinds & Gestures",
+            "sourceLocation": "https://github.com/art0007i/FixGrabWorld",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/FixGrabWorld/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/FixGrabWorld/releases/download/1.0.0/FixGrabWorld.dll",
+                            "filename": "FixGrabWorld.dll",
+                            "sha256": "f877184063cf94407ec099e2bfad67353cfc9962e0313665150ff9da995995f2"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.ValueProxyExtensions": {
+            "name": "ValueProxyExtensions",
+            "description": "Adds a few extra features to reference and value proxies.",
+            "category": "Technical Tweaks",
+            "sourceLocation": "https://github.com/art0007i/ValueProxyExtensions",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/ValueProxyExtensions/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ValueProxyExtensions/releases/download/1.1.0/ValueProxyExtensions.dll",
+                            "filename": "ValueProxyExtensions.dll",
+                            "sha256": "71721659d7fa42e5629a35ca44de2d0ec3662050d86b390c7e42ffde50a96fd6"
                         }
                     ]
                 }
