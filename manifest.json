@@ -4889,6 +4889,40 @@
                 }
             }
         },
+        "me.catshark.KeepGlobalTransformToggle": {
+            "name": "KeepGlobalTransformToggle",
+            "description": "Adds a toggle to inspectors for the keepGlobalTransform used when moving objects in the inspector",
+            "category": "Inspectors",
+            "website": "https://github.com/CatSharkShin/KeepGlobalTransformToggle",
+            "sourceLocation": "https://github.com/CatSharkShin/KeepGlobalTransformToggle",
+            "authors": {
+                "CatSharkShin": {
+                    "url": "https://github.com/CatSharkShin"
+                }
+            },
+            "versions": {
+                "1.1.1": {
+                        "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1.1",
+                        "changelog": "The toggle now only spawns in inspector's spawned by the mod's user",
+                        "artifacts": [
+                            {
+                                "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/download/1.1.1/KeepGlobalTransformToggle.dll",
+                                "sha256": "155d587e8139517c4c5ecd90f1de0cc685400a69cf58cddd9b847eef1cd49751"
+                            }
+                        ]
+                },
+                "1.1": {
+                        "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1",
+                        "artifacts": [
+                            {
+                                "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/download/1.1/KeepGlobalTransformToggle.dll",
+                                "sha256": "9f5b1bca286b3c055ff391fe4e598068ad9b4a7443a77293f7dbdeb7604bb49a"
+                            }
+                        ],
+                        "flags": ["deprecated"]
+                }
+            }
+        },
         "dev.LeCloutPanda.Resolutions": {
             "name": "Resolutions",
             "description": "Control the resolution of the Timer/Normal Finger photos",
