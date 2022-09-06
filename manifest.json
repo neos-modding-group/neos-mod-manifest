@@ -194,9 +194,12 @@
                     "url": "https://github.com/unosquare"
                 }
             },
-            "category": "Libraries",
             "sourceLocation": "https://github.com/unosquare/swan/",
             "website": "https://github.com/unosquare/swan/",
+            "category": "Libraries",
+            "flags": [
+                "file"
+            ],
             "versions": {
                 "3.0.0": {
                     "releaseUrl": "https://github.com/unosquare/swan/releases/tag/3.0.0",
@@ -219,9 +222,12 @@
                     "url": "https://github.com/unosquare"
                 }
             },
-            "category": "Libraries",
             "sourceLocation": "https://github.com/unosquare/embedio/",
             "website": "https://unosquare.github.io/embedio/",
+            "category": "Libraries",
+            "flags": [
+                "file"
+            ],
             "versions": {
                 "3.4.3": {
                     "releaseUrl": "https://github.com/unosquare/embedio/releases/tag/3.4.3",
