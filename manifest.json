@@ -418,6 +418,29 @@
                 }
             }
         },
+        "net.eia485.SlotLessWorkerInterfaces": {
+            "name": "SlotLessWorkerInterfaces",
+            "description": "Allows you to create logix interfaces for workers that dont have a slot",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/EIA485/NeosSlotLessWorkerInterfaces",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosSlotLessWorkerInterfaces/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosSlotLessWorkerInterfaces/releases/download/1.0.0/SlotLessWorkerInterfaces.dll",
+                            "filename": "SlotLessWorkerInterfaces.dll",
+                            "sha256": "005BA735E0ABB1F9D6ADA8E0C6941D601FD1AAD15A955ADE73D0E5DD9329E157"
+                        }
+                    ]
+                }
+            }
+        },
         "net.dfghiatus.cachegetclapped": {
             "name": "CacheGetClapped",
             "description": "Deletes cached files that have been unused for over 21 days",
