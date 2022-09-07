@@ -1,0 +1,22 @@
+name: Check Formatting
+on: [pull_request]
+jobs:
+  ec-audit-pr:
+    runs-on: ubuntu-20.04
+    name: Validate EditorConfig
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up editorconfig-checker
+        uses: editorconfig-checker/action-editorconfig-checker@main
+      - name: Run editorconfig-checker
+        run: editorconfig-checker
+  validate-json:
+    runs-on: ubuntu-latest
+    name: Validate JSON
+    steps:
+      - uses: actions/checkout@v1
+      - name: Run ajv
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_SCHEMA: /schema.json
+          INPUT_JSONS: /manifest.json
