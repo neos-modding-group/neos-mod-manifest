@@ -3688,6 +3688,17 @@
                 }
             },
             "versions": {
+                "1.3.0": {
+                    "changelog": "Added config items for notification sounds",
+                    "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.3.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/download/v1.3.0/UserJoinLeaveNotifications.dll",
+                            "filename": "UserJoinLeaveNotifications.dll",
+                            "sha256": "c5029d87001b85d4cc62f120da94afe7e895ebafed04f3ebc0efd8e388c76d61"
+                        }
+                    ]
+                },
                 "1.2.0": {
                     "changelog": "Solved issue of ReversePatch not working as intended with harmony versions past v2.1.0.0 breaking compatibility with desktop notifications",
                     "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.2.0",
