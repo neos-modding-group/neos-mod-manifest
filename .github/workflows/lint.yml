@@ -1,13 +1,15 @@
 name: Check Formatting
-on: [pull_request]
+on: [pull_request, push]
 jobs:
   ec-audit-pr:
     runs-on: ubuntu-20.04
     name: Validate EditorConfig
     steps:
       - uses: actions/checkout@v2
-      - name: Run editorconfig-checker
+      - name: Set up editorconfig-checker
         uses: editorconfig-checker/action-editorconfig-checker@main
+      - name: Run editorconfig-checker
+        run: editorconfig-checker
   validate-json:
     runs-on: ubuntu-latest
     name: Validate JSON

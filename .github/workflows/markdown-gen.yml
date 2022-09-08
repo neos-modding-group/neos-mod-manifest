@@ -4,9 +4,11 @@ on:
   push:
     branches:
       - master
+  workflow_dispatch:
 
 jobs:
   Generate-Markdown:
+    if: github.repository == 'neos-modding-group/neos-mod-manifest'
     runs-on: ubuntu-latest
     steps:
       - name: checkout master
@@ -18,7 +20,7 @@ jobs:
           repository: neos-modding-group/neos-modding-group.github.io
           path: gh-pages
           ssh-key: ${{ secrets.PAGES_AUTH }}
-    
+
       - name: setup python
         uses: actions/setup-python@v3
         with:
