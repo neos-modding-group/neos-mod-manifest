@@ -2206,6 +2206,17 @@
                             "sha256": "5a1ee7d582502476c15fc7daf194599fe87e75306f984b49a36ab981b5b08ee2"
                         }
                     ]
+                },
+                "3.5.0": {
+                    "changelog": " - added a checks for if screen mode is active into the binding methods",
+                    "releaseUrl": "https://github.com/rampa3/3DDashOnScreen/releases/tag/3.5.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/3DDashOnScreen/releases/download/3.5.0.0/3DDashOnScreen.dll",
+                            "filename": "3DDashOnScreen.dll",
+                            "sha256": "2e7d49babb0e1d3658d2488edd23647a8ec83c4d6ceab1b903b8a3af71860028"
+                        }
+                    ]
                 }
             }
         },
