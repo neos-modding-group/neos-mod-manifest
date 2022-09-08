@@ -9,8 +9,9 @@ Generates a markdown file to stdout from the JSON manifest passed in with stdin
 import json
 import datetime
 import sys
-import util
 from typing import Any
+
+import util
 
 # A dict of category names -> list of mods in that category.
 grouped_mods: dict[str, list[dict[str, Any]]] = {}

@@ -1,10 +1,9 @@
 name: Notify on new mod releases
 
-on: push
-#on:
-#  push:
-#    branches:
-#      - master
+on:
+  push:
+    branches:
+      - master
 
 jobs:
   Release-Notifications:
@@ -14,8 +13,7 @@ jobs:
       - name: checkout master
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
-          #fetch-depth: 2
+          fetch-depth: 2
 
       - name: setup python
         uses: actions/setup-python@v3
@@ -27,9 +25,7 @@ jobs:
       - name: Generate notification json
         id: gen
         env:
-          # For testing only
-          REF_BASE: e183dfe6b54b84b104ced1d09fbbedbc62787ee4
-          # REF_BASE: ${{ github.base_ref || format('{0}~', github.sha) }}
+          REF_BASE: ${{ github.base_ref || format('{0}~', github.sha) }}
           REF_NEW: ${{ github.head_ref || github.sha }}
         run: python3 gen_notif.py
 

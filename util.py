@@ -6,8 +6,9 @@ Utils for the other python scripts
 
 import sys
 from typing import Any
-from packaging.version import Version
 import subprocess
+
+from packaging.version import Version
 
 def should_show_mod(mod: dict[str, Any]) -> bool:
     """

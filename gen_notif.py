@@ -14,6 +14,7 @@ from typing import Any
 
 import util
 
+MANIFEST_URL = "https://github.com/neos-modding-group/neos-mod-manifest"
 
 REF_BASE = util.exec_shell(f"git rev-parse {environ.get('REF_BASE') or 'HEAD^1'}")
 REF_NEW = util.exec_shell(f"git rev-parse {environ.get('REF_NEW') or 'HEAD'}")
@@ -26,7 +27,6 @@ EMBEDS = []
 
 BASE_EMBED: dict[str, Any] = {
     "footer": {
-        "text": "was verified and thus this notification was generated automatically.",
         "icon_url": "https://avatars.githubusercontent.com/u/101987083?s=200&v=4"
     },
     "timestamp": datetime.datetime.utcnow().isoformat(),
@@ -40,9 +40,11 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
     """
     embed: dict[str, Any]  = BASE_EMBED.copy()
 
-    embed['title'] = mod['name'] + str(mod["versions"][0]["id"])
+    embed['title'] = "[" + mod['name'] + "/" + str(mod["versions"][0]["id"]) + " ]"
     embed['description'] = mod['description']
-    embed['footer']['text'] = mod["guid"] + " " + embed['footer']['text']
+    embed['footer']['text'] = f"`{mod['guid']}` was verified in [the mod manifest]({MANIFEST_URL})"
+    if 'color' in mod:
+        embed['color'] = mod['color']
 
     if 'releaseURL' in mod['versions'][0]:
         embed['url'] = mod['versions'][0]['releaseURL']
