@@ -1,5 +1,5 @@
 name: Check Formatting
-on: [pull_request]
+on: [pull_request, push]
 jobs:
   ec-audit-pr:
     runs-on: ubuntu-20.04
