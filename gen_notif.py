@@ -14,8 +14,6 @@ from typing import Any
 
 import util
 
-MANIFEST_URL = "https://github.com/neos-modding-group/neos-mod-manifest"
-
 REF_BASE = util.exec_shell(f"git rev-parse {environ.get('REF_BASE') or 'HEAD^1'}")
 REF_NEW = util.exec_shell(f"git rev-parse {environ.get('REF_NEW') or 'HEAD'}")
 
@@ -42,7 +40,7 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
 
     embed['title'] = "[" + mod['name'] + "/" + str(mod["versions"][0]["id"]) + " ]"
     embed['description'] = mod['description']
-    embed['footer']['text'] = f"`{mod['guid']}` was verified in [the mod manifest]({MANIFEST_URL})"
+    embed['footer']['text'] = f"`{mod['guid']}`"
     if 'color' in mod:
         embed['color'] = mod['color']
 
@@ -112,6 +110,30 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
           "value": ", ".join(links),
           "inline": True
         })
+
+    if 'conflicts' in mod['versions'][0]:
+        conflicts: [str] = []
+        for conflict_guid in mod['versions'][0]['conflicts']:
+            conflict_version = mod['versions'][0]['conflicts'][conflict_guid]['version']
+            conflicts.append(f"`{conflict_guid}`: {conflict_version}")
+
+        if len(conflicts) > 0:
+            embed['fields'].append({
+                "name": "Conflicts",
+                "value": "- " + "\n- ".join(conflicts),
+            })
+
+    if 'dependencies' in mod['versions'][0]:
+        dependencies: [str] = []
+        for dep_guid in mod['versions'][0]['dependencies']:
+            dep_version = mod['versions'][0]['dependencies'][dep_guid]['version']
+            dependencies.append(f"`{dep_guid}`: {dep_version}")
+
+        if len(dependencies) > 0:
+            embed['fields'].append({
+                "name": "Dependencies",
+                "value": "- " + "\n- ".join(dependencies),
+            })
 
     if 'changelog' in mod['versions'][0]:
         embed['fields'].append({
