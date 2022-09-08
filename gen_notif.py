@@ -9,10 +9,10 @@ and on new mod versions prints a GHA output for a discord webhook message's JSON
 
 import json
 import datetime
-import sys
-import util
 from os import environ
 from typing import Any
+
+import util
 
 
 REF_BASE = util.exec_shell(f"git rev-parse {environ.get('REF_BASE') or 'HEAD^1'}")
@@ -35,6 +35,9 @@ BASE_EMBED: dict[str, Any] = {
 }
 
 def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
+    """
+    Create discord embed JSON from a mod and it's first release
+    """
     embed: dict[str, Any]  = BASE_EMBED.copy()
 
     embed['title'] = mod['name'] + str(mod["versions"][0]["id"])
@@ -51,7 +54,7 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
     })
 
     if len(mod['authors']) > 0:
-        author_names = iter(mod['authors']);
+        author_names = iter(mod['authors'])
         first_author_name = next(author_names)
         embed['author'] = {
             "name": first_author_name
@@ -104,7 +107,7 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
     if len(links) > 0:
         embed['fields'].append({
           "name": "URL(s)",
-          "value": "[Website](https://neos.ljoonal.xyz/mods/#linux-fixes), [Source](https://neos.ljoonal.xyz/mods/#linux-fixes)",
+          "value": ", ".join(links),
           "inline": True
         })
 
@@ -132,7 +135,8 @@ for mod_guid in NEW_MANIFEST["mods"]:
         mod["versions"].sort(reverse=True, key=lambda version: version["id"])
         IS_NEW_MOD = True
         if mod_guid in OLD_MANIFEST["mods"]:
-            old_versions = util.map_mod_versions(OLD_MANIFEST["mods"][mod_guid]['versions'], mod_guid)
+            old_versions = OLD_MANIFEST["mods"][mod_guid]['versions']
+            old_versions = util.map_mod_versions(old_versions, mod_guid)
             for version in old_versions:
                 if version['id'] == mod["versions"][0]['id']:
                     IS_NEW_MOD = False
