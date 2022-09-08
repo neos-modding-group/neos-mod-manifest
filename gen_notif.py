@@ -40,7 +40,7 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
 
     embed['title'] = "[" + mod['name'] + "/" + str(mod["versions"][0]["id"]) + " ]"
     embed['description'] = mod['description']
-    embed['footer']['text'] = f"`{mod['guid']}`"
+    embed['footer']['text'] = f"{mod['guid']}"
     if 'color' in mod:
         embed['color'] = mod['color']
 
