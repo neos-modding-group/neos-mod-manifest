@@ -8,6 +8,7 @@ on:
 
 jobs:
   Generate-Markdown:
+    if: github.repository == 'neos-modding-group/neos-mod-manifest'
     runs-on: ubuntu-latest
     steps:
       - name: checkout master
