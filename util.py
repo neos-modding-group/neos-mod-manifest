@@ -89,5 +89,6 @@ def exec_shell(command: str) -> str:
     command: The command to execute in the system shell
     """
     [status, output] = subprocess.getstatusoutput(command)
-    assert status == 0
+    if status != 0:
+        raise Exception(f"{command} exited with status ${status}, output: {output}")
     return output
