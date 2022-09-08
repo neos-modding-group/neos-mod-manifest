@@ -4808,6 +4808,10 @@
             "authors": {
                 "TheJebForge": {
                     "url": "https://github.com/TheJebForge"
+                 }
+            },
+            "versions": {
+                "1.0.0": {
                     "releaseUrl": "https://github.com/TheJebForge/BoneReferenceHelper/releases/tag/v1.0.0",
                     "artifacts": [
                         {
