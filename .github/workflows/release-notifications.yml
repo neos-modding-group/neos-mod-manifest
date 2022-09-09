@@ -30,6 +30,6 @@ jobs:
         run: python3 gen_notif.py
 
       - name: Send notification
-        if: ${{ steps.gen.outputs.JSON }} != ''
-        run: "curl --fail -H 'Content-Type: application/json' -d ' ${{ steps.gen.outputs.JSON }}' '${{ secrets.DISCORD_MOD_RELEASES_WEBHOOK_URL }}'"
+        if: ${{ steps.gen.outputs.JSON != '' }}
+        run: "curl --fail -H 'Content-Type: application/json' -d '${{ steps.gen.outputs.JSON }}' '${{ secrets.DISCORD_MOD_RELEASES_WEBHOOK_URL }}'"
 
