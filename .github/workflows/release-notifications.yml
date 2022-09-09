@@ -1,0 +1,35 @@
+name: Notify on new mod releases
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Release-Notifications:
+    if: github.repository == 'neos-modding-group/neos-mod-manifest'
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout master
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: setup python
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.10"
+          cache: "pip"
+      - run: pip install -r requirements.txt
+
+      - name: Generate notification json
+        id: gen
+        env:
+          REF_BASE: ${{ github.base_ref || format('{0}~', github.sha) }}
+          REF_NEW: ${{ github.head_ref || github.sha }}
+        run: python3 gen_notif.py
+
+      - name: Send notification
+        if: ${{ steps.gen.outputs.JSON }} != ''
+        run: "curl --fail -H 'Content-Type: application/json' -d ' ${{ steps.gen.outputs.JSON }}' '${{ secrets.DISCORD_MOD_RELEASES_WEBHOOK_URL }}'"
+
