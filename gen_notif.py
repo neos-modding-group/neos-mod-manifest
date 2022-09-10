@@ -38,14 +38,14 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
     """
     embed: dict[str, Any]  = BASE_EMBED.copy()
 
-    embed['title'] = "[" + mod['name'] + "/" + str(mod["versions"][0]["id"]) + " ]"
+    embed['title'] = "[" + mod['name'] + "/" + str(mod["versions"][0]["id"]) + "]"
     embed['description'] = mod['description']
     embed['footer']['text'] = f"{mod['guid']}"
     if 'color' in mod:
         embed['color'] = mod['color']
 
-    if 'releaseURL' in mod['versions'][0]:
-        embed['url'] = mod['versions'][0]['releaseURL']
+    if 'releaseUrl' in mod['versions'][0]:
+        embed['url'] = mod['versions'][0]['releaseUrl']
 
     embed['fields'].append({
         "name": "Category",
