@@ -17,6 +17,9 @@
                     "name": {
                         "type": "string"
                     },
+                    "color": {
+                        "type": "string"
+                    },
                     "description": {
                         "type": "string"
                     },
@@ -26,6 +29,10 @@
                             "type": "object",
                             "properties": {
                                 "url": {
+                                    "type": "string",
+                                    "format": "uri"
+                                },
+                                "iconUrl": {
                                     "type": "string",
                                     "format": "uri"
                                 }
