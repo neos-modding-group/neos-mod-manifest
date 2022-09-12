@@ -2071,6 +2071,17 @@
                 }
             },
             "versions": {
+                "1.2.1": {
+                    "changelog": "Fix a typo in the new config item descriptions",
+                    "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.2.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/NeosModSettings/releases/download/v1.2.1/NeosModSettings.dll",
+                            "filename": "NeosModSettings.dll",
+                            "sha256": "7200cdaf7ff6d4f5e2f04a3f565c1cf4a81b3123f9490b125ce7d5c292ee279d"
+                        }
+                    ]
+                },
                 "1.2.0": {
                     "changelog": "Fixes setting config items to null\nFix generating a page for mods without supported config items\nAdded new config items",
                     "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.2.0",
