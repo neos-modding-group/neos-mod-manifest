@@ -99,18 +99,18 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
 
 
 
-    links: list[str] = []
     if 'website' in mod:
-        links.append("[Website](" + mod['website'] + ")")
+        embed['url'] = mod['website']
     if 'sourceLocation' in mod:
-        links.append("[Source](" + mod['sourceLocation'] + ")")
-    if len(links) > 0:
-        embed['fields'].append({
-          "name": "URL(s)",
-          "value": ", ".join(links),
-          "inline": True
-        })
-
+        if 'url' in embed and mod['sourceLocation'] != mod['website']:
+            embed['fields'].append({
+            "name": "sourceLocation",
+            "value": "[Source](" + mod['sourceLocation'] + ")"
+            "inline": True
+            })
+        else:
+            embed['url'] = mod['website']
+    
     if 'conflicts' in mod['versions'][0]:
         conflicts: [str] = []
         for conflict_guid in mod['versions'][0]['conflicts']:
