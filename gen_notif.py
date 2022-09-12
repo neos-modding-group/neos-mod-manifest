@@ -110,7 +110,7 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
             })
         else:
             embed['url'] = mod['website']
-    
+
     if 'conflicts' in mod['versions'][0]:
         conflicts: [str] = []
         for conflict_guid in mod['versions'][0]['conflicts']:
