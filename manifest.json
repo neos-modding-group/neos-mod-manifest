@@ -19,6 +19,78 @@
                 "plugin"
             ],
             "versions": {
+                "1.12.3": {
+                    "changelog": "Added `hidelatetypes` config, Handle ModConfiguration.Set() for null values",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.3",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.3/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "d5b5941904272fca36b05c6349770050e8213c03501637b9dd3fb7f19326a842",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.12.2": {
+                    "changelog": "Fix a hang on Neos shutdown for windows headless",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.2",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.2/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "7ebc09be5b363630090fd2918cfd04b9aa890513fe13002849f6e58040200052",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.12.1": {
+                    "changelog": "Fix assembly loading on windows headless",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.1",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.1/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "dee141345d6a71d87f058a74e50bcec21ee8281370901684cb2583e36d052638",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.12.0": {
+                    "changelog": "nml_mods search recursively in subfolders, Fix compatibility hash when non-NML plugins are present, Hide mod types",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.0",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.0/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "ded36f408bae32d100951c0fb09b1a4aee4b7321b5aab398b37aa662871bf7a9",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
                 "1.11.2": {
                     "changelog": "AssemblyName is now ALWAYS 'NeosModLoader', Logging for loaded nml_libs",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.11.2",
