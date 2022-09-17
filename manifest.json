@@ -1256,6 +1256,29 @@
                 }
             }
         },
+        "me.art0007i.LogixPulseVisualizer": {
+            "name": "LogixPulseVisualizer",
+            "description": "Makes all impulse wires glow when an impulse travels through them.",
+            "category": "LogiX",
+            "sourceLocation": "https://github.com/art0007i/LogixPulseVisualizer",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/LogixPulseVisualizer/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LogixPulseVisualizer/releases/download/1.0.0/LogixPulseVisualizer.dll",
+                            "filename": "LogixPulseVisualizer.dll",
+                            "sha256": "6d7ef1437fa7485dc8197b0c858e9cb7de6e0eec8d6de0eb5f33b320e0a1f8ca"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.colordrop": {
             "name": "ColorDrop",
             "description": "Makes it so you can grab and drop colors",
