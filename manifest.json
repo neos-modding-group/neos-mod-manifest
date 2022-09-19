@@ -1276,6 +1276,16 @@
                             "sha256": "6d7ef1437fa7485dc8197b0c858e9cb7de6e0eec8d6de0eb5f33b320e0a1f8ca"
                         }
                     ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/LogixPulseVisualizer/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LogixPulseVisualizer/releases/download/1.0.1/LogixPulseVisualizer.dll",
+                            "filename": "LogixPulseVisualizer.dll",
+                            "sha256": "ea27c2569b68bbe27645cb4dcecba2b5d61eda7bdbb4c80704b4e3a52dc724c6"
+                        }
+                    ]
                 }
             }
         },
