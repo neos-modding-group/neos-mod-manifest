@@ -5398,6 +5398,52 @@
                     ]
                 }
             }
+        },
+        "APnda.CreateTools": {
+            "name": "CreateTools",
+            "description": "Allows you to create tools and brushes through the Create New menu.",
+            "category": "Misc",
+            "website": "https://github.com/Ap6661/CreateTools",
+            "sourceLocation": "https://github.com/Ap6661/CreateTools",
+            "authors": {
+                "APnda": {
+                    "url": "https://github.com/Ap6661"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Ap6661/CreateTools/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Ap6661/CreateTools/releases/download/v1.0.0/CreateTool.dll",
+                            "sha256": "ad051d1fe41e289b6ce512440a97e59e13a050ef7d836687a3a3e03aa517e145"
+                        }
+                    ]
+                }
+            }
+        },
+        "APnda.LaserRecolorJank": {
+            "name": "LaserRecolorJank",
+            "description": "Allows you to change your laser color and cursor. (You can even use dynamic variables)",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/Ap6661/LaserRecolorJank",
+            "sourceLocation": "https://github.com/Ap6661/LaserRecolorJank",
+            "authors": {
+                "APnda": {
+                    "url": "https://github.com/Ap6661"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Ap6661/LaserRecolorJank/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Ap6661/LaserRecolorJank/releases/download/1.0.0/LaserRecolorJank.dll",
+                            "sha256": "436094d4324a4d22697507f6a07a36098f3dab5a37fe8d8cd2b1587339660846"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
