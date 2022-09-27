@@ -5330,6 +5330,29 @@
                 }
             }
         },
+        "me.art0007i.MyInspectors": {
+            "name": "MyInspectors",
+            "description": "Makes you generate the inspector content instead of the host",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/art0007i/MyInspectors",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/MyInspectors/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/MyInspectors/releases/download/1.0.0/MyInspectors.dll",
+                            "filename": "MyInspectors.dll",
+                            "sha256": "e1b59231be68be55a7d30eb77f38d96212769623b9087108168cb504729636f4"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.FixGrabWorld": {
             "name": "FixGrabWorld",
             "description": "Fixes the grab world locomotion moving you forwards each time you use it",
