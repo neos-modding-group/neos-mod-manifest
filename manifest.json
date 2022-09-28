@@ -3527,15 +3527,15 @@
         "Banane9.UserJoinLeaveNotifications": {
             "name": "UserJoinLeaveNotifications",
             "description": "Adds notifications to the notifications panel when users join or leave your focused session or any session you're in. Clicking on the notification opens the user's profile page and can focus the relevant session as well.",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosUserJoinLeaveNotifications",
             "sourceLocation": "https://github.com/Banane9/NeosUserJoinLeaveNotifications",
             "authors": {
-                "badhaloninja": {
-                    "url": "https://github.com/badhaloninja/"
-                },
                 "Banane9": {
                     "url": "https://github.com/Banane9"
+                },
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja/"
                 }
             },
             "versions": {
