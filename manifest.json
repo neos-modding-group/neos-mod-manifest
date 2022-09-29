@@ -444,6 +444,39 @@
                 }
             }
         },
+        "net.eia485.InspectorDelegateCaller": {
+            "name": "InspectorDelegateCaller",
+            "description": "adds some buttons to inspector ui for workers that have callable delgates",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/EIA485/NeosInspectorDelegateCaller",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485",
+                    "iconUrl" : "https://avatars.githubusercontent.com/u/17285570"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosInspectorDelegateCaller/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosInspectorDelegateCaller/releases/download/1.0.0/InspectorDelegateCaller.dll",
+                            "sha256": "f16ffb3277376d95f7d0d4ef88d16e83c05713ab376bcdebbf35bb09ddbbca92"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosInspectorDelegateCaller/releases/tag/1.1.0",
+                    "changelog": "- added some config options for what types of delegates to generate ui for \n- added support for more types of delegates",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosInspectorDelegateCaller/releases/download/1.1.0/InspectorDelegateCaller.dll",
+                            "sha256": "30cc6850c4b14204f9dc686372c68ffb683adea74fcfd9004887706a4513c07f"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.killlogspam": {
             "name": "KillLogSpam",
             "description": "Kills the log spam normally caused by changing world configuration",
