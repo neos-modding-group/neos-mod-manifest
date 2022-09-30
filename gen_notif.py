@@ -43,7 +43,7 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
     embed['description'] = mod['description']
     embed['footer']['text'] = f"{mod['guid']}"
     if 'color' in mod:
-        embed['color'] = mod['color']
+        embed['color'] = int(mod['color'], 16)
 
     if 'releaseUrl' in mod['versions'][0]:
         embed['url'] = mod['versions'][0]['releaseUrl']
