@@ -252,6 +252,17 @@
                 "file"
             ],
             "versions": {
+                "2.2.2.0": {
+                    "releaseUrl": "https://github.com/pardeike/Harmony/releases/tag/v2.2.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.4/0Harmony.dll",
+                            "filename": "0Harmony.dll",
+                            "sha256": "6928f117d52c0683c44683c0656cd5a345d21aa45720b11c64dc72a35771cac5",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                },
                 "2.2.1.0": {
                     "releaseUrl": "https://github.com/pardeike/Harmony/releases/tag/v2.2.1.0",
                     "artifacts": [
