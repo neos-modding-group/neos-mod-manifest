@@ -4731,6 +4731,16 @@
                 }
             },
             "versions": {
+                "1.2.0": {
+                    "changelog": "Fixed procedural textures not allowing you to grab a reference to them.",
+                    "releaseUrl": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/download/1.2.0/DefaultToAnisotropic.dll",
+                            "sha256": "45ebcc63fa4f5dd7e9a5de52c057eea2bba3a7769c0d206a29bdbf88877a32af"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/tag/1.1.0",
                     "artifacts": [
