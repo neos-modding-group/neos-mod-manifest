@@ -5462,7 +5462,8 @@
                             "filename": "LocalStorage.dll",
                             "sha256": "89f5db9c72610d84625df9ffc03ea837a6b3a6ee37855d205b253123215df75c"
                         }
-                    ]
+                    ],
+                    "flags": ["experimental"]
                 }
             }
         },
