@@ -19,6 +19,24 @@
                 "plugin"
             ],
             "versions": {
+                "1.12.4": {
+                    "changelog": "Fix Nullable configs, Update Lib.Harmony to 2.2.2",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.4",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.2"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.4/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "74663c6d525689be5aeb2c1182119d95ba4e59f473cf7e29fe8df779c581c5db",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
                 "1.12.3": {
                     "changelog": "Added `hidelatetypes` config, Handle ModConfiguration.Set() for null values",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.3",
@@ -234,6 +252,17 @@
                 "file"
             ],
             "versions": {
+                "2.2.2.0": {
+                    "releaseUrl": "https://github.com/pardeike/Harmony/releases/tag/v2.2.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.4/0Harmony.dll",
+                            "filename": "0Harmony.dll",
+                            "sha256": "6928f117d52c0683c44683c0656cd5a345d21aa45720b11c64dc72a35771cac5",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                },
                 "2.2.1.0": {
                     "releaseUrl": "https://github.com/pardeike/Harmony/releases/tag/v2.2.1.0",
                     "artifacts": [
@@ -1300,6 +1329,16 @@
                 }
             },
             "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/art0007i/LogixPulseVisualizer/releases/tag/1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LogixPulseVisualizer/releases/download/1.0.2/LogixPulseVisualizer.dll",
+                            "filename": "LogixPulseVisualizer.dll",
+                            "sha256": "a9651f95bde181da7b80049637e219c8c5ab4d2bdfe87011859f0cdfd458be44"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/art0007i/LogixPulseVisualizer/releases/tag/1.0.0",
                     "artifacts": [
@@ -4731,6 +4770,16 @@
                 }
             },
             "versions": {
+                "1.2.0": {
+                    "changelog": "Fixed procedural textures not allowing you to grab a reference to them.",
+                    "releaseUrl": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/download/1.2.0/DefaultToAnisotropic.dll",
+                            "sha256": "45ebcc63fa4f5dd7e9a5de52c057eea2bba3a7769c0d206a29bdbf88877a32af"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/tag/1.1.0",
                     "artifacts": [
