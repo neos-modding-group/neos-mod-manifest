@@ -1244,6 +1244,16 @@
                 }
             },
             "versions": {
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/art0007i/ShowDelegates/releases/tag/1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ShowDelegates/releases/download/1.1.1/ShowDelegates.dll",
+                            "filename": "ShowDelegates.dll",
+                            "sha256": "300273a5767ae7701f90e1a8b8fe6f484246ec5580512eabed3a60158a6bc94c"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/art0007i/ShowDelegates/releases/tag/1.1.0.0",
                     "artifacts": [
@@ -1261,16 +1271,6 @@
                             "url": "https://github.com/art0007i/ShowDelegates/releases/download/1.0.0.0/ShowDelegates.dll",
                             "filename": "ShowDelegates.dll",
                             "sha256": "b6359aeefef9bee8550db379982ca51e6ba400a697e81583fda2189138745bdb"
-                        }
-                    ]
-                },
-                "1.1.1": {
-                    "releaseUrl": "https://github.com/art0007i/ShowDelegates/releases/tag/1.1.1",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/art0007i/ShowDelegates/releases/download/1.1.1/ShowDelegates.dll",
-                            "filename": "ShowDelegates.dll",
-                            "sha256": "300273a5767ae7701f90e1a8b8fe6f484246ec5580512eabed3a60158a6bc94c"
                         }
                     ]
                 }
