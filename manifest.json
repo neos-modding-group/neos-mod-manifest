@@ -1273,6 +1273,16 @@
                 }
             },
             "versions": {
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/art0007i/ShowDelegates/releases/tag/1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ShowDelegates/releases/download/1.1.1/ShowDelegates.dll",
+                            "filename": "ShowDelegates.dll",
+                            "sha256": "300273a5767ae7701f90e1a8b8fe6f484246ec5580512eabed3a60158a6bc94c"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/art0007i/ShowDelegates/releases/tag/1.1.0.0",
                     "artifacts": [
@@ -2586,6 +2596,15 @@
                             "url": "https://github.com/EIA485/NeosGetItemLink/releases/download/1.2.0.0/GetItemLink.dll",
                             "filename": "GetItemLink.dll",
                             "sha256": "55372a26e915a2dc5e4ba9a8afe93c79dc36704c3764eae10cdfe9d7bf78e217"
+                        }
+                    ]
+                },
+                "1.3.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosGetItemLink/releases/tag/1.3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosGetItemLink/releases/download/1.3.0.0/GetItemLink.dll",
+                            "sha256": "ff0b5ef2594cdef61915f6933bb9d5fa01e3872a0a7506e7fcafae70c5dc90ac"
                         }
                     ]
                 }
