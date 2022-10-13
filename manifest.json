@@ -4579,6 +4579,11 @@
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/XDelta/CustomColorPicker/releases/tag/1.0.0",
+                    "dependencies": {
+                        "me.art0007i.SpecialItemsLib": {
+                            "version": "^1.0.0"
+                        }
+                    },
                     "artifacts": [
                         {
                             "url": "https://github.com/XDelta/CustomColorPicker/releases/download/1.0.0/CustomColorPicker.dll",
