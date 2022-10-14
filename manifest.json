@@ -3324,6 +3324,7 @@
             },
             "versions": {
                 "1.1.0": {
+					"flags": [ "deprecated" ],
                     "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.1.0",
                     "artifacts": [
                         {
@@ -3333,6 +3334,7 @@
                     ]
                 },
                 "1.1.1": {
+					"flags": [ "deprecated" ],
                     "releaseUrl": "https://github.com/Banane9/NeosBetterLogixWiresThatCanScroll/releases/tag/v1.1.1",
                     "artifacts": [
                         {
@@ -3411,6 +3413,7 @@
             },
             "versions": {
                 "1.1.0": {
+					"flags": [ "deprecated" ],
                     "releaseUrl": "https://github.com/Banane9/NeosLocalLogixRegisters/releases/tag/v1.1.0",
                     "artifacts": [
                         {
@@ -3515,6 +3518,7 @@
             },
             "versions": {
                 "1.0.0": {
+					"flags": [ "deprecated" ],
                     "releaseUrl": "https://github.com/Banane9/NeosEditorTabbing/releases/tag/v1.0.0",
                     "artifacts": [
                         {
@@ -3596,6 +3600,7 @@
             },
             "versions": {
                 "1.1.0": {
+					"flags": [ "deprecated" ],
                     "releaseUrl": "https://github.com/Banane9/NeosDynamicBlendShapeDriverSetup/releases/tag/v1.1.0",
                     "artifacts": [
                         {
@@ -3631,6 +3636,7 @@
             },
             "versions": {
                 "2.0.0": {
+					"flags": [ "deprecated" ],
                     "releaseUrl": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/tag/v2.0.0",
                     "artifacts": [
                         {
@@ -3741,6 +3747,7 @@
             },
             "versions": {
                 "1.1.0": {
+					"flags": [ "deprecated" ],
                     "releaseUrl": "https://github.com/Banane9/NeosAvatarClothingHelper/releases/tag/v1.1.0",
                     "artifacts": [
                         {
