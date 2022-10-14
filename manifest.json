@@ -3638,6 +3638,15 @@
                             "sha256": "CA7487A921D6F5FD1AD9D8F3163C46FD0ADA2BF757444B2358243270F278F210"
                         }
                     ]
+                },
+                "2.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/tag/v2.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/download/v2.1.0/UserJoinLeaveNotifications.dll",
+                            "sha256": "8A187B65A597DD4BC0971920245AD9484CC9AA2B5A3C7C32E8E80E24CA63FAAA"
+                        }
+                    ]
                 }
             }
         },
