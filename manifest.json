@@ -473,6 +473,28 @@
                 }
             }
         },
+        "net.eia485.ShowUserspaceSpawnButton": {
+            "name": "ShowUserspaceSpawnButton",
+            "description": "Shows the userspace spawn button on any item regardless of if its a facet",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/EIA485/NeosShowUserspaceSpawnButton",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosShowUserspaceSpawnButton/releases/tag/1.0.0,
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosShowUserspaceSpawnButton/releases/download/1.0.0/ShowUserspaceSpawnButton.dll",
+                            "sha256": "386BCC3A1A2A6FB57935E5E7B8831D7B9B5EB20AA6A8C30DEBE7D0C9BC2DBB6D"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.InspectorDelegateCaller": {
             "name": "InspectorDelegateCaller",
             "description": "adds some buttons to inspector ui for workers that have callable delgates",
