@@ -485,7 +485,7 @@
             },
             "versions": {
                 "1.0.0": {
-                    "releaseUrl": "https://github.com/EIA485/NeosShowUserspaceSpawnButton/releases/tag/1.0.0,
+                    "releaseUrl": "https://github.com/EIA485/NeosShowUserspaceSpawnButton/releases/tag/1.0.0",
                     "artifacts": [
                         {
                             "url": "https://github.com/EIA485/NeosShowUserspaceSpawnButton/releases/download/1.0.0/ShowUserspaceSpawnButton.dll",
