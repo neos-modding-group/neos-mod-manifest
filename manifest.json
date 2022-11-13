@@ -5652,6 +5652,30 @@
                     ]
                 }
             }
+        },
+        "net.hantabaru1014.SaveItemTweaks": {
+            "name": "SaveItemTweaks",
+            "description": "Tweaks for saving/spawning items when your UserScale is not 1",
+            "category": "Misc",
+            "website": "https://github.com/hantabaru1014/SaveItemTweaks",
+            "sourceLocation": "https://github.com/hantabaru1014/SaveItemTweaks",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/SaveItemTweaks/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/SaveItemTweaks/releases/download/v1.0.0/SaveItemTweaks.dll",
+                            "filename": "SaveItemTweaks.dll",
+                            "sha256": "f4f11529a3556613e1e6e7b16c1fa06bf33acda1ecb56882f871e75813de800f"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
