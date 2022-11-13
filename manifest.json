@@ -5628,6 +5628,30 @@
                     ]
                 }
             }
+        },
+        "net.hantabaru1014.ReleaseSRanipalOnQuit": {
+            "name": "ReleaseSRanipalOnQuit",
+            "description": "Fix SRanipal not releasing properly on quit",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit",
+            "sourceLocation": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit/releases/download/v1.0.0/ReleaseSRanipalOnQuit.dll",
+                            "filename": "ReleaseSRanipalOnQuit.dll",
+                            "sha256": "e395268564f25ed48ec28a113d5e89a1035ea3171e54413942ddc4562deb1ea3"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
