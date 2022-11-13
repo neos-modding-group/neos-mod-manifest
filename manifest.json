@@ -5676,6 +5676,30 @@
                     ]
                 }
             }
+        },
+        "net.hantabaru1014.NeosBetterIMESupport": {
+            "name": "NeosBetterIMESupport",
+            "description": "Fix issues in IMEs with complex input methods like Japanese",
+            "category": "General UI Tweaks",
+            "website": "https://github.com/hantabaru1014/NeosBetterIMESupport",
+            "sourceLocation": "https://github.com/hantabaru1014/NeosBetterIMESupport",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/NeosBetterIMESupport/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/NeosBetterIMESupport/releases/download/v1.0.0/NeosBetterIMESupport.dll",
+                            "filename": "NeosBetterIMESupport.dll",
+                            "sha256": "db68c7dcab4dc668768542cd34f4f1710d07afcfbb9129bc3edc40ddd3370dde"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
