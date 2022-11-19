@@ -473,6 +473,28 @@
                 }
             }
         },
+        "net.eia485.ShowUserspaceSpawnButton": {
+            "name": "ShowUserspaceSpawnButton",
+            "description": "Shows the userspace spawn button on any item regardless of if its a facet",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/EIA485/NeosShowUserspaceSpawnButton",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosShowUserspaceSpawnButton/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosShowUserspaceSpawnButton/releases/download/1.0.0/ShowUserspaceSpawnButton.dll",
+                            "sha256": "386BCC3A1A2A6FB57935E5E7B8831D7B9B5EB20AA6A8C30DEBE7D0C9BC2DBB6D"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.InspectorDelegateCaller": {
             "name": "InspectorDelegateCaller",
             "description": "adds some buttons to inspector ui for workers that have callable delgates",
@@ -2701,32 +2723,32 @@
                 }
             }
         },
-        "tk.kawaiiamber.gifimporter": {
+        "tk.astralchan.gifimporter": {
             "name": "GifImporter",
             "description": "Allows you to import gif images",
             "category": "Asset Importing Tweaks",
-            "sourceLocation": "https://github.com/kawaiiamber/GifImporter",
+            "sourceLocation": "https://github.com/astralchan/GifImporter",
             "authors": {
-                "amber": {
-                    "url": "https://github.com/kawaiiamber"
+                "astralchan": {
+                    "url": "https://github.com/astralchan"
                 }
             },
             "versions": {
                 "1.1.2": {
-                    "releaseUrl": "https://github.com/kawaiiamber/GifImporter/releases/tag/1.1.2",
+                    "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.2",
                     "artifacts": [
                         {
-                            "url": "https://github.com/kawaiiamber/GifImporter/releases/download/1.1.2/GifImporter.dll",
+                            "url": "https://github.com/astralchan/GifImporter/releases/download/1.1.2/GifImporter.dll",
                             "filename": "GifImporter.dll",
                             "sha256": "cc16edc29f849cb717ff4cff350c96a04a76852a96d556588caab6eae698e2d1"
                         }
                     ]
                 },
                 "1.1.1": {
-                    "releaseUrl": "https://github.com/kawaiiamber/GifImporter/releases/tag/1.1.1.0",
+                    "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.1.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/kawaiiamber/GifImporter/releases/download/1.1.1.0/GifImporter.dll",
+                            "url": "https://github.com/astralchan/GifImporter/releases/download/1.1.1.0/GifImporter.dll",
                             "filename": "GifImporter.dll",
                             "sha256": "4c85242da4aa094e65692a7811947b8f877e15230824a3a415cca5c384aab374"
                         }
@@ -5043,6 +5065,98 @@
                             "url": "https://github.com/hantabaru1014/RemoveNABlendshapes/releases/download/v1.0.0/RemoveNABlendshapes.dll",
                             "filename": "RemoveNABlendshapes.dll",
                             "sha256": "b8cc76c457b1f9ed0785d36ac8d5b12e4b24fcae9ab4d18a98ec816360f03e5d"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.hantabaru1014.ReleaseSRanipalOnQuit": {
+            "name": "ReleaseSRanipalOnQuit",
+            "description": "Fix SRanipal not releasing properly on quit",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit",
+            "sourceLocation": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit/releases/download/v1.0.0/ReleaseSRanipalOnQuit.dll",
+                            "filename": "ReleaseSRanipalOnQuit.dll",
+                            "sha256": "e395268564f25ed48ec28a113d5e89a1035ea3171e54413942ddc4562deb1ea3"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.hantabaru1014.SaveItemTweaks": {
+            "name": "SaveItemTweaks",
+            "description": "Tweaks for saving/spawning items when your UserScale is not 1",
+            "category": "Misc",
+            "website": "https://github.com/hantabaru1014/SaveItemTweaks",
+            "sourceLocation": "https://github.com/hantabaru1014/SaveItemTweaks",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/hantabaru1014/SaveItemTweaks/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/SaveItemTweaks/releases/download/v1.0.1/SaveItemTweaks.dll",
+                            "filename": "SaveItemTweaks.dll",
+                            "sha256": "22db4b5a87fd1aa823b61d2c861af5d9201bedf6edd3802288688dc45a480143"
+                        }
+                    ]
+                },
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/SaveItemTweaks/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/SaveItemTweaks/releases/download/v1.0.0/SaveItemTweaks.dll",
+                            "filename": "SaveItemTweaks.dll",
+                            "sha256": "f4f11529a3556613e1e6e7b16c1fa06bf33acda1ecb56882f871e75813de800f"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.hantabaru1014.NeosBetterIMESupport": {
+            "name": "NeosBetterIMESupport",
+            "description": "Fix issues in IMEs with complex input methods like Japanese",
+            "category": "General UI Tweaks",
+            "website": "https://github.com/hantabaru1014/NeosBetterIMESupport",
+            "sourceLocation": "https://github.com/hantabaru1014/NeosBetterIMESupport",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/hantabaru1014/NeosBetterIMESupport/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/NeosBetterIMESupport/releases/download/v1.0.1/NeosBetterIMESupport.dll",
+                            "filename": "NeosBetterIMESupport.dll",
+                            "sha256": "2af3e2d0b69dc11598e40116742bfc62defd774b05562801a0bbb81b5478be33"
+                        }
+                    ]
+                },
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/NeosBetterIMESupport/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/NeosBetterIMESupport/releases/download/v1.0.0/NeosBetterIMESupport.dll",
+                            "filename": "NeosBetterIMESupport.dll",
+                            "sha256": "db68c7dcab4dc668768542cd34f4f1710d07afcfbb9129bc3edc40ddd3370dde"
                         }
                     ]
                 }
