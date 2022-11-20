@@ -4563,11 +4563,22 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/download/v1.0.1/ComponentAttacherFavorites.dll",
+                            "filename": "ComponentAttacherFavorites.dll",
+                            "sha256": "b981317f45684c3936884a1b68d136e6542585a7c7c15dd5d7880d05fd229645"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/tag/v1.0.0",
                     "artifacts": [
                         {
                             "url": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/download/v1.0.0/ComponentAttacherFavorites.dll",
+                            "filename": "ComponentAttacherFavorites.dll",
                             "sha256": "90051a1e3451818cc60dcd83d10c3e8f9b104270a2c703ebdbfd10dcfa9db686"
                         }
                     ]
