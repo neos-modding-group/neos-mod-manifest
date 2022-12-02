@@ -4434,6 +4434,16 @@
                             "sha256": "7c7ddc18210a5732664d6e525e7bd0c47c84950f53abbee82118afd42888bed0"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "changelog": "Added configs to show RefID and set gizmo persistence",
+                    "releaseUrl": "https://github.com/XDelta/NeosBetterGizmos/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosBetterGizmos/releases/download/1.1.0/NeosBetterGizmos.dll",
+                            "sha256": "63551fb0b3d36f1153f80d46de6efd13007fb21ac60c8237519a1262f8338bb4"
+                        }
+                    ]
                 }
             }
         },
