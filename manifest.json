@@ -2723,32 +2723,32 @@
                 }
             }
         },
-        "tk.kawaiiamber.gifimporter": {
+        "tk.astralchan.gifimporter": {
             "name": "GifImporter",
             "description": "Allows you to import gif images",
             "category": "Asset Importing Tweaks",
-            "sourceLocation": "https://github.com/kawaiiamber/GifImporter",
+            "sourceLocation": "https://github.com/astralchan/GifImporter",
             "authors": {
-                "amber": {
-                    "url": "https://github.com/kawaiiamber"
+                "astralchan": {
+                    "url": "https://github.com/astralchan"
                 }
             },
             "versions": {
                 "1.1.2": {
-                    "releaseUrl": "https://github.com/kawaiiamber/GifImporter/releases/tag/1.1.2",
+                    "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.2",
                     "artifacts": [
                         {
-                            "url": "https://github.com/kawaiiamber/GifImporter/releases/download/1.1.2/GifImporter.dll",
+                            "url": "https://github.com/astralchan/GifImporter/releases/download/1.1.2/GifImporter.dll",
                             "filename": "GifImporter.dll",
                             "sha256": "cc16edc29f849cb717ff4cff350c96a04a76852a96d556588caab6eae698e2d1"
                         }
                     ]
                 },
                 "1.1.1": {
-                    "releaseUrl": "https://github.com/kawaiiamber/GifImporter/releases/tag/1.1.1.0",
+                    "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.1.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/kawaiiamber/GifImporter/releases/download/1.1.1.0/GifImporter.dll",
+                            "url": "https://github.com/astralchan/GifImporter/releases/download/1.1.1.0/GifImporter.dll",
                             "filename": "GifImporter.dll",
                             "sha256": "4c85242da4aa094e65692a7811947b8f877e15230824a3a415cca5c384aab374"
                         }
@@ -3579,6 +3579,29 @@
                 }
             }
         },
+        "Banane9.ClearContactSearch": {
+            "name": "ClearContactSearch",
+            "description": "Adds a clear button to the search bar on the contacts panel in the dash.",
+            "category": "General UI Tweaks",
+            "website": "https://github.com/Banane9/NeosClearContactSearch",
+            "sourceLocation": "https://github.com/Banane9/NeosClearContactSearch",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosClearContactSearch/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosClearContactSearch/releases/download/v1.0.0/ClearContactSearch.dll",
+                            "sha256": "FFB3DC6AAAB2E18795A9B8200F01AE3B370087D22D754D47F24B3DAA515E35E5"
+                        }
+                    ]
+                }
+            }
+        },
         "Banane9.FlexibleContactsSort": {
             "name": "FlexibleContactsSort",
             "description": "Sorts contacts Better™ and to your liking.",
@@ -3658,6 +3681,15 @@
                         {
                             "url": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/download/v2.0.0/UserJoinLeaveNotifications.dll",
                             "sha256": "CA7487A921D6F5FD1AD9D8F3163C46FD0ADA2BF757444B2358243270F278F210"
+                        }
+                    ]
+                },
+                "2.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/tag/v2.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/download/v2.1.0/UserJoinLeaveNotifications.dll",
+                            "sha256": "8A187B65A597DD4BC0971920245AD9484CC9AA2B5A3C7C32E8E80E24CA63FAAA"
                         }
                     ]
                 }
@@ -4402,6 +4434,16 @@
                             "sha256": "7c7ddc18210a5732664d6e525e7bd0c47c84950f53abbee82118afd42888bed0"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "changelog": "Added configs to show RefID and set gizmo persistence",
+                    "releaseUrl": "https://github.com/XDelta/NeosBetterGizmos/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosBetterGizmos/releases/download/1.1.0/NeosBetterGizmos.dll",
+                            "sha256": "63551fb0b3d36f1153f80d46de6efd13007fb21ac60c8237519a1262f8338bb4"
+                        }
+                    ]
                 }
             }
         },
@@ -4563,11 +4605,22 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/download/v1.0.1/ComponentAttacherFavorites.dll",
+                            "filename": "ComponentAttacherFavorites.dll",
+                            "sha256": "b981317f45684c3936884a1b68d136e6542585a7c7c15dd5d7880d05fd229645"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/tag/v1.0.0",
                     "artifacts": [
                         {
                             "url": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/download/v1.0.0/ComponentAttacherFavorites.dll",
+                            "filename": "ComponentAttacherFavorites.dll",
                             "sha256": "90051a1e3451818cc60dcd83d10c3e8f9b104270a2c703ebdbfd10dcfa9db686"
                         }
                     ]
