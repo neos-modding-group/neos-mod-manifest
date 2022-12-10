@@ -5146,6 +5146,30 @@
                 }
             }
         },
+        "dev.baru.neos.BetterInventoryBrowser": {
+            "name": "BetterInventoryBrowser",
+            "description": "UI tweaks for InventoryBrowser",
+            "category": "Dash Tweaks",
+            "website": "https://github.com/hantabaru1014/BetterInventoryBrowser",
+            "sourceLocation": "https://github.com/hantabaru1014/BetterInventoryBrowser",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "0.3.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/BetterInventoryBrowser/releases/tag/v0.3.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/BetterInventoryBrowser/releases/download/v0.3.0/BetterInventoryBrowser.dll",
+                            "filename": "BetterInventoryBrowser.dll",
+                            "sha256": "4a53d1c7dc3c00c5dd56c47275b4c46b653e50754d7dc68b4573754969cb57d5"
+                        }
+                    ]
+                }
+            }
+        },
         "net.Sox.CompliantAvatarCreator": {
             "name": "CompliantAvatarCreator",
             "description": "Allows you to stop that annoying snapping when trying to set up an avatar in certain sessions (Especially when in a Headless session).",
