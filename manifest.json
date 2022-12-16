@@ -4291,6 +4291,17 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "changelog": "- Fix enum input logix node dropping slot into parent on pack",
+                    "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/EnumDropdown/releases/download/v1.0.1/EnumDropdown.dll",
+                            "filename": "EnumDropdown.dll",
+                            "sha256": "d76717d6d5fd1ea09f72c0dbf40372991ec4915da51c6a25d6893e94149e930e"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.0.0",
                     "artifacts": [
