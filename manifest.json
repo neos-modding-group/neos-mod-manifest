@@ -1401,6 +1401,9 @@
             "authors": {
                 "art0007i": {
                     "url": "https://github.com/art0007i"
+                },
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
                 }
             },
             "versions": {
@@ -1411,6 +1414,16 @@
                             "url": "https://github.com/art0007i/ColorDrop/releases/download/1.1.0.0/ColorDrop.dll",
                             "filename": "ColorDrop.dll",
                             "sha256": "b473fb02e00925a23fabb8e04d8f11ceddc5583e613625011c2ec98e858793ec"
+                        }
+                    ]
+                },
+                "1.2.0": {
+                    "releaseUrl": "https://github.com/art0007i/ColorDrop/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ColorDrop/releases/download/1.2.0/ColorDrop.dll",
+                            "filename": "ColorDrop.dll",
+                            "sha256": "73632FB5D3AF39530400ED044EE32FE84456C73F1D8E31F91A235FF6FB5BD0F9"
                         }
                     ]
                 }
@@ -3553,7 +3566,16 @@
                             "sha256": "652D6DDB086362679DA097E25F474BDF224970C856048727DDC3931EA575118C"
                         }
                     ]
-                }
+                },
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosEditorTabbing/releases/tag/v2.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosEditorTabbing/releases/download/v2.0.0/EditorTabbing.dll",
+                            "sha256": "33AB1BED45AFFEE99A5C4FBC47261F946062C3D148D43F6572D7D645565A69E1"
+                        }
+                    ]
+                },
             }
         },
         "Banane9.StopDisappearingLocomotionMenu": {
@@ -3692,6 +3714,15 @@
                             "sha256": "8A187B65A597DD4BC0971920245AD9484CC9AA2B5A3C7C32E8E80E24CA63FAAA"
                         }
                     ]
+                },
+                "3.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/tag/v3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/download/v3.0.0/UserJoinLeaveNotifications.dll",
+                            "sha256": "F4C5B44AD7B972EA07364398EDE92E1E0395F0F1BF379F9AF82CAD2EF0823AED"
+                        }
+                    ]
                 }
             }
         },
@@ -3736,6 +3767,98 @@
                         {
                             "url": "https://github.com/Banane9/NeosGoToBedAlready/releases/download/v1.0.0/GoToBedAlready.dll",
                             "sha256": "9E11CD4623218CCC3F5DA8DAF53F4D0D470D6FB3BC2BF4B90FA0B82C996A0E2A"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.CorrectGizmoScaling": {
+            "name": "CorrectGizmoScaling",
+            "description": "Tiny mod that corrects the scaling of the Inspector spawned by the MaterialTip's Edit Material context menu button.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosCorrectGizmoScaling",
+            "sourceLocation": "https://github.com/Banane9/NeosCorrectGizmoScaling",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosCorrectGizmoScaling/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosCorrectGizmoScaling/releases/download/v1.0.0/CorrectGizmoScaling.dll",
+                            "sha256": "749B222F8FE36B10985E2AA1076E649CA72F0EF1B2D311D00FC7DF3D83C8D031"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.BoundedUIX": {
+            "name": "BoundedUIX",
+            "description": "Makes UIX elements selectable and editable with the usual Slot gizmos, as well as fixing UIX elements breaking when a parent is inserted.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosBoundedUIX",
+            "sourceLocation": "https://github.com/Banane9/NeosBoundedUIX",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "2.2.2": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBoundedUIX/releases/tag/v2.2.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBoundedUIX/releases/download/v2.2.2/BoundedUIX.dll",
+                            "sha256": "7B2FEEBC1A6EB82AC65455AFB060C2DA7328B3E651805E4A2EEFB3DA210140F1"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.ClearContactSearch": {
+            "name": "ClearContactSearch",
+            "description": "Adds a clear button to the contacts search.",
+            "category": "Dash Tweaks",
+            "website": "https://github.com/Banane9/NeosClearContactSearch",
+            "sourceLocation": "https://github.com/Banane9/NeosClearContactSearch",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosClearContactSearch/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosClearContactSearch/releases/download/v1.0.0/ClearContactSearch.dll",
+                            "sha256": "FFB3DC6AAAB2E18795A9B8200F01AE3B370087D22D754D47F24B3DAA515E35E5"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.ComponentAttacherSearch": {
+            "name": "ComponentAttacherSearch",
+            "description": "Adds a search bar to component attachers.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosComponentAttacherSearch",
+            "sourceLocation": "https://github.com/Banane9/NeosComponentAttacherSearch",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/download/v1.0.0/ComponentAttacherSearch.dll",
+                            "sha256": "FFB3DC6AAAB2E18795A9B8200F01AE3B370087D22D754D47F24B3DAA515E35E5"
                         }
                     ]
                 }
