@@ -1668,28 +1668,26 @@
                 }
             }
         },
-        {
-            "me.art0007i.DisableLegacyInventory": {
-                "name": "DisableLegacyInventory",
-                "description": "Disables the grip+dash menu legacy inventory gesture.",
-                "category": "Keybinds & Gestures",
-                "sourceLocation": "https://github.com/art0007i/DisableLegacyInventory",
-                "authors": {
-                    "art0007i": {
-                        "url": "https://github.com/art0007i"
-                    }
-                },
-                "versions": {
-                    "1.0.0": {
-                        "releaseUrl": "https://github.com/art0007i/DisableLegacyInventory/releases/tag/1.0.0",
-                        "artifacts": [
-                            {
-                                "url": "https://github.com/art0007i/DisableLegacyInventory/releases/download/1.0.0/DisableLegacyInventory.dll",
-                                "filename": "DisableLegacyInventory.dll",
-                                "sha256": "846f9a989d0d642c81ccf860d1840b0c947a9800dffc9de7c97e8579fdc61a34"
-                            }
-                        ]
-                    }
+        "me.art0007i.DisableLegacyInventory": {
+            "name": "DisableLegacyInventory",
+            "description": "Disables the grip+dash menu legacy inventory gesture.",
+            "category": "Keybinds & Gestures",
+            "sourceLocation": "https://github.com/art0007i/DisableLegacyInventory",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/DisableLegacyInventory/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/DisableLegacyInventory/releases/download/1.0.0/DisableLegacyInventory.dll",
+                            "filename": "DisableLegacyInventory.dll",
+                            "sha256": "846f9a989d0d642c81ccf860d1840b0c947a9800dffc9de7c97e8579fdc61a34"
+                        }
+                    ]
                 }
             }
         },
