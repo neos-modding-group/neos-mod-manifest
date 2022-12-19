@@ -2989,7 +2989,7 @@
         },
         "io.github.frozenreflex.neosvideoplayerfix": {
             "name": "NeosVideoPlayerFix",
-            "description": "Fix video players on Linux Native and force libVLC to prevent crashes in Proton",
+            "description": "Disable video playback engines to prevent crashes and fix video players on Linux Native",
             "category": "Bug Workarounds",
             "sourceLocation": "https://github.com/Frozenreflex/NeosVideoPlayerFix",
             "authors": {
@@ -2998,6 +2998,16 @@
                 }
             },
             "versions": {
+                "4.0.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/4.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/download/4.0.0/NeosVideoPlayerFix.dll",
+                            "filename": "NeosVideoPlayerFix.dll",
+                            "sha256": "adad2ca59266c7d287638a8ca31cd4c7a7cf5f2c7bf6be54dc73dd60c76ec14c"
+                        }
+                    ]
+                },
                 "3.3.1": {
                     "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/3.3.1",
                     "artifacts": [
@@ -3030,6 +3040,9 @@
                     "url": "https://github.com/KyuubiYoru"
                 }
             },
+            "flags": [
+                "deprecated"
+            ],
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/KyuubiYoru/DisableLibVLC/releases/tag/1.0.0",
