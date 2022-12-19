@@ -1426,16 +1426,6 @@
                             "sha256": "b473fb02e00925a23fabb8e04d8f11ceddc5583e613625011c2ec98e858793ec"
                         }
                     ]
-                },
-                "1.2.0": {
-                    "releaseUrl": "https://github.com/art0007i/ColorDrop/releases/tag/1.2.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/art0007i/ColorDrop/releases/download/1.2.0/ColorDrop.dll",
-                            "filename": "ColorDrop.dll",
-                            "sha256": "73632FB5D3AF39530400ED044EE32FE84456C73F1D8E31F91A235FF6FB5BD0F9"
-                        }
-                    ]
                 }
             }
         },
@@ -3585,7 +3575,7 @@
                             "sha256": "33AB1BED45AFFEE99A5C4FBC47261F946062C3D148D43F6572D7D645565A69E1"
                         }
                     ]
-                },
+                }
             }
         },
         "Banane9.StopDisappearingLocomotionMenu": {
@@ -3823,29 +3813,6 @@
                         {
                             "url": "https://github.com/Banane9/NeosBoundedUIX/releases/download/v2.2.2/BoundedUIX.dll",
                             "sha256": "7B2FEEBC1A6EB82AC65455AFB060C2DA7328B3E651805E4A2EEFB3DA210140F1"
-                        }
-                    ]
-                }
-            }
-        },
-        "Banane9.ClearContactSearch": {
-            "name": "ClearContactSearch",
-            "description": "Adds a clear button to the contacts search.",
-            "category": "Dash Tweaks",
-            "website": "https://github.com/Banane9/NeosClearContactSearch",
-            "sourceLocation": "https://github.com/Banane9/NeosClearContactSearch",
-            "authors": {
-                "Banane9": {
-                    "url": "https://github.com/Banane9"
-                }
-            },
-            "versions": {
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/Banane9/NeosClearContactSearch/releases/tag/v1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/Banane9/NeosClearContactSearch/releases/download/v1.0.0/ClearContactSearch.dll",
-                            "sha256": "FFB3DC6AAAB2E18795A9B8200F01AE3B370087D22D754D47F24B3DAA515E35E5"
                         }
                     ]
                 }
