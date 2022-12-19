@@ -3030,6 +3030,32 @@
                 }
             }
         },
+        "io.github.kyuubiyoru.disablelibvlc": {
+            "name": "DisableLibVLC",
+            "description": "Disable libVLC to prevent crashes in Windows",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/KyuubiYoru/DisableLibVLC",
+            "authors": {
+                "KyuubiYoru": {
+                    "url": "https://github.com/KyuubiYoru"
+                }
+            },
+            "flags": [
+                "deprecated"
+            ],
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/KyuubiYoru/DisableLibVLC/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/KyuubiYoru/DisableLibVLC/releases/download/1.0.0/DisableLibVLC.dll",
+                            "filename": "DisableLibVLC.dll",
+                            "sha256": "f32e192349fd1a7a33a1386c5e8cf21228751de61878ab897620dd3a0e001c11"
+                        }
+                    ]
+                }
+            }
+        },
         "net.dfghiatus.mixnmatch_lipsnmouth": {
             "name": "mixNmatch_lipsNmouth",
             "description": "Allows for differing makes and models of Eye and Face Trackers to operate together",
