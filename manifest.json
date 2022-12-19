@@ -4301,6 +4301,17 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "changelog": "- Fix enum input logix node dropping slot into parent on pack",
+                    "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/EnumDropdown/releases/download/v1.0.1/EnumDropdown.dll",
+                            "filename": "EnumDropdown.dll",
+                            "sha256": "d76717d6d5fd1ea09f72c0dbf40372991ec4915da51c6a25d6893e94149e930e"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.0.0",
                     "artifacts": [
@@ -4308,6 +4319,29 @@
                             "url": "https://github.com/badhaloninja/EnumDropdown/releases/download/v1.0.0/EnumDropdown.dll",
                             "filename": "EnumDropdown.dll",
                             "sha256": "7701e6f6e0a3fac0de800d2c090d825ef19844213a7c885e7aae26c9edda793a"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.badhaloninja.RefEditorUtils": {
+            "name": "RefEditorUtils",
+            "description": "Adds extra buttons to some RefEditor types",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/badhaloninja/RefEditorUtils",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/RefEditorUtils/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/RefEditorUtils/releases/download/v1.0.0/RefEditorUtils.dll",
+                            "filename": "RefEditorUtils.dll",
+                            "sha256": "002fe73fd05fdaea5ee362ddb09300c78114d2315b67c9931040043859c33344"
                         }
                     ]
                 }
