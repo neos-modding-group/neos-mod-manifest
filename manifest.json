@@ -5832,6 +5832,31 @@
                 }
             }
         },
+        "me.art0007i.LocalStorage": {
+            "name": "LocalStorage",
+            "description": "Allows you to store items locally on your hard drive. This mod adds a new section to the inventory that can be accessed by pressing the cloud button, called Local Storage.",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/art0007i/LocalStorage/",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "changelog": "fix linux path separator",
+                    "releaseUrl": "https://github.com/art0007i/LocalStorage/releases/tag/1.1.0",
+                    "flags": ["prerelease"],
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LocalStorage/releases/download/1.1.0/LocalStorage.dll",
+                            "filename": "LocalStorage.dll",
+                            "sha256": "89f5db9c72610d84625df9ffc03ea837a6b3a6ee37855d205b253123215df75c"
+                        }
+                    ]
+                }
+            }
+        },
         "net.Cyro.Proxify": {
             "name": "Proxify",
             "description": "Lets you drop LogiX registers into things that can receive reference proxies",
