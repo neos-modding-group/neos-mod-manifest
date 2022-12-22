@@ -3640,6 +3640,29 @@
                 }
             }
         },
+        "Banane9.PrecisionBlendShapeBaking": {
+            "name": "PrecisionBlendShapeBaking",
+            "description": "Allows baking individual blend shapes using the GlueTip.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking",
+            "sourceLocation": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking/releases/download/v1.0.0/PrecisionBlendShapeBaking.dll",
+                            "sha256": "711FABFEA818CA65627025DFDDF4C152B8BF4F3211859320C1CF68F5B70080ED"
+                        }
+                    ]
+                }
+            }
+        },
         "Banane9.ClearContactSearch": {
             "name": "ClearContactSearch",
             "description": "Adds a clear button to the search bar on the contacts panel in the dash.",
