@@ -3882,7 +3882,7 @@
         },
         "Banane9.ComponentAttacherSearch": {
             "name": "ComponentAttacherSearch",
-            "description": "Adds a search bar to component attachers.",
+            "description": "Adds a search bar to component attachers. If you want to use this in conjunction with ComponentAttacherFavorites, make sure you use my version of it that also allows favoriting categories; or rename one of the DLLs, so that this mod loads first.",
             "category": "Developers",
             "website": "https://github.com/Banane9/NeosComponentAttacherSearch",
             "sourceLocation": "https://github.com/Banane9/NeosComponentAttacherSearch",
@@ -3897,7 +3897,29 @@
                     "artifacts": [
                         {
                             "url": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/download/v1.0.0/ComponentAttacherSearch.dll",
-                            "sha256": "FFB3DC6AAAB2E18795A9B8200F01AE3B370087D22D754D47F24B3DAA515E35E5"
+                            "sha256": "82BBEB12EFC059937BDC4BBF46946E9C11ED286037D2F05E69A7FF276424C6F8"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.ComponentAttacherFavorites": {
+            "name": "ComponentAttacherFavorites",
+            "description": "Adds the ability to save favorite components and categories.",
+            "category": "Developers",
+            "sourceLocation": "https://github.com/Banane9/NeosComponentAttacherFavorites/",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "2.0.1": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/tag/v2.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/download/v2.0.1/ComponentAttacherFavorites.dll",
+                            "sha256": "515BB68CFA32ACBE09D3FC06C2E66985BB60F1662FB543A1B12582F00E198AA7"
                         }
                     ]
                 }
