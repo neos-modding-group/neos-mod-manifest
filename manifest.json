@@ -5925,6 +5925,29 @@
                     ]
                 }
             }
+        },
+        "net.TheJebForge.DesktopHandSwitch": {
+            "name": "DesktopHandSwitch",
+            "description": "Allows you to switch primary hand via a keypress",
+            "category": "Keybinds & Gestures",
+            "website": "https://github.com/TheJebForge/DesktopHandSwitch",
+            "sourceLocation": "https://github.com/TheJebForge/DesktopHandSwitch",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/DesktopHandSwitch/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DesktopHandSwitch/releases/download/1.0.0/DesktopHandSwitch.dll",
+                            "sha256": "4635e93787862fc8f6582e513b9471bc76abe6b153adc3550911389e06d78adf"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
