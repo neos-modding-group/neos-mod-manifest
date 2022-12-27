@@ -1401,6 +1401,9 @@
             "authors": {
                 "art0007i": {
                     "url": "https://github.com/art0007i"
+                },
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
                 }
             },
             "versions": {
@@ -3579,6 +3582,9 @@
             "authors": {
                 "Banane9": {
                     "url": "https://github.com/Banane9"
+                },
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
                 }
             },
             "versions": {
@@ -3597,6 +3603,15 @@
                         {
                             "url": "https://github.com/Banane9/NeosEditorTabbing/releases/download/v1.1.0/EditorTabbing.dll",
                             "sha256": "652D6DDB086362679DA097E25F474BDF224970C856048727DDC3931EA575118C"
+                        }
+                    ]
+                },
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosEditorTabbing/releases/tag/v2.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosEditorTabbing/releases/download/v2.0.0/EditorTabbing.dll",
+                            "sha256": "33AB1BED45AFFEE99A5C4FBC47261F946062C3D148D43F6572D7D645565A69E1"
                         }
                     ]
                 }
@@ -3620,6 +3635,29 @@
                         {
                             "url": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu/releases/download/v1.0.0/StopDisappearingLocomotionMenu.dll",
                             "sha256": "A94AD9CA070321088B690CB29A82B627BA8AFB4BA84C7D7036C1E99A3C44F2DB"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.PrecisionBlendShapeBaking": {
+            "name": "PrecisionBlendShapeBaking",
+            "description": "Allows baking individual blend shapes using the GlueTip.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking",
+            "sourceLocation": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking/releases/download/v1.0.0/PrecisionBlendShapeBaking.dll",
+                            "sha256": "711FABFEA818CA65627025DFDDF4C152B8BF4F3211859320C1CF68F5B70080ED"
                         }
                     ]
                 }
@@ -3738,6 +3776,15 @@
                             "sha256": "8A187B65A597DD4BC0971920245AD9484CC9AA2B5A3C7C32E8E80E24CA63FAAA"
                         }
                     ]
+                },
+                "3.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/tag/v3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/download/v3.0.0/UserJoinLeaveNotifications.dll",
+                            "sha256": "F4C5B44AD7B972EA07364398EDE92E1E0395F0F1BF379F9AF82CAD2EF0823AED"
+                        }
+                    ]
                 }
             }
         },
@@ -3782,6 +3829,97 @@
                         {
                             "url": "https://github.com/Banane9/NeosGoToBedAlready/releases/download/v1.0.0/GoToBedAlready.dll",
                             "sha256": "9E11CD4623218CCC3F5DA8DAF53F4D0D470D6FB3BC2BF4B90FA0B82C996A0E2A"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.CorrectGizmoScaling": {
+            "name": "CorrectGizmoScaling",
+            "description": "Tiny mod that corrects the scaling of the Inspector spawned by the MaterialTip's Edit Material context menu button.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosCorrectGizmoScaling",
+            "sourceLocation": "https://github.com/Banane9/NeosCorrectGizmoScaling",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosCorrectGizmoScaling/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosCorrectGizmoScaling/releases/download/v1.0.0/CorrectGizmoScaling.dll",
+                            "sha256": "749B222F8FE36B10985E2AA1076E649CA72F0EF1B2D311D00FC7DF3D83C8D031"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.BoundedUIX": {
+            "name": "BoundedUIX",
+            "description": "Makes UIX elements selectable and editable with the usual Slot gizmos, as well as fixing UIX elements breaking when a parent is inserted.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosBoundedUIX",
+            "sourceLocation": "https://github.com/Banane9/NeosBoundedUIX",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "2.2.2": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBoundedUIX/releases/tag/v2.2.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBoundedUIX/releases/download/v2.2.2/BoundedUIX.dll",
+                            "sha256": "7B2FEEBC1A6EB82AC65455AFB060C2DA7328B3E651805E4A2EEFB3DA210140F1"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.ComponentAttacherSearch": {
+            "name": "ComponentAttacherSearch",
+            "description": "Adds a search bar to component attachers. If you want to use this in conjunction with ComponentAttacherFavorites, make sure you use my version of it that also allows favoriting categories; or rename one of the DLLs, so that this mod loads first.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosComponentAttacherSearch",
+            "sourceLocation": "https://github.com/Banane9/NeosComponentAttacherSearch",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/download/v1.0.0/ComponentAttacherSearch.dll",
+                            "sha256": "82BBEB12EFC059937BDC4BBF46946E9C11ED286037D2F05E69A7FF276424C6F8"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.ComponentAttacherFavorites": {
+            "name": "ComponentAttacherFavorites",
+            "description": "Adds the ability to save favorite components and categories.",
+            "category": "Developers",
+            "sourceLocation": "https://github.com/Banane9/NeosComponentAttacherFavorites/",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "2.0.1": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/tag/v2.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/download/v2.0.1/ComponentAttacherFavorites.dll",
+                            "sha256": "515BB68CFA32ACBE09D3FC06C2E66985BB60F1662FB543A1B12582F00E198AA7"
                         }
                     ]
                 }
