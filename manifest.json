@@ -4521,6 +4521,29 @@
                 }
             }
         },
+        "me.badhaloninja.MultiParameterGenericComponentAttacher": {
+            "name": "MultiParameterGenericComponentAttacher",
+            "description": "Adds support for multi parameter generic components in the component attacher\nSeparate type parameters with `|`\nFor example `Slot|IWorldElement` for a ReferenceCast component to cast a Slot to an IWorldElement",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/badhaloninja/MultiParameterGenericComponentAttacher",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/MultiParameterGenericComponentAttacher/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/MultiParameterGenericComponentAttacher/releases/download/v1.0.0/MultiParameterGenericComponentAttacher.dll",
+                            "filename": "MultiParameterGenericComponentAttacher.dll",
+                            "sha256": "4122828fe3275d7082ba1696d7709928ff2ecf6d11848bc048c65a600a9e546b"
+                        }
+                    ]
+                }
+            }
+        },
         "me.New-Project-Final-Final-WIP.HeadlessTweaks": {
             "name": "HeadlessTweaks",
             "description": "Adds some nice to have features to headless clients",
