@@ -10,6 +10,7 @@ and on new mod versions prints a GHA output for a discord webhook message's JSON
 import json
 import datetime
 from os import environ
+from copy import deepcopy
 from typing import Any
 
 import util
@@ -36,13 +37,13 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
     """
     Create discord embed JSON from a mod and it's first release
     """
-    embed: dict[str, Any]  = BASE_EMBED.copy()
+    embed: dict[str, Any] = deepcopy(BASE_EMBED)
 
     embed['title'] = "[" + mod['name'] + "/" + str(mod["versions"][0]["id"]) + "]"
     embed['description'] = mod['description']
     embed['footer']['text'] = f"{mod['guid']}"
     if 'color' in mod:
-        embed['color'] = mod['color']
+        embed['color'] = int(mod['color'], 16)
 
     if 'releaseUrl' in mod['versions'][0]:
         embed['url'] = mod['versions'][0]['releaseUrl']
