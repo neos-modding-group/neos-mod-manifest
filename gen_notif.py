@@ -143,6 +143,11 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
         })
 
 
+    #escape strings
+    for str in embed:
+        str.replace("\\", "\\\\")
+        str.replace("'", "\\'")
+
     return embed
 
 
