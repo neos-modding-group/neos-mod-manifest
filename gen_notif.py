@@ -143,11 +143,6 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
         })
 
 
-    #escape strings
-    for str in embed:
-        str.replace("\\", "\\\\")
-        str.replace("'", "\\'")
-
     return embed
 
 
@@ -186,4 +181,4 @@ if len(EMBEDS) > 0:
         "avatar_url": "https://avatars.githubusercontent.com/u/101987083",
         "attachments": []
     }
-    print("::set-output name=JSON::" + json.dumps(DISCORD_JSON))
+    print("::set-output name=JSON::" + json.dumps(DISCORD_JSON).replace("\\","\\\\").replace("'", "'\\''"))
