@@ -141,13 +141,8 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
             "name": "Changelog",
             "value": mod['versions'][0]['changelog'],
         })
-    
-    
-    #escape strings
-    for str in embed:
-        str.replace("\", "\\")
-        str.replace("'", "\'")
-    
+
+
     return embed
 
 
