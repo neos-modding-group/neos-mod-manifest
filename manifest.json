@@ -399,6 +399,29 @@
                 }
             }
         },
+        "me.art0007i.LargerObjectMessagePreviews": {
+            "name": "LargerObjectMessagePreviews",
+            "description": "Increases the size of object message thumbnails.",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/art0007i/LargerObjectMessagePreviews",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/LargerObjectMessagePreviews/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LargerObjectMessagePreviews/releases/download/1.0.0/LargerObjectMessagePreviews.dll",
+                            "filename": "LargerObjectMessagePreviews.dll",
+                            "sha256": "23c9bf7060c14f2f29b91f84d9f946b82dc5d52af592143407e8053139845d33"
+                        }
+                    ]
+                }
+            }
+        },
         "Discord.Net.Webhook": {
             "name": "Discord.Net Webhook",
             "description": "A core Discord.Net library containing the Webhook client and models.",
