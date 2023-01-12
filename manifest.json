@@ -6130,7 +6130,16 @@
                             "sha256": "4635e93787862fc8f6582e513b9471bc76abe6b153adc3550911389e06d78adf"
                         }
                     ]
-                }
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/TheJebForge/DesktopHandSwitch/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DesktopHandSwitch/releases/download/1.0.1/DesktopHandSwitch.dll",
+                            "sha256": "8be4d17d4ef02820e25b65a6f8483676db819ba7060db418ec512679139df012"
+                        }
+                    ]
+                },
             }
         },
         "net.TheJebForge.LocalListEditors": {
