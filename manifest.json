@@ -597,6 +597,29 @@
                 }
             }
         },
+        "jworkz.sjackal.JworkzAnimJImportFixMod": {
+            "name": "JworkzAnimJImportFixMod",
+            "description": "Fixes the AnimJ importing, parsing, and setup issues",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/stiefeljackal/NeosAnimJImportFix",
+            "authors": {
+                "StiefelJackal": {
+                    "url": "https://github.com/stiefeljackal"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/stiefeljackal/NeosAnimJImportFix/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/stiefeljackal/NeosAnimJImportFix/releases/download/v1.0.0/JworkzNeosAnimJImportFix.dll",
+                            "filename": "JworkzNeosAnimJImportFix.dll",
+                            "sha256": "71E8A0ACFBCF235BC0AAFE1F161C9DA3E486DE0C2E1EF046730629FCBA735686"
+                        }
+                    ]
+                }
+            }
+        },
         "net.dfghiatus.cachegetclapped": {
             "name": "CacheGetClapped",
             "description": "Deletes cached files that have been unused for over 21 days",
