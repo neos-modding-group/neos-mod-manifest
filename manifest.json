@@ -4745,6 +4745,16 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/StackTraceFixer/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/StackTraceFixer/releases/download/1.0.1/StackTraceFixer.dll",
+                            "filename": "StackTraceFixer.dll",
+                            "sha256": "02d336d1c8202c6842fa369df8da52c4e757062722425d232f2c4fdd2ff84eb6"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/art0007i/StackTraceFixer/releases/tag/1.0.0.0",
                     "artifacts": [
