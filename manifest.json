@@ -4135,10 +4135,10 @@
             "versions": {
                 "1.4.0": {
                     "changelog": "Add a config to enable friend links on the notifications - EIA485",
-                    "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.3.0",
+                    "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.4.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/download/v1.3.0/UserJoinLeaveNotifications.dll",
+                            "url": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/download/v1.4.0/UserJoinLeaveNotifications.dll",
                             "filename": "UserJoinLeaveNotifications.dll",
                             "sha256": "0837ab104cb5dc55eec21c27dc4d84cb886d5eb1acdc3a6034a598c0be288cdf"
                         }
