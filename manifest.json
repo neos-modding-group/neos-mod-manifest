@@ -1416,6 +1416,29 @@
                 }
             }
         },
+        "me.art0007i.PresenceToggle": {
+            "name": "PresenceToggle",
+            "description": "Allows you to toggle discord and steam rich presence",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/art0007i/PresenceToggle",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/PresenceToggle/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/PresenceToggle/releases/download/1.0.0/PresenceToggle.dll",
+                            "filename": "PresenceToggle.dll",
+                            "sha256": "b8fd469a63475aae6bc2c35ba418f0c0ed1409ec30b12dad0dbd1c1e44b355d0"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.colordrop": {
             "name": "ColorDrop",
             "description": "Makes it so you can grab and drop colors",
