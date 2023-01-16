@@ -3093,6 +3093,16 @@
                 }
             },
             "versions": {
+                "4.1.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/4.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/download/4.1.0/NeosVideoPlayerFix.dll",
+                            "filename": "NeosVideoPlayerFix.dll",
+                            "sha256": "03d498edefb92ff5d38dd577ed8af6c701d2e6682329a09a5e314731ef1b221e"
+                        }
+                    ]
+                },
                 "4.0.0": {
                     "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/4.0.0",
                     "artifacts": [
