@@ -6246,6 +6246,15 @@
                             "sha256": "8a034f85c4878cd9e61187e63a42867f1ab9ded2212ff530021a36b37e73ff9c"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/LocalListEditors/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.1.0/LocalListEditors.dll",
+                            "sha256": "ce702b4319aed3bd906fb2edc09be064ac5343635be7a2235e5f9b119ed991f8"
+                        }
+                    ]
                 }
             }
         },
