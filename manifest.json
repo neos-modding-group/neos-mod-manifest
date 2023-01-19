@@ -1,6 +1,6 @@
 {
     "$schema": "schema.json",
-    "schemaVersion": "1.0.0",
+    "schemaVersion": "1.1.0",
     "mods": {
         "dev.zkxs.neosmodloader": {
             "name": "Neos Mod Loader",
@@ -19,6 +19,96 @@
                 "plugin"
             ],
             "versions": {
+                "1.12.4": {
+                    "changelog": "Fix Nullable configs, Update Lib.Harmony to 2.2.2",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.4",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.2"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.4/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "74663c6d525689be5aeb2c1182119d95ba4e59f473cf7e29fe8df779c581c5db",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.12.3": {
+                    "changelog": "Added `hidelatetypes` config, Handle ModConfiguration.Set() for null values",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.3",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.3/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "d5b5941904272fca36b05c6349770050e8213c03501637b9dd3fb7f19326a842",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.12.2": {
+                    "changelog": "Fix a hang on Neos shutdown for windows headless",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.2",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.2/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "7ebc09be5b363630090fd2918cfd04b9aa890513fe13002849f6e58040200052",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.12.1": {
+                    "changelog": "Fix assembly loading on windows headless",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.1",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.1/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "dee141345d6a71d87f058a74e50bcec21ee8281370901684cb2583e36d052638",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.12.0": {
+                    "changelog": "nml_mods search recursively in subfolders, Fix compatibility hash when non-NML plugins are present, Hide mod types",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.0",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.0/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "ded36f408bae32d100951c0fb09b1a4aee4b7321b5aab398b37aa662871bf7a9",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
                 "1.11.2": {
                     "changelog": "AssemblyName is now ALWAYS 'NeosModLoader', Logging for loaded nml_libs",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.11.2",
@@ -162,6 +252,17 @@
                 "file"
             ],
             "versions": {
+                "2.2.2.0": {
+                    "releaseUrl": "https://github.com/pardeike/Harmony/releases/tag/v2.2.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.4/0Harmony.dll",
+                            "filename": "0Harmony.dll",
+                            "sha256": "6928f117d52c0683c44683c0656cd5a345d21aa45720b11c64dc72a35771cac5",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                },
                 "2.2.1.0": {
                     "releaseUrl": "https://github.com/pardeike/Harmony/releases/tag/v2.2.1.0",
                     "artifacts": [
@@ -298,6 +399,29 @@
                 }
             }
         },
+        "me.art0007i.LargerObjectMessagePreviews": {
+            "name": "LargerObjectMessagePreviews",
+            "description": "Increases the size of object message thumbnails.",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/art0007i/LargerObjectMessagePreviews",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/LargerObjectMessagePreviews/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LargerObjectMessagePreviews/releases/download/1.0.0/LargerObjectMessagePreviews.dll",
+                            "filename": "LargerObjectMessagePreviews.dll",
+                            "sha256": "23c9bf7060c14f2f29b91f84d9f946b82dc5d52af592143407e8053139845d33"
+                        }
+                    ]
+                }
+            }
+        },
         "Discord.Net.Webhook": {
             "name": "Discord.Net Webhook",
             "description": "A core Discord.Net library containing the Webhook client and models.",
@@ -372,6 +496,61 @@
                 }
             }
         },
+        "net.eia485.ShowUserspaceSpawnButton": {
+            "name": "ShowUserspaceSpawnButton",
+            "description": "Shows the userspace spawn button on any item regardless of if its a facet",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/EIA485/NeosShowUserspaceSpawnButton",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosShowUserspaceSpawnButton/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosShowUserspaceSpawnButton/releases/download/1.0.0/ShowUserspaceSpawnButton.dll",
+                            "sha256": "386BCC3A1A2A6FB57935E5E7B8831D7B9B5EB20AA6A8C30DEBE7D0C9BC2DBB6D"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.eia485.InspectorDelegateCaller": {
+            "name": "InspectorDelegateCaller",
+            "description": "adds some buttons to inspector ui for workers that have callable delgates",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/EIA485/NeosInspectorDelegateCaller",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485",
+                    "iconUrl" : "https://avatars.githubusercontent.com/u/17285570"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosInspectorDelegateCaller/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosInspectorDelegateCaller/releases/download/1.0.0/InspectorDelegateCaller.dll",
+                            "sha256": "f16ffb3277376d95f7d0d4ef88d16e83c05713ab376bcdebbf35bb09ddbbca92"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosInspectorDelegateCaller/releases/tag/1.1.0",
+                    "changelog": "- added some config options for what types of delegates to generate ui for \n- added support for more types of delegates",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosInspectorDelegateCaller/releases/download/1.1.0/InspectorDelegateCaller.dll",
+                            "sha256": "30cc6850c4b14204f9dc686372c68ffb683adea74fcfd9004887706a4513c07f"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.killlogspam": {
             "name": "KillLogSpam",
             "description": "Kills the log spam normally caused by changing world configuration",
@@ -413,6 +592,52 @@
                             "url": "https://github.com/EIA485/NeosFriendLinkSessionList/releases/download/1.0.0.0/FriendLinkSessionList.dll",
                             "filename": "FriendLinkSessionList.dll",
                             "sha256": "063ccde2e4acf69de1053a39b49c286269567117f567e8075678909bc79cb85f"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.eia485.SlotLessWorkerInterfaces": {
+            "name": "SlotLessWorkerInterfaces",
+            "description": "Allows you to create logix interfaces for workers that dont have a slot",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/EIA485/NeosSlotLessWorkerInterfaces",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosSlotLessWorkerInterfaces/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosSlotLessWorkerInterfaces/releases/download/1.0.0/SlotLessWorkerInterfaces.dll",
+                            "filename": "SlotLessWorkerInterfaces.dll",
+                            "sha256": "005BA735E0ABB1F9D6ADA8E0C6941D601FD1AAD15A955ADE73D0E5DD9329E157"
+                        }
+                    ]
+                }
+            }
+        },
+        "jworkz.sjackal.JworkzAnimJImportFixMod": {
+            "name": "JworkzAnimJImportFixMod",
+            "description": "Fixes the AnimJ importing, parsing, and setup issues",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/stiefeljackal/NeosAnimJImportFix",
+            "authors": {
+                "StiefelJackal": {
+                    "url": "https://github.com/stiefeljackal"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/stiefeljackal/NeosAnimJImportFix/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/stiefeljackal/NeosAnimJImportFix/releases/download/v1.0.0/JworkzNeosAnimJImportFix.dll",
+                            "filename": "JworkzNeosAnimJImportFix.dll",
+                            "sha256": "71E8A0ACFBCF235BC0AAFE1F161C9DA3E486DE0C2E1EF046730629FCBA735686"
                         }
                     ]
                 }
@@ -1116,6 +1341,16 @@
                 }
             },
             "versions": {
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/art0007i/ShowDelegates/releases/tag/1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ShowDelegates/releases/download/1.1.1/ShowDelegates.dll",
+                            "filename": "ShowDelegates.dll",
+                            "sha256": "300273a5767ae7701f90e1a8b8fe6f484246ec5580512eabed3a60158a6bc94c"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/art0007i/ShowDelegates/releases/tag/1.1.0.0",
                     "artifacts": [
@@ -1161,6 +1396,72 @@
                 }
             }
         },
+        "me.art0007i.LogixPulseVisualizer": {
+            "name": "LogixPulseVisualizer",
+            "description": "Makes all impulse wires glow when an impulse travels through them.",
+            "category": "LogiX",
+            "sourceLocation": "https://github.com/art0007i/LogixPulseVisualizer",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/art0007i/LogixPulseVisualizer/releases/tag/1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LogixPulseVisualizer/releases/download/1.0.2/LogixPulseVisualizer.dll",
+                            "filename": "LogixPulseVisualizer.dll",
+                            "sha256": "a9651f95bde181da7b80049637e219c8c5ab4d2bdfe87011859f0cdfd458be44"
+                        }
+                    ]
+                },
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/LogixPulseVisualizer/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LogixPulseVisualizer/releases/download/1.0.0/LogixPulseVisualizer.dll",
+                            "filename": "LogixPulseVisualizer.dll",
+                            "sha256": "6d7ef1437fa7485dc8197b0c858e9cb7de6e0eec8d6de0eb5f33b320e0a1f8ca"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/LogixPulseVisualizer/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LogixPulseVisualizer/releases/download/1.0.1/LogixPulseVisualizer.dll",
+                            "filename": "LogixPulseVisualizer.dll",
+                            "sha256": "ea27c2569b68bbe27645cb4dcecba2b5d61eda7bdbb4c80704b4e3a52dc724c6"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.PresenceToggle": {
+            "name": "PresenceToggle",
+            "description": "Allows you to toggle discord and steam rich presence",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/art0007i/PresenceToggle",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/PresenceToggle/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/PresenceToggle/releases/download/1.0.0/PresenceToggle.dll",
+                            "filename": "PresenceToggle.dll",
+                            "sha256": "b8fd469a63475aae6bc2c35ba418f0c0ed1409ec30b12dad0dbd1c1e44b355d0"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.colordrop": {
             "name": "ColorDrop",
             "description": "Makes it so you can grab and drop colors",
@@ -1169,9 +1470,22 @@
             "authors": {
                 "art0007i": {
                     "url": "https://github.com/art0007i"
+                },
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
                 }
             },
             "versions": {
+                "1.2.0": {
+                    "releaseUrl": "https://github.com/art0007i/ColorDrop/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ColorDrop/releases/download/1.2.0/ColorDrop.dll",
+                            "filename": "ColorDrop.dll",
+                            "sha256": "73632fb5d3af39530400ed044ee32fe84456c73f1d8e31f91a235ff6fb5bd0f9"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/art0007i/ColorDrop/releases/tag/1.1.0.0",
                     "artifacts": [
@@ -1421,6 +1735,29 @@
                             "url": "https://github.com/EIA485/NeosKillDesktopTools/releases/download/1.0.0.0/KillDesktopTools.dll",
                             "filename": "KillDesktopTools.dll",
                             "sha256": "99c9b909d2ea5eb918444bcaba6888eb8573948e0971e3b24bf0c485b89cf442"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.DisableLegacyInventory": {
+            "name": "DisableLegacyInventory",
+            "description": "Disables the grip+dash menu legacy inventory gesture.",
+            "category": "Keybinds & Gestures",
+            "sourceLocation": "https://github.com/art0007i/DisableLegacyInventory",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/DisableLegacyInventory/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/DisableLegacyInventory/releases/download/1.0.0/DisableLegacyInventory.dll",
+                            "filename": "DisableLegacyInventory.dll",
+                            "sha256": "846f9a989d0d642c81ccf860d1840b0c947a9800dffc9de7c97e8579fdc61a34"
                         }
                     ]
                 }
@@ -2048,6 +2385,17 @@
                 }
             },
             "versions": {
+                "1.2.1": {
+                    "changelog": "Fix a typo in the new config item descriptions",
+                    "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.2.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/NeosModSettings/releases/download/v1.2.1/NeosModSettings.dll",
+                            "filename": "NeosModSettings.dll",
+                            "sha256": "7200cdaf7ff6d4f5e2f04a3f565c1cf4a81b3123f9490b125ce7d5c292ee279d"
+                        }
+                    ]
+                },
                 "1.2.0": {
                     "changelog": "Fixes setting config items to null\nFix generating a page for mods without supported config items\nAdded new config items",
                     "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.2.0",
@@ -2412,6 +2760,15 @@
                             "sha256": "55372a26e915a2dc5e4ba9a8afe93c79dc36704c3764eae10cdfe9d7bf78e217"
                         }
                     ]
+                },
+                "1.3.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosGetItemLink/releases/tag/1.3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosGetItemLink/releases/download/1.3.0.0/GetItemLink.dll",
+                            "sha256": "ff0b5ef2594cdef61915f6933bb9d5fa01e3872a0a7506e7fcafae70c5dc90ac"
+                        }
+                    ]
                 }
             }
         },
@@ -2506,32 +2863,32 @@
                 }
             }
         },
-        "tk.kawaiiamber.gifimporter": {
+        "tk.astralchan.gifimporter": {
             "name": "GifImporter",
             "description": "Allows you to import gif images",
             "category": "Asset Importing Tweaks",
-            "sourceLocation": "https://github.com/kawaiiamber/GifImporter",
+            "sourceLocation": "https://github.com/astralchan/GifImporter",
             "authors": {
-                "amber": {
-                    "url": "https://github.com/kawaiiamber"
+                "astralchan": {
+                    "url": "https://github.com/astralchan"
                 }
             },
             "versions": {
                 "1.1.2": {
-                    "releaseUrl": "https://github.com/kawaiiamber/GifImporter/releases/tag/1.1.2",
+                    "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.2",
                     "artifacts": [
                         {
-                            "url": "https://github.com/kawaiiamber/GifImporter/releases/download/1.1.2/GifImporter.dll",
+                            "url": "https://github.com/astralchan/GifImporter/releases/download/1.1.2/GifImporter.dll",
                             "filename": "GifImporter.dll",
                             "sha256": "cc16edc29f849cb717ff4cff350c96a04a76852a96d556588caab6eae698e2d1"
                         }
                     ]
                 },
                 "1.1.1": {
-                    "releaseUrl": "https://github.com/kawaiiamber/GifImporter/releases/tag/1.1.1.0",
+                    "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.1.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/kawaiiamber/GifImporter/releases/download/1.1.1.0/GifImporter.dll",
+                            "url": "https://github.com/astralchan/GifImporter/releases/download/1.1.1.0/GifImporter.dll",
                             "filename": "GifImporter.dll",
                             "sha256": "4c85242da4aa094e65692a7811947b8f877e15230824a3a415cca5c384aab374"
                         }
@@ -2762,7 +3119,7 @@
         },
         "io.github.frozenreflex.neosvideoplayerfix": {
             "name": "NeosVideoPlayerFix",
-            "description": "Fix video players on Linux Native and force libVLC to prevent crashes in Proton",
+            "description": "Disable video playback engines to prevent crashes and fix video players on Linux Native",
             "category": "Bug Workarounds",
             "sourceLocation": "https://github.com/Frozenreflex/NeosVideoPlayerFix",
             "authors": {
@@ -2771,6 +3128,26 @@
                 }
             },
             "versions": {
+                "4.1.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/4.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/download/4.1.0/NeosVideoPlayerFix.dll",
+                            "filename": "NeosVideoPlayerFix.dll",
+                            "sha256": "03d498edefb92ff5d38dd577ed8af6c701d2e6682329a09a5e314731ef1b221e"
+                        }
+                    ]
+                },
+                "4.0.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/4.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/download/4.0.0/NeosVideoPlayerFix.dll",
+                            "filename": "NeosVideoPlayerFix.dll",
+                            "sha256": "adad2ca59266c7d287638a8ca31cd4c7a7cf5f2c7bf6be54dc73dd60c76ec14c"
+                        }
+                    ]
+                },
                 "3.3.1": {
                     "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/3.3.1",
                     "artifacts": [
@@ -2803,6 +3180,9 @@
                     "url": "https://github.com/KyuubiYoru"
                 }
             },
+            "flags": [
+                "deprecated"
+            ],
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/KyuubiYoru/DisableLibVLC/releases/tag/1.0.0",
@@ -3316,6 +3696,9 @@
             "authors": {
                 "Banane9": {
                     "url": "https://github.com/Banane9"
+                },
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
                 }
             },
             "versions": {
@@ -3334,6 +3717,15 @@
                         {
                             "url": "https://github.com/Banane9/NeosEditorTabbing/releases/download/v1.1.0/EditorTabbing.dll",
                             "sha256": "652D6DDB086362679DA097E25F474BDF224970C856048727DDC3931EA575118C"
+                        }
+                    ]
+                },
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosEditorTabbing/releases/tag/v2.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosEditorTabbing/releases/download/v2.0.0/EditorTabbing.dll",
+                            "sha256": "33AB1BED45AFFEE99A5C4FBC47261F946062C3D148D43F6572D7D645565A69E1"
                         }
                     ]
                 }
@@ -3357,6 +3749,52 @@
                         {
                             "url": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu/releases/download/v1.0.0/StopDisappearingLocomotionMenu.dll",
                             "sha256": "A94AD9CA070321088B690CB29A82B627BA8AFB4BA84C7D7036C1E99A3C44F2DB"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.PrecisionBlendShapeBaking": {
+            "name": "PrecisionBlendShapeBaking",
+            "description": "Allows baking individual blend shapes using the GlueTip.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking",
+            "sourceLocation": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosPrecisionBlendShapeBaking/releases/download/v1.0.0/PrecisionBlendShapeBaking.dll",
+                            "sha256": "711FABFEA818CA65627025DFDDF4C152B8BF4F3211859320C1CF68F5B70080ED"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.ClearContactSearch": {
+            "name": "ClearContactSearch",
+            "description": "Adds a clear button to the search bar on the contacts panel in the dash.",
+            "category": "General UI Tweaks",
+            "website": "https://github.com/Banane9/NeosClearContactSearch",
+            "sourceLocation": "https://github.com/Banane9/NeosClearContactSearch",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosClearContactSearch/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosClearContactSearch/releases/download/v1.0.0/ClearContactSearch.dll",
+                            "sha256": "FFB3DC6AAAB2E18795A9B8200F01AE3B370087D22D754D47F24B3DAA515E35E5"
                         }
                     ]
                 }
@@ -3423,15 +3861,15 @@
         "Banane9.UserJoinLeaveNotifications": {
             "name": "UserJoinLeaveNotifications",
             "description": "Adds notifications to the notifications panel when users join or leave your focused session or any session you're in. Clicking on the notification opens the user's profile page and can focus the relevant session as well.",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosUserJoinLeaveNotifications",
             "sourceLocation": "https://github.com/Banane9/NeosUserJoinLeaveNotifications",
             "authors": {
-                "badhaloninja": {
-                    "url": "https://github.com/badhaloninja/"
-                },
                 "Banane9": {
                     "url": "https://github.com/Banane9"
+                },
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja/"
                 }
             },
             "versions": {
@@ -3441,6 +3879,24 @@
                         {
                             "url": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/download/v2.0.0/UserJoinLeaveNotifications.dll",
                             "sha256": "CA7487A921D6F5FD1AD9D8F3163C46FD0ADA2BF757444B2358243270F278F210"
+                        }
+                    ]
+                },
+                "2.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/tag/v2.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/download/v2.1.0/UserJoinLeaveNotifications.dll",
+                            "sha256": "8A187B65A597DD4BC0971920245AD9484CC9AA2B5A3C7C32E8E80E24CA63FAAA"
+                        }
+                    ]
+                },
+                "3.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/tag/v3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosUserJoinLeaveNotifications/releases/download/v3.0.0/UserJoinLeaveNotifications.dll",
+                            "sha256": "F4C5B44AD7B972EA07364398EDE92E1E0395F0F1BF379F9AF82CAD2EF0823AED"
                         }
                     ]
                 }
@@ -3487,6 +3943,97 @@
                         {
                             "url": "https://github.com/Banane9/NeosGoToBedAlready/releases/download/v1.0.0/GoToBedAlready.dll",
                             "sha256": "9E11CD4623218CCC3F5DA8DAF53F4D0D470D6FB3BC2BF4B90FA0B82C996A0E2A"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.CorrectGizmoScaling": {
+            "name": "CorrectGizmoScaling",
+            "description": "Tiny mod that corrects the scaling of the Inspector spawned by the MaterialTip's Edit Material context menu button.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosCorrectGizmoScaling",
+            "sourceLocation": "https://github.com/Banane9/NeosCorrectGizmoScaling",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosCorrectGizmoScaling/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosCorrectGizmoScaling/releases/download/v1.0.0/CorrectGizmoScaling.dll",
+                            "sha256": "749B222F8FE36B10985E2AA1076E649CA72F0EF1B2D311D00FC7DF3D83C8D031"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.BoundedUIX": {
+            "name": "BoundedUIX",
+            "description": "Makes UIX elements selectable and editable with the usual Slot gizmos, as well as fixing UIX elements breaking when a parent is inserted.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosBoundedUIX",
+            "sourceLocation": "https://github.com/Banane9/NeosBoundedUIX",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "2.2.2": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBoundedUIX/releases/tag/v2.2.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBoundedUIX/releases/download/v2.2.2/BoundedUIX.dll",
+                            "sha256": "7B2FEEBC1A6EB82AC65455AFB060C2DA7328B3E651805E4A2EEFB3DA210140F1"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.ComponentAttacherSearch": {
+            "name": "ComponentAttacherSearch",
+            "description": "Adds a search bar to component attachers. If you want to use this in conjunction with ComponentAttacherFavorites, make sure you use my version of it that also allows favoriting categories; or rename one of the DLLs, so that this mod loads first.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosComponentAttacherSearch",
+            "sourceLocation": "https://github.com/Banane9/NeosComponentAttacherSearch",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/download/v1.0.0/ComponentAttacherSearch.dll",
+                            "sha256": "82BBEB12EFC059937BDC4BBF46946E9C11ED286037D2F05E69A7FF276424C6F8"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.ComponentAttacherFavorites": {
+            "name": "ComponentAttacherFavorites",
+            "description": "Adds the ability to save favorite components and categories.",
+            "category": "Developers",
+            "sourceLocation": "https://github.com/Banane9/NeosComponentAttacherFavorites/",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "2.0.1": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/tag/v2.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/download/v2.0.1/ComponentAttacherFavorites.dll",
+                            "sha256": "515BB68CFA32ACBE09D3FC06C2E66985BB60F1662FB543A1B12582F00E198AA7"
                         }
                     ]
                 }
@@ -3700,6 +4247,17 @@
                 }
             },
             "versions": {
+                "1.3.0": {
+                    "changelog": "Added config items for notification sounds",
+                    "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.3.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/download/v1.3.0/UserJoinLeaveNotifications.dll",
+                            "filename": "UserJoinLeaveNotifications.dll",
+                            "sha256": "c5029d87001b85d4cc62f120da94afe7e895ebafed04f3ebc0efd8e388c76d61"
+                        }
+                    ]
+                },
                 "1.2.0": {
                     "changelog": "Solved issue of ReversePatch not working as intended with harmony versions past v2.1.0.0 breaking compatibility with desktop notifications",
                     "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.2.0",
@@ -4020,6 +4578,86 @@
                 }
             }
         },
+        "me.badhaloninja.EnumDropdown": {
+            "name": "EnumDropdown",
+            "description": "Adds a dropdown for enum fields and enum input logix nodes",
+            "category": "Technical Tweaks",
+            "sourceLocation": "https://github.com/badhaloninja/EnumDropdown",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "changelog": "- Fix enum input logix node dropping slot into parent on pack",
+                    "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/EnumDropdown/releases/download/v1.0.1/EnumDropdown.dll",
+                            "filename": "EnumDropdown.dll",
+                            "sha256": "d76717d6d5fd1ea09f72c0dbf40372991ec4915da51c6a25d6893e94149e930e"
+                        }
+                    ]
+                },
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/EnumDropdown/releases/download/v1.0.0/EnumDropdown.dll",
+                            "filename": "EnumDropdown.dll",
+                            "sha256": "7701e6f6e0a3fac0de800d2c090d825ef19844213a7c885e7aae26c9edda793a"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.badhaloninja.RefEditorUtils": {
+            "name": "RefEditorUtils",
+            "description": "Adds extra buttons to some RefEditor types",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/badhaloninja/RefEditorUtils",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/RefEditorUtils/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/RefEditorUtils/releases/download/v1.0.0/RefEditorUtils.dll",
+                            "filename": "RefEditorUtils.dll",
+                            "sha256": "002fe73fd05fdaea5ee362ddb09300c78114d2315b67c9931040043859c33344"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.badhaloninja.MultiParameterGenericComponentAttacher": {
+            "name": "MultiParameterGenericComponentAttacher",
+            "description": "Adds support for multi parameter generic components in the component attacher\nSeparate type parameters with `|`\nFor example `Slot|IWorldElement` for a ReferenceCast component to cast a Slot to an IWorldElement",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/badhaloninja/MultiParameterGenericComponentAttacher",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/MultiParameterGenericComponentAttacher/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/MultiParameterGenericComponentAttacher/releases/download/v1.0.0/MultiParameterGenericComponentAttacher.dll",
+                            "filename": "MultiParameterGenericComponentAttacher.dll",
+                            "sha256": "58da26dbbd1e40886d342f0807f93627490c1a7a03f1eaa49f118ebc846bacd0"
+                        }
+                    ]
+                }
+            }
+        },
         "me.New-Project-Final-Final-WIP.HeadlessTweaks": {
             "name": "HeadlessTweaks",
             "description": "Adds some nice to have features to headless clients",
@@ -4174,6 +4812,16 @@
                             "sha256": "7c7ddc18210a5732664d6e525e7bd0c47c84950f53abbee82118afd42888bed0"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "changelog": "Added configs to show RefID and set gizmo persistence",
+                    "releaseUrl": "https://github.com/XDelta/NeosBetterGizmos/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosBetterGizmos/releases/download/1.1.0/NeosBetterGizmos.dll",
+                            "sha256": "63551fb0b3d36f1153f80d46de6efd13007fb21ac60c8237519a1262f8338bb4"
+                        }
+                    ]
                 }
             }
         },
@@ -4188,6 +4836,16 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/StackTraceFixer/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/StackTraceFixer/releases/download/1.0.1/StackTraceFixer.dll",
+                            "filename": "StackTraceFixer.dll",
+                            "sha256": "02d336d1c8202c6842fa369df8da52c4e757062722425d232f2c4fdd2ff84eb6"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/art0007i/StackTraceFixer/releases/tag/1.0.0.0",
                     "artifacts": [
@@ -4335,11 +4993,22 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/download/v1.0.1/ComponentAttacherFavorites.dll",
+                            "filename": "ComponentAttacherFavorites.dll",
+                            "sha256": "b981317f45684c3936884a1b68d136e6542585a7c7c15dd5d7880d05fd229645"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/tag/v1.0.0",
                     "artifacts": [
                         {
                             "url": "https://github.com/badhaloninja/ComponentAttacherFavorites/releases/download/v1.0.0/ComponentAttacherFavorites.dll",
+                            "filename": "ComponentAttacherFavorites.dll",
                             "sha256": "90051a1e3451818cc60dcd83d10c3e8f9b104270a2c703ebdbfd10dcfa9db686"
                         }
                     ]
@@ -4374,6 +5043,34 @@
                             "url": "https://github.com/XDelta/SettingsRedux/releases/download/1.0.0/SettingsRedux.dll",
                             "filename": "SettingsRedux.dll",
                             "sha256": "9fe70b9fc49e9179bcab5ac0a7fd8193d94e26c96e306b95d3d6d1d2a3f4ee3b"
+                        }
+                    ]
+                }
+            }
+        },
+        "tk.deltawolf.CustomColorPicker": {
+            "name": "CustomColorPicker",
+            "description": "Allows setting a custom color picker.",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/XDelta/CustomColorPicker",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/XDelta/CustomColorPicker/releases/tag/1.0.0",
+                    "dependencies": {
+                        "me.art0007i.SpecialItemsLib": {
+                            "version": "^1.0.0"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/CustomColorPicker/releases/download/1.0.0/CustomColorPicker.dll",
+                            "filename": "CustomColorPicker.dll",
+                            "sha256": "66187676aa1f2dde761236558fd9bfcfe96e10791bb91a643d6a17a1393d0510"
                         }
                     ]
                 }
@@ -4583,6 +5280,16 @@
                 }
             },
             "versions": {
+                "1.2.0": {
+                    "changelog": "Fixed procedural textures not allowing you to grab a reference to them.",
+                    "releaseUrl": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/download/1.2.0/DefaultToAnisotropic.dll",
+                            "sha256": "45ebcc63fa4f5dd7e9a5de52c057eea2bba3a7769c0d206a29bdbf88877a32af"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/Toxic-Cookie/DefaultToAnisotropic/releases/tag/1.1.0",
                     "artifacts": [
@@ -4621,6 +5328,29 @@
                         {
                             "url": "https://github.com/Psychpsyo/DiscordVR/releases/download/1.0.1/DiscordVR.dll",
                             "sha256": "6d3de09c63f90523305d89e65c30c864cacc3a2887db36db3ddda6e9a3a71936"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.Cyro.ReFract": {
+            "name": "ReFract",
+            "description": "Exposes many post processing effects for neos cameras!",
+            "category": "Visual Tweaks",
+            "sourceLocation": "https://github.com/RileyGuy/ReFract",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy/"
+                }
+            },
+            "versions": {
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/RileyGuy/ReFract/releases/tag/1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/RileyGuy/ReFract/releases/download/1.1.1/ReFract.dll",
+                            "filename": "ReFract.dll",
+                            "sha256": "41e800a9d86d339fc1e56e2304ccb740e516ef59db6bd0b9d1527f544c9337bf"
                         }
                     ]
                 }
@@ -4760,6 +5490,122 @@
                             "url": "https://github.com/hantabaru1014/RemoveNABlendshapes/releases/download/v1.0.0/RemoveNABlendshapes.dll",
                             "filename": "RemoveNABlendshapes.dll",
                             "sha256": "b8cc76c457b1f9ed0785d36ac8d5b12e4b24fcae9ab4d18a98ec816360f03e5d"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.hantabaru1014.ReleaseSRanipalOnQuit": {
+            "name": "ReleaseSRanipalOnQuit",
+            "description": "Fix SRanipal not releasing properly on quit",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit",
+            "sourceLocation": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/ReleaseSRanipalOnQuit/releases/download/v1.0.0/ReleaseSRanipalOnQuit.dll",
+                            "filename": "ReleaseSRanipalOnQuit.dll",
+                            "sha256": "e395268564f25ed48ec28a113d5e89a1035ea3171e54413942ddc4562deb1ea3"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.hantabaru1014.SaveItemTweaks": {
+            "name": "SaveItemTweaks",
+            "description": "Tweaks for saving/spawning items when your UserScale is not 1",
+            "category": "Misc",
+            "website": "https://github.com/hantabaru1014/SaveItemTweaks",
+            "sourceLocation": "https://github.com/hantabaru1014/SaveItemTweaks",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/hantabaru1014/SaveItemTweaks/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/SaveItemTweaks/releases/download/v1.0.1/SaveItemTweaks.dll",
+                            "filename": "SaveItemTweaks.dll",
+                            "sha256": "22db4b5a87fd1aa823b61d2c861af5d9201bedf6edd3802288688dc45a480143"
+                        }
+                    ]
+                },
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/SaveItemTweaks/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/SaveItemTweaks/releases/download/v1.0.0/SaveItemTweaks.dll",
+                            "filename": "SaveItemTweaks.dll",
+                            "sha256": "f4f11529a3556613e1e6e7b16c1fa06bf33acda1ecb56882f871e75813de800f"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.hantabaru1014.NeosBetterIMESupport": {
+            "name": "NeosBetterIMESupport",
+            "description": "Fix issues in IMEs with complex input methods like Japanese",
+            "category": "General UI Tweaks",
+            "website": "https://github.com/hantabaru1014/NeosBetterIMESupport",
+            "sourceLocation": "https://github.com/hantabaru1014/NeosBetterIMESupport",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/hantabaru1014/NeosBetterIMESupport/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/NeosBetterIMESupport/releases/download/v1.0.1/NeosBetterIMESupport.dll",
+                            "filename": "NeosBetterIMESupport.dll",
+                            "sha256": "2af3e2d0b69dc11598e40116742bfc62defd774b05562801a0bbb81b5478be33"
+                        }
+                    ]
+                },
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/NeosBetterIMESupport/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/NeosBetterIMESupport/releases/download/v1.0.0/NeosBetterIMESupport.dll",
+                            "filename": "NeosBetterIMESupport.dll",
+                            "sha256": "db68c7dcab4dc668768542cd34f4f1710d07afcfbb9129bc3edc40ddd3370dde"
+                        }
+                    ]
+                }
+            }
+        },
+        "dev.baru.neos.BetterInventoryBrowser": {
+            "name": "BetterInventoryBrowser",
+            "description": "UI tweaks for InventoryBrowser",
+            "category": "Dash Tweaks",
+            "website": "https://github.com/hantabaru1014/BetterInventoryBrowser",
+            "sourceLocation": "https://github.com/hantabaru1014/BetterInventoryBrowser",
+            "authors": {
+                "hantabaru1014": {
+                    "url": "https://github.com/hantabaru1014"
+                }
+            },
+            "versions": {
+                "0.3.0": {
+                    "releaseUrl": "https://github.com/hantabaru1014/BetterInventoryBrowser/releases/tag/v0.3.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/BetterInventoryBrowser/releases/download/v0.3.0/BetterInventoryBrowser.dll",
+                            "filename": "BetterInventoryBrowser.dll",
+                            "sha256": "4a53d1c7dc3c00c5dd56c47275b4c46b653e50754d7dc68b4573754969cb57d5"
                         }
                     ]
                 }
@@ -5192,6 +6038,39 @@
                 }
             }
         },
+        "me.art0007i.MyInspectors": {
+            "name": "MyInspectors",
+            "description": "Makes you generate the inspector content instead of the host",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/art0007i/MyInspectors",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.2.0": {
+                    "releaseUrl": "https://github.com/art0007i/MyInspectors/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/MyInspectors/releases/download/1.2.0/MyInspectors.dll",
+                            "filename": "MyInspectors.dll",
+                            "sha256": "b54f07eccf07a549f6f3140d4682c48eb1a716147578f2fc0116e6aef06af256"
+                        }
+                    ]
+                },
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/MyInspectors/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/MyInspectors/releases/download/1.0.0/MyInspectors.dll",
+                            "filename": "MyInspectors.dll",
+                            "sha256": "e1b59231be68be55a7d30eb77f38d96212769623b9087108168cb504729636f4"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.FixGrabWorld": {
             "name": "FixGrabWorld",
             "description": "Fixes the grab world locomotion moving you forwards each time you use it",
@@ -5233,6 +6112,196 @@
                             "url": "https://github.com/art0007i/ValueProxyExtensions/releases/download/1.1.0/ValueProxyExtensions.dll",
                             "filename": "ValueProxyExtensions.dll",
                             "sha256": "71721659d7fa42e5629a35ca44de2d0ec3662050d86b390c7e42ffde50a96fd6"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.LocalStorage": {
+            "name": "LocalStorage",
+            "description": "Allows you to store items locally on your hard drive. This mod adds a new section to the inventory that can be accessed by pressing the cloud button, called Local Storage.",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/art0007i/LocalStorage/",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "changelog": "fix linux path separator",
+                    "releaseUrl": "https://github.com/art0007i/LocalStorage/releases/tag/1.1.0",
+                    "flags": ["prerelease"],
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LocalStorage/releases/download/1.1.0/LocalStorage.dll",
+                            "filename": "LocalStorage.dll",
+                            "sha256": "89f5db9c72610d84625df9ffc03ea837a6b3a6ee37855d205b253123215df75c"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.Cyro.Proxify": {
+            "name": "Proxify",
+            "description": "Lets you drop LogiX registers into things that can receive reference proxies",
+            "category": "LogiX",
+            "sourceLocation": "https://github.com/RileyGuy/Proxify/",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/RileyGuy/Proxify/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/RileyGuy/Proxify/releases/download/1.0.0/Proxify.dll",
+                            "filename": "Proxify.dll",
+                            "sha256": "21144a05fe91b1d9bf61c0c1b63f1a3b8d05918d31393d9bc319aeb1dccc8211"
+                        }
+                    ]
+                }
+            }
+        },
+        "APnda.CreateTools": {
+            "name": "CreateTools",
+            "description": "Allows you to create tools and brushes through the Create New menu.",
+            "category": "Misc",
+            "website": "https://github.com/Ap6661/CreateTools",
+            "sourceLocation": "https://github.com/Ap6661/CreateTools",
+            "authors": {
+                "APnda": {
+                    "url": "https://github.com/Ap6661"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Ap6661/CreateTools/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Ap6661/CreateTools/releases/download/v1.0.0/CreateTool.dll",
+                            "sha256": "ad051d1fe41e289b6ce512440a97e59e13a050ef7d836687a3a3e03aa517e145"
+                        }
+                    ]
+                }
+            }
+        },
+        "APnda.LaserRecolorJank": {
+            "name": "LaserRecolorJank",
+            "description": "Allows you to change your laser color and cursor. (You can even use dynamic variables)",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/Ap6661/LaserRecolorJank",
+            "sourceLocation": "https://github.com/Ap6661/LaserRecolorJank",
+            "authors": {
+                "APnda": {
+                    "url": "https://github.com/Ap6661"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Ap6661/LaserRecolorJank/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Ap6661/LaserRecolorJank/releases/download/1.0.0/LaserRecolorJank.dll",
+                            "sha256": "436094d4324a4d22697507f6a07a36098f3dab5a37fe8d8cd2b1587339660846"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.TheJebForge.DesktopHandSwitch": {
+            "name": "DesktopHandSwitch",
+            "description": "Allows you to switch primary hand via a keypress",
+            "category": "Keybinds & Gestures",
+            "website": "https://github.com/TheJebForge/DesktopHandSwitch",
+            "sourceLocation": "https://github.com/TheJebForge/DesktopHandSwitch",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/DesktopHandSwitch/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DesktopHandSwitch/releases/download/1.0.0/DesktopHandSwitch.dll",
+                            "sha256": "4635e93787862fc8f6582e513b9471bc76abe6b153adc3550911389e06d78adf"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/TheJebForge/DesktopHandSwitch/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DesktopHandSwitch/releases/download/1.0.1/DesktopHandSwitch.dll",
+                            "sha256": "8be4d17d4ef02820e25b65a6f8483676db819ba7060db418ec512679139df012"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.TheJebForge.LocalListEditors": {
+            "name": "LocalListEditors",
+            "description": "Makes list editors be generated by local user instead of host, only useful in combination with MyInspectors mod",
+            "category": "Technical Tweaks",
+            "website": "https://github.com/TheJebForge/LocalListEditors",
+            "sourceLocation": "https://github.com/TheJebForge/LocalListEditors",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/LocalListEditors/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.0.0/LocalListEditors.dll",
+                            "sha256": "f7047cc01d6d4f48e216c5510e4bcc03b2842d285521f4266e57ed86735e9687"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/TheJebForge/LocalListEditors/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.0.1/LocalListEditors.dll",
+                            "sha256": "fff91a0487fd8a58d290a2bab1120499e37668170e5593b03d6c5fea7e4f6ae5"
+                        }
+                    ]
+                },
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/TheJebForge/LocalListEditors/releases/tag/1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.0.2/LocalListEditors.dll",
+                            "sha256": "8a034f85c4878cd9e61187e63a42867f1ab9ded2212ff530021a36b37e73ff9c"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.TheJebForge.NegativeBlendshapes": {
+            "name": "NegativeBlendshapes",
+            "description": "Allows setting blendshapes negative using the slider",
+            "category": "Keybinds & Gestures",
+            "website": "https://github.com/TheJebForge/NegativeBlendshapes",
+            "sourceLocation": "https://github.com/TheJebForge/NegativeBlendshapes",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/NegativeBlendshapes/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/NegativeBlendshapes/releases/download/1.0.0/NegativeBlendshapes.dll",
+                            "sha256": "c9cc37fcf532a1b806278571b43a82491cc8767e3d80dda8037afcccc79789ae"
                         }
                     ]
                 }
