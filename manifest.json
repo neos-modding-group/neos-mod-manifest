@@ -3093,6 +3093,7 @@
                 }
             },
             "flags": [
+                "broken:linux-wine",
                 "broken:windows"
             ],
             "versions": {
