@@ -3092,6 +3092,9 @@
                     "url": "https://github.com/Frozenreflex"
                 }
             },
+            "flags": [
+                "broken:windows"
+            ],
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/Frozenreflex/NeosLinuxExportFix/releases/tag/1.0.0",
