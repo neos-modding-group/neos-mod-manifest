@@ -1215,6 +1215,29 @@
                 }
             }
         },
+        "net.DoubleStyx.iTrackerFix": {
+            "name": "iTrackerFix",
+            "description": "Fixes an issue where eye tracking will break if your viewpoint is directly in front of or inside a collider",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/DoubleStyx/iTrackerFix/",
+            "sourceLocation": "https://github.com/DoubleStyx/iTrackerFix/",
+            "authors": {
+                "DoubleStyx": {
+                    "url": "https://github.com/DoubleStyx/"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0/iTrackerFix.dll",
+                            "sha256": "58a3b69acafda0899c0320a03a31861b3eddf0ce8cf46db9353992b8d86456ac"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.ReferenceNodeHotline": {
             "name": "ReferenceNodeHotline",
             "description": "Stops reference nodes from killing themselves",
@@ -6244,29 +6267,6 @@
                         {
                             "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.0.2/LocalListEditors.dll",
                             "sha256": "8a034f85c4878cd9e61187e63a42867f1ab9ded2212ff530021a36b37e73ff9c"
-                        }
-                    ]
-                }
-            }
-        },
-        "net.DoubleStyx.iTrackerFix": {
-            "name": "iTrackerFix",
-            "description": "Fixes an issue where eye tracking will break if your viewpoint is directly in front of or inside a collider",
-            "category": "Bug Workarounds",
-            "website": "https://github.com/DoubleStyx/iTrackerFix/",
-            "sourceLocation": "https://github.com/DoubleStyx/iTrackerFix/",
-            "authors": {
-                "DoubleStyx": {
-                    "url": "https://github.com/DoubleStyx/"
-                }
-            },
-            "versions": {
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0/iTrackerFix.dll",
-                            "sha256": "58a3b69acafda0899c0320a03a31861b3eddf0ce8cf46db9353992b8d86456ac"
                         }
                     ]
                 }
