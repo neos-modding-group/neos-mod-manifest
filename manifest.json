@@ -399,6 +399,29 @@
                 }
             }
         },
+        "me.art0007i.LargerObjectMessagePreviews": {
+            "name": "LargerObjectMessagePreviews",
+            "description": "Increases the size of object message thumbnails.",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/art0007i/LargerObjectMessagePreviews",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/LargerObjectMessagePreviews/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LargerObjectMessagePreviews/releases/download/1.0.0/LargerObjectMessagePreviews.dll",
+                            "filename": "LargerObjectMessagePreviews.dll",
+                            "sha256": "23c9bf7060c14f2f29b91f84d9f946b82dc5d52af592143407e8053139845d33"
+                        }
+                    ]
+                }
+            }
+        },
         "Discord.Net.Webhook": {
             "name": "Discord.Net Webhook",
             "description": "A core Discord.Net library containing the Webhook client and models.",
@@ -422,6 +445,29 @@
                             "filename": "Discord.Net.Webhook.dll",
                             "sha256": "433670c11e65f53045647ba06e8ec17fc5257b1682992bde8b6a327e84250d54",
                             "installLocation": "/nml_libs"
+                        }
+                    ]
+                }
+            }
+        },
+        "owo.Nytra.HeadlessToolTipKickCrashFix": {
+            "name": "HeadlessToolTipKickCrashFix",
+            "description": "Prevents tooltip permission kicks from causing a world crash on headless.",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
+            "sourceLocation": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/download/v1.0.1/HeadlessToolTipKickCrashFix.dll",
+                            "sha256": "772115b86afc172d8c5cec3997a93927b4d14e0650bc61ac307e262d18474627"
                         }
                     ]
                 }
@@ -592,6 +638,29 @@
                             "url": "https://github.com/EIA485/NeosSlotLessWorkerInterfaces/releases/download/1.0.0/SlotLessWorkerInterfaces.dll",
                             "filename": "SlotLessWorkerInterfaces.dll",
                             "sha256": "005BA735E0ABB1F9D6ADA8E0C6941D601FD1AAD15A955ADE73D0E5DD9329E157"
+                        }
+                    ]
+                }
+            }
+        },
+        "jworkz.sjackal.JworkzAnimJImportFixMod": {
+            "name": "JworkzAnimJImportFixMod",
+            "description": "Fixes the AnimJ importing, parsing, and setup issues",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/stiefeljackal/NeosAnimJImportFix",
+            "authors": {
+                "StiefelJackal": {
+                    "url": "https://github.com/stiefeljackal"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/stiefeljackal/NeosAnimJImportFix/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/stiefeljackal/NeosAnimJImportFix/releases/download/v1.0.0/JworkzNeosAnimJImportFix.dll",
+                            "filename": "JworkzNeosAnimJImportFix.dll",
+                            "sha256": "71E8A0ACFBCF235BC0AAFE1F161C9DA3E486DE0C2E1EF046730629FCBA735686"
                         }
                     ]
                 }
@@ -1169,6 +1238,29 @@
                 }
             }
         },
+        "net.DoubleStyx.iTrackerFix": {
+            "name": "iTrackerFix",
+            "description": "Fixes an issue where eye tracking will break if your viewpoint is directly in front of or inside a collider",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/DoubleStyx/iTrackerFix/",
+            "sourceLocation": "https://github.com/DoubleStyx/iTrackerFix/",
+            "authors": {
+                "DoubleStyx": {
+                    "url": "https://github.com/DoubleStyx/"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0/iTrackerFix.dll",
+                            "sha256": "c881c174b754a391e02b7ff61988e69ab52e2535beccaad4557a1305e3a33042"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.ReferenceNodeHotline": {
             "name": "ReferenceNodeHotline",
             "description": "Stops reference nodes from killing themselves",
@@ -1388,6 +1480,29 @@
                             "url": "https://github.com/art0007i/LogixPulseVisualizer/releases/download/1.0.1/LogixPulseVisualizer.dll",
                             "filename": "LogixPulseVisualizer.dll",
                             "sha256": "ea27c2569b68bbe27645cb4dcecba2b5d61eda7bdbb4c80704b4e3a52dc724c6"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.PresenceToggle": {
+            "name": "PresenceToggle",
+            "description": "Allows you to toggle discord and steam rich presence",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/art0007i/PresenceToggle",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/PresenceToggle/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/PresenceToggle/releases/download/1.0.0/PresenceToggle.dll",
+                            "filename": "PresenceToggle.dll",
+                            "sha256": "b8fd469a63475aae6bc2c35ba418f0c0ed1409ec30b12dad0dbd1c1e44b355d0"
                         }
                     ]
                 }
@@ -2476,6 +2591,41 @@
                 }
             }
         },
+        "net.rampa3.screendashfixer": {
+            "name": "ScreenDashFixer",
+            "description": "spinoff of 3D Dash On Screen, minus 3D dash and UI editing – fixes userspace, camera UI, restores desktop tab controls keybind, and re-enables floating notifications",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/rampa3/ScreenDashFixer",
+            "authors": {
+                "rampa3": {
+                    "url": "https://github.com/rampa3"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "changelog": " - initial release (Contains userspace spawn fix, camera UI behaviour fix, (+the unhook from slider tweak - configurable) and restoration of desktop tab control panel keybinding (configurable) and floating VR style notifications.)",
+                    "releaseUrl": "https://github.com/rampa3/ScreenDashFixer/releases/tag/1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.0.0.0/ScreenDashFixer.dll",
+                            "filename": "ScreenDashFixer.dll ",
+                            "sha256": "f5234ed954c140e2f683a63697eeb70082cb99d21692df4c821a1b00a8d61c39"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "changelog": " - synced in fix of the desktop control panel keybind interfering with VR keyboard from latest 3D Dash On Screen code",
+                    "releaseUrl": "https://github.com/rampa3/ScreenDashFixer/releases/tag/1.1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.1.0.0/ScreenDashFixer.dll",
+                            "filename": "ScreenDashFixer.dll ",
+                            "sha256": "fceee4cb2efecc549d1b8e2e96822e78ed680bf26cca72a285995f5fecb96de0"
+                        }
+                    ]
+                }
+            }
+        },
         "net.rampa3.ExitAndDiscardHomesKeybind": {
             "name": "ExitAndDiscardHomesKeybind",
             "description": "allows to exit without saving changes in home world using Ctrl+Alt+F4 key shortcut",
@@ -3024,6 +3174,16 @@
                 }
             },
             "versions": {
+                "4.1.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/4.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/download/4.1.0/NeosVideoPlayerFix.dll",
+                            "filename": "NeosVideoPlayerFix.dll",
+                            "sha256": "03d498edefb92ff5d38dd577ed8af6c701d2e6682329a09a5e314731ef1b221e"
+                        }
+                    ]
+                },
                 "4.0.0": {
                     "releaseUrl": "https://github.com/Frozenreflex/NeosVideoPlayerFix/releases/tag/4.0.0",
                     "artifacts": [
@@ -3423,7 +3583,7 @@
                 }
             }
         },
-        "DoubleStyx.SsaoTweaks": {
+        "net.DoubleStyx.SsaoTweaks": {
             "name": "SsaoTweaks",
             "description": "Allows the individual parameters of the SSAO effect to be configured.",
             "category": "Visual Tweaks",
@@ -4733,6 +4893,16 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/StackTraceFixer/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/StackTraceFixer/releases/download/1.0.1/StackTraceFixer.dll",
+                            "filename": "StackTraceFixer.dll",
+                            "sha256": "02d336d1c8202c6842fa369df8da52c4e757062722425d232f2c4fdd2ff84eb6"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/art0007i/StackTraceFixer/releases/tag/1.0.0.0",
                     "artifacts": [
@@ -6116,6 +6286,79 @@
                         {
                             "url": "https://github.com/TheJebForge/DesktopHandSwitch/releases/download/1.0.0/DesktopHandSwitch.dll",
                             "sha256": "4635e93787862fc8f6582e513b9471bc76abe6b153adc3550911389e06d78adf"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/TheJebForge/DesktopHandSwitch/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DesktopHandSwitch/releases/download/1.0.1/DesktopHandSwitch.dll",
+                            "sha256": "8be4d17d4ef02820e25b65a6f8483676db819ba7060db418ec512679139df012"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.TheJebForge.LocalListEditors": {
+            "name": "LocalListEditors",
+            "description": "Makes list editors be generated by local user instead of host, only useful in combination with MyInspectors mod",
+            "category": "Technical Tweaks",
+            "website": "https://github.com/TheJebForge/LocalListEditors",
+            "sourceLocation": "https://github.com/TheJebForge/LocalListEditors",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/LocalListEditors/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.0.0/LocalListEditors.dll",
+                            "sha256": "f7047cc01d6d4f48e216c5510e4bcc03b2842d285521f4266e57ed86735e9687"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/TheJebForge/LocalListEditors/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.0.1/LocalListEditors.dll",
+                            "sha256": "fff91a0487fd8a58d290a2bab1120499e37668170e5593b03d6c5fea7e4f6ae5"
+                        }
+                    ]
+                },
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/TheJebForge/LocalListEditors/releases/tag/1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.0.2/LocalListEditors.dll",
+                            "sha256": "8a034f85c4878cd9e61187e63a42867f1ab9ded2212ff530021a36b37e73ff9c"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.TheJebForge.NegativeBlendshapes": {
+            "name": "NegativeBlendshapes",
+            "description": "Allows setting blendshapes negative using the slider",
+            "category": "Keybinds & Gestures",
+            "website": "https://github.com/TheJebForge/NegativeBlendshapes",
+            "sourceLocation": "https://github.com/TheJebForge/NegativeBlendshapes",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/NegativeBlendshapes/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/NegativeBlendshapes/releases/download/1.0.0/NegativeBlendshapes.dll",
+                            "sha256": "c9cc37fcf532a1b806278571b43a82491cc8767e3d80dda8037afcccc79789ae"
                         }
                     ]
                 }
