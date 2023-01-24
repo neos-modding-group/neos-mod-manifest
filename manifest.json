@@ -450,6 +450,29 @@
                 }
             }
         },
+        "owo.Nytra.HeadlessToolTipKickCrashFix": {
+            "name": "HeadlessToolTipKickCrashFix",
+            "description": "Prevents tooltip permission kicks from causing a world crash on headless.",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
+            "sourceLocation": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/download/v1.0.1/HeadlessToolTipKickCrashFix.dll",
+                            "sha256": "772115b86afc172d8c5cec3997a93927b4d14e0650bc61ac307e262d18474627"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.SpecialItemsLib": {
             "name": "SpecialItemsLib",
             "description": "A library which allows other mods to easily add custom special items to be shown in the inventory.",
@@ -2563,6 +2586,41 @@
                             "url": "https://github.com/rampa3/3DDashOnScreen/releases/download/3.5.0.0/3DDashOnScreen.dll",
                             "filename": "3DDashOnScreen.dll",
                             "sha256": "2e7d49babb0e1d3658d2488edd23647a8ec83c4d6ceab1b903b8a3af71860028"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.rampa3.screendashfixer": {
+            "name": "ScreenDashFixer",
+            "description": "spinoff of 3D Dash On Screen, minus 3D dash and UI editing – fixes userspace, camera UI, restores desktop tab controls keybind, and re-enables floating notifications",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/rampa3/ScreenDashFixer",
+            "authors": {
+                "rampa3": {
+                    "url": "https://github.com/rampa3"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "changelog": " - initial release (Contains userspace spawn fix, camera UI behaviour fix, (+the unhook from slider tweak - configurable) and restoration of desktop tab control panel keybinding (configurable) and floating VR style notifications.)",
+                    "releaseUrl": "https://github.com/rampa3/ScreenDashFixer/releases/tag/1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.0.0.0/ScreenDashFixer.dll",
+                            "filename": "ScreenDashFixer.dll ",
+                            "sha256": "f5234ed954c140e2f683a63697eeb70082cb99d21692df4c821a1b00a8d61c39"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "changelog": " - synced in fix of the desktop control panel keybind interfering with VR keyboard from latest 3D Dash On Screen code",
+                    "releaseUrl": "https://github.com/rampa3/ScreenDashFixer/releases/tag/1.1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.1.0.0/ScreenDashFixer.dll",
+                            "filename": "ScreenDashFixer.dll ",
+                            "sha256": "fceee4cb2efecc549d1b8e2e96822e78ed680bf26cca72a285995f5fecb96de0"
                         }
                     ]
                 }
