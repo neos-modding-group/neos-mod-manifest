@@ -2568,6 +2568,41 @@
                 }
             }
         },
+        "net.rampa3.screendashfixer": {
+            "name": "ScreenDashFixer",
+            "description": "spinoff of 3D Dash On Screen, minus 3D dash and UI editing – fixes userspace, camera UI, restores desktop tab controls keybind, and re-enables floating notifications",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/rampa3/ScreenDashFixer",
+            "authors": {
+                "rampa3": {
+                    "url": "https://github.com/rampa3"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "changelog": " - initial release (Contains userspace spawn fix, camera UI behaviour fix, (+the unhook from slider tweak - configurable) and restoration of desktop tab control panel keybinding (configurable) and floating VR style notifications.)",
+                    "releaseUrl": "https://github.com/rampa3/ScreenDashFixer/releases/tag/1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.0.0.0/ScreenDashFixer.dll",
+                            "filename": "ScreenDashFixer.dll ",
+                            "sha256": "f5234ed954c140e2f683a63697eeb70082cb99d21692df4c821a1b00a8d61c39"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "changelog": " - synced in fix of the desktop control panel keybind interfering with VR keyboard from latest 3D Dash On Screen code",
+                    "releaseUrl": "https://github.com/rampa3/ScreenDashFixer/releases/tag/1.1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.1.0.0/ScreenDashFixer.dll",
+                            "filename": "ScreenDashFixer.dll ",
+                            "sha256": "fceee4cb2efecc549d1b8e2e96822e78ed680bf26cca72a285995f5fecb96de0"
+                        }
+                    ]
+                }
+            }
+        },
         "net.rampa3.ExitAndDiscardHomesKeybind": {
             "name": "ExitAndDiscardHomesKeybind",
             "description": "allows to exit without saving changes in home world using Ctrl+Alt+F4 key shortcut",
