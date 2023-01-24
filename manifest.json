@@ -467,7 +467,7 @@
                     "artifacts": [
                         {
                             "url": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/download/v1.0.1/HeadlessToolTipKickCrashFix.dll",
-                            "sha256": "accaa7d34ec88f74e2204f3376b6abdd4111a0a23edfe3eda3bfcfcd4ae74382"
+                            "sha256": "772115b86afc172d8c5cec3997a93927b4d14e0650bc61ac307e262d18474627"
                         }
                     ]
                 }
