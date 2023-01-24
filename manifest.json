@@ -450,6 +450,29 @@
                 }
             }
         },
+        "owo.Nytra.HeadlessToolTipKickCrashFix": {
+            "name": "HeadlessToolTipKickCrashFix",
+            "description": "Prevents tooltip permission kicks from causing a world crash on headless.",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
+            "sourceLocation": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/download/v1.0.1/HeadlessToolTipKickCrashFix.dll",
+                            "sha256": "accaa7d34ec88f74e2204f3376b6abdd4111a0a23edfe3eda3bfcfcd4ae74382"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.SpecialItemsLib": {
             "name": "SpecialItemsLib",
             "description": "A library which allows other mods to easily add custom special items to be shown in the inventory.",
