@@ -3118,12 +3118,15 @@
             "name": "Neos-WCFace-Integration",
             "description": "Integrates WCFace's screen-mode eye tracking",
             "category": "Hardware Integrations",
-            "sourceLocation": "https://github.com/dfgHiatus/Neos-WCFace-Integration",
+            "sourceLocation": "https://github.com/dfgHiatus/NeosWCFaceIntegration",
             "authors": {
                 "dfgHiatus": {
                     "url": "https://github.com/dfgHiatus"
                 }
             },
+            "flags": [
+                "deprecated"
+            ],
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/dfgHiatus/NeosWCFaceIntegration/releases/tag/v1.0.0",
