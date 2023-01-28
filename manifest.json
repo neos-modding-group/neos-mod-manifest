@@ -2061,9 +2061,9 @@
                 }
             }
         },
-        "tk.deltawolf.NeosPTTKeybinds": {
+        "net.deltawolf.NeosPTTKeybinds": {
             "name": "PTTKeybinds",
-            "description": "Disable Push-to-Talk keybinds like mouse5, V, or M. Includes config to adjust which are disabled",
+            "description": "Allows disabling and rebinding default Push-to-Talk keybinds like mouse5, V, or M. Adds keybinds to set your current voicemode",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/XDelta/NeosPTTKeybinds",
             "authors": {
@@ -2072,6 +2072,17 @@
                 }
             },
             "versions": {
+                "1.2.0": {
+                    "changelog": "Added keybinds to set voicemode",
+                    "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosPTTKeybinds/releases/download/1.2.0/NeosPTTKeybinds.dll",
+                            "filename": "NeosPTTKeybinds.dll",
+                            "sha256": "dac7916065661422fa7c5db63029b8005d0fca9242a81e3ab0533d6bc0834f3d"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.1.0",
                     "artifacts": [
