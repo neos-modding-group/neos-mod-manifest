@@ -450,6 +450,29 @@
                 }
             }
         },
+        "owo.Nytra.HeadlessToolTipKickCrashFix": {
+            "name": "HeadlessToolTipKickCrashFix",
+            "description": "Prevents tooltip permission kicks from causing a world crash on headless.",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
+            "sourceLocation": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/download/v1.0.1/HeadlessToolTipKickCrashFix.dll",
+                            "sha256": "772115b86afc172d8c5cec3997a93927b4d14e0650bc61ac307e262d18474627"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.SpecialItemsLib": {
             "name": "SpecialItemsLib",
             "description": "A library which allows other mods to easily add custom special items to be shown in the inventory.",
@@ -1210,6 +1233,29 @@
                             "url": "https://github.com/DoubleStyx/NotificationsWhenBusy/releases/download/v1.0.0/NotificationsWhenBusy.dll",
                             "filename": "NotificationsWhenBusy.dll",
                             "sha256": "532ccff8d4f4e1a797d6310a369c77fd007f9218869481993066a6af95b7277b"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.DoubleStyx.iTrackerFix": {
+            "name": "iTrackerFix",
+            "description": "Fixes an issue where eye tracking will break if your viewpoint is directly in front of or inside a collider",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/DoubleStyx/iTrackerFix/",
+            "sourceLocation": "https://github.com/DoubleStyx/iTrackerFix/",
+            "authors": {
+                "DoubleStyx": {
+                    "url": "https://github.com/DoubleStyx/"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0/iTrackerFix.dll",
+                            "sha256": "c881c174b754a391e02b7ff61988e69ab52e2535beccaad4557a1305e3a33042"
                         }
                     ]
                 }
@@ -2545,6 +2591,41 @@
                 }
             }
         },
+        "net.rampa3.screendashfixer": {
+            "name": "ScreenDashFixer",
+            "description": "spinoff of 3D Dash On Screen, minus 3D dash and UI editing – fixes userspace, camera UI, restores desktop tab controls keybind, and re-enables floating notifications",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/rampa3/ScreenDashFixer",
+            "authors": {
+                "rampa3": {
+                    "url": "https://github.com/rampa3"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "changelog": " - initial release (Contains userspace spawn fix, camera UI behaviour fix, (+the unhook from slider tweak - configurable) and restoration of desktop tab control panel keybinding (configurable) and floating VR style notifications.)",
+                    "releaseUrl": "https://github.com/rampa3/ScreenDashFixer/releases/tag/1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.0.0.0/ScreenDashFixer.dll",
+                            "filename": "ScreenDashFixer.dll ",
+                            "sha256": "f5234ed954c140e2f683a63697eeb70082cb99d21692df4c821a1b00a8d61c39"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "changelog": " - synced in fix of the desktop control panel keybind interfering with VR keyboard from latest 3D Dash On Screen code",
+                    "releaseUrl": "https://github.com/rampa3/ScreenDashFixer/releases/tag/1.1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.1.0.0/ScreenDashFixer.dll",
+                            "filename": "ScreenDashFixer.dll ",
+                            "sha256": "fceee4cb2efecc549d1b8e2e96822e78ed680bf26cca72a285995f5fecb96de0"
+                        }
+                    ]
+                }
+            }
+        },
         "net.rampa3.ExitAndDiscardHomesKeybind": {
             "name": "ExitAndDiscardHomesKeybind",
             "description": "allows to exit without saving changes in home world using Ctrl+Alt+F4 key shortcut",
@@ -3037,12 +3118,15 @@
             "name": "Neos-WCFace-Integration",
             "description": "Integrates WCFace's screen-mode eye tracking",
             "category": "Hardware Integrations",
-            "sourceLocation": "https://github.com/dfgHiatus/Neos-WCFace-Integration",
+            "sourceLocation": "https://github.com/dfgHiatus/NeosWCFaceIntegration",
             "authors": {
                 "dfgHiatus": {
                     "url": "https://github.com/dfgHiatus"
                 }
             },
+            "flags": [
+                "deprecated"
+            ],
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/dfgHiatus/NeosWCFaceIntegration/releases/tag/v1.0.0",
@@ -3502,7 +3586,7 @@
                 }
             }
         },
-        "DoubleStyx.SsaoTweaks": {
+        "net.DoubleStyx.SsaoTweaks": {
             "name": "SsaoTweaks",
             "description": "Allows the individual parameters of the SSAO effect to be configured.",
             "category": "Visual Tweaks",
@@ -4212,6 +4296,17 @@
                 }
             },
             "versions": {
+                "1.4.0": {
+                    "changelog": "Add a config to enable friend links on the notifications - EIA485",
+                    "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.4.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/download/v1.4.0/UserJoinLeaveNotifications.dll",
+                            "filename": "UserJoinLeaveNotifications.dll",
+                            "sha256": "0837ab104cb5dc55eec21c27dc4d84cb886d5eb1acdc3a6034a598c0be288cdf"
+                        }
+                    ]
+                },
                 "1.3.0": {
                     "changelog": "Added config items for notification sounds",
                     "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.3.0",
