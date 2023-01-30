@@ -6366,6 +6366,28 @@
                     ]
                 }
             }
+        },
+        "net.earthmark.GenericTypeType": {
+            "name": "GenericTypeType",
+            "description": "Adds additional type resolver steps to the generic type resolver in the component attacher, allowing nested generics using the C# syntax with some pre-defined namespace usings.",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/Earthmark/Neos-TypeType",
+            "authors": {
+                "Earthmark": {
+                    "url": "https://github.com/Earthmark"
+                }
+            },
+            "versions": {
+                "0.0.1": {
+                    "releaseUrl": "https://github.com/Earthmark/Neos-TypeType/releases/tag/0.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Earthmark/Neos-TypeType/releases/download/0.0.1/GenericTypeType.dll",
+                            "sha256": "1259843CEB50773A31128F54FDD55761F1DB677BC01D19D4359D1A85AC260B6D"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
