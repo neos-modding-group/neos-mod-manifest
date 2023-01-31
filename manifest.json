@@ -6352,6 +6352,24 @@
                             "sha256": "8a034f85c4878cd9e61187e63a42867f1ab9ded2212ff530021a36b37e73ff9c"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/LocalListEditors/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.1.0/LocalListEditors.dll",
+                            "sha256": "ce702b4319aed3bd906fb2edc09be064ac5343635be7a2235e5f9b119ed991f8"
+                        }
+                    ]
+                },
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/TheJebForge/LocalListEditors/releases/tag/1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.1.1/LocalListEditors.dll",
+                            "sha256": "ab8245a2a929e5beac53f15b0e631ac0738c61a5bd8c72345f7009a3e5799c28"
+                        }
+                    ]
                 }
             }
         },
