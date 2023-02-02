@@ -2061,9 +2061,9 @@
                 }
             }
         },
-        "tk.deltawolf.NeosPTTKeybinds": {
+        "net.deltawolf.NeosPTTKeybinds": {
             "name": "PTTKeybinds",
-            "description": "Disable Push-to-Talk keybinds like mouse5, V, or M. Includes config to adjust which are disabled",
+            "description": "Allows disabling and rebinding default Push-to-Talk keybinds like mouse5, V, or M. Adds keybinds to set your current voicemode",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/XDelta/NeosPTTKeybinds",
             "authors": {
@@ -2072,6 +2072,17 @@
                 }
             },
             "versions": {
+                "1.2.1": {
+                    "changelog": "Added Mute keybind, works with dash closed, keybinds now don't trigger while typing in any field",
+                    "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.2.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosPTTKeybinds/releases/download/1.2.1/NeosPTTKeybinds.dll",
+                            "filename": "NeosPTTKeybinds.dll",
+                            "sha256": "41f37561a3a821f439af54b1d260b40aee64576832b0a1f852c849128fbcd279"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.1.0",
                     "artifacts": [
@@ -2909,7 +2920,7 @@
                 }
             }
         },
-        "tk.astralchan.gifimporter": {
+        "xyz.astralchan.gifimporter": {
             "name": "GifImporter",
             "description": "Allows you to import gif images",
             "category": "Asset Importing Tweaks",
@@ -2920,6 +2931,16 @@
                 }
             },
             "versions": {
+                "1.1.3": {
+                    "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.3",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/astralchan/GifImporter/releases/download/1.1.3/GifImporter.dll",
+                            "filename": "GifImporter.dll",
+                            "sha256": "aea79e62784d68ca6829949460744e055c73b37d035d2e18280a28f4f6152e94"
+                        }
+                    ]
+                },
                 "1.1.2": {
                     "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.2",
                     "artifacts": [
