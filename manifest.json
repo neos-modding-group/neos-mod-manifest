@@ -1662,7 +1662,7 @@
                 }
             }
         },
-        "tk.deltawolf.NeosNonPersistentInspectors": {
+        "net.deltawolf.NeosNonPersistentInspectors": {
             "name": "NonPersistentInspectors",
             "description": "Makes spawned inspectors set to nonpersistent by default",
             "category": "Inspectors",
@@ -4218,7 +4218,7 @@
                 }
             }
         },
-        "tk.deltawolf.LogixCleanupWizard": {
+        "net.deltawolf.LogixCleanupWizard": {
             "name": "LogixCleanupWizard",
             "description": "Provides a wizard for cleaning up leftover logiX components.",
             "category": "Wizards",
@@ -4896,7 +4896,7 @@
                 }
             }
         },
-        "tk.deltawolf.NeosBetterGizmos": {
+        "net.deltawolf.NeosBetterGizmos": {
             "name": "NeosBetterGizmos",
             "description": "Gizmo buttons will automatically face you.",
             "category": "Misc",
@@ -5118,7 +5118,7 @@
                 }
             }
         },
-        "tk.deltawolf.SettingsRedux": {
+        "net.deltawolf.SettingsRedux": {
             "name": "SettingsRedux",
             "description": "Replaces the default Neos Settings page with an enhanced settings page that adds in many QoL changes",
             "category": "Dash Tweaks",
@@ -5151,7 +5151,7 @@
                 }
             }
         },
-        "tk.deltawolf.CustomColorPicker": {
+        "net.deltawolf.CustomColorPicker": {
             "name": "CustomColorPicker",
             "description": "Allows setting a custom color picker.",
             "category": "Inspectors",
