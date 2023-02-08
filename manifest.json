@@ -5162,6 +5162,22 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "changelog": "Fixed duplicate NeosColorDialog component sometimes existing on a custom dialog",
+                    "releaseUrl": "https://github.com/XDelta/CustomColorPicker/releases/tag/1.1.0",
+                    "dependencies": {
+                        "me.art0007i.SpecialItemsLib": {
+                            "version": "^1.0.0"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/CustomColorPicker/releases/download/1.1.0/CustomColorPicker.dll",
+                            "filename": "CustomColorPicker.dll",
+                            "sha256": "f53f3d8be4fe96627ffba00fdf4748dd08ba7ed2eed0ea76cf9bf8dcf4bfa9aa"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/XDelta/CustomColorPicker/releases/tag/1.0.0",
                     "dependencies": {
