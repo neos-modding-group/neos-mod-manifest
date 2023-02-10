@@ -1318,6 +1318,17 @@
                 }
             },
             "versions": {
+                "1.6.0": {
+                    "changelog": " - Added new UI Align Tweaks config options\n   - `snapToAngleOnAlign` - Enables snapping to angles, if disabled reverts flipping forward and backwards - Enabled by default\n   - `alignSnapAngle` - Angle to snap to when `snapToAngleOnAlign` is enabled - 90º by default\n   - `alignScaleModifierKey` - Modifier key that if held while aligning will scale the object - Spacebar by default, can be set to none\n   - `modifiedScaleToUserScale` - When enabled scale to user scale when aligning with modifier instead of global one scale",
+                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.6.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.6.0/LogixUtils.dll",
+                            "filename": "LogixUtils.dll",
+                            "sha256": "3211780222b807453fd16ed6a7f5947dd282ef2dc55035dc0e211685b1d80e29"
+                        }
+                    ]
+                },
                 "1.5.2": {
                     "changelog": " - Fixed an error breaking compatibility with ValueProxyExtensions under certain conditions",
                     "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.2",
