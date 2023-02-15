@@ -5474,6 +5474,29 @@
                 }
             }
         },
+        "Ukilop.MoreTags": {
+            "name": "MoreTags!",
+            "description": "Adds Tags to certain Neos Generated objects.",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/ukilop/MoreTags",
+            "authors": {
+                "ukilop": {
+                    "url": "https://github.com/ukilop"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/ukilop/MoreTags/releases/V1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/ukilop/MoreTags/releases/download/V1.0.0/MoreTags.dll",
+                            "filename": "MoreTags.dll",
+                            "sha256": "064A2803295796E12DFBAE2AC722C402D711CF62020DF39F4054CFBCC766BA83"
+                        }
+                    ]
+                }
+            }
+        },
         "net.Cyro.ReFract": {
             "name": "ReFract",
             "description": "Exposes many post processing effects for neos cameras!",
