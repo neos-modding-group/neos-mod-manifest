@@ -3033,7 +3033,7 @@
                             "sha256": "cc6d046eb7d710beb473659442d0aee1c601cb261df189548826ab50d1bab0c9"
                         }
                     ]
-                }
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/art0007i/PasteInvidious/releases/tag/1.1.0.0",
                     "artifacts": [
