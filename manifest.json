@@ -3014,7 +3014,7 @@
         },
         "me.art0007i.pasteinvidious": {
             "name": "PasteInvidious",
-            "description": "Changes all pasted youtube links to invidious links",
+            "description": "Changes all pasted youtube links to piped.video links",
             "category": "Asset Importing Tweaks",
             "sourceLocation": "https://github.com/art0007i/PasteInvidious",
             "authors": {
@@ -3023,6 +3023,17 @@
                 }
             },
             "versions": {
+                "2.0.1": {
+                    "changelog": "Fixed annoying parsing bug.",
+                    "releaseUrl": "https://github.com/art0007i/PasteInvidious/releases/tag/2.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/PasteInvidious/releases/download/2.0.1/PasteInvidious.dll",
+                            "filename": "PasteInvidious.dll",
+                            "sha256": "cc6d046eb7d710beb473659442d0aee1c601cb261df189548826ab50d1bab0c9"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/art0007i/PasteInvidious/releases/tag/1.1.0.0",
                     "artifacts": [
