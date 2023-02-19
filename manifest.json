@@ -5902,6 +5902,16 @@
                             "sha256": "fe057ac5338b64de34c106c78e4e4728296089229f6332ed2447987f5c212129"
                         }
                     ]
+                },
+                "1.2.2": {
+                    "changelog": "Added write back option for ValueCopies",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.2.3",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.2.3/DynVarGenerator.dll",
+                            "sha256": "8d7d3a6ccf40f4a7372faebb80f6dbcc6871544148f6738792f8048f1393d0fa"
+                        }
+                    ]
                 }
             }
         },
