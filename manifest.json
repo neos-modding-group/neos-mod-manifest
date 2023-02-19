@@ -5892,6 +5892,16 @@
                             "sha256": "d688ed348a10c811d2c88083927acc8f2dd75a5bca6b0203e19110e7fe48cbec"
                         }
                     ]
+                },
+                "1.2.2": {
+                    "changelog": "Numbers are also now valid in variable names",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.2.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.2.2/DynVarGenerator.dll",
+                            "sha256": "fe057ac5338b64de34c106c78e4e4728296089229f6332ed2447987f5c212129"
+                        }
+                    ]
                 }
             }
         },
