@@ -5903,7 +5903,7 @@
                         }
                     ]
                 },
-                "1.2.2": {
+                "1.2.3": {
                     "changelog": "Added write back option for ValueCopies",
                     "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.2.3",
                     "artifacts": [
