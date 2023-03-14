@@ -5909,6 +5909,46 @@
                             "sha256": "534f09d41a876c760c18e7866846e989860247f19e422e8b2c0066e4faeb0f61"
                         }
                     ]
+                },
+                "1.2.0": {
+                    "changelog": "Added dynamically driven valuecopies as an option, fixes",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.2.0/DynVarGenerator.dll",
+                            "sha256": "ac937921891aae188f00c68981551073ad217c1b5332a0dc0796b17e8bd7f224"
+                        }
+                    ]
+                },
+                "1.2.1": {
+                    "changelog": "Wizard now uses valid names for variables",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.2.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.2.1/DynVarGenerator.dll",
+                            "sha256": "d688ed348a10c811d2c88083927acc8f2dd75a5bca6b0203e19110e7fe48cbec"
+                        }
+                    ]
+                },
+                "1.2.2": {
+                    "changelog": "Numbers are also now valid in variable names",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.2.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.2.2/DynVarGenerator.dll",
+                            "sha256": "fe057ac5338b64de34c106c78e4e4728296089229f6332ed2447987f5c212129"
+                        }
+                    ]
+                },
+                "1.2.3": {
+                    "changelog": "Added write back option for ValueCopies",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.2.3",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.2.3/DynVarGenerator.dll",
+                            "sha256": "8d7d3a6ccf40f4a7372faebb80f6dbcc6871544148f6738792f8048f1393d0fa"
+                        }
+                    ]
                 }
             }
         },
