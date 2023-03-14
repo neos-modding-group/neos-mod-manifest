@@ -2106,6 +2106,17 @@
                 }
             },
             "versions": {
+                "1.2.2": {
+                    "changelog": "Fix for Mute toggle breaking with Mute keybind. Uses IsMuted instead of setting the Voicemode to Mute.",
+                    "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.2.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosPTTKeybinds/releases/download/1.2.2/NeosPTTKeybinds.dll",
+                            "filename": "NeosPTTKeybinds.dll",
+                            "sha256": "690337e5607d199b1fd9e1c713a5bf7d79a144d30f73ccf09db3cb0f62bf50fa"
+                        }
+                    ]
+                },
                 "1.2.1": {
                     "changelog": "Added Mute keybind, works with dash closed, keybinds now don't trigger while typing in any field",
                     "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.2.1",
