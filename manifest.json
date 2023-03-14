@@ -1696,6 +1696,29 @@
                 }
             }
         },
+        "net.deltawolf.ScalableWorldOrbs": {
+            "name": "ScalableWorldOrbs",
+            "description": "Makes WorldOrbs you spawn scalable by default",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/XDelta/ScalableWorldOrbs",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/XDelta/ScalableWorldOrbs/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/ScalableWorldOrbs/releases/download/1.0.0/ScalableWorldOrbs.dll",
+                            "filename": "ScalableWorldOrbs.dll",
+                            "sha256": "6d56548859e0e51babc1cd5367533711a4c4e347ae3013a5a375421a054738fa"
+                        }
+                    ]
+                }
+            }
+        },
         "io.github.frozenreflex.neosparticletools": {
             "name": "NeosParticleTools",
             "description": "Adds better tools to edit particle fades",
@@ -2083,6 +2106,17 @@
                 }
             },
             "versions": {
+                "1.2.2": {
+                    "changelog": "Fix for Mute toggle breaking with Mute keybind. Uses IsMuted instead of setting the Voicemode to Mute.",
+                    "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.2.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosPTTKeybinds/releases/download/1.2.2/NeosPTTKeybinds.dll",
+                            "filename": "NeosPTTKeybinds.dll",
+                            "sha256": "690337e5607d199b1fd9e1c713a5bf7d79a144d30f73ccf09db3cb0f62bf50fa"
+                        }
+                    ]
+                },
                 "1.2.1": {
                     "changelog": "Added Mute keybind, works with dash closed, keybinds now don't trigger while typing in any field",
                     "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.2.1",
@@ -2941,6 +2975,9 @@
                     "url": "https://github.com/astralchan"
                 }
             },
+            "flags": [
+                "deprecated"
+            ],
             "versions": {
                 "1.1.3": {
                     "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.3",
