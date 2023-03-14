@@ -3246,6 +3246,33 @@
                 }
             }
         },
+        "io.github.frozenreflex.neoslinuxexportfix": {
+            "name": "NeosLinuxExportFix",
+            "description": "Fix not being able to export files on Linux Native",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/Frozenreflex/NeosLinuxExportFix",
+            "authors": {
+                "Fro Zen": {
+                    "url": "https://github.com/Frozenreflex"
+                }
+            },
+            "flags": [
+                "broken:linux-wine",
+                "broken:windows"
+            ],
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Frozenreflex/NeosLinuxExportFix/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Frozenreflex/NeosLinuxExportFix/releases/download/1.0.0/NeosLinuxExportFix.dll",
+                            "filename": "NeosLinuxExportFix.dll",
+                            "sha256": "1105e9e496dda011f27024ab62e55b7a8d9e1e4d05e1116139ce0894245f46cd"
+                        }
+                    ]
+                }
+            }
+        },
         "io.github.frozenreflex.neosvideoplayerfix": {
             "name": "NeosVideoPlayerFix",
             "description": "Disable video playback engines to prevent crashes and fix video players on Linux Native",
