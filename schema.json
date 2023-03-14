@@ -63,7 +63,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "pattern": "^(deprecated|plugin|file)$"
+                            "pattern": "^(deprecated|plugin|file|broken:(linux-native|linux-wine|windows))$"
                         }
                     },
                     "versions": {
