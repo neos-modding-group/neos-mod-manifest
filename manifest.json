@@ -1318,6 +1318,17 @@
                 }
             },
             "versions": {
+                "1.6.0": {
+                    "changelog": " - Added new UI Align Tweaks config options\n   - `snapToAngleOnAlign` - Enables snapping to angles, if disabled reverts flipping forward and backwards - Enabled by default\n   - `alignSnapAngle` - Angle to snap to when `snapToAngleOnAlign` is enabled - 90º by default\n   - `alignScaleModifierKey` - Modifier key that if held while aligning will scale the object - Spacebar by default, can be set to none\n   - `modifiedScaleToUserScale` - When enabled scale to user scale when aligning with modifier instead of global one scale",
+                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.6.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.6.0/LogixUtils.dll",
+                            "filename": "LogixUtils.dll",
+                            "sha256": "3211780222b807453fd16ed6a7f5947dd282ef2dc55035dc0e211685b1d80e29"
+                        }
+                    ]
+                },
                 "1.5.2": {
                     "changelog": " - Fixed an error breaking compatibility with ValueProxyExtensions under certain conditions",
                     "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.2",
@@ -1680,6 +1691,29 @@
                             "url": "https://github.com/XDelta/NeosNonPersistentInspectors/releases/download/1.0.0/NeosNonPersistentInspectors.dll",
                             "filename": "NeosNonPersistentInspectors.dll",
                             "sha256": "8cdcb6fe5d43436e94d58a69e259a0b27972322ed40020f7a2d270356240d863"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.deltawolf.ScalableWorldOrbs": {
+            "name": "ScalableWorldOrbs",
+            "description": "Makes WorldOrbs you spawn scalable by default",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/XDelta/ScalableWorldOrbs",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/XDelta/ScalableWorldOrbs/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/ScalableWorldOrbs/releases/download/1.0.0/ScalableWorldOrbs.dll",
+                            "filename": "ScalableWorldOrbs.dll",
+                            "sha256": "6d56548859e0e51babc1cd5367533711a4c4e347ae3013a5a375421a054738fa"
                         }
                     ]
                 }
@@ -2941,6 +2975,9 @@
                     "url": "https://github.com/astralchan"
                 }
             },
+            "flags": [
+                "deprecated"
+            ],
             "versions": {
                 "1.1.3": {
                     "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.3",
@@ -3014,7 +3051,7 @@
         },
         "me.art0007i.pasteinvidious": {
             "name": "PasteInvidious",
-            "description": "Changes all pasted youtube links to invidious links",
+            "description": "Changes all pasted youtube links to piped.video links",
             "category": "Asset Importing Tweaks",
             "sourceLocation": "https://github.com/art0007i/PasteInvidious",
             "authors": {
@@ -3023,6 +3060,17 @@
                 }
             },
             "versions": {
+                "2.0.1": {
+                    "changelog": "Fixed annoying parsing bug.",
+                    "releaseUrl": "https://github.com/art0007i/PasteInvidious/releases/tag/2.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/PasteInvidious/releases/download/2.0.1/PasteInvidious.dll",
+                            "filename": "PasteInvidious.dll",
+                            "sha256": "cc6d046eb7d710beb473659442d0aee1c601cb261df189548826ab50d1bab0c9"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/art0007i/PasteInvidious/releases/tag/1.1.0.0",
                     "artifacts": [
@@ -4681,6 +4729,17 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "changelog": " - Fix interacting with certain flag enums that are defined using non int values\n - Adjust flag selection ui",
+                    "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/EnumDropdown/releases/download/v1.1.0/EnumDropdown.dll",
+                            "filename": "EnumDropdown.dll",
+                            "sha256": "c2b157731fcb9a2f5545bed9dfe9868bb288a3a61a8588967cf5597b7263ff04"
+                        }
+                    ]
+                },
                 "1.0.1": {
                     "changelog": "- Fix enum input logix node dropping slot into parent on pack",
                     "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.0.1",
