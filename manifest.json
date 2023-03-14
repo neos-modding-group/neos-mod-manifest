@@ -450,6 +450,29 @@
                 }
             }
         },
+        "owo.Nytra.HeadlessToolTipKickCrashFix": {
+            "name": "HeadlessToolTipKickCrashFix",
+            "description": "Prevents tooltip permission kicks from causing a world crash on headless.",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
+            "sourceLocation": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/download/v1.0.1/HeadlessToolTipKickCrashFix.dll",
+                            "sha256": "772115b86afc172d8c5cec3997a93927b4d14e0650bc61ac307e262d18474627"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.SpecialItemsLib": {
             "name": "SpecialItemsLib",
             "description": "A library which allows other mods to easily add custom special items to be shown in the inventory.",
@@ -1215,6 +1238,29 @@
                 }
             }
         },
+        "net.DoubleStyx.iTrackerFix": {
+            "name": "iTrackerFix",
+            "description": "Fixes an issue where eye tracking will break if your viewpoint is directly in front of or inside a collider",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/DoubleStyx/iTrackerFix/",
+            "sourceLocation": "https://github.com/DoubleStyx/iTrackerFix/",
+            "authors": {
+                "DoubleStyx": {
+                    "url": "https://github.com/DoubleStyx/"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0/iTrackerFix.dll",
+                            "sha256": "c881c174b754a391e02b7ff61988e69ab52e2535beccaad4557a1305e3a33042"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.ReferenceNodeHotline": {
             "name": "ReferenceNodeHotline",
             "description": "Stops reference nodes from killing themselves",
@@ -1272,6 +1318,17 @@
                 }
             },
             "versions": {
+                "1.6.0": {
+                    "changelog": " - Added new UI Align Tweaks config options\n   - `snapToAngleOnAlign` - Enables snapping to angles, if disabled reverts flipping forward and backwards - Enabled by default\n   - `alignSnapAngle` - Angle to snap to when `snapToAngleOnAlign` is enabled - 90º by default\n   - `alignScaleModifierKey` - Modifier key that if held while aligning will scale the object - Spacebar by default, can be set to none\n   - `modifiedScaleToUserScale` - When enabled scale to user scale when aligning with modifier instead of global one scale",
+                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.6.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.6.0/LogixUtils.dll",
+                            "filename": "LogixUtils.dll",
+                            "sha256": "3211780222b807453fd16ed6a7f5947dd282ef2dc55035dc0e211685b1d80e29"
+                        }
+                    ]
+                },
                 "1.5.2": {
                     "changelog": " - Fixed an error breaking compatibility with ValueProxyExtensions under certain conditions",
                     "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.5.2",
@@ -1616,7 +1673,7 @@
                 }
             }
         },
-        "tk.deltawolf.NeosNonPersistentInspectors": {
+        "net.deltawolf.NeosNonPersistentInspectors": {
             "name": "NonPersistentInspectors",
             "description": "Makes spawned inspectors set to nonpersistent by default",
             "category": "Inspectors",
@@ -1634,6 +1691,29 @@
                             "url": "https://github.com/XDelta/NeosNonPersistentInspectors/releases/download/1.0.0/NeosNonPersistentInspectors.dll",
                             "filename": "NeosNonPersistentInspectors.dll",
                             "sha256": "8cdcb6fe5d43436e94d58a69e259a0b27972322ed40020f7a2d270356240d863"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.deltawolf.ScalableWorldOrbs": {
+            "name": "ScalableWorldOrbs",
+            "description": "Makes WorldOrbs you spawn scalable by default",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/XDelta/ScalableWorldOrbs",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/XDelta/ScalableWorldOrbs/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/ScalableWorldOrbs/releases/download/1.0.0/ScalableWorldOrbs.dll",
+                            "filename": "ScalableWorldOrbs.dll",
+                            "sha256": "6d56548859e0e51babc1cd5367533711a4c4e347ae3013a5a375421a054738fa"
                         }
                     ]
                 }
@@ -2015,9 +2095,9 @@
                 }
             }
         },
-        "tk.deltawolf.NeosPTTKeybinds": {
+        "net.deltawolf.NeosPTTKeybinds": {
             "name": "PTTKeybinds",
-            "description": "Disable Push-to-Talk keybinds like mouse5, V, or M. Includes config to adjust which are disabled",
+            "description": "Allows disabling and rebinding default Push-to-Talk keybinds like mouse5, V, or M. Adds keybinds to set your current voicemode",
             "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/XDelta/NeosPTTKeybinds",
             "authors": {
@@ -2026,6 +2106,28 @@
                 }
             },
             "versions": {
+                "1.2.2": {
+                    "changelog": "Fix for Mute toggle breaking with Mute keybind. Uses IsMuted instead of setting the Voicemode to Mute.",
+                    "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.2.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosPTTKeybinds/releases/download/1.2.2/NeosPTTKeybinds.dll",
+                            "filename": "NeosPTTKeybinds.dll",
+                            "sha256": "690337e5607d199b1fd9e1c713a5bf7d79a144d30f73ccf09db3cb0f62bf50fa"
+                        }
+                    ]
+                },
+                "1.2.1": {
+                    "changelog": "Added Mute keybind, works with dash closed, keybinds now don't trigger while typing in any field",
+                    "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.2.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosPTTKeybinds/releases/download/1.2.1/NeosPTTKeybinds.dll",
+                            "filename": "NeosPTTKeybinds.dll",
+                            "sha256": "41f37561a3a821f439af54b1d260b40aee64576832b0a1f852c849128fbcd279"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/XDelta/NeosPTTKeybinds/releases/tag/1.1.0",
                     "artifacts": [
@@ -2545,6 +2647,41 @@
                 }
             }
         },
+        "net.rampa3.screendashfixer": {
+            "name": "ScreenDashFixer",
+            "description": "spinoff of 3D Dash On Screen, minus 3D dash and UI editing – fixes userspace, camera UI, restores desktop tab controls keybind, and re-enables floating notifications",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/rampa3/ScreenDashFixer",
+            "authors": {
+                "rampa3": {
+                    "url": "https://github.com/rampa3"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "changelog": " - initial release (Contains userspace spawn fix, camera UI behaviour fix, (+the unhook from slider tweak - configurable) and restoration of desktop tab control panel keybinding (configurable) and floating VR style notifications.)",
+                    "releaseUrl": "https://github.com/rampa3/ScreenDashFixer/releases/tag/1.0.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.0.0.0/ScreenDashFixer.dll",
+                            "filename": "ScreenDashFixer.dll ",
+                            "sha256": "f5234ed954c140e2f683a63697eeb70082cb99d21692df4c821a1b00a8d61c39"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "changelog": " - synced in fix of the desktop control panel keybind interfering with VR keyboard from latest 3D Dash On Screen code",
+                    "releaseUrl": "https://github.com/rampa3/ScreenDashFixer/releases/tag/1.1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.1.0.0/ScreenDashFixer.dll",
+                            "filename": "ScreenDashFixer.dll ",
+                            "sha256": "fceee4cb2efecc549d1b8e2e96822e78ed680bf26cca72a285995f5fecb96de0"
+                        }
+                    ]
+                }
+            }
+        },
         "net.rampa3.ExitAndDiscardHomesKeybind": {
             "name": "ExitAndDiscardHomesKeybind",
             "description": "allows to exit without saving changes in home world using Ctrl+Alt+F4 key shortcut",
@@ -2828,7 +2965,7 @@
                 }
             }
         },
-        "tk.astralchan.gifimporter": {
+        "xyz.astralchan.gifimporter": {
             "name": "GifImporter",
             "description": "Allows you to import gif images",
             "category": "Asset Importing Tweaks",
@@ -2838,7 +2975,20 @@
                     "url": "https://github.com/astralchan"
                 }
             },
+            "flags": [
+                "deprecated"
+            ],
             "versions": {
+                "1.1.3": {
+                    "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.3",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/astralchan/GifImporter/releases/download/1.1.3/GifImporter.dll",
+                            "filename": "GifImporter.dll",
+                            "sha256": "aea79e62784d68ca6829949460744e055c73b37d035d2e18280a28f4f6152e94"
+                        }
+                    ]
+                },
                 "1.1.2": {
                     "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.2",
                     "artifacts": [
@@ -2901,7 +3051,7 @@
         },
         "me.art0007i.pasteinvidious": {
             "name": "PasteInvidious",
-            "description": "Changes all pasted youtube links to invidious links",
+            "description": "Changes all pasted youtube links to piped.video links",
             "category": "Asset Importing Tweaks",
             "sourceLocation": "https://github.com/art0007i/PasteInvidious",
             "authors": {
@@ -2910,6 +3060,17 @@
                 }
             },
             "versions": {
+                "2.0.1": {
+                    "changelog": "Fixed annoying parsing bug.",
+                    "releaseUrl": "https://github.com/art0007i/PasteInvidious/releases/tag/2.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/PasteInvidious/releases/download/2.0.1/PasteInvidious.dll",
+                            "filename": "PasteInvidious.dll",
+                            "sha256": "cc6d046eb7d710beb473659442d0aee1c601cb261df189548826ab50d1bab0c9"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/art0007i/PasteInvidious/releases/tag/1.1.0.0",
                     "artifacts": [
@@ -3037,12 +3198,15 @@
             "name": "Neos-WCFace-Integration",
             "description": "Integrates WCFace's screen-mode eye tracking",
             "category": "Hardware Integrations",
-            "sourceLocation": "https://github.com/dfgHiatus/Neos-WCFace-Integration",
+            "sourceLocation": "https://github.com/dfgHiatus/NeosWCFaceIntegration",
             "authors": {
                 "dfgHiatus": {
                     "url": "https://github.com/dfgHiatus"
                 }
             },
+            "flags": [
+                "deprecated"
+            ],
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/dfgHiatus/NeosWCFaceIntegration/releases/tag/v1.0.0",
@@ -3529,7 +3693,7 @@
                 }
             }
         },
-        "DoubleStyx.SsaoTweaks": {
+        "net.DoubleStyx.SsaoTweaks": {
             "name": "SsaoTweaks",
             "description": "Allows the individual parameters of the SSAO effect to be configured.",
             "category": "Visual Tweaks",
@@ -4140,7 +4304,7 @@
                 }
             }
         },
-        "tk.deltawolf.LogixCleanupWizard": {
+        "net.deltawolf.LogixCleanupWizard": {
             "name": "LogixCleanupWizard",
             "description": "Provides a wizard for cleaning up leftover logiX components.",
             "category": "Wizards",
@@ -4239,6 +4403,17 @@
                 }
             },
             "versions": {
+                "1.4.0": {
+                    "changelog": "Add a config to enable friend links on the notifications - EIA485",
+                    "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.4.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/download/v1.4.0/UserJoinLeaveNotifications.dll",
+                            "filename": "UserJoinLeaveNotifications.dll",
+                            "sha256": "0837ab104cb5dc55eec21c27dc4d84cb886d5eb1acdc3a6034a598c0be288cdf"
+                        }
+                    ]
+                },
                 "1.3.0": {
                     "changelog": "Added config items for notification sounds",
                     "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.3.0",
@@ -4581,6 +4756,17 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "changelog": " - Fix interacting with certain flag enums that are defined using non int values\n - Adjust flag selection ui",
+                    "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/EnumDropdown/releases/download/v1.1.0/EnumDropdown.dll",
+                            "filename": "EnumDropdown.dll",
+                            "sha256": "c2b157731fcb9a2f5545bed9dfe9868bb288a3a61a8588967cf5597b7263ff04"
+                        }
+                    ]
+                },
                 "1.0.1": {
                     "changelog": "- Fix enum input logix node dropping slot into parent on pack",
                     "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.0.1",
@@ -4645,6 +4831,28 @@
                             "url": "https://github.com/badhaloninja/MultiParameterGenericComponentAttacher/releases/download/v1.0.0/MultiParameterGenericComponentAttacher.dll",
                             "filename": "MultiParameterGenericComponentAttacher.dll",
                             "sha256": "58da26dbbd1e40886d342f0807f93627490c1a7a03f1eaa49f118ebc846bacd0"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.earthmark.GenericTypeType": {
+            "name": "GenericTypeType",
+            "description": "Adds additional type resolver steps to the generic type resolver in the component attacher, allowing nested generics using the C# syntax with some pre-defined namespace usings.",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/Earthmark/Neos-TypeType",
+            "authors": {
+                "Earthmark": {
+                    "url": "https://github.com/Earthmark"
+                }
+            },
+            "versions": {
+                "0.1.1": {
+                    "releaseUrl": "https://github.com/Earthmark/Neos-TypeType/releases/tag/0.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Earthmark/Neos-TypeType/releases/download/0.1.1/GenericTypeType.dll",
+                            "sha256": "CC992ACAD016BBA90DE3F1883873F89CCCFE36804A4DE397B6DB6E537E8FA2CE"
                         }
                     ]
                 }
@@ -4785,7 +4993,7 @@
                 }
             }
         },
-        "tk.deltawolf.NeosBetterGizmos": {
+        "net.deltawolf.NeosBetterGizmos": {
             "name": "NeosBetterGizmos",
             "description": "Gizmo buttons will automatically face you.",
             "category": "Misc",
@@ -5007,7 +5215,7 @@
                 }
             }
         },
-        "tk.deltawolf.SettingsRedux": {
+        "net.deltawolf.SettingsRedux": {
             "name": "SettingsRedux",
             "description": "Replaces the default Neos Settings page with an enhanced settings page that adds in many QoL changes",
             "category": "Dash Tweaks",
@@ -5040,7 +5248,7 @@
                 }
             }
         },
-        "tk.deltawolf.CustomColorPicker": {
+        "net.deltawolf.CustomColorPicker": {
             "name": "CustomColorPicker",
             "description": "Allows setting a custom color picker.",
             "category": "Inspectors",
@@ -5051,6 +5259,22 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "changelog": "Fixed duplicate NeosColorDialog component sometimes existing on a custom dialog",
+                    "releaseUrl": "https://github.com/XDelta/CustomColorPicker/releases/tag/1.1.0",
+                    "dependencies": {
+                        "me.art0007i.SpecialItemsLib": {
+                            "version": "^1.0.0"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/CustomColorPicker/releases/download/1.1.0/CustomColorPicker.dll",
+                            "filename": "CustomColorPicker.dll",
+                            "sha256": "f53f3d8be4fe96627ffba00fdf4748dd08ba7ed2eed0ea76cf9bf8dcf4bfa9aa"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/XDelta/CustomColorPicker/releases/tag/1.0.0",
                     "dependencies": {
@@ -5320,6 +5544,29 @@
                         {
                             "url": "https://github.com/Psychpsyo/DiscordVR/releases/download/1.0.1/DiscordVR.dll",
                             "sha256": "6d3de09c63f90523305d89e65c30c864cacc3a2887db36db3ddda6e9a3a71936"
+                        }
+                    ]
+                }
+            }
+        },
+        "Ukilop.MoreTags": {
+            "name": "MoreTags!",
+            "description": "Adds Tags to certain Neos Generated objects.",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/ukilop/MoreTags",
+            "authors": {
+                "ukilop": {
+                    "url": "https://github.com/ukilop"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/ukilop/MoreTags/releases/V1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/ukilop/MoreTags/releases/download/V1.0.0/MoreTags.dll",
+                            "filename": "MoreTags.dll",
+                            "sha256": "064A2803295796E12DFBAE2AC722C402D711CF62020DF39F4054CFBCC766BA83"
                         }
                     ]
                 }
@@ -5687,6 +5934,46 @@
                         {
                             "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.1.0/DynVarGenerator.dll",
                             "sha256": "534f09d41a876c760c18e7866846e989860247f19e422e8b2c0066e4faeb0f61"
+                        }
+                    ]
+                },
+                "1.2.0": {
+                    "changelog": "Added dynamically driven valuecopies as an option, fixes",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.2.0/DynVarGenerator.dll",
+                            "sha256": "ac937921891aae188f00c68981551073ad217c1b5332a0dc0796b17e8bd7f224"
+                        }
+                    ]
+                },
+                "1.2.1": {
+                    "changelog": "Wizard now uses valid names for variables",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.2.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.2.1/DynVarGenerator.dll",
+                            "sha256": "d688ed348a10c811d2c88083927acc8f2dd75a5bca6b0203e19110e7fe48cbec"
+                        }
+                    ]
+                },
+                "1.2.2": {
+                    "changelog": "Numbers are also now valid in variable names",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.2.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.2.2/DynVarGenerator.dll",
+                            "sha256": "fe057ac5338b64de34c106c78e4e4728296089229f6332ed2447987f5c212129"
+                        }
+                    ]
+                },
+                "1.2.3": {
+                    "changelog": "Added write back option for ValueCopies",
+                    "releaseUrl": "https://github.com/TheJebForge/DynVarGenerator/releases/tag/1.2.3",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/DynVarGenerator/releases/download/1.2.3/DynVarGenerator.dll",
+                            "sha256": "8d7d3a6ccf40f4a7372faebb80f6dbcc6871544148f6738792f8048f1393d0fa"
                         }
                     ]
                 }
@@ -6271,6 +6558,24 @@
                         {
                             "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.0.2/LocalListEditors.dll",
                             "sha256": "8a034f85c4878cd9e61187e63a42867f1ab9ded2212ff530021a36b37e73ff9c"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/LocalListEditors/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.1.0/LocalListEditors.dll",
+                            "sha256": "ce702b4319aed3bd906fb2edc09be064ac5343635be7a2235e5f9b119ed991f8"
+                        }
+                    ]
+                },
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/TheJebForge/LocalListEditors/releases/tag/1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/LocalListEditors/releases/download/1.1.1/LocalListEditors.dll",
+                            "sha256": "ab8245a2a929e5beac53f15b0e631ac0738c61a5bd8c72345f7009a3e5799c28"
                         }
                     ]
                 }

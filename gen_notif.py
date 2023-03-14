@@ -174,9 +174,9 @@ for mod_guid in NEW_MANIFEST["mods"]:
 
 if len(EMBEDS) > 0:
     DISCORD_JSON = {
-        "content": None,
+        "content": "<@&1079268851952406571>",
         "embeds": EMBEDS,
-        "allowed_mentions": { "parse": [] },
+        "allowed_mentions": { "roles": ["1079268851952406571"] },
         "username": "NMG mod verifications",
         "avatar_url": "https://avatars.githubusercontent.com/u/101987083",
         "attachments": []
