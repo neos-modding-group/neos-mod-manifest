@@ -123,7 +123,8 @@
                                                 "format": "uri"
                                             },
                                             "filename": {
-                                                "type": "string"
+                                                "type": "string",
+                                                "pattern": "^[^\\s]+\\.[A-Za-z]+$"
                                             },
                                             "sha256": {
                                                 "type": "string",
