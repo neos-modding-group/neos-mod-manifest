@@ -124,7 +124,7 @@
                                             },
                                             "filename": {
                                                 "type": "string",
-                                                "pattern": "^[^\\s]+\\.[A-Za-z]+$"
+                                                "pattern": "^[^\\s].*[^\\s]$|^[^\\s]$"
                                             },
                                             "sha256": {
                                                 "type": "string",
