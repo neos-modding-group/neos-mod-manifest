@@ -2664,7 +2664,7 @@
                     "artifacts": [
                         {
                             "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.0.0.0/ScreenDashFixer.dll",
-                            "filename": "ScreenDashFixer.dll ",
+                            "filename": "ScreenDashFixer.dll",
                             "sha256": "f5234ed954c140e2f683a63697eeb70082cb99d21692df4c821a1b00a8d61c39"
                         }
                     ]
@@ -2675,7 +2675,7 @@
                     "artifacts": [
                         {
                             "url": "https://github.com/rampa3/ScreenDashFixer/releases/download/1.1.0.0/ScreenDashFixer.dll",
-                            "filename": "ScreenDashFixer.dll ",
+                            "filename": "ScreenDashFixer.dll",
                             "sha256": "fceee4cb2efecc549d1b8e2e96822e78ed680bf26cca72a285995f5fecb96de0"
                         }
                     ]
