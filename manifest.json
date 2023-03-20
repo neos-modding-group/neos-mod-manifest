@@ -6314,6 +6314,16 @@
                             "sha256": "99c4c165db37786f8cb26c639e318931ed80aa15a155ecb08d6fa0a3ad7c6904"
                         }
                     ]
+                },
+                "1.0.1": {
+                    "changelog": "Fixed invalid types breaking logix browser",
+                    "releaseUrl": "https://github.com/TheJebForge/CustomLogiXTypes/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/CustomLogiXTypes/releases/download/1.0.1/CustomLogiXTypes.dll",
+                            "sha256": "d316b203931daf059ffc6e1adf6c3ea8dfd3507bc3604bb65a3e2709837a3cea"
+                        }
+                    ]
                 }
             }
         },
@@ -6599,6 +6609,29 @@
                         {
                             "url": "https://github.com/TheJebForge/NegativeBlendshapes/releases/download/1.0.0/NegativeBlendshapes.dll",
                             "sha256": "c9cc37fcf532a1b806278571b43a82491cc8767e3d80dda8037afcccc79789ae"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.TheJebForge.MeshAutoReimport": {
+            "name": "MeshAutoReimport",
+            "description": "Adds a new option to mesh import to reimport the mesh when file changes",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/TheJebForge/MeshAutoReimport",
+            "sourceLocation": "https://github.com/TheJebForge/MeshAutoReimport",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/MeshAutoReimport/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/MeshAutoReimport/releases/download/1.0.0/MeshAutoReimport.dll",
+                            "sha256": "a01a1625379d05315c7b8a927ccaa0179033bab5090d2ac831cb39ac7a6a5f6a"
                         }
                     ]
                 }
