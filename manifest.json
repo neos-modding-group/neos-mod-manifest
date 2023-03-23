@@ -5304,7 +5304,7 @@
             },
             "versions": {
                 "1.0.0": {
-                    "releaseUrl": "https://github.com/AlexW-578/CustomLogixBrowser/releases/tag/1.0.0",
+                    "releaseUrl": "https://github.com/AlexW-578/CustomLogixBrowser/releases/tag/v1.0.0",
                     "dependencies": {
                         "me.art0007i.SpecialItemsLib": {
                             "version": "^1.0.0"
@@ -5312,7 +5312,7 @@
                     },
                     "artifacts": [
                         {
-                            "url": "https://github.com/AlexW-578/CustomLogixBrowser/releases/download/1.0.0/CustomLogixBrowser.dll",
+                            "url": "https://github.com/AlexW-578/CustomLogixBrowser/releases/download/v1.0.0/CustomLogixBrowser.dll",
                             "filename": "CustomLogixBrowser.dll",
                             "sha256": "50803b84c10f5322917a67f13e800339d75d43cf7c87bbb5606c9d4ab4eafc2e"
                         }
