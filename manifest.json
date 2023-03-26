@@ -1719,6 +1719,29 @@
                 }
             }
         },
+        "net.deltawolf.CreateNewUIX": {
+            "name": "CreateNewUIX",
+            "description": "Adds new preset objects in the Create New menu for UIX",
+            "category": "Technical Tweaks",
+            "sourceLocation": "https://github.com/XDelta/CreateNewUIX",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/XDelta/CreateNewUIX/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/CreateNewUIX/releases/download/1.0.0/CreateNewUIX.dll",
+                            "filename": "CreateNewUIX.dll",
+                            "sha256": "3525a7af53955a489f679abed9d45282b263e160914679ca032b29287d407317"
+                        }
+                    ]
+                }
+            }
+        },
         "io.github.frozenreflex.neosparticletools": {
             "name": "NeosParticleTools",
             "description": "Adds better tools to edit particle fades",
