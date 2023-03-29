@@ -5594,6 +5594,29 @@
                 }
             }
         },
+        "Psychpsyo.ContactsMinus": {
+            "name": "Contacts-",
+            "description": "Adds the ability to set your world to Contacts-.",
+            "category": "Memes",
+            "website": "https://github.com/Psychpsyo/NeosContactsMinus",
+            "sourceLocation": "https://github.com/Psychpsyo/NeosContactsMinus",
+            "authors": {
+                "Psychpsyo": {
+                    "url": "https://psychpsyo.com"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Psychpsyo/NeosContactsMinus/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/NeosContactsMinus/releases/download/1.0.0/ContactsMinus.dll",
+                            "sha256": "3E77C9AD942DAEFC35BCE354435B77DB1DB96440A6934FF3DF443399981C7E70"
+                        }
+                    ]
+                }
+            }
+        },
         "Ukilop.MoreTags": {
             "name": "MoreTags!",
             "description": "Adds Tags to certain Neos Generated objects.",
