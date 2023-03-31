@@ -1730,6 +1730,16 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/XDelta/CreateNewUIX/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/CreateNewUIX/releases/download/1.1.0/CreateNewUIX.dll",
+                            "filename": "CreateNewUIX.dll",
+                            "sha256": "e2cbcdddcfba053774f923b9d03d698fc34017f3bbfdbda28c39d1bc691f0890"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/XDelta/CreateNewUIX/releases/tag/1.0.0",
                     "artifacts": [
