@@ -4327,6 +4327,52 @@
                 }
             }
         },
+        "Banane9.NoAprilFools": {
+            "name": "NoAprilFools",
+            "description": "Disables the April Fools easter eggs for people who don't like fun.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosNoAprilFools",
+            "sourceLocation": "https://github.com/Banane9/NeosNoAprilFools",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosNoAprilFools/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosNoAprilFools/releases/download/v1.0.0/NoAprilFools.dll",
+                            "sha256": "17422FC9F2E5F5F7C9C41073A2A35061D42B2B73627DCC871DA04E4BA2938CA4"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.Simulstart": {
+            "name": "Simulstart",
+            "description": "Makes it possible to launch other processes together with Neos. Processes can be launched with (a request for) administrator privileges and can automatically be closed with the game as well.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosSimulstart",
+            "sourceLocation": "https://github.com/Banane9/NeosSimulstart",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosSimulstart/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosSimulstart/releases/download/v1.0.0/Simulstart.dll",
+                            "sha256": "F2D3AD8FA8EA72AE667898449F88AA4AC97B30A714E3864AFA82AA4DF901067B"
+                        }
+                    ]
+                }
+            }
+        },
         "me.badhaloninja.FixAltEnter": {
             "name": "FixAltEnter",
             "description": "Fixes returning to fullscreen via alt + enter not respecting monitor resolution",
