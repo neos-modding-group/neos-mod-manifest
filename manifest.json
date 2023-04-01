@@ -5337,6 +5337,34 @@
                 }
             }
         },
+        "co.uk.alexw-578.CustomLogixBrowser": {
+            "name": "CustomLogixBrowser",
+            "description": "Allows setting a custom logix browser.",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/AlexW-578/CustomLogixBrowser",
+            "authors": {
+                "AlexW-578": {
+                    "url": "https://github.com/AlexW-578"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/AlexW-578/CustomLogixBrowser/releases/tag/v1.0.0",
+                    "dependencies": {
+                        "me.art0007i.SpecialItemsLib": {
+                            "version": "^1.0.0"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/AlexW-578/CustomLogixBrowser/releases/download/v1.0.0/CustomLogixBrowser.dll",
+                            "filename": "CustomLogixBrowser.dll",
+                            "sha256": "50803b84c10f5322917a67f13e800339d75d43cf7c87bbb5606c9d4ab4eafc2e"
+                        }
+                    ]
+                }
+            }
+        },
         "net.Sox.EasyVoiceMessage": {
             "name": "EasyVoiceMessage",
             "description": "Allows you to record voice messages without having to keep your laser on the tiny square button. (although your laser needs to stay on your dash)",
