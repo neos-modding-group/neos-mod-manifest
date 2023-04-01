@@ -5934,6 +5934,16 @@
                 }
             },
             "versions": {
+                "0.4.1": {
+                    "releaseUrl": "https://github.com/hantabaru1014/BetterInventoryBrowser/releases/tag/v0.4.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/BetterInventoryBrowser/releases/download/v0.4.1/BetterInventoryBrowser.dll",
+                            "filename": "BetterInventoryBrowser.dll",
+                            "sha256": "5529647a56f608cc3a466db9f6b53b03cbf952597a7117281357705033e19ad5"
+                        }
+                    ]
+                },
                 "0.3.0": {
                     "releaseUrl": "https://github.com/hantabaru1014/BetterInventoryBrowser/releases/tag/v0.3.0",
                     "artifacts": [
