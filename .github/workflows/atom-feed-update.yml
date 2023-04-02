@@ -1,4 +1,4 @@
-name: Push new mod releases to RSS feed
+name: Generate Atom feed
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Update-RSS:
+  Update-Atom:
     if: github.repository == 'neos-modding-group/neos-mod-manifest'
     runs-on: ubuntu-latest
     steps:
@@ -27,11 +27,11 @@ jobs:
           python-version: "3.10"
           cache: "pip"
 
-      - name: append to RSS feed
+      - name: append to Atom feed
         env:
           REF_BASE: ${{ github.base_ref || format('{0}~', github.sha) }}
           REF_NEW: ${{ github.head_ref || github.sha }}
-        run: python3 rss_feeder.py
+        run: python3 atom_feeder.py
 
       - name: commit
         env:
@@ -44,5 +44,5 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "<>"
           git add --force feed.xml
-          git commit -m "Update RSS feed"
+          git commit -m "Update Atom feed"
           git push origin master
