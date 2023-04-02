@@ -4193,6 +4193,15 @@
                             "sha256": "82BBEB12EFC059937BDC4BBF46946E9C11ED286037D2F05E69A7FF276424C6F8"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/download/v1.1.0/ComponentAttacherSearch.dll",
+                            "sha256": "E6953386E38A36E27B56D13BA88F1C5AC87FB331CB561A647997714CE6D3E178"
+                        }
+                    ]
                 }
             }
         },
@@ -4215,6 +4224,15 @@
                             "sha256": "515BB68CFA32ACBE09D3FC06C2E66985BB60F1662FB543A1B12582F00E198AA7"
                         }
                     ]
+                },
+                "2.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/tag/v2.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/download/v2.1.0/ComponentAttacherFavorites.dll",
+                            "sha256": "400A7AA3ABD5376AFE6BAFA23A0FDC8B7CF84E34A7BA3DB4D548BEA23A83D3E0"
+                        }
+                    ]
                 }
             }
         },
@@ -4235,6 +4253,15 @@
                         {
                             "url": "https://github.com/Banane9/NeosComponentAttacherRecents/releases/download/v1.0.0/ComponentAttacherRecents.dll",
                             "sha256": "12D34801FE79A25105907B76F5A1321EF2C218685155ECA2877481A920AF534F"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherRecents/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherRecents/releases/download/v1.1.0/ComponentAttacherRecents.dll",
+                            "sha256": "F0D44D98D0DDD08CADF20F3438AC20E758898212941594F8845895AB835908C9"
                         }
                     ]
                 }
@@ -4322,6 +4349,52 @@
                         {
                             "url": "https://github.com/Banane9/NeosNoEscape/releases/download/v1.1.0/NoEscape.dll",
                             "sha256": "B72544AFEFC7A2E6D304EE69F880FC3EC6E290A58B9846DE6F1C8E8F94B33F54"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.NoAprilFools": {
+            "name": "NoAprilFools",
+            "description": "Disables the April Fools easter eggs for people who don't like fun.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosNoAprilFools",
+            "sourceLocation": "https://github.com/Banane9/NeosNoAprilFools",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosNoAprilFools/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosNoAprilFools/releases/download/v1.0.0/NoAprilFools.dll",
+                            "sha256": "17422FC9F2E5F5F7C9C41073A2A35061D42B2B73627DCC871DA04E4BA2938CA4"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.Simulstart": {
+            "name": "Simulstart",
+            "description": "Makes it possible to launch other processes together with Neos. Processes can be launched with (a request for) administrator privileges and can automatically be closed with the game as well.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosSimulstart",
+            "sourceLocation": "https://github.com/Banane9/NeosSimulstart",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosSimulstart/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosSimulstart/releases/download/v1.0.0/Simulstart.dll",
+                            "sha256": "F2D3AD8FA8EA72AE667898449F88AA4AC97B30A714E3864AFA82AA4DF901067B"
                         }
                     ]
                 }
@@ -5332,6 +5405,34 @@
                             "url": "https://github.com/XDelta/CustomColorPicker/releases/download/1.0.0/CustomColorPicker.dll",
                             "filename": "CustomColorPicker.dll",
                             "sha256": "66187676aa1f2dde761236558fd9bfcfe96e10791bb91a643d6a17a1393d0510"
+                        }
+                    ]
+                }
+            }
+        },
+        "co.uk.alexw-578.CustomLogixBrowser": {
+            "name": "CustomLogixBrowser",
+            "description": "Allows setting a custom logix browser.",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/AlexW-578/CustomLogixBrowser",
+            "authors": {
+                "AlexW-578": {
+                    "url": "https://github.com/AlexW-578"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/AlexW-578/CustomLogixBrowser/releases/tag/v1.0.0",
+                    "dependencies": {
+                        "me.art0007i.SpecialItemsLib": {
+                            "version": "^1.0.0"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/AlexW-578/CustomLogixBrowser/releases/download/v1.0.0/CustomLogixBrowser.dll",
+                            "filename": "CustomLogixBrowser.dll",
+                            "sha256": "50803b84c10f5322917a67f13e800339d75d43cf7c87bbb5606c9d4ab4eafc2e"
                         }
                     ]
                 }
