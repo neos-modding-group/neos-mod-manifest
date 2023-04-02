@@ -5609,6 +5609,15 @@
                             "sha256": "63445a9255dd8e3c3e33cfa99e9bd6878ed5f847e00f6503f957e6e02987553e"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Psychpsyo/TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP/releases/download/v1.1.0/TheNeosModThatMakesItSoThatYourFingersAreNoLongerTrustedTouchSourcesSoYouCanRestEasyAtNightKnowingNoOneWillShoveButtonsIntoYourHandWithoutYourPermission.dll",
+                            "sha256": "86B8FADADB65380354397A425E16FCDA0453E9F0D12F0BDEE4A454FA758BAE72"
+                        }
+                    ]
                 }
             }
         },
