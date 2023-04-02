@@ -53,7 +53,7 @@ for mod_guid in NEW_MANIFEST["mods"]:
 if len(MODS) > 0:
     # This is currently dependent on the machine's locale and timezone but that shouldn't matter as this will run in Github actions which are set to English/UTC.
     rssNow = datetime.datetime.now().strftime("%a, %d %b %Y %H:%M:%S +0000")
-    
+
     with minidom.parse("gh-pages/feed.xml") as rssFeed:
         rssFeed.getElementsByTagName("pubDate").item(0).firstChild.data = rssNow
         rssFeed.getElementsByTagName("lastBuildDate").item(0).firstChild.data = rssNow
@@ -72,16 +72,16 @@ if len(MODS) > 0:
             source = rssFeed.createElement("source")
             source.setAttribute("url", "https://www.neosmodloader.com/mods.xml")
             source.appendChild(rssFeed.createTextNode("Neos Mod Releases"))
-            
+
             item.appendChild(title)
             item.appendChild(description)
             item.appendChild(category)
             item.appendChild(pubDate)
             item.appendChild(source)
             item.appendChild(link)
-            
+
             rssFeed.getElementsByTagName("channel").item(0).appendChild(item)
-        
+
         rssWriter = open("gh-pages/feed.xml", "w")
         xmlString = rssFeed.toprettyxml(encoding="utf-8", standalone=True).decode("utf-8")
         xmlString = "\n".join([line for line in xmlString.splitlines() if line.strip()])
