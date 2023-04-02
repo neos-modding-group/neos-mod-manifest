@@ -19,6 +19,42 @@
                 "plugin"
             ],
             "versions": {
+                "1.12.6": {
+                    "changelog": "Allow loading of mods with unloadable types, Fix an edge case where mod configurations may not save properly on Neos shutdown, Fix a bug where NML would load files with names like 'foo.dll_disabled'",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.6",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.2"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.6/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "d9c6c5d65207178c544d1fd943a5fafa6a030c4125cd1a4b2782673a4443f610",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.12.5": {
+                    "changelog": "Hide mod types from two more type-searching methods",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.5",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.2"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.5/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "5bf435f74db6e78c5702444b1297083721a608ef2f8ee11f05f62f2f0ff83238",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
                 "1.12.4": {
                     "changelog": "Fix Nullable configs, Update Lib.Harmony to 2.2.2",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.4",
