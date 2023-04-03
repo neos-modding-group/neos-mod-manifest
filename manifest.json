@@ -4367,6 +4367,29 @@
                 }
             }
         },
+        "jp.hinasense.OpenLinkedVariableSpace": {
+            "name": "OpenLinkedVariableSpace",
+            "description": "Add a button to the DynamicVariable component to open a linked DynamicVariableSpace",
+            "category": "Developers",
+            "website": "https://github.com/HinanoAira/OpenLinkedVariableSpace",
+            "sourceLocation": "https://github.com/HinanoAira/OpenLinkedVariableSpace",
+            "authors": {
+                "HinanoAira": {
+                    "url": "https://github.com/HinanoAira"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/HinanoAira/OpenLinkedVariableSpace/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/HinanoAira/OpenLinkedVariableSpace/releases/download/v1.0.1/OpenLinkedVariableSpace.dll",
+                            "sha256": "48590be8d3a6d440b8b845d9322f2e33d6c8a145494e5a3fd59be5cf98b005d6"
+                        }
+                    ]
+                }
+            }
+        },
         "Banane9.NoEscape": {
             "name": "NoEscape",
             "description": "Can disable the emergency respawn / disconnect gesture.",
