@@ -22,12 +22,11 @@ REF_NEW = util.exec_shell(f"git rev-parse {environ.get('REF_NEW') or 'HEAD'}")
 OLD_MANIFEST: dict[str, Any] = json.loads(util.exec_shell(f"git show {REF_BASE}:manifest.json"))
 NEW_MANIFEST: dict[str, Any] = json.loads(util.exec_shell(f"git show {REF_NEW}:manifest.json"))
 
-MODS = []
+NEW_MODS = []
 
 # Iterate over all the (new) mods
 for mod_guid in NEW_MANIFEST["mods"]:
     mod: dict[str, Any] = NEW_MANIFEST["mods"][mod_guid]
-
 
     # Maps the versions into filtered & validated ones
     mod["versions"] = util.map_mod_versions(mod["versions"], mod_guid)
@@ -47,15 +46,15 @@ for mod_guid in NEW_MANIFEST["mods"]:
 
         if IS_NEW_MOD:
             mod["guid"] = mod_guid
-            MODS.append(mod_to_embed(mod))
+            NEW_MODS.append(mod)
 
 
-if len(MODS) > 0:
+if len(NEW_MODS) > 0:
     atomNow = datetime.datetime.now(datetime.timezone.utc).isoformat()
 
     with minidom.parse("gh-pages/feed.xml") as atomFeed:
         atomFeed.getElementsByTagName("updated").item(0).firstChild.data = atomNow
-        for mod in MODS:
+        for mod in NEW_MODS:
             entry = atomFeed.createElement("entry")
 
             title = atomFeed.createElement("title")
