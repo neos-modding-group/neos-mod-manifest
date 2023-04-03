@@ -58,7 +58,7 @@ if len(NEW_MODS) > 0:
             entry = atomFeed.createElement("entry")
 
             title = atomFeed.createElement("title")
-            title.appendChild(atomFeed.createTextNode("Released Version " + mod["versions"][0]["id"] + " for '" + mod["name"] + "'"))
+            title.appendChild(atomFeed.createTextNode("Released Version " + str(mod["versions"][0]["id"]) + " for '" + mod["name"] + "'"))
             entry.appendChild(title)
 
             content = atomFeed.createElement("content")
@@ -85,6 +85,11 @@ if len(NEW_MODS) > 0:
             category.setAttribute("term", "Games/NeosVR/Mods/" + mod["category"])
             category.setAttribute("label", "NeosVR Mods")
             entry.appendChild(category)
+
+            link = atomFeed.createElement("link")
+            link.setAttribute("rel", "alternate")
+            link.setAttribute("href", mod["versions"][0]["releaseUrl"])
+            entry.appendChild(link)
 
             published = atomFeed.createElement("published")
             published.appendChild(atomFeed.createTextNode(atomNow))
