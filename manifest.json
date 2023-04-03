@@ -6873,6 +6873,34 @@
                     ]
                 }
             }
+        },
+        "net.lexevo.CloudChange": {
+            "name": "Cloud Change",
+            "description": "Allows you to change what endpoints are used for most, if not all cloud actions in Neos.",
+            "category": "Technical Tweaks",
+            "website": "https://github.com/Lexevolution/Cloud-Change",
+            "sourceLocation": "https://github.com/Lexevolution/Cloud-Change",
+            "authors": {
+                "Lexevo": {
+                    "url": "https://github.com/Lexevolution",
+                    "iconUrl": "https://www.gravatar.com/avatar/ef339ef15db2081cce4f06633960d865"
+                }
+            },
+            "color": "007700",
+            "versions": {
+                "1.0.0": {
+                    "changelog": "Initial Release.",
+                    "releaseUrl": "https://github.com/Lexevolution/Cloud-Change/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Lexevolution/Cloud-Change/releases/download/v1.0.0/CloudChange.dll",
+                            "filename": "CloudChange.dll",
+                            "sha256": "4592fc42cffe5f457aa6e4d682764e5caf8389280f4c24fbfb4f3eafa2cc87fd",
+                            "blake3": "938f242e0ce008d8cc625c2b112994a8e4584023aece58c4307383ff39720227"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
