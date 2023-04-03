@@ -31,7 +31,9 @@ jobs:
         env:
           REF_BASE: ${{ github.base_ref || format('{0}~', github.sha) }}
           REF_NEW: ${{ github.head_ref || github.sha }}
-        run: python3 atom_feeder.py
+        run: |
+          pip3 install -r requirements.txt
+          python3 atom_feeder.py
 
       - name: commit
         env:
