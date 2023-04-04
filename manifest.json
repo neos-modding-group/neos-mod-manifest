@@ -1766,6 +1766,16 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/XDelta/CreateNewUIX/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/CreateNewUIX/releases/download/1.1.0/CreateNewUIX.dll",
+                            "filename": "CreateNewUIX.dll",
+                            "sha256": "e2cbcdddcfba053774f923b9d03d698fc34017f3bbfdbda28c39d1bc691f0890"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/XDelta/CreateNewUIX/releases/tag/1.0.0",
                     "artifacts": [
@@ -5363,6 +5373,34 @@
                         {
                             "url": "https://github.com/Lexevolution/NeosDisableGamepads/releases/download/v1.0.0/NeosDisableGamepads.dll",
                             "sha256": "5b8761cdec21cb551c28c27b4bee3065f0f16c4ba9a1cb56eaa59c2439d53518"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.lexevo.CloudChange": {
+            "name": "Cloud Change",
+            "description": "Allows you to change what endpoints are used for most, if not all cloud actions in Neos.",
+            "category": "Technical Tweaks",
+            "website": "https://github.com/Lexevolution/Cloud-Change",
+            "sourceLocation": "https://github.com/Lexevolution/Cloud-Change",
+            "authors": {
+                "Lexevo": {
+                    "url": "https://github.com/Lexevolution",
+                    "iconUrl": "https://www.gravatar.com/avatar/ef339ef15db2081cce4f06633960d865"
+                }
+            },
+            "color": "007700",
+            "versions": {
+                "1.0.0": {
+                    "changelog": "Initial Release.",
+                    "releaseUrl": "https://github.com/Lexevolution/Cloud-Change/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Lexevolution/Cloud-Change/releases/download/v1.0.0/CloudChange.dll",
+                            "filename": "CloudChange.dll",
+                            "sha256": "4592fc42cffe5f457aa6e4d682764e5caf8389280f4c24fbfb4f3eafa2cc87fd",
+                            "blake3": "938f242e0ce008d8cc625c2b112994a8e4584023aece58c4307383ff39720227"
                         }
                     ]
                 }

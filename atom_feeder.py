@@ -58,7 +58,7 @@ if len(NEW_MODS) > 0:
             entry = atomFeed.createElement("entry")
 
             title = atomFeed.createElement("title")
-            title.appendChild(atomFeed.createTextNode("Released Version " + mod["versions"][0]["id"] + " for '" + mod["name"] + "'"))
+            title.appendChild(atomFeed.createTextNode("Released Version " + str(mod["versions"][0]["id"]) + " for '" + mod["name"] + "'"))
             entry.appendChild(title)
 
             content = atomFeed.createElement("content")
@@ -75,16 +75,22 @@ if len(NEW_MODS) > 0:
                 author.appendChild(authorUri)
                 entry.appendChild(author)
 
-            contributor = atomFeed.createElement("contributor")
-            contributorName = atomFeed.createElement("name")
-            contributorName.appendChild(atomFeed.createTextNode(environ.get("GITHUB_ACTOR")))
-            contributor.appendChild(contributorName)
-            entry.appendChild(contributor)
+            if environ.get("GITHUB_ACTOR"):
+                contributor = atomFeed.createElement("contributor")
+                contributorName = atomFeed.createElement("name")
+                contributorName.appendChild(atomFeed.createTextNode(environ.get("GITHUB_ACTOR")))
+                contributor.appendChild(contributorName)
+                entry.appendChild(contributor)
 
             category = atomFeed.createElement("category")
             category.setAttribute("term", "Games/NeosVR/Mods/" + mod["category"])
             category.setAttribute("label", "NeosVR Mods")
             entry.appendChild(category)
+
+            link = atomFeed.createElement("link")
+            link.setAttribute("rel", "alternate")
+            link.setAttribute("href", mod["versions"][0]["releaseUrl"])
+            entry.appendChild(link)
 
             published = atomFeed.createElement("published")
             published.appendChild(atomFeed.createTextNode(atomNow))
@@ -94,7 +100,7 @@ if len(NEW_MODS) > 0:
             updated.appendChild(atomFeed.createTextNode(atomNow))
             entry.appendChild(updated)
 
-            atomFeed.getElementsByTagName("channel").item(0).appendChild(item)
+            atomFeed.getElementsByTagName("feed").item(0).appendChild(entry)
 
         atomWriter = open("gh-pages/feed.xml", "w")
         xmlString = atomFeed.toprettyxml(encoding="utf-8", standalone=True).decode("utf-8")
