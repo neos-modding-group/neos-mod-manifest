@@ -1,4 +1,4 @@
-name: Generate Atom feed
+name: Update Github Pages Repo
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  Update-Atom:
+  Update-Website:
     if: github.repository == 'neos-modding-group/neos-mod-manifest'
     runs-on: ubuntu-latest
     steps:
@@ -28,25 +28,29 @@ jobs:
         with:
           python-version: "3.10"
           cache: "pip"
+        run: pip3 install -r requirements.txt
+
+      - name: generate readme
+        run: |
+          cp gh-pages/.templates/mod-list-template.md gh-pages/mods.md
+          python3 gen_readme.py < manifest.json >> gh-pages/mods.md
 
       - name: append to Atom feed
         env:
           REF_BASE: ${{ github.base_ref || format('{0}~', github.sha) }}
           REF_NEW: ${{ github.head_ref || github.sha }}
-        run: |
-          pip3 install -r requirements.txt
-          python3 atom_feeder.py
+        run: python3 atom_feeder.py
 
       - name: commit
         env:
           PAGES_AUTH: ${{ secrets.PAGES_AUTH }}
         run: |
           cd gh-pages
-          git diff --quiet --exit-code feed.xml && exit 0
+          git diff --quiet --exit-code mods.md && exit 0
           mkdir -p "~/.ssh"
           echo "$PAGES_AUTH" > "~/.ssh/id_rsa"
           git config user.name "GitHub Actions"
           git config user.email "<>"
-          git add --force feed.xml
-          git commit -m "Update Atom feed"
+          git add --force mods.md feed.xml
+          git commit -m "Update mod list & Atom feed"
           git push origin master
