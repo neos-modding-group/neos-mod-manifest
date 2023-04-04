@@ -99,7 +99,7 @@ if len(NEW_MODS) > 0:
             updated.appendChild(atomFeed.createTextNode(atomNow))
             entry.appendChild(updated)
 
-            atomFeed.getElementsByTagName("channel").item(0).appendChild(item)
+            atomFeed.getElementsByTagName("feed").item(0).appendChild(item)
 
         atomWriter = open("gh-pages/feed.xml", "w")
         xmlString = atomFeed.toprettyxml(encoding="utf-8", standalone=True).decode("utf-8")
