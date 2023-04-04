@@ -75,11 +75,12 @@ if len(NEW_MODS) > 0:
                 author.appendChild(authorUri)
                 entry.appendChild(author)
 
-            contributor = atomFeed.createElement("contributor")
-            contributorName = atomFeed.createElement("name")
-            contributorName.appendChild(atomFeed.createTextNode(environ.get("GITHUB_ACTOR")))
-            contributor.appendChild(contributorName)
-            entry.appendChild(contributor)
+            if environ.get("GITHUB_ACTOR"):
+                contributor = atomFeed.createElement("contributor")
+                contributorName = atomFeed.createElement("name")
+                contributorName.appendChild(atomFeed.createTextNode(environ.get("GITHUB_ACTOR")))
+                contributor.appendChild(contributorName)
+                entry.appendChild(contributor)
 
             category = atomFeed.createElement("category")
             category.setAttribute("term", "Games/NeosVR/Mods/" + mod["category"])
@@ -99,7 +100,7 @@ if len(NEW_MODS) > 0:
             updated.appendChild(atomFeed.createTextNode(atomNow))
             entry.appendChild(updated)
 
-            atomFeed.getElementsByTagName("feed").item(0).appendChild(item)
+            atomFeed.getElementsByTagName("feed").item(0).appendChild(entry)
 
         atomWriter = open("gh-pages/feed.xml", "w")
         xmlString = atomFeed.toprettyxml(encoding="utf-8", standalone=True).decode("utf-8")
