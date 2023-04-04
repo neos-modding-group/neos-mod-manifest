@@ -4389,6 +4389,15 @@
                 }
             },
             "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/HinanoAira/OpenLinkedVariableSpace/releases/tag/v1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/HinanoAira/OpenLinkedVariableSpace/releases/download/v1.0.2/OpenLinkedVariableSpace.dll",
+                            "sha256": "85e49bf0bef1a7b44e06870f7d21c8980104badb9b6aa4566965bed6092964a7"
+                        }
+                    ]
+                },
                 "1.0.1": {
                     "releaseUrl": "https://github.com/HinanoAira/OpenLinkedVariableSpace/releases/tag/v1.0.1",
                     "artifacts": [
