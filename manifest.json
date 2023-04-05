@@ -5051,6 +5051,15 @@
                             "sha256": "CC992ACAD016BBA90DE3F1883873F89CCCFE36804A4DE397B6DB6E537E8FA2CE"
                         }
                     ]
+                },
+                "0.1.2": {
+                    "releaseUrl": "https://github.com/Earthmark/Neos-TypeType/releases/tag/0.1.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Earthmark/Neos-TypeType/releases/download/0.1.2/GenericTypeType.dll",
+                            "sha256": "8AA5617C4ECED9A85E886536965007A2F2CA4D2A1E1853610C14C29A47708553"
+                        }
+                    ]
                 }
             }
         },
