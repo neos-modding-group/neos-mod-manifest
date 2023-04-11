@@ -6816,6 +6816,29 @@
                 }
             }
         },
+        "me.maksim789456.SessionUrlJoin": {
+            "name": "SessionUrlJoin",
+            "description": "Allow join in session by paste session url from clipboard",
+            "category": "Misc",
+            "website": "https://github.com/maksim789456/SessionUrlJoin",
+            "sourceLocation": "https://github.com/maksim789456/SessionUrlJoin",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/maksim789456"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/maksim789456/SessionUrlJoin/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/maksim789456/SessionUrlJoin/releases/download/1.0.0/SessionUrlJoin.dll",
+                            "sha256": "6b960ea10ff6186b37ac7e84c4704754c18b0d5c7592b23f35a974749fae9b55"
+                        }
+                    ]
+                }
+            }
+        },
         "net.TheJebForge.DesktopHandSwitch": {
             "name": "DesktopHandSwitch",
             "description": "Allows you to switch primary hand via a keypress",
