@@ -3524,6 +3524,29 @@
                 }
             }
         },
+        "me.art0007i.🍀": {
+            "name": "🍀",
+            "description": "Makes you luckier 🍀",
+            "category": "Memes",
+            "sourceLocation": "https://github.com/art0007i/FourLeafClover",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/FourLeafClover/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/FourLeafClover/raw/05b52b163ba868b82660a1c13d0a9e44310a4deb/%F0%9F%8D%80.dll",
+                            "filename": "🍀.dll",
+                            "sha256": "f7b066d072ee63ab22c9ab2d9ae3e03a4e8bd174e87d4950e0a98a15c86dc976"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.toolshelfanarchy": {
             "name": "ToolshelfAnarchy",
             "description": "Allows you to take and put tools on other peoples toolshelves",
