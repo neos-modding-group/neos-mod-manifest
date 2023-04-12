@@ -3547,6 +3547,29 @@
                 }
             }
         },
+        "me.art0007i.🍀": {
+            "name": "🍀",
+            "description": "Makes you luckier 🍀",
+            "category": "Memes",
+            "sourceLocation": "https://github.com/art0007i/FourLeafClover",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/FourLeafClover/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/FourLeafClover/raw/05b52b163ba868b82660a1c13d0a9e44310a4deb/%F0%9F%8D%80.dll",
+                            "filename": "🍀.dll",
+                            "sha256": "f7b066d072ee63ab22c9ab2d9ae3e03a4e8bd174e87d4950e0a98a15c86dc976"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.toolshelfanarchy": {
             "name": "ToolshelfAnarchy",
             "description": "Allows you to take and put tools on other peoples toolshelves",
@@ -5723,6 +5746,29 @@
                 }
             }
         },
+        "me.art0007i.ParentalIssues": {
+            "name": "ParentalIssues",
+            "description": "Changes the default parent and child object names to be funnier.",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/art0007i/ParentalIssues",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/ParentalIssues/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ParentalIssues/releases/download/1.1.0/ParentalIssues.dll",
+                            "filename": "ParentalIssues.dll",
+                            "sha256": "8b1d61c5a054c8ce35f1911cbb68eba122f757305545ccecca11f4c6de754629"
+                        }
+                    ]
+                }
+            }
+        },
         "Psychpsyo.DefaultVoiceMode": {
             "name": "DefaultVoiceMode",
             "description": "Gives you the option to set what voice mode should be active when the game starts.",
@@ -6811,6 +6857,29 @@
                         {
                             "url": "https://github.com/Ap6661/LaserRecolorJank/releases/download/1.0.0/LaserRecolorJank.dll",
                             "sha256": "436094d4324a4d22697507f6a07a36098f3dab5a37fe8d8cd2b1587339660846"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.maksim789456.SessionUrlJoin": {
+            "name": "SessionUrlJoin",
+            "description": "Allow join in session by paste session url from clipboard",
+            "category": "Misc",
+            "website": "https://github.com/maksim789456/SessionUrlJoin",
+            "sourceLocation": "https://github.com/maksim789456/SessionUrlJoin",
+            "authors": {
+                "runtime": {
+                    "url": "https://github.com/maksim789456"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/maksim789456/SessionUrlJoin/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/maksim789456/SessionUrlJoin/releases/download/1.0.0/SessionUrlJoin.dll",
+                            "sha256": "6b960ea10ff6186b37ac7e84c4704754c18b0d5c7592b23f35a974749fae9b55"
                         }
                     ]
                 }
