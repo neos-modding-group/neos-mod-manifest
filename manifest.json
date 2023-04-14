@@ -6859,6 +6859,15 @@
                             "sha256": "6b960ea10ff6186b37ac7e84c4704754c18b0d5c7592b23f35a974749fae9b55"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/maksim789456/SessionUrlJoin/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/maksim789456/SessionUrlJoin/releases/download/1.1.0/SessionUrlJoin.dll",
+                            "sha256": "42d50c774f2084b6a49134ce7fabccd382c3256c7272acaec64c4a184595e372"
+                        }
+                    ]
                 }
             }
         },
