@@ -3061,16 +3061,23 @@
             "name": "GifImporter",
             "description": "Allows you to import gif images",
             "category": "Asset Importing Tweaks",
-            "sourceLocation": "https://github.com/astralchan/GifImporter",
+            "sourceLocation": "https://git.astralchan.xyz/astral/GifImporter",
             "authors": {
-                "astralchan": {
-                    "url": "https://github.com/astralchan"
+                "astral": {
+                    "url": "https://git.astralchan.xyz/astral"
                 }
             },
-            "flags": [
-                "deprecated"
-            ],
             "versions": {
+                "1.1.4": {
+                    "releaseUrl": "https://git.astralchan.xyz/astral/GifImporter/releases/tag/1.1.4",
+                    "artifacts": [
+                        {
+                            "url": "https://git.astralchan.xyz/astral/GifImporter/releases/download/1.1.4/GifImporter.dll",
+                            "filename": "GifImporter.dll",
+                            "sha256": "1b3fc3be923a1b51fc96a86f72e16c49cf2683e93430c3f69626e3d7ee39538d"
+                        }
+                    ]
+                },
                 "1.1.3": {
                     "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.3",
                     "artifacts": [
