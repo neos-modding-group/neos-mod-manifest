@@ -509,6 +509,29 @@
                 }
             }
         },
+        "owo.Nytra.ColorMyLogiX": {
+            "name": "ColorMyLogiX",
+            "description": "Apply colors to your LogiX nodes. Highly customizable.",
+            "category": "LogiX",
+            "website": "https://github.com/Nytra/NeosColorMyLogiX",
+            "sourceLocation": "https://github.com/Nytra/NeosColorMyLogiX",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosColorMyLogiX/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosColorMyLogiX/releases/download/v1.1.0/ColorMyLogiX.dll",
+                            "sha256": "32e2bda5220fa2e4dcc738c0d2ef5e61fe708dfa6ceb906e2cb5eddf17da9dbe"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.SpecialItemsLib": {
             "name": "SpecialItemsLib",
             "description": "A library which allows other mods to easily add custom special items to be shown in the inventory.",
