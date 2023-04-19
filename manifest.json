@@ -19,6 +19,42 @@
                 "plugin"
             ],
             "versions": {
+                "1.12.6": {
+                    "changelog": "Allow loading of mods with unloadable types, Fix an edge case where mod configurations may not save properly on Neos shutdown, Fix a bug where NML would load files with names like 'foo.dll_disabled'",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.6",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.2"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.6/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "d9c6c5d65207178c544d1fd943a5fafa6a030c4125cd1a4b2782673a4443f610",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
+                "1.12.5": {
+                    "changelog": "Hide mod types from two more type-searching methods",
+                    "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.5",
+                    "neosVersionCompatibility": ">=2022.1.28.1310",
+                    "dependencies": {
+                        "net.pardeike.harmony": {
+                            "version": "^2.2.2"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/neos-modding-group/NeosModLoader/releases/download/1.12.5/NeosModLoader.dll",
+                            "filename": "NeosModLoader.dll",
+                            "sha256": "5bf435f74db6e78c5702444b1297083721a608ef2f8ee11f05f62f2f0ff83238",
+                            "installLocation": "/Libraries"
+                        }
+                    ]
+                },
                 "1.12.4": {
                     "changelog": "Fix Nullable configs, Update Lib.Harmony to 2.2.2",
                     "releaseUrl": "https://github.com/neos-modding-group/NeosModLoader/releases/tag/1.12.4",
@@ -468,6 +504,29 @@
                         {
                             "url": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix/releases/download/v1.0.1/HeadlessToolTipKickCrashFix.dll",
                             "sha256": "772115b86afc172d8c5cec3997a93927b4d14e0650bc61ac307e262d18474627"
+                        }
+                    ]
+                }
+            }
+        },
+        "owo.Nytra.ColorMyLogiX": {
+            "name": "ColorMyLogiX",
+            "description": "Apply colors to your LogiX nodes. Highly customizable.",
+            "category": "LogiX",
+            "website": "https://github.com/Nytra/NeosColorMyLogiX",
+            "sourceLocation": "https://github.com/Nytra/NeosColorMyLogiX",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosColorMyLogiX/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosColorMyLogiX/releases/download/v1.1.0/ColorMyLogiX.dll",
+                            "sha256": "32e2bda5220fa2e4dcc738c0d2ef5e61fe708dfa6ceb906e2cb5eddf17da9dbe"
                         }
                     ]
                 }
@@ -1730,6 +1789,16 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/XDelta/CreateNewUIX/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/CreateNewUIX/releases/download/1.1.0/CreateNewUIX.dll",
+                            "filename": "CreateNewUIX.dll",
+                            "sha256": "e2cbcdddcfba053774f923b9d03d698fc34017f3bbfdbda28c39d1bc691f0890"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/XDelta/CreateNewUIX/releases/tag/1.0.0",
                     "artifacts": [
@@ -2992,16 +3061,23 @@
             "name": "GifImporter",
             "description": "Allows you to import gif images",
             "category": "Asset Importing Tweaks",
-            "sourceLocation": "https://github.com/astralchan/GifImporter",
+            "sourceLocation": "https://git.astralchan.xyz/astral/GifImporter",
             "authors": {
-                "astralchan": {
-                    "url": "https://github.com/astralchan"
+                "astral": {
+                    "url": "https://git.astralchan.xyz/astral"
                 }
             },
-            "flags": [
-                "deprecated"
-            ],
             "versions": {
+                "1.1.4": {
+                    "releaseUrl": "https://git.astralchan.xyz/astral/GifImporter/releases/tag/1.1.4",
+                    "artifacts": [
+                        {
+                            "url": "https://git.astralchan.xyz/astral/GifImporter/releases/download/1.1.4/GifImporter.dll",
+                            "filename": "GifImporter.dll",
+                            "sha256": "1b3fc3be923a1b51fc96a86f72e16c49cf2683e93430c3f69626e3d7ee39538d"
+                        }
+                    ]
+                },
                 "1.1.3": {
                     "releaseUrl": "https://github.com/astralchan/GifImporter/releases/tag/1.1.3",
                     "artifacts": [
@@ -3473,6 +3549,29 @@
                             "url": "https://github.com/badhaloninja/PrintImportReport/releases/download/v1.0.0/PrintImportReport.dll",
                             "filename": "PrintImportReport.dll",
                             "sha256": "44f432531010691d40f962ecc07b96d9e249847c56e756f317056ffdd247f3ee"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.🍀": {
+            "name": "🍀",
+            "description": "Makes you luckier 🍀",
+            "category": "Memes",
+            "sourceLocation": "https://github.com/art0007i/FourLeafClover",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/FourLeafClover/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/FourLeafClover/raw/05b52b163ba868b82660a1c13d0a9e44310a4deb/%F0%9F%8D%80.dll",
+                            "filename": "🍀.dll",
+                            "sha256": "f7b066d072ee63ab22c9ab2d9ae3e03a4e8bd174e87d4950e0a98a15c86dc976"
                         }
                     ]
                 }
@@ -4193,6 +4292,15 @@
                             "sha256": "82BBEB12EFC059937BDC4BBF46946E9C11ED286037D2F05E69A7FF276424C6F8"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/download/v1.1.0/ComponentAttacherSearch.dll",
+                            "sha256": "E6953386E38A36E27B56D13BA88F1C5AC87FB331CB561A647997714CE6D3E178"
+                        }
+                    ]
                 }
             }
         },
@@ -4215,6 +4323,15 @@
                             "sha256": "515BB68CFA32ACBE09D3FC06C2E66985BB60F1662FB543A1B12582F00E198AA7"
                         }
                     ]
+                },
+                "2.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/tag/v2.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/download/v2.1.0/ComponentAttacherFavorites.dll",
+                            "sha256": "400A7AA3ABD5376AFE6BAFA23A0FDC8B7CF84E34A7BA3DB4D548BEA23A83D3E0"
+                        }
+                    ]
                 }
             }
         },
@@ -4235,6 +4352,15 @@
                         {
                             "url": "https://github.com/Banane9/NeosComponentAttacherRecents/releases/download/v1.0.0/ComponentAttacherRecents.dll",
                             "sha256": "12D34801FE79A25105907B76F5A1321EF2C218685155ECA2877481A920AF534F"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherRecents/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherRecents/releases/download/v1.1.0/ComponentAttacherRecents.dll",
+                            "sha256": "F0D44D98D0DDD08CADF20F3438AC20E758898212941594F8845895AB835908C9"
                         }
                     ]
                 }
@@ -4304,6 +4430,38 @@
                 }
             }
         },
+        "jp.hinasense.OpenLinkedVariableSpace": {
+            "name": "OpenLinkedVariableSpace",
+            "description": "Add a button to the DynamicVariable component to open a linked DynamicVariableSpace",
+            "category": "Developers",
+            "website": "https://github.com/HinanoAira/OpenLinkedVariableSpace",
+            "sourceLocation": "https://github.com/HinanoAira/OpenLinkedVariableSpace",
+            "authors": {
+                "HinanoAira": {
+                    "url": "https://github.com/HinanoAira"
+                }
+            },
+            "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/HinanoAira/OpenLinkedVariableSpace/releases/tag/v1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/HinanoAira/OpenLinkedVariableSpace/releases/download/v1.0.2/OpenLinkedVariableSpace.dll",
+                            "sha256": "85e49bf0bef1a7b44e06870f7d21c8980104badb9b6aa4566965bed6092964a7"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/HinanoAira/OpenLinkedVariableSpace/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/HinanoAira/OpenLinkedVariableSpace/releases/download/v1.0.1/OpenLinkedVariableSpace.dll",
+                            "sha256": "48590be8d3a6d440b8b845d9322f2e33d6c8a145494e5a3fd59be5cf98b005d6"
+                        }
+                    ]
+                }
+            }
+        },
         "Banane9.NoEscape": {
             "name": "NoEscape",
             "description": "Can disable the emergency respawn / disconnect gesture.",
@@ -4322,6 +4480,52 @@
                         {
                             "url": "https://github.com/Banane9/NeosNoEscape/releases/download/v1.1.0/NoEscape.dll",
                             "sha256": "B72544AFEFC7A2E6D304EE69F880FC3EC6E290A58B9846DE6F1C8E8F94B33F54"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.NoAprilFools": {
+            "name": "NoAprilFools",
+            "description": "Disables the April Fools easter eggs for people who don't like fun.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosNoAprilFools",
+            "sourceLocation": "https://github.com/Banane9/NeosNoAprilFools",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosNoAprilFools/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosNoAprilFools/releases/download/v1.0.0/NoAprilFools.dll",
+                            "sha256": "17422FC9F2E5F5F7C9C41073A2A35061D42B2B73627DCC871DA04E4BA2938CA4"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.Simulstart": {
+            "name": "Simulstart",
+            "description": "Makes it possible to launch other processes together with Neos. Processes can be launched with (a request for) administrator privileges and can automatically be closed with the game as well.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosSimulstart",
+            "sourceLocation": "https://github.com/Banane9/NeosSimulstart",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosSimulstart/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosSimulstart/releases/download/v1.0.0/Simulstart.dll",
+                            "sha256": "F2D3AD8FA8EA72AE667898449F88AA4AC97B30A714E3864AFA82AA4DF901067B"
                         }
                     ]
                 }
@@ -4900,6 +5104,15 @@
                             "sha256": "CC992ACAD016BBA90DE3F1883873F89CCCFE36804A4DE397B6DB6E537E8FA2CE"
                         }
                     ]
+                },
+                "0.1.2": {
+                    "releaseUrl": "https://github.com/Earthmark/Neos-TypeType/releases/tag/0.1.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Earthmark/Neos-TypeType/releases/download/0.1.2/GenericTypeType.dll",
+                            "sha256": "8AA5617C4ECED9A85E886536965007A2F2CA4D2A1E1853610C14C29A47708553"
+                        }
+                    ]
                 }
             }
         },
@@ -5227,6 +5440,34 @@
                 }
             }
         },
+        "net.lexevo.CloudChange": {
+            "name": "Cloud Change",
+            "description": "Allows you to change what endpoints are used for most, if not all cloud actions in Neos.",
+            "category": "Technical Tweaks",
+            "website": "https://github.com/Lexevolution/Cloud-Change",
+            "sourceLocation": "https://github.com/Lexevolution/Cloud-Change",
+            "authors": {
+                "Lexevo": {
+                    "url": "https://github.com/Lexevolution",
+                    "iconUrl": "https://www.gravatar.com/avatar/ef339ef15db2081cce4f06633960d865"
+                }
+            },
+            "color": "007700",
+            "versions": {
+                "1.0.0": {
+                    "changelog": "Initial Release.",
+                    "releaseUrl": "https://github.com/Lexevolution/Cloud-Change/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Lexevolution/Cloud-Change/releases/download/v1.0.0/CloudChange.dll",
+                            "filename": "CloudChange.dll",
+                            "sha256": "4592fc42cffe5f457aa6e4d682764e5caf8389280f4c24fbfb4f3eafa2cc87fd",
+                            "blake3": "938f242e0ce008d8cc625c2b112994a8e4584023aece58c4307383ff39720227"
+                        }
+                    ]
+                }
+            }
+        },
         "me.badhaloninja.ComponentAttacherFavorites": {
             "name": "ComponentAttacherFavorites",
             "description": "Adds the ability to save favorite components",
@@ -5498,6 +5739,38 @@
                         {
                             "url": "https://github.com/Psychpsyo/TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP/releases/download/1.0.0/TheNeosModThatMakesItSoThatYourFingersAreNoLongerTrustedTouchSourcesSoYouCanRestEasyAtNightKnowingNoOneWillShoveButtonsIntoYourHandWithoutYourPermission.dll",
                             "sha256": "63445a9255dd8e3c3e33cfa99e9bd6878ed5f847e00f6503f957e6e02987553e"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Psychpsyo/TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Psychpsyo/TNMTMISTYFANLTTSSYCREANKNOWSBIYHWYP/releases/download/v1.1.0/TheNeosModThatMakesItSoThatYourFingersAreNoLongerTrustedTouchSourcesSoYouCanRestEasyAtNightKnowingNoOneWillShoveButtonsIntoYourHandWithoutYourPermission.dll",
+                            "sha256": "86B8FADADB65380354397A425E16FCDA0453E9F0D12F0BDEE4A454FA758BAE72"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.ParentalIssues": {
+            "name": "ParentalIssues",
+            "description": "Changes the default parent and child object names to be funnier.",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/art0007i/ParentalIssues",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/ParentalIssues/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ParentalIssues/releases/download/1.1.0/ParentalIssues.dll",
+                            "filename": "ParentalIssues.dll",
+                            "sha256": "8b1d61c5a054c8ce35f1911cbb68eba122f757305545ccecca11f4c6de754629"
                         }
                     ]
                 }
@@ -5934,6 +6207,16 @@
                 }
             },
             "versions": {
+                "0.4.1": {
+                    "releaseUrl": "https://github.com/hantabaru1014/BetterInventoryBrowser/releases/tag/v0.4.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/hantabaru1014/BetterInventoryBrowser/releases/download/v0.4.1/BetterInventoryBrowser.dll",
+                            "filename": "BetterInventoryBrowser.dll",
+                            "sha256": "5529647a56f608cc3a466db9f6b53b03cbf952597a7117281357705033e19ad5"
+                        }
+                    ]
+                },
                 "0.3.0": {
                     "releaseUrl": "https://github.com/hantabaru1014/BetterInventoryBrowser/releases/tag/v0.3.0",
                     "artifacts": [
@@ -6600,6 +6883,38 @@
                         {
                             "url": "https://github.com/Ap6661/LaserRecolorJank/releases/download/1.0.0/LaserRecolorJank.dll",
                             "sha256": "436094d4324a4d22697507f6a07a36098f3dab5a37fe8d8cd2b1587339660846"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.maksim789456.SessionUrlJoin": {
+            "name": "SessionUrlJoin",
+            "description": "Allow join in session by paste session url from clipboard",
+            "category": "Misc",
+            "website": "https://github.com/maksim789456/SessionUrlJoin",
+            "sourceLocation": "https://github.com/maksim789456/SessionUrlJoin",
+            "authors": {
+                "maksim789456": {
+                    "url": "https://github.com/maksim789456"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/maksim789456/SessionUrlJoin/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/maksim789456/SessionUrlJoin/releases/download/1.0.0/SessionUrlJoin.dll",
+                            "sha256": "6b960ea10ff6186b37ac7e84c4704754c18b0d5c7592b23f35a974749fae9b55"
+                        }
+                    ]
+                },
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/maksim789456/SessionUrlJoin/releases/tag/1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/maksim789456/SessionUrlJoin/releases/download/1.1.1/SessionUrlJoin.dll",
+                            "sha256": "fad9c002cd67c03c50d81cdb1e48755421fadfddce689b8b998495c46dd02e94"
                         }
                     ]
                 }
