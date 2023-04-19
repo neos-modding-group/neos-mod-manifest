@@ -6876,7 +6876,7 @@
             "website": "https://github.com/maksim789456/SessionUrlJoin",
             "sourceLocation": "https://github.com/maksim789456/SessionUrlJoin",
             "authors": {
-                "runtime": {
+                "maksim789456": {
                     "url": "https://github.com/maksim789456"
                 }
             },
@@ -6887,6 +6887,15 @@
                         {
                             "url": "https://github.com/maksim789456/SessionUrlJoin/releases/download/1.0.0/SessionUrlJoin.dll",
                             "sha256": "6b960ea10ff6186b37ac7e84c4704754c18b0d5c7592b23f35a974749fae9b55"
+                        }
+                    ]
+                },
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/maksim789456/SessionUrlJoin/releases/tag/1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/maksim789456/SessionUrlJoin/releases/download/1.1.1/SessionUrlJoin.dll",
+                            "sha256": "fad9c002cd67c03c50d81cdb1e48755421fadfddce689b8b998495c46dd02e94"
                         }
                     ]
                 }
