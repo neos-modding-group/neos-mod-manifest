@@ -6457,6 +6457,15 @@
                 }
             },
             "versions": {
+                "1.1.2": {
+                        "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1.2",
+                        "artifacts": [
+                            {
+                                "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/download/1.1.2/KeepGlobalTransformToggle.dll",
+                                "sha256": "9b6dadf2f3d5846fae5676b8a884abbba8b46092a97543f612db8311c04bfa0a"
+                            }
+                        ]
+                },
                 "1.1.1": {
                         "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1.1",
                         "changelog": "The toggle now only spawns in inspector's spawned by the mod's user",
