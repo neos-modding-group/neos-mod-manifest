@@ -736,6 +736,16 @@
                 }
             },
             "versions": {
+                "1.0.4": {
+                    "releaseUrl": "https://github.com/dfgHiatus/CacheGetClapped/releases/tag/v1.0.4",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/dfgHiatus/CacheGetClapped/releases/download/v1.0.4/CacheGetClapped.dll",
+                            "filename": "CacheGetClapped.dll",
+                            "sha256": "3a8fb4e0e89a7ece67d63975a90dd9c00c84914215655dee4acf8cffc6d0a234"
+                        }
+                    ]
+                },
                 "1.0.3": {
                     "releaseUrl": "https://github.com/dfgHiatus/CacheGetClapped/releases/tag/v1.0.3",
                     "artifacts": [
