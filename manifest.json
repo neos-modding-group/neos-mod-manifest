@@ -5095,6 +5095,52 @@
                 }
             }
         },
+        "me.badhaloninja.AvatarCreatorUtils": {
+            "name": "AvatarCreatorUtils",
+            "description": "Adds various options to the avatar creator",
+            "category": "Wizards",
+            "sourceLocation": "https://github.com/badhaloninja/AvatarCreatorUtils",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/AvatarCreatorUtils/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/AvatarCreatorUtils/releases/download/v1.0.0/AvatarCreatorUtils.dll",
+                            "filename": "AvatarCreatorUtils.dll",
+                            "sha256": "554e0e650338b9658348ef49c982f44c7066afc5f015338066a239aa5d8c036d"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.badhaloninja.DontMoveInspectors": {
+            "name": "DontMoveInspectors",
+            "description": "Makes Inspectors not move back when opening a new inspector from them",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/badhaloninja/DontMoveInspectors",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/DontMoveInspectors/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/DontMoveInspectors/releases/download/v1.0.0/DontMoveInspectors.dll",
+                            "filename": "DontMoveInspectors.dll",
+                            "sha256": "ed454ee425b9022811254736943bb5eb8476f40f8e1843209eb74244d7326f84"
+                        }
+                    ]
+                }
+            }
+        },
         "net.earthmark.GenericTypeType": {
             "name": "GenericTypeType",
             "description": "Adds additional type resolver steps to the generic type resolver in the component attacher, allowing nested generics using the C# syntax with some pre-defined namespace usings.",
