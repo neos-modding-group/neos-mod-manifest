@@ -5097,7 +5097,7 @@
         },
         "me.badhaloninja.AvatarCreatorUtils": {
             "name": "AvatarCreatorUtils",
-            "description": "Adds various options to the avatar creator",
+            "description": "Options to add info to avatars during creation and clean up proxies",
             "category": "Wizards",
             "sourceLocation": "https://github.com/badhaloninja/AvatarCreatorUtils",
             "authors": {
@@ -5112,7 +5112,7 @@
                         {
                             "url": "https://github.com/badhaloninja/AvatarCreatorUtils/releases/download/v1.0.0/AvatarCreatorUtils.dll",
                             "filename": "AvatarCreatorUtils.dll",
-                            "sha256": "554e0e650338b9658348ef49c982f44c7066afc5f015338066a239aa5d8c036d"
+                            "sha256": "9e4ecfb84ac266c9947f249decd80d3890525f43e59b9741faf5e14869a9b25f"
                         }
                     ]
                 }
