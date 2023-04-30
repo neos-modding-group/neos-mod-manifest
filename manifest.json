@@ -7127,6 +7127,29 @@
                     ]
                 }
             }
+        },
+        "com.github.mpmxyz.massimportpacker": {
+            "name": "Mass Import Packer",
+            "description": "Allows you to reparent batch imports of images",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosMassImportPacker",
+            "sourceLocation": "https://github.com/mpmxyz/NeosMassImportPacker",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosMassImportPacker/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosMassImportPacker/releases/download/v1.0.0/NeosMassImportPacker.dll",
+                            "sha256": "fdf70f9a344f389bbdaa55dc2838c389819af868a69806fc8d0127f5c6b5c161"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
