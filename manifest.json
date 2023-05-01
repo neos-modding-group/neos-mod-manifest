@@ -6956,6 +6956,15 @@
                             "sha256": "436094d4324a4d22697507f6a07a36098f3dab5a37fe8d8cd2b1587339660846"
                         }
                     ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Ap6661/LaserRecolorJank/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Ap6661/LaserRecolorJank/releases/download/1.0.1/LaserRecolorJank.dll",
+                            "sha256": "39270bc54d586d900df212757ee3f01c64ca5c70fff00f120db1746c51461fed"
+                        }
+                    ]
                 }
             }
         },
