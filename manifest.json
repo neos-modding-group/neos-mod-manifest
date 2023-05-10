@@ -5521,6 +5521,18 @@
                             "blake3": "938f242e0ce008d8cc625c2b112994a8e4584023aece58c4307383ff39720227"
                         }
                     ]
+                },
+                "1.0.1": {
+                    "changelog": "Updated default config URLs to reflect recent updates.",
+                    "releaseUrl": "https://github.com/Lexevolution/Cloud-Change/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Lexevolution/Cloud-Change/releases/download/v1.0.1/CloudChange.dll",
+                            "filename": "CloudChange.dll",
+                            "sha256": "dc94543da7aa22d7935198c1169edd7c037871812c617f9b6efe0d9a83482895",
+                            "blake3": "2560ff237500a2f2de5268faa755134f37ca19f4943c9b6583dc4129d80a6d72"
+                        }
+                    ]
                 }
             }
         },
