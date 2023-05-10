@@ -4538,6 +4538,15 @@
                             "sha256": "F2D3AD8FA8EA72AE667898449F88AA4AC97B30A714E3864AFA82AA4DF901067B"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosSimulstart/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosSimulstart/releases/download/v1.1.0/Simulstart.dll",
+                            "sha256": "217916C1084AC08A8241D6DDC2180D0189C59A347B17491C42EF1D61FF1ED9EA"
+                        }
+                    ]
                 }
             }
         },
