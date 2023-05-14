@@ -7180,6 +7180,29 @@
                     ]
                 }
             }
+        },
+        "net.raemien.NeosTextureSettings": {
+            "name": "NeosTextureSettings",
+            "description": "Control the quality settings of loaded textures. Useful for reducing texture memory on mobile/low-end devices.",
+            "category": "Optimization",
+            "website": "https://github.com/Raemien/NeosTextureSettings",
+            "sourceLocation": "https://github.com/Raemien/NeosTextureSettings",
+            "authors": {
+                "Raemien": {
+                    "url": "https://github.com/Raemien"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Raemien/NeosTextureSettings/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Raemien/NeosTextureSettings/releases/download/v1.0.0/NeosTextureSettings.dll",
+                            "sha256": "bc02b2b193706f0734cb6d12b08babc32a1cc46cd16024f1e610b7b4c47140bb"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
