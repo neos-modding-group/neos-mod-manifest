@@ -608,7 +608,7 @@
             "authors": {
                 "eia485": {
                     "url": "https://github.com/EIA485",
-                    "iconUrl" : "https://avatars.githubusercontent.com/u/17285570"
+                    "iconUrl": "https://avatars.githubusercontent.com/u/17285570"
                 }
             },
             "versions": {
@@ -6516,7 +6516,7 @@
                 }
             },
             "versions": {
-            "1.1": {
+                "1.1": {
                     "releaseUrl": "https://github.com/CatSharkShin/ReArmature/releases/tag/1.1",
                     "artifacts": [
                         {
@@ -6525,8 +6525,8 @@
                         }
                     ],
                     "changelog": "It now duplicates bonegroups instead of just reparenting them to the new armature. Also now force strips empty bones before attaching."
-            },
-            "1.0": {
+                },
+                "1.0": {
                     "releaseUrl": "https://github.com/CatSharkShin/ReArmature/releases/tag/1.0",
                     "artifacts": [
                         {
@@ -6550,33 +6550,33 @@
             },
             "versions": {
                 "1.1.2": {
-                        "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1.2",
-                        "artifacts": [
-                            {
-                                "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/download/1.1.2/KeepGlobalTransformToggle.dll",
-                                "sha256": "9b6dadf2f3d5846fae5676b8a884abbba8b46092a97543f612db8311c04bfa0a"
-                            }
-                        ]
+                    "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/download/1.1.2/KeepGlobalTransformToggle.dll",
+                            "sha256": "9b6dadf2f3d5846fae5676b8a884abbba8b46092a97543f612db8311c04bfa0a"
+                        }
+                    ]
                 },
                 "1.1.1": {
-                        "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1.1",
-                        "changelog": "The toggle now only spawns in inspector's spawned by the mod's user",
-                        "artifacts": [
-                            {
-                                "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/download/1.1.1/KeepGlobalTransformToggle.dll",
-                                "sha256": "155d587e8139517c4c5ecd90f1de0cc685400a69cf58cddd9b847eef1cd49751"
-                            }
-                        ]
+                    "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1.1",
+                    "changelog": "The toggle now only spawns in inspector's spawned by the mod's user",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/download/1.1.1/KeepGlobalTransformToggle.dll",
+                            "sha256": "155d587e8139517c4c5ecd90f1de0cc685400a69cf58cddd9b847eef1cd49751"
+                        }
+                    ]
                 },
                 "1.1": {
-                        "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1",
-                        "artifacts": [
-                            {
-                                "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/download/1.1/KeepGlobalTransformToggle.dll",
-                                "sha256": "9f5b1bca286b3c055ff391fe4e598068ad9b4a7443a77293f7dbdeb7604bb49a"
-                            }
-                        ],
-                        "flags": ["deprecated"]
+                    "releaseUrl": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/tag/1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/CatSharkShin/KeepGlobalTransformToggle/releases/download/1.1/KeepGlobalTransformToggle.dll",
+                            "sha256": "9f5b1bca286b3c055ff391fe4e598068ad9b4a7443a77293f7dbdeb7604bb49a"
+                        }
+                    ],
+                    "flags": [ "deprecated" ]
                 }
             }
         },
@@ -6900,7 +6900,7 @@
                 "1.1.0": {
                     "changelog": "fix linux path separator",
                     "releaseUrl": "https://github.com/art0007i/LocalStorage/releases/tag/1.1.0",
-                    "flags": ["prerelease"],
+                    "flags": [ "prerelease" ],
                     "artifacts": [
                         {
                             "url": "https://github.com/art0007i/LocalStorage/releases/download/1.1.0/LocalStorage.dll",
@@ -7153,6 +7153,113 @@
                         {
                             "url": "https://github.com/TheJebForge/MeshAutoReimport/releases/download/1.0.0/MeshAutoReimport.dll",
                             "sha256": "a01a1625379d05315c7b8a927ccaa0179033bab5090d2ac831cb39ac7a6a5f6a"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.mpmxyz.documentimport": {
+            "name": "Document Import (shared code)",
+            "description": "Allows you to convert files during import",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosDocumentImport",
+            "sourceLocation": "https://github.com/mpmxyz/NeosDocumentImport",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "3.0.0": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosDocumentImport/releases/tag/v3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v3.0.0/NeosDocumentImport.dll",
+                            "sha256": "0eb7dfc9eb23e913a095d05349645bbbd921e253a093cc2cfb9e7f4e1a0dc9c9",
+                            "installLocation": "/nml_mods"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.mpmxyz.documentimport.pdf": {
+            "name": "Document Import (PDF)",
+            "description": "Allows you to convert PDF files during import",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosDocumentImport",
+            "sourceLocation": "https://github.com/mpmxyz/NeosDocumentImport",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "3.0.0": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosDocumentImport/releases/tag/v3.0.0",
+                    "dependencies": {
+                        "com.github.mpmxyz.documentimport": {
+                            "version": "3.0.0"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v3.0.0/pdfium.dll",
+                            "sha256": "e0c43f31a3d23ad3c62e8eaa79ffcdf40581a8d227dd04a5127cd955cf1246f5",
+                            "installLocation": "/"
+                        },
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v3.0.0/Docnet.Core.dll",
+                            "sha256": "9da10f0e7f0ef146f41e2a518d1e1388199071bb558d7dbe32c53013e53c7dc5",
+                            "installLocation": "/nml_libs"
+                        },
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v3.0.0/NeosDocumentImport_PDFImporter.dll",
+                            "sha256": "ca17024e2ecded77232d33c70072bc7400baa092498605504feeb0b8acb8f8fd",
+                            "installLocation": "/nml_mods"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.mpmxyz.documentimport.svg": {
+            "name": "Document Import (SVG)",
+            "description": "Allows you to convert SVG files during import",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosDocumentImport",
+            "sourceLocation": "https://github.com/mpmxyz/NeosDocumentImport",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "3.0.0": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosDocumentImport/releases/tag/v3.0.0",
+                    "dependencies": {
+                        "com.github.mpmxyz.documentimport": {
+                            "version": "3.0.0"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v3.0.0/ExCSS.dll",
+                            "sha256": "635b6e7f39fc2148193e56e000fdfbd15acdf1cf9a82dcdac73bb7042bb647c8",
+                            "installLocation": "/nml_libs"
+                        },
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v3.0.0/Fizzler.dll",
+                            "sha256": "11e767bcbee616f5c797eec60e6e76789e1f23376862b2b4f23e85fa281e39ca",
+                            "installLocation": "/nml_libs"
+                        },
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v3.0.0/Svg.dll",
+                            "sha256": "caee4cd26822cd6f69eae5075720e32b968f71d6cce4361af0d49f6b33d1a116",
+                            "installLocation": "/nml_libs"
+                        },
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v3.0.0/NeosDocumentImport_SVGImporter.dll",
+                            "sha256": "3350751902ac1c8444507415c8719523b6436e2112ec0ee599f69344b5b3cdd8",
+                            "installLocation": "/nml_mods"
                         }
                     ]
                 }
