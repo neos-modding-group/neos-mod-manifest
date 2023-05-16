@@ -6576,7 +6576,7 @@
                                 "sha256": "9f5b1bca286b3c055ff391fe4e598068ad9b4a7443a77293f7dbdeb7604bb49a"
                             }
                         ],
-                        "flags": [ "deprecated" ]
+                        "flags": ["deprecated"]
                 }
             }
         },
