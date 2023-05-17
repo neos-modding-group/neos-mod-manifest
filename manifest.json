@@ -4373,6 +4373,15 @@
                             "sha256": "F0D44D98D0DDD08CADF20F3438AC20E758898212941594F8845895AB835908C9"
                         }
                     ]
+                },
+                "1.2.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherRecents/releases/tag/v1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosComponentAttacherRecents/releases/download/v1.2.0/ComponentAttacherRecents.dll",
+                            "sha256": "CAE97DC06168D871769CCA39EEE9EA2E4ECAA876B028A72DFA3A92E5192CA437"
+                        }
+                    ]
                 }
             }
         },
