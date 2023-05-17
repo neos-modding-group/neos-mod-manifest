@@ -532,7 +532,7 @@
                 },
                 "1.2.0": {
                     "releaseUrl": "https://github.com/Nytra/NeosColorMyLogiX/releases/tag/v1.2.0",
-                    "changelog": "- Added an option to automatically update node colors in real-time when your mod config changes (Disabled by default.)\n- Added an option for reference and driver nodes to update their colors when their targets change (Enabled by default.)\n- Added color override options for Display nodes and Input nodes.\n- Various other tweaks.",
+                    "changelog": "- Added an option to automatically update node colors in real-time when your mod config changes (Disabled by default.)\n- Added an option for reference and driver nodes to update their colors when their targets change (Enabled by default.)\n- Added color override options for Display nodes and Input nodes.\n- Various other tweaks and fixes.",
                     "artifacts": [
                         {
                             "url": "https://github.com/Nytra/NeosColorMyLogiX/releases/download/v1.2.0/ColorMyLogiX.dll",
