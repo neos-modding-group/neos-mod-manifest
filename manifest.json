@@ -509,6 +509,29 @@
                 }
             }
         },
+        "owo.Nytra.HeadlessCurbYourUndoManager": {
+            "name": "HeadlessCurbYourUndoManager",
+            "description": "A mod for Neos Headless Client that deletes extra UndoManager components accidentally spawned in the world root.",
+            "category": "Bug Workarounds",
+            "website": "https://github.com/Nytra/NeosHeadlessCurbYourUndoManager",
+            "sourceLocation": "https://github.com/Nytra/NeosHeadlessCurbYourUndoManager",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/Nytra/NeosHeadlessCurbYourUndoManager/releases/tag/v1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosHeadlessCurbYourUndoManager/releases/download/v1.0.2/HeadlessCurbYourUndoManager.dll",
+                            "sha256": "97dad220dfb40790eda7b0860acafd1f3559d122b10d0f1c89b6d10a1237a5ea"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.ColorMyLogiX": {
             "name": "ColorMyLogiX",
             "description": "Apply colors to your LogiX nodes. Highly customizable.",
