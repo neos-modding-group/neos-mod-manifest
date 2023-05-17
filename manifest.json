@@ -488,7 +488,7 @@
         },
         "owo.Nytra.HeadlessToolTipKickCrashFix": {
             "name": "HeadlessToolTipKickCrashFix",
-            "description": "Prevents tooltip permission kicks from causing a world crash on headless.",
+            "description": "A mod for Neos Headless Client that prevents tooltip permission kicks from causing a world crash.",
             "category": "Bug Workarounds",
             "website": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
             "sourceLocation": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
@@ -4558,6 +4558,15 @@
                             "sha256": "F2D3AD8FA8EA72AE667898449F88AA4AC97B30A714E3864AFA82AA4DF901067B"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosSimulstart/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosSimulstart/releases/download/v1.1.0/Simulstart.dll",
+                            "sha256": "217916C1084AC08A8241D6DDC2180D0189C59A347B17491C42EF1D61FF1ED9EA"
+                        }
+                    ]
                 }
             }
         },
@@ -5115,6 +5124,52 @@
                 }
             }
         },
+        "me.badhaloninja.AvatarCreatorUtils": {
+            "name": "AvatarCreatorUtils",
+            "description": "Options to add info to avatars during creation and clean up proxies",
+            "category": "Wizards",
+            "sourceLocation": "https://github.com/badhaloninja/AvatarCreatorUtils",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/AvatarCreatorUtils/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/AvatarCreatorUtils/releases/download/v1.0.0/AvatarCreatorUtils.dll",
+                            "filename": "AvatarCreatorUtils.dll",
+                            "sha256": "9e4ecfb84ac266c9947f249decd80d3890525f43e59b9741faf5e14869a9b25f"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.badhaloninja.DontMoveInspectors": {
+            "name": "DontMoveInspectors",
+            "description": "Makes Inspectors not move back when opening a new inspector from them",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/badhaloninja/DontMoveInspectors",
+            "authors": {
+                "badhaloninja": {
+                    "url": "https://github.com/badhaloninja"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/badhaloninja/DontMoveInspectors/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/DontMoveInspectors/releases/download/v1.0.0/DontMoveInspectors.dll",
+                            "filename": "DontMoveInspectors.dll",
+                            "sha256": "ed454ee425b9022811254736943bb5eb8476f40f8e1843209eb74244d7326f84"
+                        }
+                    ]
+                }
+            }
+        },
         "net.earthmark.GenericTypeType": {
             "name": "GenericTypeType",
             "description": "Adds additional type resolver steps to the generic type resolver in the component attacher, allowing nested generics using the C# syntax with some pre-defined namespace usings.",
@@ -5495,6 +5550,18 @@
                             "blake3": "938f242e0ce008d8cc625c2b112994a8e4584023aece58c4307383ff39720227"
                         }
                     ]
+                },
+                "1.0.1": {
+                    "changelog": "Updated default config URLs to reflect recent updates.",
+                    "releaseUrl": "https://github.com/Lexevolution/Cloud-Change/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Lexevolution/Cloud-Change/releases/download/v1.0.1/CloudChange.dll",
+                            "filename": "CloudChange.dll",
+                            "sha256": "dc94543da7aa22d7935198c1169edd7c037871812c617f9b6efe0d9a83482895",
+                            "blake3": "2560ff237500a2f2de5268faa755134f37ca19f4943c9b6583dc4129d80a6d72"
+                        }
+                    ]
                 }
             }
         },
@@ -5619,6 +5686,21 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/AlexW-578/CustomLogixBrowser/releases/tag/v1.1.0",
+                    "dependencies": {
+                        "me.art0007i.SpecialItemsLib": {
+                            "version": "^1.0.0"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/AlexW-578/CustomLogixBrowser/releases/download/v1.1.0/CustomLogixBrowser.dll",
+                            "filename": "CustomLogixBrowser.dll",
+                            "sha256": "cb2cacb9e98357a11c662805da61f7f8a9a4974713768cfea2294da20951dc46"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/AlexW-578/CustomLogixBrowser/releases/tag/v1.0.0",
                     "dependencies": {
@@ -6915,6 +6997,15 @@
                             "sha256": "436094d4324a4d22697507f6a07a36098f3dab5a37fe8d8cd2b1587339660846"
                         }
                     ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Ap6661/LaserRecolorJank/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Ap6661/LaserRecolorJank/releases/download/1.0.1/LaserRecolorJank.dll",
+                            "sha256": "39270bc54d586d900df212757ee3f01c64ca5c70fff00f120db1746c51461fed"
+                        }
+                    ]
                 }
             }
         },
@@ -7082,6 +7173,52 @@
                         {
                             "url": "https://github.com/TheJebForge/MeshAutoReimport/releases/download/1.0.0/MeshAutoReimport.dll",
                             "sha256": "a01a1625379d05315c7b8a927ccaa0179033bab5090d2ac831cb39ac7a6a5f6a"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.mpmxyz.massimportpacker": {
+            "name": "Mass Import Packer",
+            "description": "Allows you to reparent batch imports of images",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosMassImportPacker",
+            "sourceLocation": "https://github.com/mpmxyz/NeosMassImportPacker",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosMassImportPacker/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosMassImportPacker/releases/download/v1.0.0/NeosMassImportPacker.dll",
+                            "sha256": "fdf70f9a344f389bbdaa55dc2838c389819af868a69806fc8d0127f5c6b5c161"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.raemien.NeosTextureSettings": {
+            "name": "NeosTextureSettings",
+            "description": "Control the quality settings of loaded textures. Useful for reducing texture memory on mobile/low-end devices.",
+            "category": "Optimization",
+            "website": "https://github.com/Raemien/NeosTextureSettings",
+            "sourceLocation": "https://github.com/Raemien/NeosTextureSettings",
+            "authors": {
+                "Raemien": {
+                    "url": "https://github.com/Raemien"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Raemien/NeosTextureSettings/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Raemien/NeosTextureSettings/releases/download/v1.0.0/NeosTextureSettings.dll",
+                            "sha256": "bc02b2b193706f0734cb6d12b08babc32a1cc46cd16024f1e610b7b4c47140bb"
                         }
                     ]
                 }
