@@ -2899,6 +2899,16 @@
                 }
             },
             "versions": {
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/rassi0429/MessageCopy/releases/tag/v2.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rassi0429/MessageCopy/releases/download/v2.0.0/MessageCopy.dll",
+                            "filename": "MessageCopy.dll",
+                            "sha256": "3993ba3fda28e5e470b234e29f9932f3d86f35469dc84897218adf6ac9069b95"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/rassi0429/MessageCopy/releases/tag/v1.0.0",
                     "artifacts": [
@@ -3213,6 +3223,16 @@
                 }
             },
             "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/rassi0429/NeosPasteTweak/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/rassi0429/NeosPasteTweak/releases/download/v1.1.0/NeosPasteTweak.dll",
+                            "filename": "NeosPasteTweak.dll",
+                            "sha256": "a8a74fc2171eca92748a85d3e5bc3f66e0744f35f565ed983a6291388a201a9b"
+                        }
+                    ]
+                },
                 "1.0.2": {
                     "releaseUrl": "https://github.com/rassi0429/NeosPasteTweak/releases/tag/v1.0.2",
                     "artifacts": [
