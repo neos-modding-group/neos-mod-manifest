@@ -488,7 +488,7 @@
         },
         "owo.Nytra.HeadlessToolTipKickCrashFix": {
             "name": "HeadlessToolTipKickCrashFix",
-            "description": "Prevents tooltip permission kicks from causing a world crash on headless.",
+            "description": "A mod for Neos Headless Client that prevents tooltip permission kicks from causing a world crash.",
             "category": "Bug Workarounds",
             "website": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
             "sourceLocation": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
@@ -7153,6 +7153,52 @@
                         {
                             "url": "https://github.com/TheJebForge/MeshAutoReimport/releases/download/1.0.0/MeshAutoReimport.dll",
                             "sha256": "a01a1625379d05315c7b8a927ccaa0179033bab5090d2ac831cb39ac7a6a5f6a"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.mpmxyz.massimportpacker": {
+            "name": "Mass Import Packer",
+            "description": "Allows you to reparent batch imports of images",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosMassImportPacker",
+            "sourceLocation": "https://github.com/mpmxyz/NeosMassImportPacker",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosMassImportPacker/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosMassImportPacker/releases/download/v1.0.0/NeosMassImportPacker.dll",
+                            "sha256": "fdf70f9a344f389bbdaa55dc2838c389819af868a69806fc8d0127f5c6b5c161"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.raemien.NeosTextureSettings": {
+            "name": "NeosTextureSettings",
+            "description": "Control the quality settings of loaded textures. Useful for reducing texture memory on mobile/low-end devices.",
+            "category": "Optimization",
+            "website": "https://github.com/Raemien/NeosTextureSettings",
+            "sourceLocation": "https://github.com/Raemien/NeosTextureSettings",
+            "authors": {
+                "Raemien": {
+                    "url": "https://github.com/Raemien"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Raemien/NeosTextureSettings/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Raemien/NeosTextureSettings/releases/download/v1.0.0/NeosTextureSettings.dll",
+                            "sha256": "bc02b2b193706f0734cb6d12b08babc32a1cc46cd16024f1e610b7b4c47140bb"
                         }
                     ]
                 }
