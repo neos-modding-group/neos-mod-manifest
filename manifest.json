@@ -488,7 +488,7 @@
         },
         "owo.Nytra.HeadlessToolTipKickCrashFix": {
             "name": "HeadlessToolTipKickCrashFix",
-            "description": "Prevents tooltip permission kicks from causing a world crash on headless.",
+            "description": "A mod for Neos Headless Client that prevents tooltip permission kicks from causing a world crash.",
             "category": "Bug Workarounds",
             "website": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
             "sourceLocation": "https://github.com/Nytra/NeosHeadlessToolTipKickCrashFix",
