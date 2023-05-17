@@ -2983,6 +2983,16 @@
                             "sha256": "ff0b5ef2594cdef61915f6933bb9d5fa01e3872a0a7506e7fcafae70c5dc90ac"
                         }
                     ]
+                },
+                "1.4.1.0": {
+                    "releaseUrl" : "https://github.com/EIA485/NeosGetItemLink/releases/tag/1.4.1.0",
+                    "changelog" : "slightly optimized code",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosGetItemLink/releases/download/1.4.1.0/GetItemLink.dll",
+                            "sha256": "6e0573a6d3152c11f5392f0e4f7c0fcf464242ddea72d369b2acd54920f55a04"
+                        }
+                    ]
                 }
             }
         },
