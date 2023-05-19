@@ -6017,6 +6017,29 @@
                 }
             }
         },
+         "APnda.UnsafeLogix": {
+            "name": "UnsafeLogix",
+            "description": "Allows for loops in LogiX node connections",
+            "category": "Logix",
+            "website": "https://github.com/Ap6661/UnsafeLogix",
+            "sourceLocation": "https://github.com/Ap6661/UnsafeLogix",
+            "authors": {
+                "APnda": {
+                    "url": "https://github.com/Ap6661"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Ap6661/UnsafeLogix/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Ap6661/UnsafeLogix/releases/download/v1.0.0/UnsafeLogix.dll",
+                            "sha256": "b7b1195c3b10ddc905789b08d7e65e31fc8247f8acecaab9fea2291a081c5cdf"
+                        }
+                    ]
+                }
+            }
+        },
         "Psychpsyo.ContactsMinus": {
             "name": "Contacts-",
             "description": "Adds the ability to set your world to Contacts-.",
