@@ -6017,7 +6017,7 @@
                 }
             }
         },
-         "APnda.UnsafeLogix": {
+        "APnda.UnsafeLogix": {
             "name": "UnsafeLogix",
             "description": "Allows for loops in LogiX node connections",
             "category": "Logix",
