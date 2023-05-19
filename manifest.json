@@ -6020,7 +6020,7 @@
         "APnda.UnsafeLogix": {
             "name": "UnsafeLogix",
             "description": "Allows for loops in LogiX node connections",
-            "category": "Logix",
+            "category": "LogiX",
             "website": "https://github.com/Ap6661/UnsafeLogix",
             "sourceLocation": "https://github.com/Ap6661/UnsafeLogix",
             "authors": {
