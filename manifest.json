@@ -4830,6 +4830,29 @@
                 }
             }
         },
+        "me.art0007i.ImportCompactor": {
+            "name": "ImportCompactor",
+            "description": "Reduces the distance between imported items to a configurable value.",
+            "category": "Asset Importing Tweaks",
+            "sourceLocation": "https://github.com/art0007i/ImportCompactor",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/ImportCompactor/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ImportCompactor/releases/download/1.0.0/ImportCompactor.dll",
+                            "filename": "ImportCompactor.dll",
+                            "sha256": "6b03551a18732e582395324ce8a0f8ff11da0c79de8c96db67d9a3b42cad0208"
+                        }
+                    ]
+                }
+            }
+        },
         "me.badhaloninja.ReloadInspectorButton": {
             "name": "ReloadInspectorButton",
             "description": "Adds a button that reloads an inspector component view as local user",
@@ -4992,6 +5015,29 @@
                             "url": "https://github.com/badhaloninja/PimaxSwordAsViveWand/releases/download/v1.0.0/PimaxSwordAsViveWand.dll",
                             "filename": "PimaxSwordAsViveWand.dll",
                             "sha256": "d1cc83dfd787cd004528164867499f44cab32ae7d48599f19617d7cc68449bb9"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.ShadowDistanceChanger": {
+            "name": "ShadowDistanceChanger",
+            "description": "Allows changing the shadow distance",
+            "category": "Visual Tweaks",
+            "sourceLocation": "https://github.com/art0007i/ShadowDistanceChanger",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/ShadowDistanceChanger/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ShadowDistanceChanger/releases/download/1.0.0/ShadowDistanceChanger.dll",
+                            "filename": "ShadowDistanceChanger.dll",
+                            "sha256": "b2341689b9ab7c5d1a7328e8cda37aed0b2f6ed80fd702771736a9a8bbce9790"
                         }
                     ]
                 }
