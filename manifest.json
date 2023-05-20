@@ -4266,6 +4266,29 @@
                 }
             }
         },
+        "me.art0007i.HeightSettingUnlimiter": {
+            "name": "HeightSettingUnlimiter",
+            "description": "Increases the 2.2 meter height limit for anyone taller than that.",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/art0007i/HeightSettingUnlimiter",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/HeightSettingUnlimiter/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/HeightSettingUnlimiter/releases/download/1.0.0/HeightSettingUnlimiter.dll",
+                            "filename": "HeightSettingUnlimiter.dll",
+                            "sha256": "684f6858c4979c7ffabba9659ca44594ce554a2e8ace5170f496879e006c9cc6"
+                        }
+                    ]
+                }
+            }
+        },
         "Banane9.CorrectGizmoScaling": {
             "name": "CorrectGizmoScaling",
             "description": "Tiny mod that corrects the scaling of the Inspector spawned by the MaterialTip's Edit Material context menu button.",
