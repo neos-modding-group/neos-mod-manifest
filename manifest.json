@@ -4129,13 +4129,13 @@
                 }
             },
             "versions": {
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/art0007i/QuickFolderOpener/releases/tag/1.0.0",
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/QuickFolderOpener/releases/tag/1.0.1",
                     "artifacts": [
                         {
-                            "url": "https://github.com/art0007i/QuickFolderOpener/releases/download/1.0.0/QuickFolderOpener.dll",
+                            "url": "https://github.com/art0007i/QuickFolderOpener/releases/download/1.0.1/QuickFolderOpener.dll",
                             "filename": "QuickFolderOpener.dll",
-                            "sha256": "6035d414e8f2ddd058a11b549fd75a942b12f4d73eae6f4ea5aaa45b6debe06b"
+                            "sha256": "70033bfe442e83e8d25b1effb7b2105c21290fbcf53111308bc42a3d5d04dc16"
                         }
                     ]
                 }
