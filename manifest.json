@@ -7279,6 +7279,29 @@
                     ]
                 }
             }
+        },
+        "net.TheJebForge.ReallyBan": {
+            "name": "Really Ban?",
+            "description": "Modifies ban from session buttons to require double click to actually ban",
+            "category": "Dash Tweaks",
+            "website": "https://github.com/TheJebForge/ReallyBan",
+            "sourceLocation": "https://github.com/TheJebForge/ReallyBan",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/ReallyBan/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/ReallyBan/releases/download/1.0.0/ReallyBan.dll",
+                            "sha256": "2b674df26764e04ff95a9b2a6748ad5f78313cd325fdfc80e29fba7589c6c130"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
