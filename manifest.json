@@ -1647,6 +1647,29 @@
                 }
             }
         },
+        "me.art0007i.InventoryUploadDate": {
+            "name": "InventoryUploadDate",
+            "description": "Allows viewing the upload date of items in the inventory.",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/art0007i/InventoryUploadDate",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/InventoryUploadDate/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/InventoryUploadDate/releases/download/1.0.0/InventoryUploadDate.dll",
+                            "filename": "InventoryUploadDate.dll",
+                            "sha256": "85403eaa83bdb1563b600ba1eef7145b402ffe07a91fccfce70237877c9f1056"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.morereferenceproxies": {
             "name": "MoreReferenceProxies",
             "description": "Adds reference proxy sources to bag editors and list editors",
