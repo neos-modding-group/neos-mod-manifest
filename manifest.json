@@ -4118,6 +4118,29 @@
                 }
             }
         },
+        "me.art0007i.QuickFolderOpener": {
+            "name": "QuickFolderOpener",
+            "description": "Adds a context menu option to open public folders without saving them.",
+            "category": "Context Menu Tweaks",
+            "sourceLocation": "https://github.com/art0007i/QuickFolderOpener",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/QuickFolderOpener/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/QuickFolderOpener/releases/download/1.0.1/QuickFolderOpener.dll",
+                            "filename": "QuickFolderOpener.dll",
+                            "sha256": "70033bfe442e83e8d25b1effb7b2105c21290fbcf53111308bc42a3d5d04dc16"
+                        }
+                    ]
+                }
+            }
+        },
         "Banane9.FlexibleContactsSort": {
             "name": "FlexibleContactsSort",
             "description": "Sorts contacts Better™ and to your liking.",
