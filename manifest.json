@@ -1543,7 +1543,9 @@
                         }
                     ],
                     "conflicts": {
-                        "Banane9.BoundedUIX": "*"
+                        "Banane9.BoundedUIX": {
+                            "version": "*"
+                        }
                     }
                 }
             }
@@ -6037,7 +6039,9 @@
                         }
                     ],
                     "conflicts": {
-                        "Banane9.BoundedUIX": "*"
+                        "Banane9.BoundedUIX": {
+                            "version": "*"
+                        }
                     }
                 }
             }
