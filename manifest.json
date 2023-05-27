@@ -1522,6 +1522,32 @@
                 }
             }
         },
+        "me.art0007i.JustBoundedUIX": {
+            "name": "JustBoundedUIX",
+            "description": "Adds gizmo bounding boxes to UIX elements, as well as fixing UIX elements breaking when a parent is inserted.",
+            "category": "Developers",
+            "sourceLocation": "https://github.com/art0007i/JustBoundedUIX",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/JustBoundedUIX/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/JustBoundedUIX/releases/download/1.0.1/JustBoundedUIX.dll",
+                            "filename": "JustBoundedUIX.dll",
+                            "sha256": "f088f3dd6cd60cd7682a6484811b3083257714bc134e5ac236ef501fd859b50c"
+                        }
+                    ],
+                    "conflicts": {
+                        "Banane9.BoundedUIX": "*"
+                    }
+                }
+            }
+        },
         "me.art0007i.LogixPulseVisualizer": {
             "name": "LogixPulseVisualizer",
             "description": "Makes all impulse wires glow when an impulse travels through them.",
@@ -6009,7 +6035,10 @@
                             "filename": "ParentalIssues.dll",
                             "sha256": "8b1d61c5a054c8ce35f1911cbb68eba122f757305545ccecca11f4c6de754629"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "Banane9.BoundedUIX": "*"
+                    }
                 }
             }
         },
