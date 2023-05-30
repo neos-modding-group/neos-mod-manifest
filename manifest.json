@@ -4444,7 +4444,7 @@
         },
         "Banane9.BoundedUIX": {
             "name": "BoundedUIX",
-            "description": "Makes UIX elements selectable and editable with the usual Slot gizmos, as well as fixing UIX elements breaking when a parent is inserted.",
+            "description": "Makes UIX elements selectable and editable with the usual Slot gizmos, as well as providing special handling when adding parents and children in the inspector.",
             "category": "Developers",
             "website": "https://github.com/Banane9/NeosBoundedUIX",
             "sourceLocation": "https://github.com/Banane9/NeosBoundedUIX",
@@ -4461,7 +4461,29 @@
                             "url": "https://github.com/Banane9/NeosBoundedUIX/releases/download/v2.2.2/BoundedUIX.dll",
                             "sha256": "7B2FEEBC1A6EB82AC65455AFB060C2DA7328B3E651805E4A2EEFB3DA210140F1"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "me.art0007i.JustBoundedUIX": {
+                            "version": "*"
+                        },
+                        "me.art0007i.ParentalIssues": {
+                            "version": "*"
+                        }
+                    }
+                },
+                "2.3.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBoundedUIX/releases/tag/v2.3.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBoundedUIX/releases/download/v2.3.0/BoundedUIX.dll",
+                            "sha256": "26435B6980F14354FD44A68B224A6D7F80CD12F380657032DC2A826EBFB00F87"
+                        }
+                    ],
+                    "conflicts": {
+                        "me.art0007i.JustBoundedUIX": {
+                            "version": "*"
+                        }
+                    }
                 }
             }
         },
