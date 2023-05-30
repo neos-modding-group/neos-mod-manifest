@@ -5904,6 +5904,52 @@
                 }
             }
         },
+        "co.uk.AlexW-578.ImportDefaultsChange": {
+            "name": "ImportDefaultsChange",
+            "description": "Allows the user to change the default 3D Model import settings",
+            "category": "Asset Importing Tweaks",
+            "sourceLocation": "https://github.com/AlexW-578/ImportDefaultsChange",
+            "authors": {
+                "AlexW-578": {
+                    "url": "https://github.com/AlexW-578"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/AlexW-578/ImportDefaultsChange/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/AlexW-578/ImportDefaultsChange/releases/download/v1.0.0/ImportDefaultsChange.dll",
+                            "filename": "ImportDefaultsChange.dll",
+                            "sha256": "843ef6cb81e45ceacdad47c4f4d8dbaf519b6049c01cd95400c4c4efb3823a6b"
+                        }
+                    ]
+                }
+            }
+        },
+        "co.uk.alexw-578.VRLogixRotateFix": {
+            "name": "VRLogixRotateFix",
+            "description": "Rotates spawned LogiX nodes to use the same rotation as the user when in VR.",
+            "category": "LogiX",
+            "sourceLocation": "https://github.com/AlexW-578/VRLogixRotateFix",
+            "authors": {
+                "AlexW-578": {
+                    "url": "https://github.com/AlexW-578"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/AlexW-578/VRLogixRotateFix/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/AlexW-578/VRLogixRotateFix/releases/download/v1.0.1/VRLogixRotateFix.dll",
+                            "filename": "VRLogixRotateFix.dll",
+                            "sha256": "5e1b427f7f498716366f042bcf228ced5cfc4f1a09263e2901355e9e75fe8e20"
+                        }
+                    ]
+                }
+            }
+        },
         "net.Sox.EasyVoiceMessage": {
             "name": "EasyVoiceMessage",
             "description": "Allows you to record voice messages without having to keep your laser on the tiny square button. (although your laser needs to stay on your dash)",
