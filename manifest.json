@@ -529,6 +529,16 @@
                             "sha256": "32e2bda5220fa2e4dcc738c0d2ef5e61fe708dfa6ceb906e2cb5eddf17da9dbe"
                         }
                     ]
+                },
+                "1.2.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosColorMyLogiX/releases/tag/v1.2.0",
+                    "changelog": "- Added an option to automatically update node colors in real-time when your mod config changes (Disabled by default.)\n- Added an option for reference and driver nodes to update their colors when their targets change (Enabled by default.)\n- Added color override options for Display nodes and Input nodes.\n- Various other tweaks and fixes.",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosColorMyLogiX/releases/download/v1.2.0/ColorMyLogiX.dll",
+                            "sha256": "f9a068438c75ac7e73afd6ce6e92aa2b86496b275668e27a83271c5d1cbca584"
+                        }
+                    ]
                 }
             }
         },
@@ -1522,6 +1532,34 @@
                 }
             }
         },
+        "me.art0007i.JustBoundedUIX": {
+            "name": "JustBoundedUIX",
+            "description": "Adds gizmo bounding boxes to UIX elements, as well as fixing UIX elements breaking when a parent is inserted.",
+            "category": "Developers",
+            "sourceLocation": "https://github.com/art0007i/JustBoundedUIX",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/JustBoundedUIX/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/JustBoundedUIX/releases/download/1.0.1/JustBoundedUIX.dll",
+                            "filename": "JustBoundedUIX.dll",
+                            "sha256": "f088f3dd6cd60cd7682a6484811b3083257714bc134e5ac236ef501fd859b50c"
+                        }
+                    ],
+                    "conflicts": {
+                        "Banane9.BoundedUIX": {
+                            "version": "*"
+                        }
+                    }
+                }
+            }
+        },
         "me.art0007i.LogixPulseVisualizer": {
             "name": "LogixPulseVisualizer",
             "description": "Makes all impulse wires glow when an impulse travels through them.",
@@ -1624,6 +1662,29 @@
                 }
             }
         },
+        "me.art0007i.TrackerModelSwapper": {
+            "name": "TrackerModelSwapper",
+            "description": "Allows you to replace the vive tracker model used to visualize trackers.",
+            "category": "Visual Tweaks",
+            "sourceLocation": "https://github.com/art0007i/TrackerModelSwapper",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/TrackerModelSwapper/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/TrackerModelSwapper/releases/download/1.0.0/TrackerModelSwapper.dll",
+                            "filename": "TrackerModelSwapper.dll",
+                            "sha256": "3f2866329cc76a51104e80476a18038fe9e31334a876bf7d65ccddb767fea720"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.showcomponentslot": {
             "name": "ShowComponentSlot",
             "description": "Allows you to open the slot that a component is attached to in component inspectors",
@@ -1642,6 +1703,29 @@
                             "url": "https://github.com/art0007i/ShowComponentSlot/releases/download/1.0.0.0/ShowComponentSlot.dll",
                             "filename": "ShowComponentSlot.dll",
                             "sha256": "61d9e2beb55e8edc769e2158ca108423c76df8b5830bfddd014e545bc4f2534c"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.InventoryUploadDate": {
+            "name": "InventoryUploadDate",
+            "description": "Allows viewing the upload date of items in the inventory.",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/art0007i/InventoryUploadDate",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/InventoryUploadDate/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/InventoryUploadDate/releases/download/1.0.0/InventoryUploadDate.dll",
+                            "filename": "InventoryUploadDate.dll",
+                            "sha256": "85403eaa83bdb1563b600ba1eef7145b402ffe07a91fccfce70237877c9f1056"
                         }
                     ]
                 }
@@ -4141,6 +4225,29 @@
                 }
             }
         },
+        "me.art0007i.QuickFolderOpener": {
+            "name": "QuickFolderOpener",
+            "description": "Adds a context menu option to open public folders without saving them.",
+            "category": "Context Menu Tweaks",
+            "sourceLocation": "https://github.com/art0007i/QuickFolderOpener",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/QuickFolderOpener/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/QuickFolderOpener/releases/download/1.0.1/QuickFolderOpener.dll",
+                            "filename": "QuickFolderOpener.dll",
+                            "sha256": "70033bfe442e83e8d25b1effb7b2105c21290fbcf53111308bc42a3d5d04dc16"
+                        }
+                    ]
+                }
+            }
+        },
         "Banane9.FlexibleContactsSort": {
             "name": "FlexibleContactsSort",
             "description": "Sorts contacts Better™ and to your liking.",
@@ -4284,6 +4391,29 @@
                         {
                             "url": "https://github.com/Banane9/NeosGoToBedAlready/releases/download/v1.0.0/GoToBedAlready.dll",
                             "sha256": "9E11CD4623218CCC3F5DA8DAF53F4D0D470D6FB3BC2BF4B90FA0B82C996A0E2A"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.HeightSettingUnlimiter": {
+            "name": "HeightSettingUnlimiter",
+            "description": "Increases the 2.2 meter height limit for anyone taller than that.",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/art0007i/HeightSettingUnlimiter",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/HeightSettingUnlimiter/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/HeightSettingUnlimiter/releases/download/1.0.0/HeightSettingUnlimiter.dll",
+                            "filename": "HeightSettingUnlimiter.dll",
+                            "sha256": "684f6858c4979c7ffabba9659ca44594ce554a2e8ace5170f496879e006c9cc6"
                         }
                     ]
                 }
@@ -4862,6 +4992,29 @@
                 }
             }
         },
+        "me.art0007i.ImportCompactor": {
+            "name": "ImportCompactor",
+            "description": "Reduces the distance between imported items to a configurable value.",
+            "category": "Asset Importing Tweaks",
+            "sourceLocation": "https://github.com/art0007i/ImportCompactor",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/ImportCompactor/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ImportCompactor/releases/download/1.0.0/ImportCompactor.dll",
+                            "filename": "ImportCompactor.dll",
+                            "sha256": "6b03551a18732e582395324ce8a0f8ff11da0c79de8c96db67d9a3b42cad0208"
+                        }
+                    ]
+                }
+            }
+        },
         "me.badhaloninja.ReloadInspectorButton": {
             "name": "ReloadInspectorButton",
             "description": "Adds a button that reloads an inspector component view as local user",
@@ -5024,6 +5177,29 @@
                             "url": "https://github.com/badhaloninja/PimaxSwordAsViveWand/releases/download/v1.0.0/PimaxSwordAsViveWand.dll",
                             "filename": "PimaxSwordAsViveWand.dll",
                             "sha256": "d1cc83dfd787cd004528164867499f44cab32ae7d48599f19617d7cc68449bb9"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.ShadowDistanceChanger": {
+            "name": "ShadowDistanceChanger",
+            "description": "Allows changing the shadow distance",
+            "category": "Visual Tweaks",
+            "sourceLocation": "https://github.com/art0007i/ShadowDistanceChanger",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/ShadowDistanceChanger/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ShadowDistanceChanger/releases/download/1.0.0/ShadowDistanceChanger.dll",
+                            "filename": "ShadowDistanceChanger.dll",
+                            "sha256": "b2341689b9ab7c5d1a7328e8cda37aed0b2f6ed80fd702771736a9a8bbce9790"
                         }
                     ]
                 }
@@ -5926,7 +6102,12 @@
                             "filename": "ParentalIssues.dll",
                             "sha256": "8b1d61c5a054c8ce35f1911cbb68eba122f757305545ccecca11f4c6de754629"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "Banane9.BoundedUIX": {
+                            "version": "*"
+                        }
+                    }
                 }
             }
         },
@@ -6044,6 +6225,29 @@
                         {
                             "url": "https://github.com/Psychpsyo/DiscordVR/releases/download/1.0.1/DiscordVR.dll",
                             "sha256": "6d3de09c63f90523305d89e65c30c864cacc3a2887db36db3ddda6e9a3a71936"
+                        }
+                    ]
+                }
+            }
+        },
+        "APnda.UnsafeLogix": {
+            "name": "UnsafeLogix",
+            "description": "Allows for loops in LogiX node connections",
+            "category": "LogiX",
+            "website": "https://github.com/Ap6661/UnsafeLogix",
+            "sourceLocation": "https://github.com/Ap6661/UnsafeLogix",
+            "authors": {
+                "APnda": {
+                    "url": "https://github.com/Ap6661"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Ap6661/UnsafeLogix/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Ap6661/UnsafeLogix/releases/download/v1.0.0/UnsafeLogix.dll",
+                            "sha256": "b7b1195c3b10ddc905789b08d7e65e31fc8247f8acecaab9fea2291a081c5cdf"
                         }
                     ]
                 }
@@ -7261,6 +7465,29 @@
                         {
                             "url": "https://github.com/Raemien/NeosTextureSettings/releases/download/v1.0.0/NeosTextureSettings.dll",
                             "sha256": "bc02b2b193706f0734cb6d12b08babc32a1cc46cd16024f1e610b7b4c47140bb"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.TheJebForge.ReallyBan": {
+            "name": "Really Ban?",
+            "description": "Modifies ban from session buttons to require double click to actually ban",
+            "category": "Dash Tweaks",
+            "website": "https://github.com/TheJebForge/ReallyBan",
+            "sourceLocation": "https://github.com/TheJebForge/ReallyBan",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/ReallyBan/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/ReallyBan/releases/download/1.0.0/ReallyBan.dll",
+                            "sha256": "2b674df26764e04ff95a9b2a6748ad5f78313cd325fdfc80e29fba7589c6c130"
                         }
                     ]
                 }
