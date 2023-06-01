@@ -3939,6 +3939,29 @@
                 }
             }
         },
+        "Banane9.StopNarcissistParents": {
+            "name": "StopNarcissistParents",
+            "description": "Prevents parents from inserting themselves and making your inspector all about themselves and their children.",
+            "category": "Developers",
+            "website": "https://github.com/Banane9/NeosStopNarcissistParents",
+            "sourceLocation": "https://github.com/Banane9/NeosStopNarcissistParents",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosStopNarcissistParents/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosStopNarcissistParents/releases/download/v1.0.0/StopNarcissistParents.dll",
+                            "sha256": "EB237A66CE68C3C1D62392195174254AE42CD79827F777BE4A83EDE2B0E16FC2"
+                        }
+                    ]
+                }
+            }
+        },
         "net.DoubleStyx.SsaoTweaks": {
             "name": "SsaoTweaks",
             "description": "Allows the individual parameters of the SSAO effect to be configured.",
