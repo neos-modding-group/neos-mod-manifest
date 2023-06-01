@@ -509,6 +509,30 @@
                 }
             }
         },
+        "owo.Nytra.ComponentSearchWizard": {
+            "name": "ComponentSearchWizard",
+            "description": "Provides a wizard for searching for components by type and/or by name, displaying them in a list, and then provides buttons to batch enable, disable or destroy them.",
+            "category": "Wizards",
+            "website": "https://github.com/Nytra/NeosComponentSearchWizard",
+            "sourceLocation": "https://github.com/Nytra/NeosComponentSearchWizard",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosComponentSearchWizard/releases/tag/v1.1.1",
+                    "changelog": "- Added Undo batching.\n- Allowed multiple wizards to be spawned at once in the same world.",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosComponentSearchWizard/releases/download/v1.1.1/ComponentSearchWizard.dll",
+                            "sha256": "704f1139cb547a22a23a5f93622977be6cf8ba8acec7c340a1bf5879f7e86a70"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.ColorMyLogiX": {
             "name": "ColorMyLogiX",
             "description": "Apply colors to your LogiX nodes. Highly customizable.",
@@ -4107,6 +4131,29 @@
                         {
                             "url": "https://github.com/Banane9/NeosMaybeJump/releases/download/v1.1.0/MaybeJump.dll",
                             "sha256": "b09e1556c8dd6841160ec78003ac7c62823a86e2bf1dde2604b22668c035e107"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.CustomUILib": {
+            "name": "CustomUILib",
+            "description": "Allows modders to easily add custom inspector ui to components which don't have any by default.",
+            "category": "Libraries",
+            "sourceLocation": "https://github.com/art0007i/CustomUILib",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/CustomUILib/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CustomUILib/releases/download/1.0.1/CustomUILib.dll",
+                            "filename": "CustomUILib.dll",
+                            "sha256": "1be4bb7efd3480212c1aa789eea270825f1f7662afc286576bbc34b7ce9cf57d"
                         }
                     ]
                 }
