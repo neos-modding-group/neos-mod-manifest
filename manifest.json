@@ -4179,6 +4179,20 @@
                             "sha256": "B57E658CBF7FA00BA3161DBF0B746294B1C8739E70BCAAA87A0291D375E9DA72"
                         }
                     ]
+                },
+                "2.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosDynVarSpaceTree/releases/tag/v2.0.0",
+                    "dependencies": {
+                        "me.art0007i.CustomUILib": {
+                            "version": "^1.0.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosDynVarSpaceTree/releases/download/v2.0.0/DynVarSpaceTree.dll",
+                            "sha256": "50A2B67D98DB870126846AB88CFB94C3112FAF5EFF86E33BEC27C41CE92682D4"
+                        }
+                    ]
                 }
             }
         },
