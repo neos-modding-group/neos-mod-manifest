@@ -4110,6 +4110,17 @@
                             "sha256": "1be4bb7efd3480212c1aa789eea270825f1f7662afc286576bbc34b7ce9cf57d"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/CustomUILib/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CustomUILib/releases/download/1.1.0/CustomUILib.dll",
+                            "filename": "CustomUILib.dll",
+                            "sha256": "62573c4276414184e6f5cdc94ce80f0f524b9679d18435dcc392f97162e2b690"
+                        }
+                    ],
+                    "changelog": "Fixed multiple mods adding ui to the same component."
                 }
             }
         },
