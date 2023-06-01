@@ -6357,6 +6357,17 @@
                             "sha256": "c1d45cbcd8ebb0fc0863e9d2c688a077d60fa9887a0c8841dd23750d1893313f"
                         }
                     ]
+                },
+                "1.0.5": {
+                    "releaseUrl": "https://github.com/RileyGuy/Nodentify/releases/tag/1.0.5",
+                    "changelog": "- Added option to disable node name editing.",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/RileyGuy/Nodentify/releases/download/1.0.5/Nodentify.dll",
+                            "filename": "Nodentify.dll",
+                            "sha256": "6520fa92deb5eab250d296c265b1a7e7f503d9bcfb85e96427f10cb1eae4bebd"
+                        }
+                    ]
                 }
             }
         },
