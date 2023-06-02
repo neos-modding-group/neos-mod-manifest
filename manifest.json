@@ -509,6 +509,30 @@
                 }
             }
         },
+        "owo.Nytra.ComponentSearchWizard": {
+            "name": "ComponentSearchWizard",
+            "description": "Provides a wizard for searching for components by type and/or by name, displaying them in a list, and then provides buttons to batch enable, disable or destroy them.",
+            "category": "Wizards",
+            "website": "https://github.com/Nytra/NeosComponentSearchWizard",
+            "sourceLocation": "https://github.com/Nytra/NeosComponentSearchWizard",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosComponentSearchWizard/releases/tag/v1.1.1",
+                    "changelog": "- Added Undo batching.\n- Allowed multiple wizards to be spawned at once in the same world.",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosComponentSearchWizard/releases/download/v1.1.1/ComponentSearchWizard.dll",
+                            "sha256": "704f1139cb547a22a23a5f93622977be6cf8ba8acec7c340a1bf5879f7e86a70"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.ColorMyLogiX": {
             "name": "ColorMyLogiX",
             "description": "Apply colors to your LogiX nodes. Highly customizable.",
@@ -1333,7 +1357,7 @@
                     "releaseUrl": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0/iTrackerFix.dll",
+                            "url": "https://github.com/DoubleStyx/iTrackerFix/releases/download/1.0.0/iTrackerFix.dll",
                             "sha256": "c881c174b754a391e02b7ff61988e69ab52e2535beccaad4557a1305e3a33042"
                         }
                     ]
@@ -1504,6 +1528,29 @@
                             "url": "https://github.com/art0007i/ShowDelegates/releases/download/1.0.0.0/ShowDelegates.dll",
                             "filename": "ShowDelegates.dll",
                             "sha256": "b6359aeefef9bee8550db379982ca51e6ba400a697e81583fda2189138745bdb"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.CreateWorldConfig": {
+            "name": "CreateWorldConfig",
+            "description": "Adds the world configuration and world permission dialog to the `create new > editors` menu.",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/art0007i/CreateWorldConfig",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/CreateWorldConfig/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CreateWorldConfig/releases/download/1.0.0/CreateWorldConfig.dll",
+                            "filename": "CreateWorldConfig.dll",
+                            "sha256": "5acd23db30d588d9d019a76b99e036ff710ef1466000a1d97608d9b4c7bb3207"
                         }
                     ]
                 }
@@ -4063,6 +4110,40 @@
                             "sha256": "b09e1556c8dd6841160ec78003ac7c62823a86e2bf1dde2604b22668c035e107"
                         }
                     ]
+                }
+            }
+        },
+        "me.art0007i.CustomUILib": {
+            "name": "CustomUILib",
+            "description": "Allows modders to easily add custom inspector ui to components which don't have any by default.",
+            "category": "Libraries",
+            "sourceLocation": "https://github.com/art0007i/CustomUILib",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/CustomUILib/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CustomUILib/releases/download/1.0.1/CustomUILib.dll",
+                            "filename": "CustomUILib.dll",
+                            "sha256": "1be4bb7efd3480212c1aa789eea270825f1f7662afc286576bbc34b7ce9cf57d"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/CustomUILib/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CustomUILib/releases/download/1.1.0/CustomUILib.dll",
+                            "filename": "CustomUILib.dll",
+                            "sha256": "62573c4276414184e6f5cdc94ce80f0f524b9679d18435dcc392f97162e2b690"
+                        }
+                    ],
+                    "changelog": "Fixed multiple mods adding ui to the same component."
                 }
             }
         },
