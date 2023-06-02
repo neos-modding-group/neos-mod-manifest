@@ -1357,7 +1357,7 @@
                     "releaseUrl": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0/iTrackerFix.dll",
+                            "url": "https://github.com/DoubleStyx/iTrackerFix/releases/download/1.0.0/iTrackerFix.dll",
                             "sha256": "c881c174b754a391e02b7ff61988e69ab52e2535beccaad4557a1305e3a33042"
                         }
                     ]
