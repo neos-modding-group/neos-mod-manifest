@@ -1533,6 +1533,29 @@
                 }
             }
         },
+        "me.art0007i.CreateWorldConfig": {
+            "name": "CreateWorldConfig",
+            "description": "Adds the world configuration and world permission dialog to the `create new > editors` menu.",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/art0007i/CreateWorldConfig",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/CreateWorldConfig/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CreateWorldConfig/releases/download/1.0.0/CreateWorldConfig.dll",
+                            "filename": "CreateWorldConfig.dll",
+                            "sha256": "5acd23db30d588d9d019a76b99e036ff710ef1466000a1d97608d9b4c7bb3207"
+                        }
+                    ]
+                }
+            }
+        },
         "me.art0007i.showdrivesource": {
             "name": "ShowDriveSource",
             "description": "Allows viewing what a field is driven by",
