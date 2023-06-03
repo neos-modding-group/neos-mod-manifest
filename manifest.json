@@ -521,12 +521,12 @@
                 }
             },
             "versions": {
-                "1.0.3": {
-                    "releaseUrl": "https://github.com/Nytra/NeosHeadlessCurbYourUndoManager/releases/tag/v1.0.3",
+                "1.0.4": {
+                    "releaseUrl": "https://github.com/Nytra/NeosHeadlessCurbYourUndoManager/releases/tag/v1.0.4",
                     "artifacts": [
                         {
-                            "url": "https://github.com/Nytra/NeosHeadlessCurbYourUndoManager/releases/download/v1.0.3/HeadlessCurbYourUndoManager.dll",
-                            "sha256": "f2e66e382247a3d909720390890a9cdcac09741e8794a4781e0ce5a69ab30eb6"
+                            "url": "https://github.com/Nytra/NeosHeadlessCurbYourUndoManager/releases/download/v1.0.4/HeadlessCurbYourUndoManager.dll",
+                            "sha256": "a2348a0b836b15410947b0ce3ee68bf32914305188cd3772b7b6b30d738bef90"
                         }
                     ]
                 }
