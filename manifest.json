@@ -1544,6 +1544,16 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/CreateWorldConfig/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CreateWorldConfig/releases/download/1.0.1/CreateWorldConfig.dll",
+                            "filename": "CreateWorldConfig.dll",
+                            "sha256": "3bad4f14f9f3ea5e21d97298f5556dff7c6026d27b35a36ad0659c70abd3b0d6"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/art0007i/CreateWorldConfig/releases/tag/1.0.0",
                     "artifacts": [
