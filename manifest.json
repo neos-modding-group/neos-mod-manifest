@@ -1357,7 +1357,7 @@
                     "releaseUrl": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/DoubleStyx/iTrackerFix/releases/tag/1.0.0/iTrackerFix.dll",
+                            "url": "https://github.com/DoubleStyx/iTrackerFix/releases/download/1.0.0/iTrackerFix.dll",
                             "sha256": "c881c174b754a391e02b7ff61988e69ab52e2535beccaad4557a1305e3a33042"
                         }
                     ]
@@ -1528,6 +1528,29 @@
                             "url": "https://github.com/art0007i/ShowDelegates/releases/download/1.0.0.0/ShowDelegates.dll",
                             "filename": "ShowDelegates.dll",
                             "sha256": "b6359aeefef9bee8550db379982ca51e6ba400a697e81583fda2189138745bdb"
+                        }
+                    ]
+                }
+            }
+        },
+        "me.art0007i.CreateWorldConfig": {
+            "name": "CreateWorldConfig",
+            "description": "Adds the world configuration and world permission dialog to the `create new > editors` menu.",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/art0007i/CreateWorldConfig",
+            "authors": {
+                "art0007i": {
+                    "url": "https://github.com/art0007i"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/art0007i/CreateWorldConfig/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CreateWorldConfig/releases/download/1.0.0/CreateWorldConfig.dll",
+                            "filename": "CreateWorldConfig.dll",
+                            "sha256": "5acd23db30d588d9d019a76b99e036ff710ef1466000a1d97608d9b4c7bb3207"
                         }
                     ]
                 }
@@ -4156,6 +4179,17 @@
                             "sha256": "1be4bb7efd3480212c1aa789eea270825f1f7662afc286576bbc34b7ce9cf57d"
                         }
                     ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/CustomUILib/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CustomUILib/releases/download/1.1.0/CustomUILib.dll",
+                            "filename": "CustomUILib.dll",
+                            "sha256": "62573c4276414184e6f5cdc94ce80f0f524b9679d18435dcc392f97162e2b690"
+                        }
+                    ],
+                    "changelog": "Fixed multiple mods adding ui to the same component."
                 }
             }
         },
@@ -6037,6 +6071,52 @@
                             "url": "https://github.com/AlexW-578/CustomLogixBrowser/releases/download/v1.0.0/CustomLogixBrowser.dll",
                             "filename": "CustomLogixBrowser.dll",
                             "sha256": "50803b84c10f5322917a67f13e800339d75d43cf7c87bbb5606c9d4ab4eafc2e"
+                        }
+                    ]
+                }
+            }
+        },
+        "co.uk.AlexW-578.ImportDefaultsChange": {
+            "name": "ImportDefaultsChange",
+            "description": "Allows the user to change the default 3D Model import settings",
+            "category": "Asset Importing Tweaks",
+            "sourceLocation": "https://github.com/AlexW-578/ImportDefaultsChange",
+            "authors": {
+                "AlexW-578": {
+                    "url": "https://github.com/AlexW-578"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/AlexW-578/ImportDefaultsChange/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/AlexW-578/ImportDefaultsChange/releases/download/v1.0.0/ImportDefaultsChange.dll",
+                            "filename": "ImportDefaultsChange.dll",
+                            "sha256": "843ef6cb81e45ceacdad47c4f4d8dbaf519b6049c01cd95400c4c4efb3823a6b"
+                        }
+                    ]
+                }
+            }
+        },
+        "co.uk.alexw-578.VRLogixRotateFix": {
+            "name": "VRLogixRotateFix",
+            "description": "Rotates spawned LogiX nodes to use the same rotation as the user when in VR.",
+            "category": "LogiX",
+            "sourceLocation": "https://github.com/AlexW-578/VRLogixRotateFix",
+            "authors": {
+                "AlexW-578": {
+                    "url": "https://github.com/AlexW-578"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/AlexW-578/VRLogixRotateFix/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/AlexW-578/VRLogixRotateFix/releases/download/v1.0.1/VRLogixRotateFix.dll",
+                            "filename": "VRLogixRotateFix.dll",
+                            "sha256": "5e1b427f7f498716366f042bcf228ced5cfc4f1a09263e2901355e9e75fe8e20"
                         }
                     ]
                 }
