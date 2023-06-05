@@ -4589,12 +4589,12 @@
                         }
                     }
                 },
-                "2.3.0": {
-                    "releaseUrl": "https://github.com/Banane9/NeosBoundedUIX/releases/tag/v2.3.0",
+                "2.4.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBoundedUIX/releases/tag/v2.4.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/Banane9/NeosBoundedUIX/releases/download/v2.3.0/BoundedUIX.dll",
-                            "sha256": "26435B6980F14354FD44A68B224A6D7F80CD12F380657032DC2A826EBFB00F87"
+                            "url": "https://github.com/Banane9/NeosBoundedUIX/releases/download/v2.4.0/BoundedUIX.dll",
+                            "sha256": "6BFA53A1C80398C705DA33AE09DA7A2FD4364DFF0A43C549B880F3C87D36177B"
                         }
                     ],
                     "conflicts": {
@@ -4624,7 +4624,12 @@
                             "url": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/download/v1.0.0/ComponentAttacherSearch.dll",
                             "sha256": "82BBEB12EFC059937BDC4BBF46946E9C11ED286037D2F05E69A7FF276424C6F8"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "me.badhaloninja.ComponentAttacherFavorites": {
+                            "version": "*"
+                        }
+                    }
                 },
                 "1.1.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/tag/v1.1.0",
@@ -4633,7 +4638,12 @@
                             "url": "https://github.com/Banane9/NeosComponentAttacherSearch/releases/download/v1.1.0/ComponentAttacherSearch.dll",
                             "sha256": "E6953386E38A36E27B56D13BA88F1C5AC87FB331CB561A647997714CE6D3E178"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "me.badhaloninja.ComponentAttacherFavorites": {
+                            "version": "*"
+                        }
+                    }
                 }
             }
         },
@@ -4655,7 +4665,12 @@
                             "url": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/download/v2.0.1/ComponentAttacherFavorites.dll",
                             "sha256": "515BB68CFA32ACBE09D3FC06C2E66985BB60F1662FB543A1B12582F00E198AA7"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "me.badhaloninja.ComponentAttacherFavorites": {
+                            "version": "*"
+                        }
+                    }
                 },
                 "2.1.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/tag/v2.1.0",
@@ -4664,7 +4679,12 @@
                             "url": "https://github.com/Banane9/NeosComponentAttacherFavorites/releases/download/v2.1.0/ComponentAttacherFavorites.dll",
                             "sha256": "400A7AA3ABD5376AFE6BAFA23A0FDC8B7CF84E34A7BA3DB4D548BEA23A83D3E0"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "me.badhaloninja.ComponentAttacherFavorites": {
+                            "version": "*"
+                        }
+                    }
                 }
             }
         },
