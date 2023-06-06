@@ -715,7 +715,7 @@
         },
         "net.eia485.ChildrenAlsoMatter": {
             "name": "ChildrenAlsoMatter",
-            "description": "Fixes an issue with DelegateEditor not working for certan types",
+            "description": "Fixes an issue with DelegateEditor not working for certain types",
             "category": "Bug Workarounds",
             "sourceLocation": "https://github.com/EIA485/NeosChildrenAlsoMatter",
             "authors": {
