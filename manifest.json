@@ -509,6 +509,29 @@
                 }
             }
         },
+        "owo.Nytra.ColorMyPanels": {
+            "name": "ColorMyPanels",
+            "description": "A mod that colors your Neos Panels (Inspector, LogiX Browser, Avatar Creator, etc...) with random colors or a static color.",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/Nytra/NeosColorMyPanels",
+            "sourceLocation": "https://github.com/Nytra/NeosColorMyPanels",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosColorMyPanels/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosColorMyPanels/releases/download/v1.0.0/ColorMyPanels.dll",
+                            "sha256": "57af180157f50ebf5f102dcdf169882efeab2095960dbbfa4c6101c3dc115f1b"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.ComponentSearchWizard": {
             "name": "ComponentSearchWizard",
             "description": "Provides a wizard for searching for components by type and/or by name, displaying them in a list, and then provides buttons to batch enable, disable or destroy them.",
