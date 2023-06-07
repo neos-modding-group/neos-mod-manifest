@@ -690,6 +690,28 @@
                 }
             }
         },
+        "net.eia485.AcceptEquivalentDelegates": {
+            "name": "AcceptEquivalentDelegates",
+            "description": "Allows the DelegateEditor to cast delegates of different types but identical signatures",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/EIA485/NeosAcceptEquivalentDelegates/",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosAcceptEquivalentDelegates/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosAcceptEquivalentDelegates/releases/download/1.0.0/AcceptEquivalentDelegates.dll",
+                            "sha256": "918bcfcefb5795873dd4b8914912b15a2da875f8cf9b1c3ef600b0f13a8e1efb"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.killlogspam": {
             "name": "KillLogSpam",
             "description": "Kills the log spam normally caused by changing world configuration",
