@@ -5799,6 +5799,16 @@
                             "sha256": "a7be41696c2e76410ee2afa9683bf06b67c44c4a0c43d40678925d41d45f9a16"
                         }
                     ]
+                },
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/art0007i/StackTraceFixer/releases/tag/1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/StackTraceFixer/releases/download/1.0.2/StackTraceFixer.dll",
+                            "filename": "StackTraceFixer.dll",
+                            "sha256": "0b1d57ee7b613803c6d28265bb0ec3867a91150aceb9ab0f5de1da10808c27f2"
+                        }
+                    ]
                 }
             }
         },
