@@ -4109,6 +4109,29 @@
                 }
             }
         },
+        "Banane9.TheShowMustGoOn": {
+            "name": "TheShowMustGoOn",
+            "description": "Lets you keep sending audio streams to unfocused worlds.",
+            "category": "Misc",
+            "website": "https://github.com/Banane9/NeosTheShowMustGoOn",
+            "sourceLocation": "https://github.com/Banane9/NeosTheShowMustGoOn",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosTheShowMustGoOn/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosTheShowMustGoOn/releases/download/v1.0.0/TheShowMustGoOn.dll",
+                            "sha256": "A60768B03FB5D1180FA210EB02DFFA200E0480ACB04F9593F89DF4634345E1BA"
+                        }
+                    ]
+                }
+            }
+        },
         "net.DoubleStyx.SsaoTweaks": {
             "name": "SsaoTweaks",
             "description": "Allows the individual parameters of the SSAO effect to be configured.",
