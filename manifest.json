@@ -509,6 +509,29 @@
                 }
             }
         },
+        "owo.Nytra.ColorMyPanels": {
+            "name": "ColorMyPanels",
+            "description": "A mod that colors your Neos Panels (Inspector, LogiX Browser, Avatar Creator, etc...) with random colors or a static color.",
+            "category": "Visual Tweaks",
+            "website": "https://github.com/Nytra/NeosColorMyPanels",
+            "sourceLocation": "https://github.com/Nytra/NeosColorMyPanels",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosColorMyPanels/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosColorMyPanels/releases/download/v1.0.0/ColorMyPanels.dll",
+                            "sha256": "57af180157f50ebf5f102dcdf169882efeab2095960dbbfa4c6101c3dc115f1b"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.ComponentSearchWizard": {
             "name": "ComponentSearchWizard",
             "description": "Provides a wizard for searching for components by type and/or by name, displaying them in a list, and then provides buttons to batch enable, disable or destroy them.",
@@ -753,6 +776,28 @@
                             "url": "https://github.com/EIA485/NeosFriendLinkSessionList/releases/download/1.0.0.0/FriendLinkSessionList.dll",
                             "filename": "FriendLinkSessionList.dll",
                             "sha256": "063ccde2e4acf69de1053a39b49c286269567117f567e8075678909bc79cb85f"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.eia485.ChildrenAlsoMatter": {
+            "name": "ChildrenAlsoMatter",
+            "description": "Fixes an issue with DelegateEditor not working for certain types",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/EIA485/NeosChildrenAlsoMatter",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/EIA485/NeosChildrenAlsoMatter/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosChildrenAlsoMatter/releases/download/1.0.1/ChildrenAlsoMatter.dll",
+                            "sha256": "02c147e5ff311c35d4be584c62b56ddef744ca30e56dab4ba3c92d350ebccacb"
                         }
                     ]
                 }
@@ -1589,6 +1634,16 @@
                 }
             },
             "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/art0007i/CreateWorldConfig/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CreateWorldConfig/releases/download/1.0.1/CreateWorldConfig.dll",
+                            "filename": "CreateWorldConfig.dll",
+                            "sha256": "d91c5c55a2e8b4d29f98067acf6330c01310bfafdd6fe0503cc86837c4c68ceB"
+                        }
+                    ]
+                },
                 "1.0.0": {
                     "releaseUrl": "https://github.com/art0007i/CreateWorldConfig/releases/tag/1.0.0",
                     "artifacts": [
@@ -5819,6 +5874,16 @@
                             "url": "https://github.com/art0007i/StackTraceFixer/releases/download/1.0.0.0/StackTraceFixer.dll",
                             "filename": "StackTraceFixer.dll",
                             "sha256": "a7be41696c2e76410ee2afa9683bf06b67c44c4a0c43d40678925d41d45f9a16"
+                        }
+                    ]
+                },
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/art0007i/StackTraceFixer/releases/tag/1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/StackTraceFixer/releases/download/1.0.2/StackTraceFixer.dll",
+                            "filename": "StackTraceFixer.dll",
+                            "sha256": "0b1d57ee7b613803c6d28265bb0ec3867a91150aceb9ab0f5de1da10808c27f2"
                         }
                     ]
                 }
