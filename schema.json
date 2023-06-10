@@ -57,7 +57,7 @@
                     },
                     "category": {
                         "type": "string",
-                        "pattern": "^(Asset Importing Tweaks|Bug Workarounds|Context Menu Tweaks|Dash Tweaks|Developers|General UI Tweaks|Hardware Integrations|Inspectors|Keybinds \\& Gestures|Libraries|LogiX|Memes|Misc|Optimization|Plugins|Technical Tweaks|Visual Tweaks|Wizards)$"
+                        "pattern": "^(Audio|Asset Importing Tweaks|Bug Workarounds|Context Menu Tweaks|Dash Tweaks|Developers|General UI Tweaks|Hardware Integrations|Inspectors|Keybinds \\& Gestures|Libraries|LogiX|Memes|Misc|Optimization|Plugins|Technical Tweaks|Visual Tweaks|Wizards)$"
                     },
                     "flags": {
                         "type": "array",
