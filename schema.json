@@ -63,7 +63,7 @@
                         "type": "array",
                         "items": {
                             "type": "string",
-                            "pattern": "^(deprecated|plugin|file|broken:(linux-native|linux-wine|windows))$"
+                            "pattern": "^(deprecated|plugin|file|broken:(android|linux-native|linux-wine|windows))$"
                         }
                     },
                     "versions": {
@@ -88,7 +88,7 @@
                                     "type": "array",
                                     "items": {
                                         "type": "string",
-                                        "pattern": "^(deprecated|plugin|file|vulnerability:(low|medium|high|critical)|broken(:(linux-native|linux-wine|windows))?|prerelease)$"
+                                        "pattern": "^(deprecated|plugin|file|vulnerability:(low|medium|high|critical)|broken(:(android|linux-native|linux-wine|windows))?|prerelease)$"
                                     }
                                 },
                                 "conflicts": {
