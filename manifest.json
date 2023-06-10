@@ -2078,7 +2078,7 @@
         "io.github.frozenreflex.neosaudiocustomizer": {
             "name": "AudioCustomizer",
             "description": "Allows adjusting the max amount of audio voices",
-            "category": "Misc",
+            "category": "Audio",
             "website": "https://github.com/Frozenreflex/NeosAudioCustomizer",
             "sourceLocation": "https://github.com/Frozenreflex/NeosAudioCustomizer",
             "authors": {
@@ -2476,7 +2476,7 @@
         "dev.zkxs.voicevolumeoverride": {
             "name": "VoiceVolumeOverride",
             "description": "Lets you adjust your microphone volume in-game",
-            "category": "Misc",
+            "category": "Audio",
             "sourceLocation": "https://github.com/zkxs/VoiceVolumeOverride",
             "authors": {
                 "runtime": {
@@ -2591,7 +2591,7 @@
         "net.sox.localstreamvolume": {
             "name": "LocalStreamVolume",
             "description": " Makes any audio stream you create have a local volume slider",
-            "category": "Misc",
+            "category": "Audio",
             "sourceLocation": "https://github.com/Sox-NeosVR/LocalStreamVolume",
             "authors": {
                 "Sox": {
@@ -2614,7 +2614,7 @@
         "net.sox.localvideoplayervolume": {
             "name": "LocalVideoPlayerVolume",
             "description": "Automatically makes any video you import have a local volume slider",
-            "category": "Misc",
+            "category": "Audio",
             "sourceLocation": "https://github.com/Sox-NeosVR/LocalVideoPlayerVolume",
             "authors": {
                 "Sox": {
@@ -3042,7 +3042,7 @@
         "net.eia485.allowmultipleaudiostreams": {
             "name": "AllowMultipleAudioStreams",
             "description": "Allows you to spawn multiple audio streams",
-            "category": "Dash Tweaks",
+            "category": "Audio",
             "sourceLocation": "https://github.com/EIA485/NeosAllowMultipleAudioStreams",
             "authors": {
                 "eia485": {
@@ -6324,7 +6324,7 @@
         "me.art0007i.CustomStreamPlayers": {
             "name": "CustomStreamPlayers",
             "description": "Lets you change your default audio stream player",
-            "category": "Misc",
+            "category": "Audio",
             "sourceLocation": "https://github.com/art0007i/CustomStreamPlayers",
             "authors": {
                 "art0007i": {
