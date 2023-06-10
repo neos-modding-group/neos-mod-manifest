@@ -1,6 +1,6 @@
 {
     "$schema": "schema.json",
-    "schemaVersion": "1.1.0",
+    "schemaVersion": "1.1.1",
     "mods": {
         "dev.zkxs.neosmodloader": {
             "name": "Neos Mod Loader",
