@@ -4112,7 +4112,7 @@
         "Banane9.TheShowMustGoOn": {
             "name": "TheShowMustGoOn",
             "description": "Lets you keep sending audio streams to unfocused worlds.",
-            "category": "Misc",
+            "category": "Audio",
             "website": "https://github.com/Banane9/NeosTheShowMustGoOn",
             "sourceLocation": "https://github.com/Banane9/NeosTheShowMustGoOn",
             "authors": {
