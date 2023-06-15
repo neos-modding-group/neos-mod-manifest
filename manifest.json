@@ -509,6 +509,28 @@
                 }
             }
         },
+        "owo.Nytra.AudioClipWizard": {
+            "name": "AudioClipWizard",
+            "description": "Provides a wizard for batch processing StaticAudioClips in a hierarchy (and converting to different audio formats.)",
+            "category": "Wizards",
+            "sourceLocation": "https://github.com/Nytra/NeosAudioClipWizard",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosAudioClipWizard/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosAudioClipWizard/releases/download/v1.0.0/AudioClipWizard.dll",
+                            "sha256": "7d9d698687ebed1ef1aaf3ac7a27f32ece7d4998582706cf14b499e84c280381"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.ColorMyPanels": {
             "name": "ColorMyPanels",
             "description": "A mod that colors your Neos Panels (Inspector, LogiX Browser, Avatar Creator, etc...) with random colors or a static color.",
