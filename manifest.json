@@ -525,7 +525,7 @@
                     "artifacts": [
                         {
                             "url": "https://github.com/Nytra/NeosAudioClipWizard/releases/download/v1.0.0/AudioClipWizard.dll",
-                            "sha256": "7d9d698687ebed1ef1aaf3ac7a27f32ece7d4998582706cf14b499e84c280381"
+                            "sha256": "f846d313facedc1115da8ff492c56ab9cf152d8eedc017f3334cfb8128807f47"
                         }
                     ]
                 }
