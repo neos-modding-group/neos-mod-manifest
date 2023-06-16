@@ -6322,7 +6322,7 @@
         },
         "me.art0007i.CapturePrivateUI": {
             "name": "CapturePrivateUI",
-            "description": "Allows finger photos to render private UI",
+            "description": "Allows finger photos or cameras with a specific tag to render private UI",
             "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/art0007i/CapturePrivateUI",
             "authors": {
@@ -6338,6 +6338,16 @@
                             "url": "https://github.com/art0007i/CapturePrivateUI/releases/download/1.0.0.0/CapturePrivateUI.dll",
                             "filename": "CapturePrivateUI.dll",
                             "sha256": "a3a66d961556e8c7a3386fd34ade1e4dbe4b191ad76af6103255f3fc186efc68"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/CapturePrivateUI/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CapturePrivateUI/releases/download/1.1.0/CapturePrivateUI.dll",
+                            "filename": "CapturePrivateUI.dll",
+                            "sha256": "ad870e72ed7ec7a47272c22576341f0fd6d220855af56a8bdd3bcd379fea842c"
                         }
                     ]
                 }
