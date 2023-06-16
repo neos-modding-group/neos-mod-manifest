@@ -509,6 +509,28 @@
                 }
             }
         },
+        "owo.Nytra.HeadlessWorldSaveProtections": {
+            "name": "HeadlessWorldSaveProtections",
+            "description": "A mod for Neos Headless Client that sets world access level to private and disables away kick while the world is saving. Reduces the likelihood of crashing by users joining or leaving while the world is saving.",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/Nytra/NeosHeadlessWorldSaveProtections",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosHeadlessWorldSaveProtections/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosHeadlessWorldSaveProtections/releases/download/v1.0.0/HeadlessWorldSaveProtections.dll",
+                            "sha256": "64dcdf3e249c537483db500c05fe1aaa8045b5b816ab6c05c3637c1c44e2025b"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.ColorMyPanels": {
             "name": "ColorMyPanels",
             "description": "A mod that colors your Neos Panels (Inspector, LogiX Browser, Avatar Creator, etc...) with random colors or a static color.",
