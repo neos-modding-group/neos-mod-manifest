@@ -821,7 +821,12 @@
                             "filename": "FriendLinkSessionList.dll",
                             "sha256": "063ccde2e4acf69de1053a39b49c286269567117f567e8075678909bc79cb85f"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "Banane9.SessionTabOverhaul": {
+                            "version": "*"
+                        }
+                    }
                 }
             }
         },
@@ -4232,8 +4237,8 @@
         },
         "Banane9.SessionTabOverhaul": {
             "name": "SessionTabOverhaul",
-            "description": "Overhauls the Session Tab of the Dash, most notably the Users list, by adding more details and options. Screenshots on the Github page. Replaces Banane9.AlternatingSessionUserList.",
-            "category": "General UI Tweaks",
+            "description": "Overhauls the Session Tab of the Dash, most notably the Users list, by adding more details and options. Screenshots on the Github page. Replaces Banane9.AlternatingSessionUserList and net.eia485.friendLinkSessionList.",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosSessionTabOverhaul",
             "sourceLocation": "https://github.com/Banane9/NeosSessionTabOverhaul",
             "authors": {
@@ -4247,11 +4252,14 @@
                     "artifacts": [
                         {
                             "url": "https://github.com/Banane9/NeosSessionTabOverhaul/releases/download/v1.0.0/SessionTabOverhaul.dll",
-                            "sha256": "299B3B0AED8B3F0BFB4447CCAC2203303DF00DC431851D5D2CE42E8C5E9662FF"
+                            "sha256": "197D07FD743E2AD81AF510E081FE2EC1DD48E6714F6A100AA132A352862ADA0A"
                         }
                     ],
                     "conflicts": {
                         "Banane9.AlternatingSessionUserList": {
+                            "version": "*"
+                        },
+                        "net.eia485.friendLinkSessionList": {
                             "version": "*"
                         }
                     }
