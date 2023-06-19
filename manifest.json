@@ -509,6 +509,50 @@
                 }
             }
         },
+        "owo.Nytra.DevTipMultiSelectFix": {
+            "name": "DevTipMultiSelectFix",
+            "description": "Fixes multi-select mode of the Dev Tool Tip to actually let you reselect a slot you just deselected.",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/Nytra/NeosDevTipMultiSelectFix",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosDevTipMultiSelectFix/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosDevTipMultiSelectFix/releases/download/v1.0.0/DevTipMultiSelectFix.dll",
+                            "sha256": "16ff08b37acc01f3dd8cd43da0ff9ff9a9cc07490565e6a2b7ef30693caf9fbf"
+                        }
+                    ]
+                }
+            }
+        },
+        "owo.Nytra.HeadlessWorldSaveProtections": {
+            "name": "HeadlessWorldSaveProtections",
+            "description": "A mod for Neos Headless Client that sets world access level to private and disables away kick while the world is saving. Reduces the likelihood of crashing by users joining or leaving while the world is saving.",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/Nytra/NeosHeadlessWorldSaveProtections",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosHeadlessWorldSaveProtections/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosHeadlessWorldSaveProtections/releases/download/v1.0.0/HeadlessWorldSaveProtections.dll",
+                            "sha256": "64dcdf3e249c537483db500c05fe1aaa8045b5b816ab6c05c3637c1c44e2025b"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.ColorMyPanels": {
             "name": "ColorMyPanels",
             "description": "A mod that colors your Neos Panels (Inspector, LogiX Browser, Avatar Creator, etc...) with random colors or a static color.",
@@ -6300,7 +6344,7 @@
         },
         "me.art0007i.CapturePrivateUI": {
             "name": "CapturePrivateUI",
-            "description": "Allows finger photos to render private UI",
+            "description": "Allows finger photos or cameras with a specific tag to render private UI",
             "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/art0007i/CapturePrivateUI",
             "authors": {
@@ -6316,6 +6360,16 @@
                             "url": "https://github.com/art0007i/CapturePrivateUI/releases/download/1.0.0.0/CapturePrivateUI.dll",
                             "filename": "CapturePrivateUI.dll",
                             "sha256": "a3a66d961556e8c7a3386fd34ade1e4dbe4b191ad76af6103255f3fc186efc68"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/CapturePrivateUI/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CapturePrivateUI/releases/download/1.1.0/CapturePrivateUI.dll",
+                            "filename": "CapturePrivateUI.dll",
+                            "sha256": "ad870e72ed7ec7a47272c22576341f0fd6d220855af56a8bdd3bcd379fea842c"
                         }
                     ]
                 }
