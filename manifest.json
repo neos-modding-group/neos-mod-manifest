@@ -509,6 +509,28 @@
                 }
             }
         },
+        "owo.Nytra.AccessibleFullBodyCalibrator": {
+            "name": "AccessibleFullBodyCalibrator",
+            "description": "Adds a button to the T-Pose Calibration step of the Full Body Calibrator to allow completing the step with only one controller.",
+            "category": "General UI Tweaks",
+            "sourceLocation": "https://github.com/Nytra/NeosAccessibleFullBodyCalibrator",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosAccessibleFullBodyCalibrator/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosAccessibleFullBodyCalibrator/releases/download/v1.0.1/AccessibleFullBodyCalibrator.dll",
+                            "sha256": "f27fc36fd4f93f9ea38b843c0cc300215dd5bf9496d15406b20b39f7187aebf0"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.DevTipMultiSelectFix": {
             "name": "DevTipMultiSelectFix",
             "description": "Fixes multi-select mode of the Dev Tool Tip to actually let you reselect a slot you just deselected.",
