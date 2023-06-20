@@ -520,7 +520,7 @@
                 }
             },
             "versions": {
-                "1.0.1": {
+                "1.0.0": {
                     "releaseUrl": "https://github.com/Nytra/NeosAudioClipWizard/releases/tag/v1.0.0",
                     "artifacts": [
                         {
