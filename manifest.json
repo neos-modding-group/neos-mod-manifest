@@ -6772,6 +6772,29 @@
                 }
             }
         },
+        "net.Cyro.DontDriveMeMad": {
+            "name": "DontDriveMeMad",
+            "description": "Enables 'DontDrive' on FullBodyCalibrator grab handles to make them less jumpy in certain sessions.",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/RileyGuy/DontDriveMeMad",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/RileyGuy/DontDriveMeMad/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/RileyGuy/DontDriveMeMad/releases/download/1.0.0/DontDriveMeMad.dll",
+                            "filename": "DontDriveMeMad.dll",
+                            "sha256": "338c3066f2241ae3e1c181f2abea8b95260d8bc69d3b2261d7acdc480cb12fdc"
+                        }
+                    ]
+                }
+            }
+        },
         "me.badhaloninja.ReadableDebugDialog": {
             "name": "ReadableDebugDialog",
             "description": "Makes the debug dialog more readable in dark lighting",
