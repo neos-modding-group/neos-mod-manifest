@@ -847,6 +847,28 @@
                 }
             }
         },
+        "net.eia485.ExposeEditorlessMembers": {
+            "name": "ExposeEditorlessMembers",
+            "description": "Exposes sync members that dont have an editor as fields in inspector ui",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/EIA485/NeosExposeEditorlessMembers",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosExposeEditorlessMembers/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosExposeEditorlessMembers/releases/download/1.0.0/ExposeEditorlessMembers.dll",
+                            "sha256": "991bf873c91abe281d82259a8550ae5c40ca8c5850cb1cc467e26c8932976765"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.SlotLessWorkerInterfaces": {
             "name": "SlotLessWorkerInterfaces",
             "description": "Allows you to create logix interfaces for workers that dont have a slot",
