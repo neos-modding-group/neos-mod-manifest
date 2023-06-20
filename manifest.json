@@ -512,7 +512,7 @@
         "owo.Nytra.AccessibleFullBodyCalibrator": {
             "name": "AccessibleFullBodyCalibrator",
             "description": "Adds a button to the T-Pose Calibration step of the Full Body Calibrator to allow completing the step with only one controller.",
-            "category": "General UI Tweaks",
+            "category": "Misc",
             "sourceLocation": "https://github.com/Nytra/NeosAccessibleFullBodyCalibrator",
             "authors": {
                 "Nytra": {
