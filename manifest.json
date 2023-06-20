@@ -2096,6 +2096,29 @@
                 }
             }
         },
+        "net.deltawolf.PermissionControl": {
+            "name": "PermissionControl",
+            "description": "Allows editing permission overrides individually, even for users not in a session",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/XDelta/PermissionControl",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/XDelta/PermissionControl/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/PermissionControl/releases/download/1.0.0/PermissionControl.dll",
+                            "filename": "PermissionControl.dll",
+                            "sha256": "890daf2b030745bfabd699f73687bd981e7f84f210c49feb76125a5dfe55910f"
+                        }
+                    ]
+                }
+            }
+        },
         "io.github.frozenreflex.neosparticletools": {
             "name": "NeosParticleTools",
             "description": "Adds better tools to edit particle fades",
