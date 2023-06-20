@@ -521,11 +521,11 @@
             },
             "versions": {
                 "1.0.1": {
-                    "releaseUrl": "https://github.com/Nytra/NeosAudioClipWizard/releases/tag/v1.0.1",
+                    "releaseUrl": "https://github.com/Nytra/NeosAudioClipWizard/releases/tag/v1.0.0",
                     "artifacts": [
                         {
-                            "url": "https://github.com/Nytra/NeosAudioClipWizard/releases/download/v1.0.1/AudioClipWizard.dll",
-                            "sha256": "065a54af41bba7bb8ab17653f3e31c6d154f7b1c85f3b627e924a542dbe49f01"
+                            "url": "https://github.com/Nytra/NeosAudioClipWizard/releases/download/v1.0.0/AudioClipWizard.dll",
+                            "sha256": "f846d313facedc1115da8ff492c56ab9cf152d8eedc017f3334cfb8128807f47"
                         }
                     ]
                 }
