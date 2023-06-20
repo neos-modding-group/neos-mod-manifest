@@ -2887,6 +2887,17 @@
                 }
             },
             "versions": {
+                "1.3.0": {
+                    "changelog": "- Fix logspam related to NaN inequality by Raemien\n- Allow localized text in config fields by Raemien\n\n- Fix Reset default settings button not triggering changed event\n- Added Option to make the reset default settings button include internal use only\n- Added options for an alternating backdrop",
+                    "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.3.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/NeosModSettings/releases/download/v1.3.0/NeosModSettings.dll",
+                            "filename": "NeosModSettings.dll",
+                            "sha256": "1bf73c14cd015fc071312ce344b8b714e5d2c1bbd5076855902f7ab77c3d30c1"
+                        }
+                    ]
+                },
                 "1.2.1": {
                     "changelog": "Fix a typo in the new config item descriptions",
                     "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.2.1",
