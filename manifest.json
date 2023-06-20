@@ -531,6 +531,28 @@
                 }
             }
         },
+        "owo.Nytra.AudioClipWizard": {
+            "name": "AudioClipWizard",
+            "description": "Provides a wizard for batch processing StaticAudioClips in a hierarchy (and converting to different audio formats.)",
+            "category": "Wizards",
+            "sourceLocation": "https://github.com/Nytra/NeosAudioClipWizard",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosAudioClipWizard/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosAudioClipWizard/releases/download/v1.0.0/AudioClipWizard.dll",
+                            "sha256": "f846d313facedc1115da8ff492c56ab9cf152d8eedc017f3334cfb8128807f47"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.DevTipMultiSelectFix": {
             "name": "DevTipMultiSelectFix",
             "description": "Fixes multi-select mode of the Dev Tool Tip to actually let you reselect a slot you just deselected.",
