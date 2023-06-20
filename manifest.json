@@ -1455,7 +1455,7 @@
         "net.DoubleStyx.NotificationsWhenBusy": {
             "name": "NotificationsWhenBusy",
             "description": "Allows you to receive notifications while your status is set to Busy.",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/DoubleStyx/NotificationsWhenBusy",
             "authors": {
                 "DoubleStyx": {
@@ -2704,7 +2704,7 @@
         "net.eia485.desktopphisicalgrab": {
             "name": "DesktopPhisicalGrab",
             "description": "Enables physical grabbing in screen mode",
-            "category": "Misc",
+            "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/EIA485/NeosDesktopPhisicalGrab",
             "authors": {
                 "eia485": {
@@ -4236,7 +4236,7 @@
         "Banane9.AlternatingSessionUserList": {
             "name": "AlternatingSessionUserList",
             "description": "Adds alternating colors to the rows in the Session tab's Users and Permissions lists. The colors can be customized in the mod settings.",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosAlternatingSessionUserList",
             "sourceLocation": "https://github.com/Banane9/NeosAlternatingSessionUserList",
             "authors": {
@@ -4434,7 +4434,7 @@
         "Banane9.EditorTabbing": {
             "name": "EditorTabbing",
             "description": "Allows moving between UIX text inputs in the inspector or anywhere else with tab, with a fallback when Steam Overlay could be triggered with shift+tab.",
-            "category": "Misc",
+            "category": "Keybinds & Gestures",
             "website": "https://github.com/Banane9/NeosEditorTabbing",
             "sourceLocation": "https://github.com/Banane9/NeosEditorTabbing",
             "authors": {
@@ -4478,7 +4478,7 @@
         "Banane9.StopDisappearingLocomotionMenu": {
             "name": "StopDisappearingLocomotionMenu",
             "description": "Can prevent the locomotion and scale items from disappearing from the context menu while holding a tool.",
-            "category": "General UI Tweaks",
+            "category": "Context Menu Tweaks",
             "website": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu",
             "sourceLocation": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu",
             "authors": {
@@ -4524,7 +4524,7 @@
         "Banane9.ClearContactSearch": {
             "name": "ClearContactSearch",
             "description": "Adds a clear button to the search bar on the contacts panel in the dash.",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosClearContactSearch",
             "sourceLocation": "https://github.com/Banane9/NeosClearContactSearch",
             "authors": {
@@ -4570,7 +4570,7 @@
         "Banane9.FlexibleContactsSort": {
             "name": "FlexibleContactsSort",
             "description": "Sorts contacts Better™ and to your liking.",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosFlexibleContactsSort",
             "sourceLocation": "https://github.com/Banane9/NeosFlexibleContactsSort",
             "authors": {
@@ -4672,7 +4672,7 @@
         "Banane9.ContactSessionsUserCapacity": {
             "name": "ContactSessionsUserCapacity",
             "description": "Adds a label showing the maximum user count in a session on the contacts page and can color it to show usage.",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosContactSessionsUserCapacity",
             "sourceLocation": "https://github.com/Banane9/NeosContactSessionsUserCapacity",
             "authors": {
@@ -6071,7 +6071,7 @@
         "dev.Kodu.CustomNotificationSounds": {
             "name": "CustomNotificationSounds",
             "description": "Change Neos' notification sounds!",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Kodufan/CustomNotificationSounds",
             "sourceLocation": "https://github.com/Kodufan/CustomNotificationSounds",
             "authors": {
@@ -6798,7 +6798,7 @@
         "me.badhaloninja.ReadableDebugDialog": {
             "name": "ReadableDebugDialog",
             "description": "Makes the debug dialog more readable in dark lighting",
-            "category": "General UI Tweaks",
+            "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/badhaloninja/ReadableDebugDialog/",
             "authors": {
                 "badhaloninja": {
@@ -7831,7 +7831,7 @@
         "net.TheJebForge.NegativeBlendshapes": {
             "name": "NegativeBlendshapes",
             "description": "Allows setting blendshapes negative using the slider",
-            "category": "Keybinds & Gestures",
+            "category": "Inspectors",
             "website": "https://github.com/TheJebForge/NegativeBlendshapes",
             "sourceLocation": "https://github.com/TheJebForge/NegativeBlendshapes",
             "authors": {
