@@ -1,6 +1,6 @@
 {
     "$schema": "schema.json",
-    "schemaVersion": "1.1.0",
+    "schemaVersion": "1.1.1",
     "mods": {
         "dev.zkxs.neosmodloader": {
             "name": "Neos Mod Loader",
@@ -509,6 +509,94 @@
                 }
             }
         },
+        "owo.Nytra.AccessibleFullBodyCalibrator": {
+            "name": "AccessibleFullBodyCalibrator",
+            "description": "Adds a button to the T-Pose Calibration step of the Full Body Calibrator to allow completing the step with only one controller.",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/Nytra/NeosAccessibleFullBodyCalibrator",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosAccessibleFullBodyCalibrator/releases/tag/v1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosAccessibleFullBodyCalibrator/releases/download/v1.0.1/AccessibleFullBodyCalibrator.dll",
+                            "sha256": "f27fc36fd4f93f9ea38b843c0cc300215dd5bf9496d15406b20b39f7187aebf0"
+                        }
+                    ]
+                }
+            }
+        },
+        "owo.Nytra.AudioClipWizard": {
+            "name": "AudioClipWizard",
+            "description": "Provides a wizard for batch processing StaticAudioClips in a hierarchy (and converting to different audio formats.)",
+            "category": "Wizards",
+            "sourceLocation": "https://github.com/Nytra/NeosAudioClipWizard",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosAudioClipWizard/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosAudioClipWizard/releases/download/v1.0.0/AudioClipWizard.dll",
+                            "sha256": "f846d313facedc1115da8ff492c56ab9cf152d8eedc017f3334cfb8128807f47"
+                        }
+                    ]
+                }
+            }
+        },
+        "owo.Nytra.DevTipMultiSelectFix": {
+            "name": "DevTipMultiSelectFix",
+            "description": "Fixes multi-select mode of the Dev Tool Tip to actually let you reselect a slot you just deselected.",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/Nytra/NeosDevTipMultiSelectFix",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosDevTipMultiSelectFix/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosDevTipMultiSelectFix/releases/download/v1.0.0/DevTipMultiSelectFix.dll",
+                            "sha256": "16ff08b37acc01f3dd8cd43da0ff9ff9a9cc07490565e6a2b7ef30693caf9fbf"
+                        }
+                    ]
+                }
+            }
+        },
+        "owo.Nytra.HeadlessWorldSaveProtections": {
+            "name": "HeadlessWorldSaveProtections",
+            "description": "A mod for Neos Headless Client that sets world access level to private and disables away kick while the world is saving. Reduces the likelihood of crashing by users joining or leaving while the world is saving.",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/Nytra/NeosHeadlessWorldSaveProtections",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosHeadlessWorldSaveProtections/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosHeadlessWorldSaveProtections/releases/download/v1.0.0/HeadlessWorldSaveProtections.dll",
+                            "sha256": "64dcdf3e249c537483db500c05fe1aaa8045b5b816ab6c05c3637c1c44e2025b"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.ColorMyPanels": {
             "name": "ColorMyPanels",
             "description": "A mod that colors your Neos Panels (Inspector, LogiX Browser, Avatar Creator, etc...) with random colors or a static color.",
@@ -821,6 +909,28 @@
                             "url": "https://github.com/EIA485/NeosSlotLessWorkerInterfaces/releases/download/1.0.0/SlotLessWorkerInterfaces.dll",
                             "filename": "SlotLessWorkerInterfaces.dll",
                             "sha256": "005BA735E0ABB1F9D6ADA8E0C6941D601FD1AAD15A955ADE73D0E5DD9329E157"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.eia485.SlotlessInspectorOpener": {
+            "name": "SlotlessInspectorOpener",
+            "description": "Improves refeditor's handling of the open inspector button when the worker has no slot",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/EIA485/NeosSlotlessInspectorOpener",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosSlotlessInspectorOpener/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosSlotlessInspectorOpener/releases/download/1.0.0/SlotlessInspectorOpener.dll",
+                            "sha256": "50852ff0caf46babf69fc0e5224696db09a3dd04d1377d4d1f0717c044d98fec"
                         }
                     ]
                 }
@@ -2062,6 +2172,29 @@
                 }
             }
         },
+        "net.deltawolf.PermissionControl": {
+            "name": "PermissionControl",
+            "description": "Allows editing permission overrides individually, even for users not in a session",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/XDelta/PermissionControl",
+            "authors": {
+                "Delta": {
+                    "url": "https://github.com/XDelta"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/XDelta/PermissionControl/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/PermissionControl/releases/download/1.0.0/PermissionControl.dll",
+                            "filename": "PermissionControl.dll",
+                            "sha256": "890daf2b030745bfabd699f73687bd981e7f84f210c49feb76125a5dfe55910f"
+                        }
+                    ]
+                }
+            }
+        },
         "io.github.frozenreflex.neosparticletools": {
             "name": "NeosParticleTools",
             "description": "Adds better tools to edit particle fades",
@@ -2088,7 +2221,7 @@
         "io.github.frozenreflex.neosaudiocustomizer": {
             "name": "AudioCustomizer",
             "description": "Allows adjusting the max amount of audio voices",
-            "category": "Misc",
+            "category": "Audio",
             "website": "https://github.com/Frozenreflex/NeosAudioCustomizer",
             "sourceLocation": "https://github.com/Frozenreflex/NeosAudioCustomizer",
             "authors": {
@@ -2158,6 +2291,28 @@
                             "url": "https://github.com/EIA485/NeosKillDesktopTools/releases/download/1.0.0.0/KillDesktopTools.dll",
                             "filename": "KillDesktopTools.dll",
                             "sha256": "99c9b909d2ea5eb918444bcaba6888eb8573948e0971e3b24bf0c485b89cf442"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.eia485.ArrowExpanders": {
+            "name": "ArrowExpanders",
+            "description": "keybinds for navigating and interacting with expander tress",
+            "category": "Keybinds & Gestures",
+            "sourceLocation": "https://github.com/EIA485/NeosArrowExpanders",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/EIA485/NeosArrowExpanders/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosArrowExpanders/releases/download/1.0.1/ArrowExpanders.dll",
+                            "sha256": "13c9a3ad8bdda36ea9a1d8ee628f454ed00c84af436302125bcd66ca025b4b3f"
                         }
                     ]
                 }
@@ -2486,7 +2641,7 @@
         "dev.zkxs.voicevolumeoverride": {
             "name": "VoiceVolumeOverride",
             "description": "Lets you adjust your microphone volume in-game",
-            "category": "Misc",
+            "category": "Audio",
             "sourceLocation": "https://github.com/zkxs/VoiceVolumeOverride",
             "authors": {
                 "runtime": {
@@ -2601,7 +2756,7 @@
         "net.sox.localstreamvolume": {
             "name": "LocalStreamVolume",
             "description": " Makes any audio stream you create have a local volume slider",
-            "category": "Misc",
+            "category": "Audio",
             "sourceLocation": "https://github.com/Sox-NeosVR/LocalStreamVolume",
             "authors": {
                 "Sox": {
@@ -2624,7 +2779,7 @@
         "net.sox.localvideoplayervolume": {
             "name": "LocalVideoPlayerVolume",
             "description": "Automatically makes any video you import have a local volume slider",
-            "category": "Misc",
+            "category": "Audio",
             "sourceLocation": "https://github.com/Sox-NeosVR/LocalVideoPlayerVolume",
             "authors": {
                 "Sox": {
@@ -2830,6 +2985,17 @@
                 }
             },
             "versions": {
+                "1.3.0": {
+                    "changelog": "- Fix logspam related to NaN inequality by Raemien\n- Allow localized text in config fields by Raemien\n\n- Fix Reset default settings button not triggering changed event\n- Added Option to make the reset default settings button include internal use only\n- Added options for an alternating backdrop",
+                    "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.3.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/NeosModSettings/releases/download/v1.3.0/NeosModSettings.dll",
+                            "filename": "NeosModSettings.dll",
+                            "sha256": "1bf73c14cd015fc071312ce344b8b714e5d2c1bbd5076855902f7ab77c3d30c1"
+                        }
+                    ]
+                },
                 "1.2.1": {
                     "changelog": "Fix a typo in the new config item descriptions",
                     "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.2.1",
@@ -3052,7 +3218,7 @@
         "net.eia485.allowmultipleaudiostreams": {
             "name": "AllowMultipleAudioStreams",
             "description": "Allows you to spawn multiple audio streams",
-            "category": "Dash Tweaks",
+            "category": "Audio",
             "sourceLocation": "https://github.com/EIA485/NeosAllowMultipleAudioStreams",
             "authors": {
                 "eia485": {
@@ -4114,6 +4280,29 @@
                         {
                             "url": "https://github.com/Banane9/NeosStopNarcissistParents/releases/download/v1.0.0/StopNarcissistParents.dll",
                             "sha256": "EB237A66CE68C3C1D62392195174254AE42CD79827F777BE4A83EDE2B0E16FC2"
+                        }
+                    ]
+                }
+            }
+        },
+        "Banane9.TheShowMustGoOn": {
+            "name": "TheShowMustGoOn",
+            "description": "Lets you keep sending audio streams to unfocused worlds.",
+            "category": "Audio",
+            "website": "https://github.com/Banane9/NeosTheShowMustGoOn",
+            "sourceLocation": "https://github.com/Banane9/NeosTheShowMustGoOn",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosTheShowMustGoOn/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosTheShowMustGoOn/releases/download/v1.0.0/TheShowMustGoOn.dll",
+                            "sha256": "A60768B03FB5D1180FA210EB02DFFA200E0480ACB04F9593F89DF4634345E1BA"
                         }
                     ]
                 }
@@ -6287,7 +6476,7 @@
         },
         "me.art0007i.CapturePrivateUI": {
             "name": "CapturePrivateUI",
-            "description": "Allows finger photos to render private UI",
+            "description": "Allows finger photos or cameras with a specific tag to render private UI",
             "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/art0007i/CapturePrivateUI",
             "authors": {
@@ -6303,6 +6492,16 @@
                             "url": "https://github.com/art0007i/CapturePrivateUI/releases/download/1.0.0.0/CapturePrivateUI.dll",
                             "filename": "CapturePrivateUI.dll",
                             "sha256": "a3a66d961556e8c7a3386fd34ade1e4dbe4b191ad76af6103255f3fc186efc68"
+                        }
+                    ]
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/art0007i/CapturePrivateUI/releases/tag/1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/CapturePrivateUI/releases/download/1.1.0/CapturePrivateUI.dll",
+                            "filename": "CapturePrivateUI.dll",
+                            "sha256": "ad870e72ed7ec7a47272c22576341f0fd6d220855af56a8bdd3bcd379fea842c"
                         }
                     ]
                 }
@@ -6334,7 +6533,7 @@
         "me.art0007i.CustomStreamPlayers": {
             "name": "CustomStreamPlayers",
             "description": "Lets you change your default audio stream player",
-            "category": "Misc",
+            "category": "Audio",
             "sourceLocation": "https://github.com/art0007i/CustomStreamPlayers",
             "authors": {
                 "art0007i": {
@@ -6666,6 +6865,29 @@
                             "url": "https://github.com/RileyGuy/Nodentify/releases/download/1.0.4/Nodentify.dll",
                             "filename": "Nodentify.dll",
                             "sha256": "c1d45cbcd8ebb0fc0863e9d2c688a077d60fa9887a0c8841dd23750d1893313f"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.Cyro.DontDriveMeMad": {
+            "name": "DontDriveMeMad",
+            "description": "Enables 'DontDrive' on FullBodyCalibrator grab handles to make them less jumpy in certain sessions.",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/RileyGuy/DontDriveMeMad",
+            "authors": {
+                "Cyro": {
+                    "url": "https://github.com/RileyGuy"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/RileyGuy/DontDriveMeMad/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/RileyGuy/DontDriveMeMad/releases/download/1.0.0/DontDriveMeMad.dll",
+                            "filename": "DontDriveMeMad.dll",
+                            "sha256": "338c3066f2241ae3e1c181f2abea8b95260d8bc69d3b2261d7acdc480cb12fdc"
                         }
                     ]
                 }
