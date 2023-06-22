@@ -914,6 +914,28 @@
                 }
             }
         },
+        "net.eia485.SlotlessInspectorOpener": {
+            "name": "SlotlessInspectorOpener",
+            "description": "Improves refeditor's handling of the open inspector button when the worker has no slot",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/EIA485/NeosSlotlessInspectorOpener",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosSlotlessInspectorOpener/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosSlotlessInspectorOpener/releases/download/1.0.0/SlotlessInspectorOpener.dll",
+                            "sha256": "50852ff0caf46babf69fc0e5224696db09a3dd04d1377d4d1f0717c044d98fec"
+                        }
+                    ]
+                }
+            }
+        },
         "jworkz.sjackal.JworkzAnimJImportFixMod": {
             "name": "JworkzAnimJImportFixMod",
             "description": "Fixes the AnimJ importing, parsing, and setup issues",
