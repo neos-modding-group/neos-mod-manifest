@@ -872,7 +872,7 @@
         },
         "net.eia485.SlotlessInspectorOpener": {
             "name": "SlotlessInspectorOpener",
-            "description": "Improves refeditor's handeling of the open inspector button when the worker has no slot",
+            "description": "Improves refeditor's handling of the open inspector button when the worker has no slot",
             "category": "Inspectors",
             "sourceLocation": "https://github.com/EIA485/NeosSlotlessInspectorOpener",
             "authors": {
