@@ -924,6 +924,28 @@
                 }
             }
         },
+        "net.eia485.SlotlessInspectorOpener": {
+            "name": "SlotlessInspectorOpener",
+            "description": "Improves refeditor's handling of the open inspector button when the worker has no slot",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/EIA485/NeosSlotlessInspectorOpener",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosSlotlessInspectorOpener/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosSlotlessInspectorOpener/releases/download/1.0.0/SlotlessInspectorOpener.dll",
+                            "sha256": "50852ff0caf46babf69fc0e5224696db09a3dd04d1377d4d1f0717c044d98fec"
+                        }
+                    ]
+                }
+            }
+        },
         "jworkz.sjackal.JworkzAnimJImportFixMod": {
             "name": "JworkzAnimJImportFixMod",
             "description": "Fixes the AnimJ importing, parsing, and setup issues",
@@ -1217,6 +1239,16 @@
                             "sha256": "a90e37a3415b1d9027cf4add89accfac241667d48b7a599a83f5c94efc930080"
                         }
                     ]
+                },
+                "1.3.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosReduceAnimation/releases/tag/1.3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosReduceAnimation/releases/download/1.3.0.0/ReduceAnimation.dll",
+                            "sha256": "93ce91d577befe4d10735249638c38933bfafeaaf00636c38c29243627058019"
+                        }
+                    ],
+                    "changelog": "made changing the dash OpenClose speed easier"
                 }
             }
         },
@@ -2269,6 +2301,28 @@
                             "url": "https://github.com/EIA485/NeosKillDesktopTools/releases/download/1.0.0.0/KillDesktopTools.dll",
                             "filename": "KillDesktopTools.dll",
                             "sha256": "99c9b909d2ea5eb918444bcaba6888eb8573948e0971e3b24bf0c485b89cf442"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.eia485.ArrowExpanders": {
+            "name": "ArrowExpanders",
+            "description": "keybinds for navigating and interacting with expander tress",
+            "category": "Keybinds & Gestures",
+            "sourceLocation": "https://github.com/EIA485/NeosArrowExpanders",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/EIA485/NeosArrowExpanders/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosArrowExpanders/releases/download/1.0.1/ArrowExpanders.dll",
+                            "sha256": "13c9a3ad8bdda36ea9a1d8ee628f454ed00c84af436302125bcd66ca025b4b3f"
                         }
                     ]
                 }
