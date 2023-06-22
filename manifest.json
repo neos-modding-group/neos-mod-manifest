@@ -1229,6 +1229,16 @@
                             "sha256": "a90e37a3415b1d9027cf4add89accfac241667d48b7a599a83f5c94efc930080"
                         }
                     ]
+                },
+                "1.3.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosReduceAnimation/releases/tag/1.3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosReduceAnimation/releases/download/1.3.0.0/ReduceAnimation.dll",
+                            "sha256": "93ce91d577befe4d10735249638c38933bfafeaaf00636c38c29243627058019"
+                        }
+                    ],
+                    "changelog": "made changing the dash OpenClose speed easier"
                 }
             }
         },
