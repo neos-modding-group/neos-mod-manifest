@@ -8050,6 +8050,35 @@
                     ]
                 }
             }
+        },
+        "nu.algiz.api.headless.neos.remora": {
+            "name": "Headless REST API",
+            "description": "Provides a REST API for programmatic control of the headless client",
+            "category": "Technical Tweaks",
+            "website": "https://github.com/Remora/Remora.Neos.Headless",
+            "sourceLocation": "https://github.com/Remora/Remora.Neos.Headless",
+            "authors": {
+                "Jarl Gullberg": {
+                    "url": "https://github.com/Nihlus"
+                }
+            },
+            "tags": [
+                "remora",
+                "api",
+                "rest",
+                "headless"
+            ],
+            "versions": {
+                "2.0.0":{
+                    "releaseUrl": "https://github.com/Remora/Remora.Neos.Headless/releases/tag/Remora.Neos.Headless.API.Mod%2F2.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Remora/Remora.Neos.Headless/releases/download/Remora.Neos.Headless.API.Mod%2F2.0.0/Remora.Neos.Headless.API.zip",
+                            "sha256": "6af83096b874a07470e7179272a00ae86a2f73d85ec585b1c21396e36f2efe93"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
