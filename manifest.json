@@ -8080,6 +8080,15 @@
                             "sha256": "bbdaad8b12a90aa315028fa1fc5bf856cf326b79c014989984af9037a6a4a223"
                         }
                     ]
+                },
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/TheJebForge/SafeMode/releases/tag/1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/SafeMode/releases/download/1.0.2/SafeMode.dll",
+                            "sha256": "6cf91d8764ebf86a34a398675bbe65f87c55300dd75daf3b7fd2af4088bd1fe9"
+                        }
+                    ]
                 }
             }
         }
