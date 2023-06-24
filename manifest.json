@@ -8050,6 +8050,38 @@
                     ]
                 }
             }
+        },
+        "net.TheJebForge.SafeMode": {
+            "name": "Safe Mode",
+            "description": "Adds a configuration toggle to disable all impulse Logix from functioning, so you can use your inspector without Logix being able to do anything",
+            "category": "LogiX",
+            "website": "https://github.com/TheJebForge/SafeMode",
+            "sourceLocation": "https://github.com/TheJebForge/SafeMode",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/SafeMode/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/SafeMode/releases/download/1.0.0/SafeMode.dll",
+                            "sha256": "32e7f84219c36029ace39e60124b30e4baae75822b05cb820ab39370ed53fcb9"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/TheJebForge/SafeMode/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/SafeMode/releases/download/1.0.1/SafeMode.dll",
+                            "sha256": "bbdaad8b12a90aa315028fa1fc5bf856cf326b79c014989984af9037a6a4a223"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
