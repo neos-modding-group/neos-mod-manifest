@@ -707,6 +707,16 @@
                             "sha256": "f9a068438c75ac7e73afd6ce6e92aa2b86496b275668e27a83271c5d1cbca584"
                         }
                     ]
+                },
+                "1.2.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosColorMyLogiX/releases/tag/v1.2.1",
+                    "changelog": "- Fixed an exception when creating LogiX nodes while using the default mod configuration.\n- CPU optimization.\n- Code style adjustments.",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosColorMyLogiX/releases/download/v1.2.1/ColorMyLogiX.dll",
+                            "sha256": "2cf1a6a47d7b1eaa25ab809c6d81ffbb7bbc4ec16bee57470fd325bf8b08f7a7"
+                        }
+                    ]
                 }
             }
         },
