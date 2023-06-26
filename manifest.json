@@ -5731,6 +5731,17 @@
                 }
             },
             "versions": {
+                "1.2.0": {
+                    "changelog": " - Add support for nullable enums\n - Switch to patching the LogixNode class instead of generating individual patches for EnumInput<E> by EIA485",
+                    "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/EnumDropdown/releases/download/v1.2.0/EnumDropdown.dll",
+                            "filename": "EnumDropdown.dll",
+                            "sha256": "86b2046a117ecc619449eff8bf2608ad32c9eba85a02a122f61b1dea527614aa"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "changelog": " - Fix interacting with certain flag enums that are defined using non int values\n - Adjust flag selection ui",
                     "releaseUrl": "https://github.com/badhaloninja/EnumDropdown/releases/tag/v1.1.0",
