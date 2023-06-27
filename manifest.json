@@ -1244,7 +1244,7 @@
         "net.eia485.reduceanimation": {
             "name": "ReduceAnimation",
             "description": "Reduce ui animations",
-            "category": "General UI Tweaks",
+            "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/EIA485/NeosReduceAnimation",
             "authors": {
                 "eia485": {
@@ -1277,7 +1277,7 @@
         "net.cyro.squishspector": {
             "name": "SquishPanels",
             "description": "Modify the NeosPanels in Neos to squish in and out of existence",
-            "category": "General UI Tweaks",
+            "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/RileyGuy/SquishPanels",
             "authors": {
                 "Cyro": {
@@ -7102,7 +7102,7 @@
         "net.hantabaru1014.NeosBetterIMESupport": {
             "name": "NeosBetterIMESupport",
             "description": "Fix issues in IMEs with complex input methods like Japanese",
-            "category": "General UI Tweaks",
+            "category": "Bug Workarounds",
             "website": "https://github.com/hantabaru1014/NeosBetterIMESupport",
             "sourceLocation": "https://github.com/hantabaru1014/NeosBetterIMESupport",
             "authors": {
