@@ -550,6 +550,16 @@
                             "sha256": "f846d313facedc1115da8ff492c56ab9cf152d8eedc017f3334cfb8128807f47"
                         }
                     ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosAudioClipWizard/releases/tag/v1.0.1",
+                    "changelog": "Small code tweaks.",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosAudioClipWizard/releases/download/v1.0.1/AudioClipWizard.dll",
+                            "sha256": "065a54af41bba7bb8ab17653f3e31c6d154f7b1c85f3b627e924a542dbe49f01"
+                        }
+                    ]
                 }
             }
         },
@@ -896,6 +906,28 @@
                 }
             }
         },
+        "net.eia485.ExposeEditorlessMembers": {
+            "name": "ExposeEditorlessMembers",
+            "description": "Exposes sync members that dont have an editor as fields in inspector ui",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/EIA485/NeosExposeEditorlessMembers",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosExposeEditorlessMembers/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosExposeEditorlessMembers/releases/download/1.0.0/ExposeEditorlessMembers.dll",
+                            "sha256": "991bf873c91abe281d82259a8550ae5c40ca8c5850cb1cc467e26c8932976765"
+                        }
+                    ]
+                }
+            }
+        },
         "net.eia485.SlotLessWorkerInterfaces": {
             "name": "SlotLessWorkerInterfaces",
             "description": "Allows you to create logix interfaces for workers that dont have a slot",
@@ -914,6 +946,28 @@
                             "url": "https://github.com/EIA485/NeosSlotLessWorkerInterfaces/releases/download/1.0.0/SlotLessWorkerInterfaces.dll",
                             "filename": "SlotLessWorkerInterfaces.dll",
                             "sha256": "005BA735E0ABB1F9D6ADA8E0C6941D601FD1AAD15A955ADE73D0E5DD9329E157"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.eia485.SlotlessInspectorOpener": {
+            "name": "SlotlessInspectorOpener",
+            "description": "Improves refeditor's handling of the open inspector button when the worker has no slot",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/EIA485/NeosSlotlessInspectorOpener",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosSlotlessInspectorOpener/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosSlotlessInspectorOpener/releases/download/1.0.0/SlotlessInspectorOpener.dll",
+                            "sha256": "50852ff0caf46babf69fc0e5224696db09a3dd04d1377d4d1f0717c044d98fec"
                         }
                     ]
                 }
@@ -1212,6 +1266,16 @@
                             "sha256": "a90e37a3415b1d9027cf4add89accfac241667d48b7a599a83f5c94efc930080"
                         }
                     ]
+                },
+                "1.3.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosReduceAnimation/releases/tag/1.3.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosReduceAnimation/releases/download/1.3.0.0/ReduceAnimation.dll",
+                            "sha256": "93ce91d577befe4d10735249638c38933bfafeaaf00636c38c29243627058019"
+                        }
+                    ],
+                    "changelog": "made changing the dash OpenClose speed easier"
                 }
             }
         },
@@ -2264,6 +2328,28 @@
                             "url": "https://github.com/EIA485/NeosKillDesktopTools/releases/download/1.0.0.0/KillDesktopTools.dll",
                             "filename": "KillDesktopTools.dll",
                             "sha256": "99c9b909d2ea5eb918444bcaba6888eb8573948e0971e3b24bf0c485b89cf442"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.eia485.ArrowExpanders": {
+            "name": "ArrowExpanders",
+            "description": "keybinds for navigating and interacting with expander tress",
+            "category": "Keybinds & Gestures",
+            "sourceLocation": "https://github.com/EIA485/NeosArrowExpanders",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/EIA485/NeosArrowExpanders/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosArrowExpanders/releases/download/1.0.1/ArrowExpanders.dll",
+                            "sha256": "13c9a3ad8bdda36ea9a1d8ee628f454ed00c84af436302125bcd66ca025b4b3f"
                         }
                     ]
                 }
@@ -8026,6 +8112,47 @@
                         {
                             "url": "https://github.com/TheJebForge/ReallyBan/releases/download/1.0.0/ReallyBan.dll",
                             "sha256": "2b674df26764e04ff95a9b2a6748ad5f78313cd325fdfc80e29fba7589c6c130"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.TheJebForge.SafeMode": {
+            "name": "Safe Mode",
+            "description": "Adds a configuration toggle to disable all impulse Logix from functioning, so you can use your inspector without Logix being able to do anything",
+            "category": "LogiX",
+            "website": "https://github.com/TheJebForge/SafeMode",
+            "sourceLocation": "https://github.com/TheJebForge/SafeMode",
+            "authors": {
+                "TheJebForge": {
+                    "url": "https://github.com/TheJebForge"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/TheJebForge/SafeMode/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/SafeMode/releases/download/1.0.0/SafeMode.dll",
+                            "sha256": "32e7f84219c36029ace39e60124b30e4baae75822b05cb820ab39370ed53fcb9"
+                        }
+                    ]
+                },
+                "1.0.1": {
+                    "releaseUrl": "https://github.com/TheJebForge/SafeMode/releases/tag/1.0.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/SafeMode/releases/download/1.0.1/SafeMode.dll",
+                            "sha256": "bbdaad8b12a90aa315028fa1fc5bf856cf326b79c014989984af9037a6a4a223"
+                        }
+                    ]
+                },
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/TheJebForge/SafeMode/releases/tag/1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/SafeMode/releases/download/1.0.2/SafeMode.dll",
+                            "sha256": "6cf91d8764ebf86a34a398675bbe65f87c55300dd75daf3b7fd2af4088bd1fe9"
                         }
                     ]
                 }
