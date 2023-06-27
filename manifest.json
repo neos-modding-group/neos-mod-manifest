@@ -875,7 +875,12 @@
                             "filename": "FriendLinkSessionList.dll",
                             "sha256": "063ccde2e4acf69de1053a39b49c286269567117f567e8075678909bc79cb85f"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "Banane9.SessionTabOverhaul": {
+                            "version": "*"
+                        }
+                    }
                 }
             }
         },
@@ -4365,7 +4370,7 @@
         },
         "Banane9.AlternatingSessionUserList": {
             "name": "AlternatingSessionUserList",
-            "description": "Adds alternating colors to the rows in the Session tab's Users and Permissions lists. The colors can be customized in the mod settings.",
+            "description": "Adds alternating colors to the rows in the Session tab's Users and Permissions lists. The colors can be customized in the mod settings. Deprecated in favor of Banane9.SessionTabOverhaul, which adds a lot more features.",
             "category": "General UI Tweaks",
             "website": "https://github.com/Banane9/NeosAlternatingSessionUserList",
             "sourceLocation": "https://github.com/Banane9/NeosAlternatingSessionUserList",
@@ -4374,6 +4379,9 @@
                     "url": "https://github.com/Banane9"
                 }
             },
+            "flags": [
+                "deprecated"
+            ],
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosAlternatingSessionUserList/releases/tag/v1.0.0",
@@ -4382,7 +4390,43 @@
                             "url": "https://github.com/Banane9/NeosAlternatingSessionUserList/releases/download/v1.0.0/AlternatingSessionUserList.dll",
                             "sha256": "2B95A23968FB2F368A94CE7EFBD57C6862A577A27B683A37B197E8BB3745A979"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "Banane9.SessionTabOverhaul": {
+                            "version": "*"
+                        }
+                    }
+                }
+            }
+        },
+        "Banane9.SessionTabOverhaul": {
+            "name": "SessionTabOverhaul",
+            "description": "Overhauls the Session Tab of the Dash, most notably the Users list, by adding more details and options. Screenshots on the Github page. Replaces Banane9.AlternatingSessionUserList and net.eia485.friendLinkSessionList.",
+            "category": "Dash Tweaks",
+            "website": "https://github.com/Banane9/NeosSessionTabOverhaul",
+            "sourceLocation": "https://github.com/Banane9/NeosSessionTabOverhaul",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosSessionTabOverhaul/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosSessionTabOverhaul/releases/download/v1.0.0/SessionTabOverhaul.dll",
+                            "sha256": "197D07FD743E2AD81AF510E081FE2EC1DD48E6714F6A100AA132A352862ADA0A"
+                        }
+                    ],
+                    "conflicts": {
+                        "Banane9.AlternatingSessionUserList": {
+                            "version": "*"
+                        },
+                        "net.eia485.friendLinkSessionList": {
+                            "version": "*"
+                        }
+                    }
                 }
             }
         },
