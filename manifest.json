@@ -542,12 +542,13 @@
                 }
             },
             "versions": {
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/Nytra/NeosWorldListSessionHider/releases/tag/v1.0.0",
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosWorldListSessionHider/releases/tag/v1.1.0",
+                    "changelog": "Added option to hide sessions completely.",
                     "artifacts": [
                         {
-                            "url": "https://github.com/Nytra/NeosWorldListSessionHider/releases/download/v1.0.0/WorldListSessionHider.dll",
-                            "sha256": "1cdd4a7cb789160265963e2bfe24f65c65954555998f191acfaae8a2f25ea8c8"
+                            "url": "https://github.com/Nytra/NeosWorldListSessionHider/releases/download/v1.1.0/WorldListSessionHider.dll",
+                            "sha256": "d22ee06406ffd0670f5a3a254fefabde9e4860aaa05d477c2b0078e879fa5c93"
                         }
                     ]
                 }
