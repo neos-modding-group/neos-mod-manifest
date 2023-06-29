@@ -548,7 +548,7 @@
                     "artifacts": [
                         {
                             "url": "https://github.com/Nytra/NeosWorldListSessionHider/releases/download/v1.1.0/WorldListSessionHider.dll",
-                            "sha256": "d22ee06406ffd0670f5a3a254fefabde9e4860aaa05d477c2b0078e879fa5c93"
+                            "sha256": "ccd650249d4f23fc23f818c9cf588eedd4e90cfa4c7522b826218b5574fd8eb5"
                         }
                     ]
                 }
