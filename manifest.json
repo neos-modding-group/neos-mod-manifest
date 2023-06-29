@@ -531,6 +531,29 @@
                 }
             }
         },
+        "owo.Nytra.WorldListSessionHider": {
+            "name": "WorldListSessionHider",
+            "description": "Hides sessions in your world list based on host userID/username or sessionID (configured via Neos Mod Settings.)",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/Nytra/NeosWorldListSessionHider",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosWorldListSessionHider/releases/tag/v1.1.0",
+                    "changelog": "Added option to hide sessions completely.",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosWorldListSessionHider/releases/download/v1.1.0/WorldListSessionHider.dll",
+                            "sha256": "ccd650249d4f23fc23f818c9cf588eedd4e90cfa4c7522b826218b5574fd8eb5"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.AudioClipWizard": {
             "name": "AudioClipWizard",
             "description": "Provides a wizard for batch processing StaticAudioClips in a hierarchy (and converting to different audio formats.)",
