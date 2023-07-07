@@ -8190,6 +8190,29 @@
                     ]
                 }
             }
+        },
+        "net.meister1593.SaveScreenshotToDifferentDirectory": {
+            "name": "SaveScreenshotToDifferentDirectory",
+            "description": "Allows to additionally copy screenshot to different directory in system",
+            "category": "Misc",
+            "website": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory",
+            "sourceLocation": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory",
+            "authors": {
+                "Meister1593": {
+                    "url": "https://github.com/Meister1593"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory/releases/download/1.0.0/SaveScreenshotToDifferentDirectory.dll",
+                            "sha256": "eda7158f79ec713c33d535294db6b247c98395b4e6e4da3ecdb238fac777968a"
+                        }
+                    ]
+                }
+            }
         }
     }
 }
