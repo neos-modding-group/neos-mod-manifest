@@ -533,7 +533,7 @@
         },
         "owo.Nytra.WorldListSessionHider": {
             "name": "WorldListSessionHider",
-            "description": "Hides sessions in your world list based on host userID, username or sessionID; and can also hide stuck sessions.",
+            "description": "Hide stuck sessions and filter based on host userID, username or sessionID.",
             "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/Nytra/NeosWorldListSessionHider",
             "authors": {
@@ -552,13 +552,13 @@
                         }
                     ]
                 },
-                "1.2.1": {
-                    "releaseUrl": "https://github.com/Nytra/NeosWorldListSessionHider/releases/tag/v1.2.1",
-                    "changelog": "- Added ability to hide stuck sessions.\n- Made the mod work more reliably.\n-Bug fixes.",
+                "1.2.2": {
+                    "releaseUrl": "https://github.com/Nytra/NeosWorldListSessionHider/releases/tag/v1.2.2",
+                    "changelog": "- Fixed a bug which caused the session filter toggle to not work.\n- Improved stuck session detection.",
                     "artifacts": [
                         {
-                            "url": "https://github.com/Nytra/NeosWorldListSessionHider/releases/download/v1.2.1/WorldListSessionHider.dll",
-                            "sha256": "4aee85d3dd9b3f7dfb6dbb99e021dc7abca66344bd6f739584114b7f7666dd5a"
+                            "url": "https://github.com/Nytra/NeosWorldListSessionHider/releases/download/v1.2.2/WorldListSessionHider.dll",
+                            "sha256": "6d14d3e03c424112bdadb2deaf5ac38cef4027c70b8f8aab4089fe9d1ca52397"
                         }
                     ]
                 }
