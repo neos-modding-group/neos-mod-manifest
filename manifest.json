@@ -1019,6 +1019,29 @@
                 }
             }
         },
+        "jworkz.sjackal.JworkzNeosReturnOfReceivedContactRequestNotification": {
+            "name": "JworkzNeosReturnOfReceivedContactRequestNotification",
+            "description": "Fixes a bug where contact request notifcations are not shown",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/stiefeljackal/JworkzNeosReturnOfReceivedContactRequestNotification",
+            "authors": {
+                "StiefelJackal": {
+                    "url": "https://github.com/stiefeljackal"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/stiefeljackal/JworkzNeosReturnOfReceivedContactRequestNotification/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/stiefeljackal/JworkzNeosReturnOfReceivedContactRequestNotification/releases/download/v1.0.0/JworkzNeosReturnOfReceivedContactRequestNotification.dll",
+                            "filename": "JworkzNeosReturnOfReceivedContactRequestNotification.dll",
+                            "sha256": "8A8A6549FC22BB84E316AD070DA76FED2FD1BD19FB5CDF915FD62007BFE34A92"
+                        }
+                    ]
+                }
+            }
+        },
         "net.dfghiatus.cachegetclapped": {
             "name": "CacheGetClapped",
             "description": "Deletes cached files that have been unused for over 21 days",
