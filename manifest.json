@@ -1006,6 +1006,29 @@
                 }
             }
         },
+        "jworkz.sjackal.JworkzNeosFixFrickenSync": {
+            "name": "JworkzNeosFixFrickenSync",
+            "description": "Fixes the Stuck Sync bug that breaks the sync loop.",
+            "category": "Bug Workarounds",
+            "sourceLocation": "https://github.com/stiefeljackal/JworkzNeosFixFrickenSync",
+            "authors": {
+                "StiefelJackal": {
+                    "url": "https://github.com/stiefeljackal"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/stiefeljackal/JworkzNeosFixFrickenSync/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/stiefeljackal/JworkzNeosFixFrickenSync/releases/download/v1.0.0/JworkzNeosFixFrickenSync.dll",
+                            "filename": "JworkzNeosFixFrickenSync.dll",
+                            "sha256": "3388F502FA6264F7CCA20620F475E74B6559530CFD45A5A99E7ED5BDB0BF5C3C"
+                        }
+                    ]
+                }
+            }
+        },
         "jworkz.sjackal.JworkzAnimJImportFixMod": {
             "name": "JworkzAnimJImportFixMod",
             "description": "Fixes the AnimJ importing, parsing, and setup issues",
