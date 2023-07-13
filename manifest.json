@@ -531,6 +531,29 @@
                 }
             }
         },
+        "owo.Nytra.WorldListSessionHider": {
+            "name": "WorldListSessionHider",
+            "description": "Hides sessions in your world list based on host userID/username or sessionID (configured via Neos Mod Settings.)",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/Nytra/NeosWorldListSessionHider",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosWorldListSessionHider/releases/tag/v1.1.0",
+                    "changelog": "Added option to hide sessions completely.",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosWorldListSessionHider/releases/download/v1.1.0/WorldListSessionHider.dll",
+                            "sha256": "ccd650249d4f23fc23f818c9cf588eedd4e90cfa4c7522b826218b5574fd8eb5"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.AudioClipWizard": {
             "name": "AudioClipWizard",
             "description": "Provides a wizard for batch processing StaticAudioClips in a hierarchy (and converting to different audio formats.)",
@@ -885,7 +908,12 @@
                             "filename": "FriendLinkSessionList.dll",
                             "sha256": "063ccde2e4acf69de1053a39b49c286269567117f567e8075678909bc79cb85f"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "Banane9.SessionTabOverhaul": {
+                            "version": "*"
+                        }
+                    }
                 }
             }
         },
@@ -906,6 +934,28 @@
                         {
                             "url": "https://github.com/EIA485/NeosChildrenAlsoMatter/releases/download/1.0.1/ChildrenAlsoMatter.dll",
                             "sha256": "02c147e5ff311c35d4be584c62b56ddef744ca30e56dab4ba3c92d350ebccacb"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.eia485.ExposeEditorlessMembers": {
+            "name": "ExposeEditorlessMembers",
+            "description": "Exposes sync members that dont have an editor as fields in inspector ui",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/EIA485/NeosExposeEditorlessMembers",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosExposeEditorlessMembers/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosExposeEditorlessMembers/releases/download/1.0.0/ExposeEditorlessMembers.dll",
+                            "sha256": "991bf873c91abe281d82259a8550ae5c40ca8c5850cb1cc467e26c8932976765"
                         }
                     ]
                 }
@@ -1232,7 +1282,7 @@
         "net.eia485.reduceanimation": {
             "name": "ReduceAnimation",
             "description": "Reduce ui animations",
-            "category": "General UI Tweaks",
+            "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/EIA485/NeosReduceAnimation",
             "authors": {
                 "eia485": {
@@ -1265,7 +1315,7 @@
         "net.cyro.squishspector": {
             "name": "SquishPanels",
             "description": "Modify the NeosPanels in Neos to squish in and out of existence",
-            "category": "General UI Tweaks",
+            "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/RileyGuy/SquishPanels",
             "authors": {
                 "Cyro": {
@@ -1551,7 +1601,7 @@
         "net.DoubleStyx.NotificationsWhenBusy": {
             "name": "NotificationsWhenBusy",
             "description": "Allows you to receive notifications while your status is set to Busy.",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "sourceLocation": "https://github.com/DoubleStyx/NotificationsWhenBusy",
             "authors": {
                 "DoubleStyx": {
@@ -2822,7 +2872,7 @@
         "net.eia485.desktopphisicalgrab": {
             "name": "DesktopPhisicalGrab",
             "description": "Enables physical grabbing in screen mode",
-            "category": "Misc",
+            "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/EIA485/NeosDesktopPhisicalGrab",
             "authors": {
                 "eia485": {
@@ -4353,8 +4403,8 @@
         },
         "Banane9.AlternatingSessionUserList": {
             "name": "AlternatingSessionUserList",
-            "description": "Adds alternating colors to the rows in the Session tab's Users and Permissions lists. The colors can be customized in the mod settings.",
-            "category": "General UI Tweaks",
+            "description": "Adds alternating colors to the rows in the Session tab's Users and Permissions lists. The colors can be customized in the mod settings. Deprecated in favor of Banane9.SessionTabOverhaul, which adds a lot more features.",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosAlternatingSessionUserList",
             "sourceLocation": "https://github.com/Banane9/NeosAlternatingSessionUserList",
             "authors": {
@@ -4362,6 +4412,9 @@
                     "url": "https://github.com/Banane9"
                 }
             },
+            "flags": [
+                "deprecated"
+            ],
             "versions": {
                 "1.0.0": {
                     "releaseUrl": "https://github.com/Banane9/NeosAlternatingSessionUserList/releases/tag/v1.0.0",
@@ -4370,7 +4423,43 @@
                             "url": "https://github.com/Banane9/NeosAlternatingSessionUserList/releases/download/v1.0.0/AlternatingSessionUserList.dll",
                             "sha256": "2B95A23968FB2F368A94CE7EFBD57C6862A577A27B683A37B197E8BB3745A979"
                         }
-                    ]
+                    ],
+                    "conflicts": {
+                        "Banane9.SessionTabOverhaul": {
+                            "version": "*"
+                        }
+                    }
+                }
+            }
+        },
+        "Banane9.SessionTabOverhaul": {
+            "name": "SessionTabOverhaul",
+            "description": "Overhauls the Session Tab of the Dash, most notably the Users list, by adding more details and options. Screenshots on the Github page. Replaces Banane9.AlternatingSessionUserList and net.eia485.friendLinkSessionList.",
+            "category": "Dash Tweaks",
+            "website": "https://github.com/Banane9/NeosSessionTabOverhaul",
+            "sourceLocation": "https://github.com/Banane9/NeosSessionTabOverhaul",
+            "authors": {
+                "Banane9": {
+                    "url": "https://github.com/Banane9"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosSessionTabOverhaul/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosSessionTabOverhaul/releases/download/v1.0.0/SessionTabOverhaul.dll",
+                            "sha256": "197D07FD743E2AD81AF510E081FE2EC1DD48E6714F6A100AA132A352862ADA0A"
+                        }
+                    ],
+                    "conflicts": {
+                        "Banane9.AlternatingSessionUserList": {
+                            "version": "*"
+                        },
+                        "net.eia485.friendLinkSessionList": {
+                            "version": "*"
+                        }
+                    }
                 }
             }
         },
@@ -4552,7 +4641,7 @@
         "Banane9.EditorTabbing": {
             "name": "EditorTabbing",
             "description": "Allows moving between UIX text inputs in the inspector or anywhere else with tab, with a fallback when Steam Overlay could be triggered with shift+tab.",
-            "category": "Misc",
+            "category": "Keybinds & Gestures",
             "website": "https://github.com/Banane9/NeosEditorTabbing",
             "sourceLocation": "https://github.com/Banane9/NeosEditorTabbing",
             "authors": {
@@ -4596,7 +4685,7 @@
         "Banane9.StopDisappearingLocomotionMenu": {
             "name": "StopDisappearingLocomotionMenu",
             "description": "Can prevent the locomotion and scale items from disappearing from the context menu while holding a tool.",
-            "category": "General UI Tweaks",
+            "category": "Context Menu Tweaks",
             "website": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu",
             "sourceLocation": "https://github.com/Banane9/NeosStopDisappearingLocomotionMenu",
             "authors": {
@@ -4642,7 +4731,7 @@
         "Banane9.ClearContactSearch": {
             "name": "ClearContactSearch",
             "description": "Adds a clear button to the search bar on the contacts panel in the dash.",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosClearContactSearch",
             "sourceLocation": "https://github.com/Banane9/NeosClearContactSearch",
             "authors": {
@@ -4688,7 +4777,7 @@
         "Banane9.FlexibleContactsSort": {
             "name": "FlexibleContactsSort",
             "description": "Sorts contacts Better™ and to your liking.",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosFlexibleContactsSort",
             "sourceLocation": "https://github.com/Banane9/NeosFlexibleContactsSort",
             "authors": {
@@ -4790,7 +4879,7 @@
         "Banane9.ContactSessionsUserCapacity": {
             "name": "ContactSessionsUserCapacity",
             "description": "Adds a label showing the maximum user count in a session on the contacts page and can color it to show usage.",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosContactSessionsUserCapacity",
             "sourceLocation": "https://github.com/Banane9/NeosContactSessionsUserCapacity",
             "authors": {
@@ -6062,6 +6151,16 @@
                             "sha256": "63551fb0b3d36f1153f80d46de6efd13007fb21ac60c8237519a1262f8338bb4"
                         }
                     ]
+                },
+                "1.2.0": {
+                    "changelog": "Added option to have gizmos render on top, Added additional gizmo button visuals",
+                    "releaseUrl": "https://github.com/XDelta/NeosBetterGizmos/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosBetterGizmos/releases/download/1.2.0/NeosBetterGizmos.dll",
+                            "sha256": "dae6a8811d6171514358f8c739ab6d38365b74b5bf57c8756ef612c20f446720"
+                        }
+                    ]
                 }
             }
         },
@@ -6189,7 +6288,7 @@
         "dev.Kodu.CustomNotificationSounds": {
             "name": "CustomNotificationSounds",
             "description": "Change Neos' notification sounds!",
-            "category": "General UI Tweaks",
+            "category": "Dash Tweaks",
             "website": "https://github.com/Kodufan/CustomNotificationSounds",
             "sourceLocation": "https://github.com/Kodufan/CustomNotificationSounds",
             "authors": {
@@ -6916,7 +7015,7 @@
         "me.badhaloninja.ReadableDebugDialog": {
             "name": "ReadableDebugDialog",
             "description": "Makes the debug dialog more readable in dark lighting",
-            "category": "General UI Tweaks",
+            "category": "Visual Tweaks",
             "sourceLocation": "https://github.com/badhaloninja/ReadableDebugDialog/",
             "authors": {
                 "badhaloninja": {
@@ -7090,7 +7189,7 @@
         "net.hantabaru1014.NeosBetterIMESupport": {
             "name": "NeosBetterIMESupport",
             "description": "Fix issues in IMEs with complex input methods like Japanese",
-            "category": "General UI Tweaks",
+            "category": "Bug Workarounds",
             "website": "https://github.com/hantabaru1014/NeosBetterIMESupport",
             "sourceLocation": "https://github.com/hantabaru1014/NeosBetterIMESupport",
             "authors": {
@@ -7949,7 +8048,7 @@
         "net.TheJebForge.NegativeBlendshapes": {
             "name": "NegativeBlendshapes",
             "description": "Allows setting blendshapes negative using the slider",
-            "category": "Keybinds & Gestures",
+            "category": "Inspectors",
             "website": "https://github.com/TheJebForge/NegativeBlendshapes",
             "sourceLocation": "https://github.com/TheJebForge/NegativeBlendshapes",
             "authors": {
@@ -8088,6 +8187,38 @@
                         {
                             "url": "https://github.com/TheJebForge/SafeMode/releases/download/1.0.1/SafeMode.dll",
                             "sha256": "bbdaad8b12a90aa315028fa1fc5bf856cf326b79c014989984af9037a6a4a223"
+                        }
+                    ]
+                },
+                "1.0.2": {
+                    "releaseUrl": "https://github.com/TheJebForge/SafeMode/releases/tag/1.0.2",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/TheJebForge/SafeMode/releases/download/1.0.2/SafeMode.dll",
+                            "sha256": "6cf91d8764ebf86a34a398675bbe65f87c55300dd75daf3b7fd2af4088bd1fe9"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.meister1593.SaveScreenshotToDifferentDirectory": {
+            "name": "SaveScreenshotToDifferentDirectory",
+            "description": "Allows to additionally copy screenshot to different directory in system",
+            "category": "Misc",
+            "website": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory",
+            "sourceLocation": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory",
+            "authors": {
+                "Meister1593": {
+                    "url": "https://github.com/Meister1593"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory/releases/download/1.0.0/SaveScreenshotToDifferentDirectory.dll",
+                            "sha256": "eda7158f79ec713c33d535294db6b247c98395b4e6e4da3ecdb238fac777968a"
                         }
                     ]
                 }
