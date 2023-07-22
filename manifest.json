@@ -4457,7 +4457,7 @@
         },
         "Banane9.SessionTabOverhaul": {
             "name": "SessionTabOverhaul",
-            "description": "Overhauls the Session Tab of the Dash, most notably the Users list, by adding more details and options. Screenshots on the Github page. Replaces Banane9.AlternatingSessionUserList and net.eia485.friendLinkSessionList.",
+            "description": "Overhauls the Session Tab of the Dash, most notably the Users list, by adding more (toggleable) details and options. Screenshots on the Github page. Replaces Banane9.AlternatingSessionUserList and net.eia485.friendLinkSessionList.",
             "category": "Dash Tweaks",
             "website": "https://github.com/Banane9/NeosSessionTabOverhaul",
             "sourceLocation": "https://github.com/Banane9/NeosSessionTabOverhaul",
@@ -4473,6 +4473,23 @@
                         {
                             "url": "https://github.com/Banane9/NeosSessionTabOverhaul/releases/download/v1.0.0/SessionTabOverhaul.dll",
                             "sha256": "197D07FD743E2AD81AF510E081FE2EC1DD48E6714F6A100AA132A352862ADA0A"
+                        }
+                    ],
+                    "conflicts": {
+                        "Banane9.AlternatingSessionUserList": {
+                            "version": "*"
+                        },
+                        "net.eia485.friendLinkSessionList": {
+                            "version": "*"
+                        }
+                    }
+                },
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Banane9/NeosSessionTabOverhaul/releases/tag/v1.1.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosSessionTabOverhaul/releases/download/v1.1.0/SessionTabOverhaul.dll",
+                            "sha256": "BF1054B26FA1DFDBA5BD8B3DFECE1EB2A960E317F3B93E01ACFB1E4E5F3B45DC"
                         }
                     ],
                     "conflicts": {
@@ -5026,6 +5043,20 @@
                         {
                             "url": "https://github.com/Banane9/NeosBoundedUIX/releases/download/v2.4.0/BoundedUIX.dll",
                             "sha256": "6BFA53A1C80398C705DA33AE09DA7A2FD4364DFF0A43C549B880F3C87D36177B"
+                        }
+                    ],
+                    "conflicts": {
+                        "me.art0007i.JustBoundedUIX": {
+                            "version": "*"
+                        }
+                    }
+                },
+                "2.4.1": {
+                    "releaseUrl": "https://github.com/Banane9/NeosBoundedUIX/releases/tag/v2.4.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Banane9/NeosBoundedUIX/releases/download/v2.4.1/BoundedUIX.dll",
+                            "sha256": "E7DC4D060B92D52293A38CEC7E427925FD3B5C92D1857BAC6F3C56F3714BB0C4"
                         }
                     ],
                     "conflicts": {
