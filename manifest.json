@@ -1024,20 +1024,9 @@
                         {
                             "url": "https://github.com/stiefeljackal/JworkzNeosFixFrickenSync/releases/download/v1.1.0/JworkzNeosFixFrickenSync.dll",
                             "filename": "JworkzNeosFixFrickenSync.dll",
-                            "sha256": "D0B18F90696E89397B37958D70404D92840965E696D0FDBE462353FE485A9658"
+                            "sha256": "0A9A194495A7FABBB11615B20556ECD2250487B934E9AE048A3264EB550B5A36"
                         }
                     ]
-                },
-                "1.0.0": {
-                    "releaseUrl": "https://github.com/stiefeljackal/JworkzNeosFixFrickenSync/releases/tag/v1.0.0",
-                    "artifacts": [
-                        {
-                            "url": "https://github.com/stiefeljackal/JworkzNeosFixFrickenSync/releases/download/v1.0.0/JworkzNeosFixFrickenSync.dll",
-                            "filename": "JworkzNeosFixFrickenSync.dll",
-                            "sha256": "3388F502FA6264F7CCA20620F475E74B6559530CFD45A5A99E7ED5BDB0BF5C3C"
-                        }
-                    ],
-                    "flags": ["deprecated"]
                 }
             }
         },
