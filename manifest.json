@@ -531,6 +531,29 @@
                 }
             }
         },
+        "owo.Nytra.WorldListSessionHider": {
+            "name": "WorldListSessionHider",
+            "description": "Hides sessions in your world list based on host userID/username or sessionID (configured via Neos Mod Settings.)",
+            "category": "Dash Tweaks",
+            "sourceLocation": "https://github.com/Nytra/NeosWorldListSessionHider",
+            "authors": {
+                "Nytra": {
+                    "url": "https://github.com/Nytra"
+                }
+            },
+            "versions": {
+                "1.1.0": {
+                    "releaseUrl": "https://github.com/Nytra/NeosWorldListSessionHider/releases/tag/v1.1.0",
+                    "changelog": "Added option to hide sessions completely.",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosWorldListSessionHider/releases/download/v1.1.0/WorldListSessionHider.dll",
+                            "sha256": "ccd650249d4f23fc23f818c9cf588eedd4e90cfa4c7522b826218b5574fd8eb5"
+                        }
+                    ]
+                }
+            }
+        },
         "owo.Nytra.AudioClipWizard": {
             "name": "AudioClipWizard",
             "description": "Provides a wizard for batch processing StaticAudioClips in a hierarchy (and converting to different audio formats.)",
@@ -707,6 +730,16 @@
                             "sha256": "f9a068438c75ac7e73afd6ce6e92aa2b86496b275668e27a83271c5d1cbca584"
                         }
                     ]
+                },
+                "1.2.1": {
+                    "releaseUrl": "https://github.com/Nytra/NeosColorMyLogiX/releases/tag/v1.2.1",
+                    "changelog": "- Fixed an exception when creating LogiX nodes while using the default mod configuration.\n- CPU optimization.\n- Code style adjustments.",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Nytra/NeosColorMyLogiX/releases/download/v1.2.1/ColorMyLogiX.dll",
+                            "sha256": "2cf1a6a47d7b1eaa25ab809c6d81ffbb7bbc4ec16bee57470fd325bf8b08f7a7"
+                        }
+                    ]
                 }
             }
         },
@@ -773,6 +806,29 @@
                         {
                             "url": "https://github.com/EIA485/NeosShowUserspaceSpawnButton/releases/download/1.0.0/ShowUserspaceSpawnButton.dll",
                             "sha256": "386BCC3A1A2A6FB57935E5E7B8831D7B9B5EB20AA6A8C30DEBE7D0C9BC2DBB6D"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.eia485.InspectorKeybinds": {
+            "name": "InspectorKeybinds",
+            "description": "keybinds for interacting with inspectors",
+            "category": "Inspectors",
+            "sourceLocation": "https://github.com/EIA485/NeosInspectorKeybinds",
+            "authors": {
+                "eia485": {
+                    "url": "https://github.com/EIA485",
+                    "iconUrl" : "https://avatars.githubusercontent.com/u/17285570"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/EIA485/NeosInspectorKeybinds/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/EIA485/NeosInspectorKeybinds/releases/download/1.0.0/InspectorKeybinds.dll",
+                            "sha256": "2f05dd887843de49e8f47536d199bc5434091d539dc335dd29453556a72621fc"
                         }
                     ]
                 }
@@ -6149,6 +6205,16 @@
                             "sha256": "63551fb0b3d36f1153f80d46de6efd13007fb21ac60c8237519a1262f8338bb4"
                         }
                     ]
+                },
+                "1.2.0": {
+                    "changelog": "Added option to have gizmos render on top, Added additional gizmo button visuals",
+                    "releaseUrl": "https://github.com/XDelta/NeosBetterGizmos/releases/tag/1.2.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/XDelta/NeosBetterGizmos/releases/download/1.2.0/NeosBetterGizmos.dll",
+                            "sha256": "dae6a8811d6171514358f8c739ab6d38365b74b5bf57c8756ef612c20f446720"
+                        }
+                    ]
                 }
             }
         },
@@ -8184,6 +8250,29 @@
                         {
                             "url": "https://github.com/TheJebForge/SafeMode/releases/download/1.0.2/SafeMode.dll",
                             "sha256": "6cf91d8764ebf86a34a398675bbe65f87c55300dd75daf3b7fd2af4088bd1fe9"
+                        }
+                    ]
+                }
+            }
+        },
+        "net.meister1593.SaveScreenshotToDifferentDirectory": {
+            "name": "SaveScreenshotToDifferentDirectory",
+            "description": "Allows to additionally copy screenshot to different directory in system",
+            "category": "Misc",
+            "website": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory",
+            "sourceLocation": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory",
+            "authors": {
+                "Meister1593": {
+                    "url": "https://github.com/Meister1593"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory/releases/tag/1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/Meister1593/SaveScreenshotToDifferentDirectory/releases/download/1.0.0/SaveScreenshotToDifferentDirectory.dll",
+                            "sha256": "eda7158f79ec713c33d535294db6b247c98395b4e6e4da3ecdb238fac777968a"
                         }
                     ]
                 }
