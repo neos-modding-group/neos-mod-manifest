@@ -6692,6 +6692,52 @@
                 }
             }
         },
+        "co.uk.AlexW-578.CloseConfirm": {
+            "name": "CloseConfirm",
+            "description": "This stops the close button on the window as well as alt-f4 from closing the game but rather opening up the dash to the exit screen.",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/AlexW-578/CloseConfirm/",
+            "authors": {
+                "AlexW-578": {
+                    "url": "https://github.com/AlexW-578"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/AlexW-578/CloseConfirm/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/AlexW-578/CloseConfirm/releases/download/v1.0.0/CloseConfirm.dll",
+                            "filename": "CloseConfirm.dll",
+                            "sha256": "498c38bdd9a81a34b95b1deca9a24042caad0bb5e2d74249eb8ebe558dbffdbb"
+                        }
+                    ]
+                }
+            }
+        },
+        "co.uk.AlexW-578.RememberMe": {
+            "name": "RememberMe",
+            "description": "Allows you to automatically sign in or auto-fill even after the 7 days by remembering the username and optionally the password.",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/AlexW-578/RememberMe/",
+            "authors": {
+                "AlexW-578": {
+                    "url": "https://github.com/AlexW-578"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/AlexW-578/RememberMe/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/AlexW-578/RememberMe/releases/download/v1.0.0/RememberMe.dll",
+                            "filename": "RememberMe.dll",
+                            "sha256": "132d370f085b32d1b7325b883b18fd203b3cb36a99a66e6174cdff9ed2434193"
+                        }
+                    ]
+                }
+            }
+        },
         "net.Sox.EasyVoiceMessage": {
             "name": "EasyVoiceMessage",
             "description": "Allows you to record voice messages without having to keep your laser on the tiny square button. (although your laser needs to stay on your dash)",
