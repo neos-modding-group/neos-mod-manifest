@@ -3135,6 +3135,17 @@
                 }
             },
             "versions": {
+                "1.4.0": {
+                    "changelog": "- Fix regression caused by PR #11 preventing setting a null value to something else\n- Adjust screen generate logic\n- Added more test configruation keys\n- Added option to show buttons to reset individual keys\n- Refactored config key ui generation code\n- Made most of the NeosModSettings update the ui 'live'",
+                    "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.4.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/NeosModSettings/releases/download/v1.4.0/NeosModSettings.dll",
+                            "filename": "NeosModSettings.dll",
+                            "sha256": "8d0275c248e3ef46d31d05f1bb0e5831d97dfd73d23769a7ec9017228b0c49c0"
+                        }
+                    ]
+                },
                 "1.3.0": {
                     "changelog": "- Fix logspam related to NaN inequality by Raemien\n- Allow localized text in config fields by Raemien\n\n- Fix Reset default settings button not triggering changed event\n- Added Option to make the reset default settings button include internal use only\n- Added options for an alternating backdrop",
                     "releaseUrl": "https://github.com/badhaloninja/NeosModSettings/releases/tag/v1.3.0",
