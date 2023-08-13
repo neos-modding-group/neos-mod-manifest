@@ -5553,6 +5553,17 @@
                 }
             },
             "versions": {
+                "1.4.1": {
+                    "changelog": "- Better ensure audio clips exist and are set properly\n- Add boolean config key to enable and disable the sounds",
+                    "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.4.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/download/v1.4.1/UserJoinLeaveNotifications.dll",
+                            "filename": "UserJoinLeaveNotifications.dll",
+                            "sha256": "df2173c8b0f18dd263b177c39d8f4197ce76ed16140ba3ce8ba4b07a29e42215"
+                        }
+                    ]
+                },
                 "1.4.0": {
                     "changelog": "Add a config to enable friend links on the notifications - EIA485",
                     "releaseUrl": "https://github.com/badhaloninja/UserJoinLeaveNotifications/releases/tag/v1.4.0",
