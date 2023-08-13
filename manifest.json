@@ -6695,7 +6695,7 @@
         "co.uk.AlexW-578.CloseConfirm": {
             "name": "CloseConfirm",
             "description": "This stops the close button on the window as well as alt-f4 from closing the game but rather opening up the dash to the exit screen.",
-            "category": "Misc",
+            "category": "Keybinds & Gestures",
             "sourceLocation": "https://github.com/AlexW-578/CloseConfirm/",
             "authors": {
                 "AlexW-578": {
