@@ -7938,6 +7938,16 @@
                             "sha256": "71721659d7fa42e5629a35ca44de2d0ec3662050d86b390c7e42ffde50a96fd6"
                         }
                     ]
+                },
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/art0007i/ValueProxyExtensions/releases/tag/1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/ValueProxyExtensions/releases/download/1.1.1/ValueProxyExtensions.dll",
+                            "filename": "ValueProxyExtensions.dll",
+                            "sha256": "8faf5572db48c5a3e4edcd9025b501d22492682ceb29d9cd59896f612ebbc3fd"
+                        }
+                    ]
                 }
             }
         },
