@@ -1781,6 +1781,17 @@
                 }
             },
             "versions": {
+                "1.7.0": {
+                    "changelog": " - Added option to align nodes to user's up in VR - Added by AlexW-578\n - Added option to add a wire toggle button on interfaces - Added by AlexW-578",
+                    "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.7.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/badhaloninja/LogixUtils/releases/download/v1.7.0/LogixUtils.dll",
+                            "filename": "LogixUtils.dll",
+                            "sha256": "4a016a69aa190fa946971ff76a7b96a88aed4c1006dd0bc51598ace19b38f74c"
+                        }
+                    ]
+                },
                 "1.6.0": {
                     "changelog": " - Added new UI Align Tweaks config options\n   - `snapToAngleOnAlign` - Enables snapping to angles, if disabled reverts flipping forward and backwards - Enabled by default\n   - `alignSnapAngle` - Angle to snap to when `snapToAngleOnAlign` is enabled - 90º by default\n   - `alignScaleModifierKey` - Modifier key that if held while aligning will scale the object - Spacebar by default, can be set to none\n   - `modifiedScaleToUserScale` - When enabled scale to user scale when aligning with modifier instead of global one scale",
                     "releaseUrl": "https://github.com/badhaloninja/LogixUtils/releases/tag/v1.6.0",
