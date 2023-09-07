@@ -1142,6 +1142,33 @@
                 }
             }
         },
+        "net.dfgHiatus.VRMLImporter": {
+            "name": "VRMLImporter",
+            "description": "Enables the import of VRML 1.0, VRML 2.0 and X3D 3D models.",
+            "category": "Asset Importing Tweaks",
+            "sourceLocation": "https://github.com/dfgHiatus/NeosVRMLImporter",
+            "authors": {
+                "dfgHiatus": {
+                    "url": "https://github.com/dfgHiatus"
+                }
+            },
+            "versions": {
+                "1.0.1": {
+                    "flags": [
+                        "broken:linux-native"
+                    ],
+                    "releaseUrl": "https://github.com/dfgHiatus/NeosVRMLImporter/releases/tag/v1.0.1",
+                    "changelog": " - Fixed a bug where files could not be imported from certain C drives (Documents, etc.) \n - Fixed a bug where X3D imports would import a cube along with the scene \n - Fixed a bug where importing models with unicode characters in their name would freeze importing \n -- This will show in logs, not necessary in game \n - Now using Engine CachePath \n - Enhanced logging",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/dfgHiatus/NeosVRMLImporter/releases/download/v1.0.1/VRML_Importer_v1.0.1.zip",
+                            "filename": "VRML_Importer_v1.0.1.zip",
+                            "sha256": "727f38e1dfec82ae52867bdbe9b223c33040636adcaf493424860afec4b9c84f"
+                        }
+                    ]
+                }
+            }
+        },
         "io.github.kyuubiyoru.ikculling": {
             "name": "IkCulling",
             "description": "Disables the IK of Users who are behind you or far away",
