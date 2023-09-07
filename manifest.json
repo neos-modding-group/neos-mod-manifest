@@ -8255,6 +8255,232 @@
                 }
             }
         },
+        "com.github.mpmxyz.documentimport": {
+            "name": "Document Import (shared code)",
+            "description": "Allows you to convert files during import",
+            "category": "Libraries",
+            "website": "https://github.com/mpmxyz/NeosDocumentImport",
+            "sourceLocation": "https://github.com/mpmxyz/NeosDocumentImport",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "4.0.0": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosDocumentImport/releases/tag/v4.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v4.0.0/NeosDocumentImport.dll",
+                            "sha256": "5d19eb5920e6874425452d2b0329b47527770eb299475890513f3a8a45b8084a",
+                            "installLocation": "/nml_mods"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.mpmxyz.documentimport.pdf": {
+            "name": "Document Import (PDF)",
+            "description": "Allows you to convert PDF files during import",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosDocumentImport",
+            "sourceLocation": "https://github.com/mpmxyz/NeosDocumentImport",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "4.0.0": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosDocumentImport/releases/tag/v4.0.0",
+                    "dependencies": {
+                        "com.github.mpmxyz.documentimport": {
+                            "version": "4.0.0"
+                        },
+                        "com.github.jbaarssen.pdflibcore": {
+                            "version": "2.5.0"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v4.0.0/NeosDocumentImport_PDFConverter.dll",
+                            "sha256": "dc4673929f7bab24322daea0414d1adcec2ca5208b20f13252244fa8d1cb6e28",
+                            "installLocation": "/nml_mods"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.jbaarssen.pdflibcore": {
+            "name": "PdfLibCore",
+            "description": "pdfium wrapper for C#",
+            "category": "Libraries",
+            "website": "https://github.com/jbaarssen/PdfLibCore",
+            "sourceLocation": "https://github.com/jbaarssen/PdfLibCore",
+            "authors": {
+                "jbaarssen": {
+                    "url": "https://github.com/jbaarssen"
+                }
+            },
+            "flags": ["file"],
+            "versions": {
+                "2.5.0": {
+                    "releaseUrl": "https://github.com/jbaarssen/PdfLibCore/releases/tag/2.5.0",
+                    "dependencies": {
+                        "com.github.bblanchon.pdfium-binaries": {
+                            "version": "114.0.5705"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v4.0.0/PdfLibCore.dll",
+                            "sha256": "78dfccaa95e0eab28a11d1f31a970446be651d0024fb715d2c1942d425e47529",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.bblanchon.pdfium-binaries": {
+            "name": "PDFium",
+            "description": "A pdf library from Google, built and made available via NuGet by bblanchon",
+            "category": "Libraries",
+            "website": "https://github.com/bblanchon/pdfium-binaries",
+            "sourceLocation": "https://github.com/bblanchon/pdfium-binaries",
+            "authors": {
+                "bblanchon": {
+                    "url": "https://github.com/bblanchon"
+                }
+            },
+            "flags": [ "file" ],
+            "versions": {
+                "114.0.5705": {
+                    "releaseUrl": "https://github.com/bblanchon/pdfium-binaries/releases/tag/chromium%2F5705",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v4.0.0/pdfium.dll",
+                            "sha256": "ab40f967754911569ebd27296932981a997b647158cb502b42f85f33ec094785",
+                            "installLocation": "/"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.mpmxyz.documentimport.svg": {
+            "name": "Document Import (SVG)",
+            "description": "Allows you to convert SVG files during import",
+            "category": "Asset Importing Tweaks",
+            "website": "https://github.com/mpmxyz/NeosDocumentImport",
+            "sourceLocation": "https://github.com/mpmxyz/NeosDocumentImport",
+            "authors": {
+                "mpmxyz": {
+                    "url": "https://github.com/mpmxyz"
+                }
+            },
+            "versions": {
+                "4.0.0": {
+                    "releaseUrl": "https://github.com/mpmxyz/NeosDocumentImport/releases/tag/v4.0.0",
+                    "dependencies": {
+                        "com.github.mpmxyz.documentimport": {
+                            "version": "4.0.0"
+                        },
+                        "com.github.svg-net.svg": {
+                            "version": "3.4.4"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v4.0.0/NeosDocumentImport_SVGConverter.dll",
+                            "sha256": "1cb18be8c76d2284e987d6dd5bb319a0aaf24d214bfe3fa373b59aeb0fabdbf9",
+                            "installLocation": "/nml_mods"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.svg-net.svg": {
+            "name": "Svg",
+            "description": "C# Svg library",
+            "category": "Libraries",
+            "website": "https://github.com/svg-net/SVG",
+            "sourceLocation": "https://github.com/svg-net/SVG",
+            "authors": {
+                "svg-net": {
+                    "url": "https://github.com/svg-net"
+                }
+            },
+            "flags": [ "file" ],
+            "versions": {
+                "3.4.4": {
+                    "releaseUrl": "https://github.com/svg-net/SVG/releases/tag/v3.4.4",
+                    "dependencies": {
+                        "com.github.tylerbrinks.excss": {
+                            "version": "4.1.4"
+                        },
+                        "com.github.atifaziz.fizzler": {
+                            "version": "1.2.1"
+                        }
+                    },
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v4.0.0/Svg.dll",
+                            "sha256": "caee4cd26822cd6f69eae5075720e32b968f71d6cce4361af0d49f6b33d1a116",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.tylerbrinks.excss": {
+            "name": "ExCSS",
+            "description": "A CSS lexer and parser",
+            "category": "Libraries",
+            "website": "https://github.com/TylerBrinks/ExCSS",
+            "sourceLocation": "https://github.com/TylerBrinks/ExCSS",
+            "authors": {
+                "TylerBrinks": {
+                    "url": "https://github.com/TylerBrinks"
+                }
+            },
+            "flags": [ "file" ],
+            "versions": {
+                "4.1.4": {
+                    "releaseUrl": "https://github.com/TylerBrinks/ExCSS/releases/tag/v4.1.4",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v4.0.0/ExCSS.dll",
+                            "sha256": "635b6e7f39fc2148193e56e000fdfbd15acdf1cf9a82dcdac73bb7042bb647c8",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                }
+            }
+        },
+        "com.github.atifaziz.fizzler": {
+            "name": "Fizzler",
+            "description": "W3C Selector parser/framework",
+            "category": "Libraries",
+            "website": "https://github.com/atifaziz/Fizzler",
+            "sourceLocation": "https://github.com/atifaziz/Fizzler",
+            "authors": {
+                "atifaziz": {
+                    "url": "https://github.com/atifaziz"
+                }
+            },
+            "flags": [ "file" ],
+            "versions": {
+                "1.2.1": {
+                    "releaseUrl": "https://github.com/atifaziz/Fizzler/releases/tag/v1.2.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/mpmxyz/NeosDocumentImport/releases/download/v4.0.0/Fizzler.dll",
+                            "sha256": "11e767bcbee616f5c797eec60e6e76789e1f23376862b2b4f23e85fa281e39ca",
+                            "installLocation": "/nml_libs"
+                        }
+                    ]
+                }
+            }
+        },
         "com.github.mpmxyz.massimportpacker": {
             "name": "Mass Import Packer",
             "description": "Allows you to reparent batch imports of images",
