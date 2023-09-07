@@ -6690,7 +6690,8 @@
                         }
                     ]
                 }
-            }
+            },
+            "flags": ["deprecated"]
         },
         "co.uk.AlexW-578.CloseConfirm": {
             "name": "CloseConfirm",
@@ -6733,6 +6734,29 @@
                             "url": "https://github.com/AlexW-578/RememberMe/releases/download/v1.0.0/RememberMe.dll",
                             "filename": "RememberMe.dll",
                             "sha256": "132d370f085b32d1b7325b883b18fd203b3cb36a99a66e6174cdff9ed2434193"
+                        }
+                    ]
+                }
+            }
+        },
+        "co.uk.AlexW-578.ScalableMaterialOrbs": {
+            "name": "ScalableMaterialOrbs",
+            "description": "Makes Material Orbs scalable by default",
+            "category": "Misc",
+            "sourceLocation": "https://github.com/AlexW-578/ScalableMaterialOrbs",
+            "authors": {
+                "AlexW-578": {
+                    "url": "https://github.com/AlexW-578"
+                }
+            },
+            "versions": {
+                "1.0.0": {
+                    "releaseUrl": "https://github.com/AlexW-578/ScalableMaterialOrbs/releases/tag/v1.0.0",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/AlexW-578/ScalableMaterialOrbs/releases/download/v1.0.0/ScalableMaterialOrbs.dll",
+                            "filename": "ScalableMaterialOrbs.dll",
+                            "sha256": "e5a30bc9e0cfa9c1254876aa18fa866007c3fffeb5ab080a6f1fe5e59504b4fc"
                         }
                     ]
                 }
