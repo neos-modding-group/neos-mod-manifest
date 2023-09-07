@@ -7984,6 +7984,16 @@
                 }
             },
             "versions": {
+                "1.1.1": {
+                    "releaseUrl": "https://github.com/art0007i/LocalStorage/releases/tag/1.1.1",
+                    "artifacts": [
+                        {
+                            "url": "https://github.com/art0007i/LocalStorage/releases/download/1.1.1/LocalStorage.dll",
+                            "filename": "LocalStorage.dll",
+                            "sha256": "edfb6348b9610a887110ee8478d5c281b47ac9aa022577c560d7118774790622"
+                        }
+                    ]
+                },
                 "1.1.0": {
                     "changelog": "fix linux path separator",
                     "releaseUrl": "https://github.com/art0007i/LocalStorage/releases/tag/1.1.0",
