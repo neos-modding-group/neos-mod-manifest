@@ -62,7 +62,7 @@ if len(NEW_MODS) > 0:
             entry.appendChild(id)
 
             title = atomFeed.createElement("title")
-            title.appendChild(atomFeed.createTextNode("Released Version " + str(mod["versions"][0]["id"]) + " for '" + mod["name"] + "'"))
+            title.appendChild(atomFeed.createTextNode(f'Released Version {str(mod["versions"][0]["id"])} for "{ mod["name"] }"'))
             entry.appendChild(title)
 
             content = atomFeed.createElement("content")
