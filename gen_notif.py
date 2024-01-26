@@ -39,7 +39,7 @@ def mod_to_embed(mod: dict[str, Any]) -> dict[str, Any]:
     """
     embed: dict[str, Any] = deepcopy(BASE_EMBED)
 
-    embed['title'] = "[" + mod['name'] + "/" + str(mod["versions"][0]["id"]) + "]"
+    embed['title'] = f'[{mod["name"]}/{str(mod["versions"][0]["id"])}]'
     embed['description'] = mod['description']
     embed['footer']['text'] = f"{mod['guid']}"
     if 'color' in mod:
